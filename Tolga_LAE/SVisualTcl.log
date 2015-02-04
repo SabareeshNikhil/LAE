@@ -1,0 +1,40 @@
+load_file /w/ee.00/mjarrahi/snikhil/Research/LAE/sde_dvs_des.tdr
+create_plot -dataset sde_dvs_des
+select_plots {Plot_sde_dvs_des}
+#-> Plot_sde_dvs_des
+#-> Plot_sde_dvs_des
+#-> sde_dvs_des
+set_field_prop OpticalGeneration -show_bands
+#-> 0
+zoom_plot -window {-0.269118 -0.366365 10.4662 0.346682}
+set_field_prop ElectrostaticPotential -show_bands
+#-> 0
+zoom_plot -plot Plot_sde_dvs_des -reset
+zoom_plot -window {-0.828056 -0.598115 10.3871 0.335138}
+create_cutline -plot Plot_sde_dvs_des -type y -at -0.0344739
+select_plots {Plot_1}
+#-> Plot_1
+#-> C1(sde_dvs_des)
+remove_plots {Plot_1}
+select_plots {Plot_sde_dvs_des}
+#-> Plot_sde_dvs_des
+#-> Plot_1
+create_cutline -plot Plot_sde_dvs_des -type x -at 4.24827
+select_plots {Plot_2}
+#-> Plot_2
+#-> C2(sde_dvs_des)
+remove_plots {Plot_2}
+select_plots {Plot_sde_dvs_des}
+#-> Plot_sde_dvs_des
+#-> Plot_2
+probe_field -plot Plot_sde_dvs_des -coord {4.12688 -0.196322 }
+#-> 3.5903e+08
+probe_field -plot Plot_sde_dvs_des -coord {3.69336 0.0244849 }
+#-> 8.55085e+07
+set_field_prop ElectrostaticPotential -geom sde_dvs_des -scale log
+select_plots {Plot_3}
+#-> Plot_3
+select_plots {Plot_4}
+#-> Plot_4
+#-> 0
+exit

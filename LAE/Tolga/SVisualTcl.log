@@ -1,0 +1,27 @@
+load_file /home/yardimci/sentaurus/projects/hetero_thz2/trans_5d1_hetero_des.plt
+create_plot -1d
+select_plots {Plot_1}
+#-> Plot_1
+#-> Plot_1
+#-> trans_5d1_hetero_des
+create_curve -plot Plot_1 -dataset {trans_5d1_hetero_des} -axisX "time" -axisY "ntype TotalCurrent"
+#-> Curve_1
+create_curve -plot Plot_1 -dataset {trans_5d1_hetero_des} -axisX "time" -axisY "ntype eCurrent"
+#-> Curve_2
+create_curve -plot Plot_1 -dataset {trans_5d1_hetero_des} -axisX "time" -axisY "ntype DisplacementCurrent"
+#-> Curve_3
+move_plot -position {1.33635e-11 -2.71227e-07} -plot Plot_1
+#-> 0
+move_plot -position {5.12371e-12 -2.37992e-07} -plot Plot_1
+#-> 0
+move_plot -position {4.72316e-12 1.43032e-07} -plot Plot_1
+#-> 0
+move_plot -position {-8.77602e-12 2.35618e-07} -plot Plot_1
+#-> 0
+move_plot -position {1.23662e-11 -1.54309e-07} -plot Plot_1
+#-> 0
+move_plot -position {5.25595e-12 -2.11284e-07} -plot Plot_1
+#-> 0
+move_plot -position {-4.60836e-12 -6.113e-08} -plot Plot_1
+#-> 0
+exit

@@ -1,0 +1,43 @@
+load_file /w/ee.00/mjarrahi/snikhil/Research/LAE/sde_dvs_des.tdr
+create_plot -dataset sde_dvs_des
+select_plots {Plot_sde_dvs_des}
+#-> Plot_sde_dvs_des
+#-> Plot_sde_dvs_des
+#-> sde_dvs_des
+set_field_prop Abs(ElectricField-V) -show_bands
+#-> 0
+set_field_prop Abs(ElectricField-V) -geom sde_dvs_des -scale log
+#-> 0
+set_field_prop ElectrostaticPotential -show_bands
+#-> 0
+zoom_plot -window {4.40138 -0.485481 5.28636 0.367319}
+zoom_plot -plot Plot_sde_dvs_des -reset
+set_field_prop ElectricField-V -show
+#-> 0
+zoom_plot -window {5.31854 -0.839473 10.548 1.79938}
+zoom_plot -window {5.98946 -0.245731 6.76418 0.179219}
+set_field_prop Abs(ElectricField-V) -show_bands
+#-> 0
+set_field_prop ElectricField-V -hide
+#-> 0
+set_field_prop ElectricField-V -show
+#-> 0
+zoom_plot -plot Plot_sde_dvs_des -reset
+zoom_plot -window {-0.329249 -0.421118 3.27504 1.38102}
+zoom_plot -window {0.709433 0.154025 0.999643 0.386193}
+zoom_plot -plot Plot_sde_dvs_des -reset
+zoom_plot -window {0.829271 -0.4533 3.83821 1.46148}
+zoom_plot -window {2.06254 0.233691 2.23806 0.376006}
+zoom_plot -plot Plot_sde_dvs_des -reset
+zoom_plot -window {8.23093 -0.244122 10.6123 1.23621}
+zoom_plot -plot Plot_sde_dvs_des -reset
+zoom_plot -window {-0.280977 -0.598115 8.71364 1.81547}
+zoom_plot -plot Plot_sde_dvs_des -reset
+zoom_plot -window {-0.409702 -0.356756 2.01997 1.41321}
+zoom_plot -plot Plot_sde_dvs_des -reset
+zoom_plot -window {9.71126 -0.356756 13.9109 1.30057}
+zoom_plot -plot Plot_sde_dvs_des -reset
+zoom_plot -window {7.0885 -0.501571 12.3501 1.47757}
+zoom_plot -plot Plot_sde_dvs_des -reset
+zoom_plot -window {1.44071 -0.694658 6.62187 1.70284}
+exit

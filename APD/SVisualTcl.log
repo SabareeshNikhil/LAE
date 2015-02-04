@@ -1,0 +1,23 @@
+###########################################
+# Sentaurus Visual H-2013.03.
+# Tcl log file.
+#------------------------------------------
+# Date: Jul 11, 2013. 18:48:03.
+# Version: 21.0.5 (1.5)
+# Mode: Interactive (GUI).
+# Mesa: enabled.
+# Hostname: mtlsim2.
+# Machine: Linux, x86_64, amd64.
+# Kernel: 2.6.18-238.12.1.el5.
+###########################################
+
+load_file /homes/parthi/sentaurus_projects/nikhil/STB/APD/apd/APD/sde_2d_2_des.tdr
+create_plot -dataset sde_2d_2_des
+select_plots {Plot_sde_2d_2_des}
+#-> Plot_sde_2d_2_des
+#-> Plot_sde_2d_2_des
+#-> sde_2d_2_des
+set_field_prop OpticalIntensity -show_bands
+#-> 0
+set_field_prop OpticalGenerationFromMonochromaticSource -show_bands
+#-> 0

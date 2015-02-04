@@ -1,0 +1,41 @@
+
+****************************************************************************
+***                       Sentaurus Workbench spp                        ***
+***                          Version G-2012.06                           ***
+***                         (1.7, amd64, linux)                          ***
+***                                                                      ***
+***                       Copyright (C) 1994-2012                        ***
+***                            Synopsys, Inc.                            ***
+***                                                                      ***
+***  This software and the associated documentation are confidential     ***
+***  and proprietary to Synopsys, Inc.  Your use or disclosure of this   ***
+***  software is subject to the terms and conditions of a written        ***
+***  license agreement between you, or your company, and Synopsys, Inc.  ***
+****************************************************************************
+
+spp is running on host 'thzlabsv.ee.ucla.edu' by user 'snikhil'
+Binary: 'spp'
+Command line options: '-verbose -i -e sdevice -verbose /u1/ee/snikhil/Research/LAE_simple'
+Some relevant environment variables:
+	STROOT=/w/apps3/Synopsys/TCAD_Sentaurus/vG_2012.06
+	STRELEASE=current
+	STROOT_LIB=/w/apps3/Synopsys/TCAD_Sentaurus/vG_2012.06/tcad/current/lib
+	STDB=/u1/ee/snikhil/Research
+	DATEX=/w/apps3/Synopsys/TCAD_Sentaurus/vG_2012.06/tcad/current/lib/datexcodes.txt
+	DISPLAY=localhost:11.0
+
+relativizing paths:
+project path: /u1/ee/snikhil/Research/LAE_simple
+STDB path: @STDB@
+normalized STDB path: /w/ee.00/mjarrahi/snikhil/Research
+Preprocessing project '@STDB@/LAE_simple'
+Loading global tool database '/w/apps3/Synopsys/TCAD_Sentaurus/vG_2012.06/tcad/current/lib/glib2/tooldb.tcl'
+Loading preferences '/u1/ee/snikhil/Research/gpref2_snikhil.G-2012.06'...
+spp will run in Global-per-node mode
+INITIALIZING PREPROCESSOR:
+Loading project tree '/u1/ee/snikhil/Research/LAE_simple/gtree.dat'
+Loading project variables '/u1/ee/snikhil/Research/LAE_simple/gvars.dat'
+--Get files to preprocess...
+ERROR: no input file found for tool 'sdevice1'
+ERROR: No files could be retrieved forpreprocessing
+Init_Standard failed

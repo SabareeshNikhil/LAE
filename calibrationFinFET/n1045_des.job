@@ -1,0 +1,62 @@
+
+****************************************************************************
+***                       Sentaurus Workbench gjob                       ***
+***                          Version F-2011.09                           ***
+***                         (1.5, amd64, linux)                          ***
+***                                                                      ***
+***                       Copyright (C) 1994-2011                        ***
+***                            Synopsys, Inc.                            ***
+***                                                                      ***
+***  This software and the associated documentation are confidential     ***
+***  and proprietary to Synopsys, Inc.  Your use or disclosure of this   ***
+***  software is subject to the terms and conditions of a written        ***
+***  license agreement between you, or your company, and Synopsys, Inc.  ***
+****************************************************************************
+
+gjob is running on host 'mcl13' by user 'psd'
+Binary 'gjob'
+Command line options '-verbose -nice 19 -job 1045 -swb_pid 10433 -gsub_pid 11433 -gsub_host mcl13 -gsub_port 44763 @STDB@/inverter/calibrationFinFET'
+Current directory '/home/users/psd/work/workdir'
+Some relevant environment variables:
+	STROOT=/usr/local/Softwares/Sentaurus/Sentaurus_vF_2011.09/bin/..
+	STRELEASE=current
+	STROOT_LIB=/usr/local/Softwares/Sentaurus/Sentaurus_vF_2011.09/bin/../tcad/current/lib
+	STDB=/home/users/psd/work/workdir
+	DATEX=/usr/local/Softwares/Sentaurus/Sentaurus_vF_2011.09/bin/../tcad/current/lib/datexcodes.txt
+	DISPLAY=:5.0
+
+relativizing paths:
+project path: /home/users/psd/work/workdir/inverter/calibrationFinFET
+STDB path: @STDB@
+Project '@STDB@/inverter/calibrationFinFET'
+Loading global tool database '/usr/local/Softwares/Sentaurus/Sentaurus_vF_2011.09/bin/../tcad/current/lib/glib2/tooldb.tcl'
+Loading preferences '/home/users/psd/work/workdir/gpref2_psd.F-2011.09'...
+INITIALIZING PREPROCESSOR:
+Loading project tree '/home/users/psd/work/workdir/inverter/calibrationFinFET/gtree.dat'
+Loading jobs and dependence graph '"/home/users/psd/work/workdir/inverter/calibrationFinFET/gexec.cmd"'
+Loading project variables '/home/users/psd/work/workdir/inverter/calibrationFinFET/gvars.dat'
+--Get files to preprocess...
+--Create file handlers...
+--Read the toolflow...
+--Analyze tool-file dependencies...
+--Read all nodes to preprocess...
+--Group nodes into experiments...
+--Assign for each experiment a TCL interpreter...
+--Get all variables...
+--Get all parameters...
+PREPROCESSOR SUCCESSFULLY INITIALIZED.
+PREPROCESSING STEP 1:
+Reading file /home/users/psd/work/workdir/inverter/calibrationFinFET/sdevice5_des.cmd
+Reading file /home/users/psd/work/workdir/inverter/calibrationFinFET/sdevice.par
+PREPROCESSING STEP 2:
+Preprocessing file /home/users/psd/work/workdir/inverter/calibrationFinFET/sdevice5_des.cmd for node 1045
++++Preprocessing results written to /home/users/psd/work/workdir/inverter/calibrationFinFET/pp1045_des.cmd
+Preprocessing file /home/users/psd/work/workdir/inverter/calibrationFinFET/sdevice.par for node 1045
++++Preprocessing results written to /home/users/psd/work/workdir/inverter/calibrationFinFET/pp1045_des.par
+15:53:56 May 09 2013     job 1045 <sdevice> started on host 'mcl13': "sdevice pp1045_des.cmd"
+15:57:43 May 09 2013 +++ job 1045 <sdevice> done: exit(0)
+End Simulation section
+Start Epilogue section
+15:57:43 May 09 2013 *** job 1045 pre/post execution: eval " extract_vars "/home/users/psd/work/workdir/inverter/calibrationFinFET" n1045_des.out 1045 "
+End Epilogue section
+gjob exits with status 0

@@ -1,0 +1,115 @@
+
+****************************************************************************
+***                       Sentaurus Workbench gsub                       ***
+***                          Version G-2012.06                           ***
+***                         (1.7, amd64, linux)                          ***
+***                                                                      ***
+***                       Copyright (C) 1994-2012                        ***
+***                            Synopsys, Inc.                            ***
+***                                                                      ***
+***  This software and the associated documentation are confidential     ***
+***  and proprietary to Synopsys, Inc.  Your use or disclosure of this   ***
+***  software is subject to the terms and conditions of a written        ***
+***  license agreement between you, or your company, and Synopsys, Inc.  ***
+****************************************************************************
+
+gsub is running on host 'thzlab4.eecs.umich.edu' by user 'yardimci'
+Binary 'gsub'
+Command line options '-verbose -swb_pid 15852 -q local:default -e 5 @STDB@/projects/hetero_thz2'
+Current directory '/home/yardimci'
+Some relevant environment variables:
+	STROOT=/usr/caen/sentaurus-2012.06
+	STRELEASE=current
+	STROOT_LIB=/usr/caen/sentaurus-2012.06/tcad/current/lib
+	STDB=/home/yardimci/sentaurus
+	DATEX=/usr/caen/sentaurus-2012.06/tcad/current/lib/datexcodes.txt
+	DISPLAY=:0.0
+
+Starting swblm daemon...OK
+relativizing paths:
+project path: /home/yardimci/sentaurus/projects/hetero_thz2
+STDB path: @STDB@
+Project '@STDB@/projects/hetero_thz2'
+Loading global tool database '/usr/caen/sentaurus-2012.06/tcad/current/lib/glib2/tooldb.tcl'
+Loading preferences '/home/yardimci/sentaurus/gpref2_yardimci.G-2012.06'...
+Loading preferences '/home/yardimci/sentaurus/gpref2_yardimci.G-2012.06'...
+15:12:29 Jul 01 2013 <hetero_thz2> submitted to the batch system
+Loading global queue configuration file '/usr/caen/sentaurus-2012.06/queues/gqueues.dat'...ok
+Loading project tree '/home/yardimci/sentaurus/projects/hetero_thz2/gtree.dat'
+>>>>>preprocessing the project for running in intelligent mode
+INITIALIZING PREPROCESSOR:
+Loading project tree '/home/yardimci/sentaurus/projects/hetero_thz2/gtree.dat'
+Loading project variables '/home/yardimci/sentaurus/projects/hetero_thz2/gvars.dat'
+--Get files to preprocess...
+--Create file handlers...
+--Read the toolflow...
+--Analyze tool-file dependencies...
+--Read all nodes to preprocess...
+--Group nodes into experiments...
+--Get all variables...
+--Get all parameters...
+PREPROCESSOR SUCCESSFULLY INITIALIZED.
+PREPROCESSING STEP 1:
+Reading file /home/yardimci/sentaurus/projects/hetero_thz2/sdevice_des.cmd
+Reading file /home/yardimci/sentaurus/projects/hetero_thz2/sdevice.par
+PREPROCESSING STEP 2:
+Preprocessing file /home/yardimci/sentaurus/projects/hetero_thz2/sdevice_des.cmd fornode 4
+Preprocessing file /home/yardimci/sentaurus/projects/hetero_thz2/sdevice.par fornode 4
++++Node successfully preprocessed+++
+Preprocessing file /home/yardimci/sentaurus/projects/hetero_thz2/sdevice_des.cmd fornode 5
+Preprocessing file /home/yardimci/sentaurus/projects/hetero_thz2/sdevice.par fornode 5
++++Node successfully preprocessed+++
+Writing 'gexec.cmd'
+saving variables
+Loading jobs and dependence graph '"/home/yardimci/sentaurus/projects/hetero_thz2/gexec.cmd"'
+Loading jobs and dependence graph '"/home/yardimci/sentaurus/projects/hetero_thz2/gexec.cmd"'
+INITIALIZING PREPROCESSOR:
+Loading project tree '/home/yardimci/sentaurus/projects/hetero_thz2/gtree.dat'
+Loading project variables '/home/yardimci/sentaurus/projects/hetero_thz2/gvars.dat'
+--Get files to preprocess...
+--Create file handlers...
+--Read the toolflow...
+--Analyze tool-file dependencies...
+--Read all nodes to preprocess...
+--Group nodes into experiments...
+--Get all variables...
+--Get all parameters...
+PREPROCESSOR SUCCESSFULLY INITIALIZED.
+PREPROCESSING STEP 1:
+Reading file /home/yardimci/sentaurus/projects/hetero_thz2/sdevice_des.cmd
+Reading file /home/yardimci/sentaurus/projects/hetero_thz2/sdevice.par
+PREPROCESSING STEP 2:
+Preprocessing file /home/yardimci/sentaurus/projects/hetero_thz2/sdevice_des.cmd fornode 5
+Preprocessing file /home/yardimci/sentaurus/projects/hetero_thz2/sdevice.par fornode 5
++++Node successfully preprocessed+++
+Writing 'gexec.cmd'
+saving variables
+Loading jobs and dependence graph '"/home/yardimci/sentaurus/projects/hetero_thz2/gexec.cmd"'
+>>>>>>>>>> job '5' status changed from 'none' to 'queued'
+-----------------------------------------------------------------
+queue "local:default" - 5
+-----------------------------------------------------------------
+>>>>> cleaning the index file from previous simulations 
+                       /home/yardimci/sentaurus/projects/hetero_thz2/.gindex
+>>>>>>>>>> Initializing back-end schedulers...
+>>>>>>>> Loaded Schedulers are ... local
+local% initialize 'local' scheduler data
+>>>>> List of Active Schedulers : local
+<<<<<<<<<<
+>>>>>>>>>> job '5' status changed from 'queued' to 'ready'
+>>>>>>>>>> os_rm /home/yardimci/sentaurus/projects/hetero_thz2/n5_des.job
+local% submit job 5 for local execution
+>>>>>>>>>> job '5' status changed from 'ready' to 'pending'
+local% exec "/usr/caen/sentaurus-2012.06/bin/gjob -verbose -nice 19  -job 5 -swb_pid 15852 -gsub_pid 6278 -gsub_host thzlab4.eecs.umich.edu -gsub_port 45842 "@STDB@/projects/hetero_thz2""
+>>>>>>>>>> job '5' status changed from 'pending' to 'running'
+15:12:30 Jul 01 2013     job 5 <sdevice> started on host 'thzlab4.eecs.umich.edu': "sdevice pp5_des.cmd"
+>>>>>>>>>> job '5' status changed from 'running' to 'done'
+16:26:33 Jul 01 2013 +++ job 5 <sdevice> done: exit(0)
+>>>>>>>>>> Checking extraction consistency...
+
+SCHEDULING REPORT
++++ done    : 5
+
+16:26:36 Jul 01 2013 <hetero_thz2> done (4447 sec)
+>>>>>> Writing to status file 4447
+gsub exits with status 0

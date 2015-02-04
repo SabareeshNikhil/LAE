@@ -1,0 +1,7 @@
+load_file /w/ee.00/mjarrahi/snikhil/Research/calibrationFinFET/2d_Lg_15_3_msh.tdr
+create_plot -dataset 2d_Lg_15_3_msh
+select_plots {Plot_2d_Lg_15_3_msh}
+#-> Plot_2d_Lg_15_3_msh
+#-> Plot_2d_Lg_15_3_msh
+#-> 2d_Lg_15_3_msh
+exit

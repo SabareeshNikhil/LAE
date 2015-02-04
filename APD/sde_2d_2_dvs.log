@@ -1,0 +1,147 @@
+Evaluating file sde_2d_2_dvs.cmd
+---> (sde:clear)
+()
+---> (sdegeo:create-rectangle (position 0 0 0.0) (position 6 3 0.0) Silicon p_substrate)
+#[body 9 1]
+---> (sdedr:define-refeval-window RefEvalWin_pSubstrate Rectangle (position 0 0 0.0) (position 6 3 0.0))
+#[body 10 1]
+---> (sdedr:define-constant-profile ConstantProfileDefinition_pSubstrate DopingConcentration -3e+17)
+#t
+---> (sdedr:define-constant-profile-placement ConstantProfilePlacement_pSubstrate ConstantProfileDefinition_pSubstrate RefEvalWin_pSubstrate)
+#t
+---> (sdedr:define-multibox-size MultiboxDefinition_pSubstrate 2 0.2 0 0.5 0.1 0 1.2 1.2 1)
+#t
+---> (sdedr:define-multibox-placement MultiboxPlacement_pSubstrate MultiboxDefinition_pSubstrate RefEvalWin_pSubstrate)
+#t
+---> (sdegeo:create-rectangle (position 0.4 0 0.0) (position 5.6 1.6 0.0) Silicon n_well)
+#[body 11 1]
+---> (sdedr:define-refeval-window RefEvalWin_nWell Rectangle (position 0.5 0 0.0) (position 5.5 1.6 0.0))
+#[body 12 1]
+---> (sdedr:define-constant-profile ConstantProfileDefinition_nWell DopingConcentration 1e+15)
+#t
+---> (sdedr:define-constant-profile-placement ConstantProfilePlacement_nWell ConstantProfileDefinition_nWell RefEvalWin_nWell)
+#t
+---> (sdedr:define-multibox-size MultiboxDefinition_nWell 0.5 0.1 0 0.1 0.05 0 1.2 1.2 1)
+#t
+---> (sdedr:define-multibox-placement MultiboxPlacement_nWell MultiboxDefinition_nWell RefEvalWin_nWell)
+#t
+---> (sdegeo:create-rectangle (position 0.4 -0.14 0.0) (position 1.25 0 0.0) Gold cathode1_contact)
+#[body 13 1]
+---> (sdegeo:define-contact-set cathode1 4 (color:rgb 1 0 0) ##)
+()
+---> (sdegeo:set-current-contact-set cathode1)
+""
+---> (sdegeo:define-2d-contact (find-edge-id (position 0.975 0 0)) (sdegeo:get-current-contact-set))
+()
+---> (sdegeo:create-rectangle (position 4.75 -0.14 0.0) (position 5.6 0 0.0) Gold cathode_contact)
+#[body 31 1]
+---> (sdegeo:define-contact-set cathode 4 (color:rgb 1 0 0) ##)
+()
+---> (sdegeo:set-current-contact-set cathode)
+"cathode1"
+---> (sdegeo:define-2d-contact (find-edge-id (position 5.025 0 0)) (sdegeo:get-current-contact-set))
+()
+---> (sdegeo:create-rectangle (position 2.86 -0.14 0.0) (position 3.14 0 0.0) Gold anode_contact)
+#[body 37 1]
+---> (sdegeo:define-contact-set anode 4 (color:rgb 1 0 0) ##)
+()
+---> (sdegeo:set-current-contact-set anode)
+"cathode"
+---> (sdegeo:define-2d-contact (find-edge-id (position 3.0 -0.14 0)) (sdegeo:get-current-contact-set))
+()
+---> (sdegeo:create-rectangle (position 0.4 0 0.0) (position 1.25 0.15 0.0) Silicon n+_1)
+#[body 44 1]
+---> (sdedr:define-refeval-window RefEvalWin_n+Implant_1 Rectangle (position 0.4 0 0.0) (position 1.25 0.15 0.0))
+#[body 45 1]
+---> (sdedr:define-constant-profile ConstantProfileDefinition_n+Implant_1 DopingConcentration 3e+18)
+#t
+---> (sdedr:define-constant-profile-placement ConstantProfilePlacement_n+Implant_1 ConstantProfileDefinition_n+Implant_1 RefEvalWin_n+Implant_1)
+#t
+---> (sdedr:define-multibox-size MultiboxDefinition_n+Implant_1 0.1 0.05 0 0.01 0.01 0 1.2 1.2 1)
+#t
+---> (sdedr:define-refeval-window RefEvalWin_n+Implant_1_1 Rectangle (position (- 0.75 0.1) 0 0.0) (position (+ 0.95 0.1) (+ 0.15 0.05) 0.0))
+#[body 46 1]
+---> (sdedr:define-multibox-placement MultiboxPlacement_n+Implant_1 MultiboxDefinition_n+Implant_1 RefEvalWin_n+Implant_1_1)
+#t
+---> (sdegeo:create-rectangle (position 4.75 0 0.0) (position 5.6 0.15 0.0) Silicon n+)
+#[body 47 1]
+---> (sdedr:define-refeval-window RefEvalWin_n+Implant Rectangle (position 4.75 0 0.0) (position 5.6 0.15 0.0))
+#[body 48 1]
+---> (sdedr:define-constant-profile ConstantProfileDefinition_n+Implant DopingConcentration 3e+18)
+#t
+---> (sdedr:define-constant-profile-placement ConstantProfilePlacement_n+Implant ConstantProfileDefinition_n+Implant RefEvalWin_n+Implant)
+#t
+---> (sdedr:define-multibox-size MultiboxDefinition_n+Implant 0.1 0.05 0 0.01 0.01 0 1.2 1.2 1)
+#t
+---> (sdedr:define-refeval-window RefEvalWin_n+Implant_0_1 Rectangle (position (- 5.05 0.1) 0 0.0) (position (+ 5.25 0.1) (+ 0.15 0.05) 0.0))
+#[body 49 1]
+---> (sdedr:define-multibox-placement MultiboxPlacement_n+Implant MultiboxDefinition_n+Implant RefEvalWin_n+Implant_0_1)
+#t
+---> (sdegeo:create-rectangle (position 2 0 0.0) (position 4 0.2 0.0) Silicon p+)
+#[body 50 1]
+---> (sdedr:define-refeval-window RefEvalWin_p+Implant Rectangle (position 2 0 0.0) (position 4 0.2 0.0))
+#[body 51 1]
+---> (sdedr:define-constant-profile ConstantProfileDefinition_p+Implant DopingConcentration -3e+18)
+#t
+---> (sdedr:define-constant-profile-placement ConstantProfilePlacement_p+Implant ConstantProfileDefinition_p+Implant RefEvalWin_p+Implant)
+#t
+---> (sdedr:define-multibox-size MultiboxDefinition_p+Implant 0.05 0.05 0 0.01 0.01 0 1.2 1.2 1)
+#t
+---> (sdedr:define-refeval-window RefEvalWin_p+Implant_1 Rectangle (position (- 2 0.1) 0 0.0) (position (+ 4 0.1) (+ 0.2 0.05) 0.0))
+#[body 52 1]
+---> (sdedr:define-multibox-placement MultiboxPlacement_p+Implant MultiboxDefinition_p+Implant RefEvalWin_p+Implant_1)
+#t
+---> (sdegeo:create-rectangle (position 1.25 0 0.0) (position 2 0.43 0.0) Oxide STI_1)
+#[body 53 1]
+---> (sdedr:define-multibox-size MultiboxDefinition_STI_1_1 0.05 0.05 0 0.01 0.01 0 1.2 1.2 1)
+#t
+---> (sdedr:define-refeval-window RefEvalWin_STI_1_1 Rectangle (position (- 1.2 0.1) 0 0.0) (position (+ 1.2 0.1) (+ 0.43 0.05) 0.0))
+#[body 54 1]
+---> (sdedr:define-multibox-placement MultiboxPlacement_STI_1_1 MultiboxDefinition_STI_1_1 RefEvalWin_STI_1_1)
+#t
+---> (sdedr:define-multibox-size MultiboxDefinition_STI_1_2 0.05 0.05 0 0.01 0.01 0 1.2 1.2 1)
+#t
+---> (sdedr:define-refeval-window RefEvalWin_STI_1_2 Rectangle (position (- 2 0.1) 0 0.0) (position (+ 2 0.1) (+ 0.43 0.05) 0.0))
+#[body 55 1]
+---> (sdedr:define-multibox-placement MultiboxPlacement_STI_1_2 MultiboxDefinition_STI_1_2 RefEvalWin_STI_1_2)
+#t
+---> (sdedr:define-multibox-size MultiboxDefinition_STI_1_3 0.05 0.05 0 0.01 0.01 0 1.2 1.2 1)
+#t
+---> (sdedr:define-refeval-window RefEvalWin_STI_1_3 Rectangle (position (- 1.2 0.1) (- 0.43 0.1) 0.0) (position (+ 2 0.1) (+ 0.43 0.1) 0.0))
+#[body 56 1]
+---> (sdedr:define-multibox-placement MultiboxPlacement_STI_1_3 MultiboxDefinition_STI_1_3 RefEvalWin_STI_1_3)
+#t
+---> (sdegeo:create-rectangle (position 4 0 0.0) (position 4.75 0.43 0.0) Oxide STI)
+#[body 57 1]
+---> (sdedr:define-multibox-size MultiboxDefinition_STI_1 0.05 0.05 0 0.01 0.01 0 1.2 1.2 1)
+#t
+---> (sdedr:define-refeval-window RefEvalWin_STI_1 Rectangle (position (- 4 0.1) 0 0.0) (position (+ 4 0.1) (+ 0.43 0.05) 0.0))
+#[body 58 1]
+---> (sdedr:define-multibox-placement MultiboxPlacement_STI_1 MultiboxDefinition_STI_1 RefEvalWin_STI_1)
+#t
+---> (sdedr:define-multibox-size MultiboxDefinition_STI_2 0.05 0.05 0 0.01 0.01 0 1.2 1.2 1)
+#t
+---> (sdedr:define-refeval-window RefEvalWin_STI_2 Rectangle (position (- 4.8 0.1) 0 0.0) (position (+ 4.8 0.1) (+ 0.43 0.05) 0.0))
+#[body 59 1]
+---> (sdedr:define-multibox-placement MultiboxPlacement_STI_2 MultiboxDefinition_STI_2 RefEvalWin_STI_2)
+#t
+---> (sdedr:define-multibox-size MultiboxDefinition_STI_3 0.05 0.05 0 0.01 0.01 0 1.2 1.2 1)
+#t
+---> (sdedr:define-refeval-window RefEvalWin_STI_3 Rectangle (position (- 4 0.1) (- 0.43 0.1) 0.0) (position (+ 4.8 0.1) (+ 0.43 0.1) 0.0))
+#[body 60 1]
+---> (sdedr:define-multibox-placement MultiboxPlacement_STI_3 MultiboxDefinition_STI_3 RefEvalWin_STI_3)
+#t
+---> (sdegeo:create-rectangle (position 0 0 0.0) (position 0.4 0.43 0.0) Oxide STI_left)
+#[body 61 1]
+---> (sdegeo:create-rectangle (position 5.6 0 0.0) (position 6.0 0.43 0.0) Oxide STI_right)
+#[body 62 1]
+---> (sde:build-mesh snmesh   sde_2d_2_msh)
+#t
+---> #[end-of-file]
+"************************************************************************"
+"Sentaurus Structure Editor "
+"Start Time:    Thu Jul 11 13:25:30 2013"
+"End   Time:    Thu Jul 11 13:25:38 2013"
+"Total Execution Time (sec):    8"
+"Total System calls Time (sec): 0"
+"************************************************************************"

@@ -1,0 +1,184 @@
+
+****************************************************************************
+***                       Sentaurus Workbench gsub                       ***
+***                          Version G-2012.06                           ***
+***                         (1.7, amd64, linux)                          ***
+***                                                                      ***
+***                       Copyright (C) 1994-2012                        ***
+***                            Synopsys, Inc.                            ***
+***                                                                      ***
+***  This software and the associated documentation are confidential     ***
+***  and proprietary to Synopsys, Inc.  Your use or disclosure of this   ***
+***  software is subject to the terms and conditions of a written        ***
+***  license agreement between you, or your company, and Synopsys, Inc.  ***
+****************************************************************************
+
+gsub is running on host 'thzlabsv.ee.ucla.edu' by user 'snikhil'
+Binary 'gsub'
+Command line options '-verbose -swb_pid 25177 -q local:default -e {16 + 19} @STDB@/LAE_simple'
+Current directory '/u1/ee/snikhil/Research'
+Some relevant environment variables:
+	STROOT=/w/apps3/Synopsys/TCAD_Sentaurus/vG_2012.06
+	STRELEASE=current
+	STROOT_LIB=/w/apps3/Synopsys/TCAD_Sentaurus/vG_2012.06/tcad/current/lib
+	STDB=/u1/ee/snikhil/Research
+	DATEX=/w/apps3/Synopsys/TCAD_Sentaurus/vG_2012.06/tcad/current/lib/datexcodes.txt
+	DISPLAY=localhost:10.0
+
+Starting swblm daemon...OK
+relativizing paths:
+project path: /u1/ee/snikhil/Research/LAE_simple
+STDB path: @STDB@
+normalized STDB path: /w/ee.00/mjarrahi/snikhil/Research
+Project '@STDB@/LAE_simple'
+Loading global tool database '/w/apps3/Synopsys/TCAD_Sentaurus/vG_2012.06/tcad/current/lib/glib2/tooldb.tcl'
+Loading preferences '/u1/ee/snikhil/Research/gpref2_snikhil.G-2012.06'...
+Loading preferences '/u1/ee/snikhil/Research/gpref2_snikhil.G-2012.06'...
+16:38:18 Jan 28 2015 <LAE_simple> submitted to the batch system
+Loading global queue configuration file '/w/apps3/Synopsys/TCAD_Sentaurus/vG_2012.06/queues/gqueues.dat'...ok
+Loading project tree '/u1/ee/snikhil/Research/LAE_simple/gtree.dat'
+>>>>>preprocessing the project for running in intelligent mode
+Loading jobs and dependence graph '"/u1/ee/snikhil/Research/LAE_simple/gexec.cmd"'
+INITIALIZING PREPROCESSOR:
+Loading project tree '/u1/ee/snikhil/Research/LAE_simple/gtree.dat'
+Loading project variables '/u1/ee/snikhil/Research/LAE_simple/gvars.dat'
+--Get files to preprocess...
+--Create file handlers...
+--Read the toolflow...
+--Analyze tool-file dependencies...
+--Read all nodes to preprocess...
+--Group nodes into experiments...
+--Get all variables...
+--Get all parameters...
+PREPROCESSOR SUCCESSFULLY INITIALIZED.
+PREPROCESSING STEP 1:
+Reading file /u1/ee/snikhil/Research/LAE_simple/sde_dvs.cmd
+Reading file /u1/ee/snikhil/Research/LAE_simple/sdevice_des.cmd
+Reading file /u1/ee/snikhil/Research/LAE_simple/sdevice.par
+PREPROCESSING STEP 2:
+Preprocessing file /u1/ee/snikhil/Research/LAE_simple/sdevice_des.cmd fornode 4
+Preprocessing file /u1/ee/snikhil/Research/LAE_simple/sdevice.par fornode 4
++++Node successfully preprocessed+++
+Preprocessing file /u1/ee/snikhil/Research/LAE_simple/sdevice_des.cmd fornode 5
+Preprocessing file /u1/ee/snikhil/Research/LAE_simple/sdevice.par fornode 5
++++Node successfully preprocessed+++
+Preprocessing file /u1/ee/snikhil/Research/LAE_simple/sdevice_des.cmd fornode 16
+Preprocessing file /u1/ee/snikhil/Research/LAE_simple/sdevice.par fornode 16
++++Node successfully preprocessed+++
+Preprocessing file /u1/ee/snikhil/Research/LAE_simple/sdevice_des.cmd fornode 19
+Preprocessing file /u1/ee/snikhil/Research/LAE_simple/sdevice.par fornode 19
++++Node successfully preprocessed+++
+Preprocessing file /u1/ee/snikhil/Research/LAE_simple/sdevice_des.cmd fornode 27
+Preprocessing file /u1/ee/snikhil/Research/LAE_simple/sdevice.par fornode 27
++++Node successfully preprocessed+++
+Preprocessing file /u1/ee/snikhil/Research/LAE_simple/sdevice_des.cmd fornode 30
+Preprocessing file /u1/ee/snikhil/Research/LAE_simple/sdevice.par fornode 30
++++Node successfully preprocessed+++
+Preprocessing file /u1/ee/snikhil/Research/LAE_simple/sdevice_des.cmd fornode 34
+Preprocessing file /u1/ee/snikhil/Research/LAE_simple/sdevice.par fornode 34
++++Node successfully preprocessed+++
+Preprocessing file /u1/ee/snikhil/Research/LAE_simple/sdevice_des.cmd fornode 37
+Preprocessing file /u1/ee/snikhil/Research/LAE_simple/sdevice.par fornode 37
++++Node successfully preprocessed+++
+Preprocessing file /u1/ee/snikhil/Research/LAE_simple/sdevice_des.cmd fornode 43
+Preprocessing file /u1/ee/snikhil/Research/LAE_simple/sdevice.par fornode 43
++++Node successfully preprocessed+++
+Preprocessing file /u1/ee/snikhil/Research/LAE_simple/sdevice_des.cmd fornode 46
+Preprocessing file /u1/ee/snikhil/Research/LAE_simple/sdevice.par fornode 46
++++Node successfully preprocessed+++
+Preprocessing file /u1/ee/snikhil/Research/LAE_simple/sdevice_des.cmd fornode 50
+Preprocessing file /u1/ee/snikhil/Research/LAE_simple/sdevice.par fornode 50
++++Node successfully preprocessed+++
+Preprocessing file /u1/ee/snikhil/Research/LAE_simple/sdevice_des.cmd fornode 53
+Preprocessing file /u1/ee/snikhil/Research/LAE_simple/sdevice.par fornode 53
++++Node successfully preprocessed+++
+Preprocessing file /u1/ee/snikhil/Research/LAE_simple/sdevice_des.cmd fornode 59
+Preprocessing file /u1/ee/snikhil/Research/LAE_simple/sdevice.par fornode 59
++++Node successfully preprocessed+++
+Preprocessing file /u1/ee/snikhil/Research/LAE_simple/sdevice_des.cmd fornode 62
+Preprocessing file /u1/ee/snikhil/Research/LAE_simple/sdevice.par fornode 62
++++Node successfully preprocessed+++
+Preprocessing file /u1/ee/snikhil/Research/LAE_simple/sdevice_des.cmd fornode 66
+Preprocessing file /u1/ee/snikhil/Research/LAE_simple/sdevice.par fornode 66
++++Node successfully preprocessed+++
+Preprocessing file /u1/ee/snikhil/Research/LAE_simple/sdevice_des.cmd fornode 69
+Preprocessing file /u1/ee/snikhil/Research/LAE_simple/sdevice.par fornode 69
++++Node successfully preprocessed+++
+Preprocessing file /u1/ee/snikhil/Research/LAE_simple/sdevice_des.cmd fornode 75
+Preprocessing file /u1/ee/snikhil/Research/LAE_simple/sdevice.par fornode 75
++++Node successfully preprocessed+++
+Preprocessing file /u1/ee/snikhil/Research/LAE_simple/sdevice_des.cmd fornode 77
+Preprocessing file /u1/ee/snikhil/Research/LAE_simple/sdevice.par fornode 77
++++Node successfully preprocessed+++
+Preprocessing file /u1/ee/snikhil/Research/LAE_simple/sdevice_des.cmd fornode 80
+Preprocessing file /u1/ee/snikhil/Research/LAE_simple/sdevice.par fornode 80
++++Node successfully preprocessed+++
+Preprocessing file /u1/ee/snikhil/Research/LAE_simple/sdevice_des.cmd fornode 82
+Preprocessing file /u1/ee/snikhil/Research/LAE_simple/sdevice.par fornode 82
++++Node successfully preprocessed+++
+Writing 'gexec.cmd'
+saving variables
+Loading jobs and dependence graph '"/u1/ee/snikhil/Research/LAE_simple/gexec.cmd"'
+INITIALIZING PREPROCESSOR:
+Loading project tree '/u1/ee/snikhil/Research/LAE_simple/gtree.dat'
+Loading project variables '/u1/ee/snikhil/Research/LAE_simple/gvars.dat'
+--Get files to preprocess...
+--Create file handlers...
+--Read the toolflow...
+--Analyze tool-file dependencies...
+--Read all nodes to preprocess...
+--Group nodes into experiments...
+--Get all variables...
+--Get all parameters...
+PREPROCESSOR SUCCESSFULLY INITIALIZED.
+PREPROCESSING STEP 1:
+Reading file /u1/ee/snikhil/Research/LAE_simple/sde_dvs.cmd
+Reading file /u1/ee/snikhil/Research/LAE_simple/sdevice_des.cmd
+Reading file /u1/ee/snikhil/Research/LAE_simple/sdevice.par
+PREPROCESSING STEP 2:
+Preprocessing file /u1/ee/snikhil/Research/LAE_simple/sdevice_des.cmd fornode 16
+Preprocessing file /u1/ee/snikhil/Research/LAE_simple/sdevice.par fornode 16
++++Node successfully preprocessed+++
+Preprocessing file /u1/ee/snikhil/Research/LAE_simple/sdevice_des.cmd fornode 19
+Preprocessing file /u1/ee/snikhil/Research/LAE_simple/sdevice.par fornode 19
++++Node successfully preprocessed+++
+Writing 'gexec.cmd'
+saving variables
+Loading jobs and dependence graph '"/u1/ee/snikhil/Research/LAE_simple/gexec.cmd"'
+>>>>>>>>>> job '16' status changed from 'failed' to 'queued'
+>>>>>>>>>> job '19' status changed from 'failed' to 'queued'
+-----------------------------------------------------------------
+queue "local:default" - 16 19
+-----------------------------------------------------------------
+>>>>> cleaning the index file from previous simulations 
+                       /u1/ee/snikhil/Research/LAE_simple/.gindex
+>>>>>>>>>> Initializing back-end schedulers...
+>>>>>>>> Loaded Schedulers are ... local
+local% initialize 'local' scheduler data
+>>>>> List of Active Schedulers : local
+<<<<<<<<<<
+>>>>>>>>>> job '16' status changed from 'queued' to 'ready'
+>>>>>>>>>> os_rm /u1/ee/snikhil/Research/LAE_simple/n16_des.job
+local% submit job 16 for local execution
+>>>>>>>>>> job '16' status changed from 'ready' to 'pending'
+>>>>>>>>>> job '19' status changed from 'queued' to 'ready'
+>>>>>>>>>> os_rm /u1/ee/snikhil/Research/LAE_simple/n19_des.job
+local% submit job 19 for local execution
+>>>>>>>>>> job '19' status changed from 'ready' to 'pending'
+local% exec "/w/apps3/Synopsys/TCAD_Sentaurus/vG_2012.06/bin/gjob -verbose -nice 19  -job 16 -swb_pid 25177 -gsub_pid 32062 -gsub_host thzlabsv.ee.ucla.edu -gsub_port 33746 "@STDB@/LAE_simple""
+>>>>>>>>>> job '16' status changed from 'pending' to 'running'
+16:38:19 Jan 28 2015     job 16 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp16_des.cmd"
+>>>>>>>>>> job '16' status changed from 'running' to 'failed'
+16:50:56 Jan 28 2015 --- job 16 <sdevice> exited abnormally: exit()
+local% exec "/w/apps3/Synopsys/TCAD_Sentaurus/vG_2012.06/bin/gjob -verbose -nice 19  -job 19 -swb_pid 25177 -gsub_pid 32062 -gsub_host thzlabsv.ee.ucla.edu -gsub_port 33746 "@STDB@/LAE_simple""
+>>>>>>>>>> job '19' status changed from 'pending' to 'running'
+16:50:57 Jan 28 2015     job 19 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp19_des.cmd"
+>>>>>>>>>> job '19' status changed from 'running' to 'failed'
+17:01:07 Jan 28 2015 --- job 19 <sdevice> exited abnormally: exit()
+>>>>>>>>>> Checking extraction consistency...
+
+SCHEDULING REPORT
+--- failed  : 16 19
+
+17:01:10 Jan 28 2015 <LAE_simple> failed
+>>>>>> Writing to status file 1372

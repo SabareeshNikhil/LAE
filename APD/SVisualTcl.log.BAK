@@ -1,0 +1,43 @@
+###########################################
+# Sentaurus Visual H-2013.03.
+# Tcl log file.
+#------------------------------------------
+# Date: Jul 11, 2013. 18:27:53.
+# Version: 21.0.5 (1.5)
+# Mode: Interactive (GUI).
+# Mesa: enabled.
+# Hostname: mtlsim2.
+# Machine: Linux, x86_64, amd64.
+# Kernel: 2.6.18-238.12.1.el5.
+###########################################
+
+load_file /homes/parthi/sentaurus_projects/nikhil/STB/APD/apd/APD/sde_2d_3_msh.tdr
+create_plot -dataset sde_2d_3_msh
+select_plots {Plot_sde_2d_3_msh}
+#-> Plot_sde_2d_3_msh
+#-> Plot_sde_2d_3_msh
+#-> sde_2d_3_msh
+set_region_prop {STI} -geom sde_2d_3_msh -show_mesh
+#-> 0
+set_region_prop {STI_1} -geom sde_2d_3_msh -show_mesh
+#-> 0
+set_region_prop {STI_left} -geom sde_2d_3_msh -show_mesh
+#-> 0
+set_region_prop {STI_right} -geom sde_2d_3_msh -show_mesh
+#-> 0
+set_region_prop {anode_contact} -geom sde_2d_3_msh -show_mesh
+#-> 0
+set_region_prop {cathode1_contact} -geom sde_2d_3_msh -show_mesh
+#-> 0
+set_region_prop {cathode_contact} -geom sde_2d_3_msh -show_mesh
+#-> 0
+set_region_prop {n+} -geom sde_2d_3_msh -show_mesh
+#-> 0
+set_region_prop {n+_1} -geom sde_2d_3_msh -show_mesh
+#-> 0
+set_region_prop {n_well} -geom sde_2d_3_msh -show_mesh
+#-> 0
+set_region_prop {p+} -geom sde_2d_3_msh -show_mesh
+#-> 0
+set_region_prop {p_substrate} -geom sde_2d_3_msh -show_mesh
+#-> 0

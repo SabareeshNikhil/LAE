@@ -1,0 +1,90 @@
+# Copyright (C) 1994-2011 Synopsys Inc.
+# swbtree vcurrent, Wed Jan 28 16:36:23 2015
+
+# --- simulation flow
+sde sde "" {}
+sde p_width "300" {300}
+sde n_width "200" {200 300}
+sde p_doping "1E18" {1E18 -1E17}
+sde n_doping "1E17" {1E17 1E16}
+sdevice sdevice "" {}
+sdevice max_bias "15" {15 2 50}
+sdevice light "0" {0 1}
+sdevice OptGen "200e22" {10e22 1e22}
+# --- variables
+# --- scenarios and parameter specs
+scenario default p_width ""
+scenario default n_width ""
+scenario default p_doping ""
+scenario default n_doping ""
+scenario default max_bias ""
+scenario default light ""
+scenario default OptGen ""
+# --- simulation tree
+0 10 0 {} {default}
+1 9 10 {300} {default}
+2 8 9 {200} {default}
+3 7 8 {1E18} {default}
+4 6 7 {1E17} {default}
+5 11 6 {} {default}
+6 1 11 {15} {default}
+7 2 1 {0} {default}
+8 4 2 {10e22} {default}
+7 3 1 {1} {default}
+8 5 3 {1e22} {default}
+6 14 11 {50} {default}
+7 15 14 {0} {default}
+8 16 15 {1e22} {default}
+7 18 14 {1} {default}
+8 19 18 {1e22} {default}
+4 39 7 {1E16} {default}
+5 40 39 {} {default}
+6 41 40 {15} {default}
+7 42 41 {0} {default}
+8 43 42 {10e22} {default}
+7 45 41 {1} {default}
+8 46 45 {1e22} {default}
+6 48 40 {2} {default}
+7 49 48 {0} {default}
+8 50 49 {10e22} {default}
+7 52 48 {1} {default}
+8 53 52 {10e22} {default}
+3 70 8 {-1E17} {default}
+4 71 70 {1E17} {default}
+5 72 71 {} {default}
+6 73 72 {15} {default}
+7 74 73 {0} {default}
+8 75 74 {10e22} {default}
+7 76 73 {1} {default}
+8 77 76 {1e22} {default}
+6 78 72 {2} {default}
+7 79 78 {0} {default}
+8 80 79 {10e22} {default}
+7 81 78 {1} {default}
+8 82 81 {10e22} {default}
+2 21 9 {300} {default}
+3 22 21 {1E18} {default}
+4 23 22 {1E17} {default}
+5 24 23 {} {default}
+6 25 24 {15} {default}
+7 26 25 {0} {default}
+8 27 26 {10e22} {default}
+7 29 25 {1} {default}
+8 30 29 {1e22} {default}
+6 32 24 {2} {default}
+7 33 32 {0} {default}
+8 34 33 {10e22} {default}
+7 36 32 {1} {default}
+8 37 36 {10e22} {default}
+4 55 22 {1E16} {default}
+5 56 55 {} {default}
+6 57 56 {15} {default}
+7 58 57 {0} {default}
+8 59 58 {10e22} {default}
+7 61 57 {1} {default}
+8 62 61 {1e22} {default}
+6 64 56 {2} {default}
+7 65 64 {0} {default}
+8 66 65 {10e22} {default}
+7 68 64 {1} {default}
+8 69 68 {10e22} {default}

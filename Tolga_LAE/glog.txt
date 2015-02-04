@@ -1,0 +1,171 @@
+
+****************************************************************************
+***                       Sentaurus Workbench gsub                       ***
+***                          Version G-2012.06                           ***
+***                         (1.7, amd64, linux)                          ***
+***                                                                      ***
+***                       Copyright (C) 1994-2012                        ***
+***                            Synopsys, Inc.                            ***
+***                                                                      ***
+***  This software and the associated documentation are confidential     ***
+***  and proprietary to Synopsys, Inc.  Your use or disclosure of this   ***
+***  software is subject to the terms and conditions of a written        ***
+***  license agreement between you, or your company, and Synopsys, Inc.  ***
+****************************************************************************
+
+gsub is running on host 'thzlabsv.ee.ucla.edu' by user 'snikhil'
+Binary 'gsub'
+Command line options '-verbose -swb_pid 4691 -q local:default -e 110 @STDB@/Tolga_LAE'
+Current directory '/u1/ee/snikhil/Research'
+Some relevant environment variables:
+	STROOT=/w/apps3/Synopsys/TCAD_Sentaurus/vG_2012.06
+	STRELEASE=current
+	STROOT_LIB=/w/apps3/Synopsys/TCAD_Sentaurus/vG_2012.06/tcad/current/lib
+	STDB=/u1/ee/snikhil/Research
+	DATEX=/w/apps3/Synopsys/TCAD_Sentaurus/vG_2012.06/tcad/current/lib/datexcodes.txt
+	DISPLAY=localhost:10.0
+
+Starting swblm daemon...OK
+relativizing paths:
+project path: /u1/ee/snikhil/Research/Tolga_LAE
+STDB path: @STDB@
+normalized STDB path: /w/ee.00/mjarrahi/snikhil/Research
+Project '@STDB@/Tolga_LAE'
+Loading global tool database '/w/apps3/Synopsys/TCAD_Sentaurus/vG_2012.06/tcad/current/lib/glib2/tooldb.tcl'
+Loading preferences '/u1/ee/snikhil/Research/gpref2_snikhil.G-2012.06'...
+Loading preferences '/u1/ee/snikhil/Research/gpref2_snikhil.G-2012.06'...
+12:20:59 Jan 27 2015 <Tolga_LAE> submitted to the batch system
+Loading global queue configuration file '/w/apps3/Synopsys/TCAD_Sentaurus/vG_2012.06/queues/gqueues.dat'...ok
+Loading project tree '/u1/ee/snikhil/Research/Tolga_LAE/gtree.dat'
+>>>>>preprocessing the project for running in intelligent mode
+Loading jobs and dependence graph '"/u1/ee/snikhil/Research/Tolga_LAE/gexec.cmd"'
+INITIALIZING PREPROCESSOR:
+Loading project tree '/u1/ee/snikhil/Research/Tolga_LAE/gtree.dat'
+Loading project variables '/u1/ee/snikhil/Research/Tolga_LAE/gvars.dat'
+--Get files to preprocess...
+--Create file handlers...
+--Read the toolflow...
+--Analyze tool-file dependencies...
+--Read all nodes to preprocess...
+--Group nodes into experiments...
+--Get all variables...
+--Get all parameters...
+PREPROCESSOR SUCCESSFULLY INITIALIZED.
+PREPROCESSING STEP 1:
+Reading file /u1/ee/snikhil/Research/Tolga_LAE/sde_dvs.cmd
+Reading file /u1/ee/snikhil/Research/Tolga_LAE/sdevice_des.cmd
+Reading file /u1/ee/snikhil/Research/Tolga_LAE/sdevice.par
+Reading file /u1/ee/snikhil/Research/Tolga_LAE/sdevice1_des.cmd
+PREPROCESSING STEP 2:
+Preprocessing file /u1/ee/snikhil/Research/Tolga_LAE/sdevice1_des.cmd fornode 99
+Preprocessing file /u1/ee/snikhil/Research/Tolga_LAE/sdevice.par fornode 99
++++Node successfully preprocessed+++
+Preprocessing file /u1/ee/snikhil/Research/Tolga_LAE/sdevice1_des.cmd fornode 100
+Preprocessing file /u1/ee/snikhil/Research/Tolga_LAE/sdevice.par fornode 100
++++Node successfully preprocessed+++
+Preprocessing file /u1/ee/snikhil/Research/Tolga_LAE/sdevice1_des.cmd fornode 101
+Preprocessing file /u1/ee/snikhil/Research/Tolga_LAE/sdevice.par fornode 101
++++Node successfully preprocessed+++
+Preprocessing file /u1/ee/snikhil/Research/Tolga_LAE/sdevice1_des.cmd fornode 102
+Preprocessing file /u1/ee/snikhil/Research/Tolga_LAE/sdevice.par fornode 102
++++Node successfully preprocessed+++
+Preprocessing file /u1/ee/snikhil/Research/Tolga_LAE/sdevice1_des.cmd fornode 103
+Preprocessing file /u1/ee/snikhil/Research/Tolga_LAE/sdevice.par fornode 103
++++Node successfully preprocessed+++
+Preprocessing file /u1/ee/snikhil/Research/Tolga_LAE/sdevice1_des.cmd fornode 104
+Preprocessing file /u1/ee/snikhil/Research/Tolga_LAE/sdevice.par fornode 104
++++Node successfully preprocessed+++
+Preprocessing file /u1/ee/snikhil/Research/Tolga_LAE/sdevice1_des.cmd fornode 105
+Preprocessing file /u1/ee/snikhil/Research/Tolga_LAE/sdevice.par fornode 105
++++Node successfully preprocessed+++
+Preprocessing file /u1/ee/snikhil/Research/Tolga_LAE/sdevice1_des.cmd fornode 106
+Preprocessing file /u1/ee/snikhil/Research/Tolga_LAE/sdevice.par fornode 106
++++Node successfully preprocessed+++
+Preprocessing file /u1/ee/snikhil/Research/Tolga_LAE/sdevice1_des.cmd fornode 107
+Preprocessing file /u1/ee/snikhil/Research/Tolga_LAE/sdevice.par fornode 107
++++Node successfully preprocessed+++
+Preprocessing file /u1/ee/snikhil/Research/Tolga_LAE/sdevice1_des.cmd fornode 108
+Preprocessing file /u1/ee/snikhil/Research/Tolga_LAE/sdevice.par fornode 108
++++Node successfully preprocessed+++
+Preprocessing file /u1/ee/snikhil/Research/Tolga_LAE/sdevice1_des.cmd fornode 109
+Preprocessing file /u1/ee/snikhil/Research/Tolga_LAE/sdevice.par fornode 109
++++Node successfully preprocessed+++
+Preprocessing file /u1/ee/snikhil/Research/Tolga_LAE/sdevice1_des.cmd fornode 110
+Preprocessing file /u1/ee/snikhil/Research/Tolga_LAE/sdevice.par fornode 110
++++Node successfully preprocessed+++
+Preprocessing file /u1/ee/snikhil/Research/Tolga_LAE/sdevice1_des.cmd fornode 111
+Preprocessing file /u1/ee/snikhil/Research/Tolga_LAE/sdevice.par fornode 111
++++Node successfully preprocessed+++
+Preprocessing file /u1/ee/snikhil/Research/Tolga_LAE/sdevice1_des.cmd fornode 112
+Preprocessing file /u1/ee/snikhil/Research/Tolga_LAE/sdevice.par fornode 112
++++Node successfully preprocessed+++
+Preprocessing file /u1/ee/snikhil/Research/Tolga_LAE/sdevice1_des.cmd fornode 113
+Preprocessing file /u1/ee/snikhil/Research/Tolga_LAE/sdevice.par fornode 113
++++Node successfully preprocessed+++
+Preprocessing file /u1/ee/snikhil/Research/Tolga_LAE/sdevice1_des.cmd fornode 114
+Preprocessing file /u1/ee/snikhil/Research/Tolga_LAE/sdevice.par fornode 114
++++Node successfully preprocessed+++
+Preprocessing file /u1/ee/snikhil/Research/Tolga_LAE/sdevice1_des.cmd fornode 115
+Preprocessing file /u1/ee/snikhil/Research/Tolga_LAE/sdevice.par fornode 115
++++Node successfully preprocessed+++
+Preprocessing file /u1/ee/snikhil/Research/Tolga_LAE/sdevice1_des.cmd fornode 116
+Preprocessing file /u1/ee/snikhil/Research/Tolga_LAE/sdevice.par fornode 116
++++Node successfully preprocessed+++
+Preprocessing file /u1/ee/snikhil/Research/Tolga_LAE/sdevice1_des.cmd fornode 117
+Preprocessing file /u1/ee/snikhil/Research/Tolga_LAE/sdevice.par fornode 117
++++Node successfully preprocessed+++
+Writing 'gexec.cmd'
+saving variables
+Loading jobs and dependence graph '"/u1/ee/snikhil/Research/Tolga_LAE/gexec.cmd"'
+INITIALIZING PREPROCESSOR:
+Loading project tree '/u1/ee/snikhil/Research/Tolga_LAE/gtree.dat'
+Loading project variables '/u1/ee/snikhil/Research/Tolga_LAE/gvars.dat'
+--Get files to preprocess...
+--Create file handlers...
+--Read the toolflow...
+--Analyze tool-file dependencies...
+--Read all nodes to preprocess...
+--Group nodes into experiments...
+--Get all variables...
+--Get all parameters...
+PREPROCESSOR SUCCESSFULLY INITIALIZED.
+PREPROCESSING STEP 1:
+Reading file /u1/ee/snikhil/Research/Tolga_LAE/sde_dvs.cmd
+Reading file /u1/ee/snikhil/Research/Tolga_LAE/sdevice_des.cmd
+Reading file /u1/ee/snikhil/Research/Tolga_LAE/sdevice.par
+Reading file /u1/ee/snikhil/Research/Tolga_LAE/sdevice1_des.cmd
+PREPROCESSING STEP 2:
+Preprocessing file /u1/ee/snikhil/Research/Tolga_LAE/sdevice1_des.cmd fornode 110
+Preprocessing file /u1/ee/snikhil/Research/Tolga_LAE/sdevice.par fornode 110
++++Node successfully preprocessed+++
+Writing 'gexec.cmd'
+saving variables
+Loading jobs and dependence graph '"/u1/ee/snikhil/Research/Tolga_LAE/gexec.cmd"'
+>>>>>>>>>> job '110' status changed from 'failed' to 'queued'
+-----------------------------------------------------------------
+queue "local:default" - 110
+-----------------------------------------------------------------
+>>>>> cleaning the index file from previous simulations 
+                       /u1/ee/snikhil/Research/Tolga_LAE/.gindex
+>>>>>>>>>> Initializing back-end schedulers...
+>>>>>>>> Loaded Schedulers are ... local
+local% initialize 'local' scheduler data
+>>>>> List of Active Schedulers : local
+<<<<<<<<<<
+>>>>>>>>>> job '110' status changed from 'queued' to 'ready'
+>>>>>>>>>> os_rm /u1/ee/snikhil/Research/Tolga_LAE/n110_des.job
+local% submit job 110 for local execution
+>>>>>>>>>> job '110' status changed from 'ready' to 'pending'
+local% exec "/w/apps3/Synopsys/TCAD_Sentaurus/vG_2012.06/bin/gjob -verbose -nice 19  -job 110 -swb_pid 4691 -gsub_pid 7292 -gsub_host thzlabsv.ee.ucla.edu -gsub_port 39300 "@STDB@/Tolga_LAE""
+>>>>>>>>>> job '110' status changed from 'pending' to 'running'
+12:21:00 Jan 27 2015     job 110 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp110_des.cmd"
+>>>>>>>>>> job '110' status changed from 'running' to 'done'
+14:28:36 Jan 27 2015 +++ job 110 <sdevice> done: exit(0)
+>>>>>>>>>> Checking extraction consistency...
+
+SCHEDULING REPORT
++++ done    : 110
+
+14:28:40 Jan 27 2015 <Tolga_LAE> done (7661 sec)
+>>>>>> Writing to status file 7661
+gsub exits with status 0

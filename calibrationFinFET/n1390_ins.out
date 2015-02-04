@@ -1,0 +1,32 @@
+****************************************************************************
+***                               Inspect                                ***
+***                          Version H-2013.03                           ***
+***                            (1.3, RHEL64)                             ***
+***                                                                      ***
+***                       Copyright (C) 1994-2013                        ***
+***                            Synopsys, Inc.                            ***
+***                                                                      ***
+***  This software and the associated documentation are confidential     ***
+***  and proprietary to Synopsys, Inc.  Your use or disclosure of this   ***
+***  software is subject to the terms and conditions of a written        ***
+***  license agreement between you, or your company, and Synopsys, Inc.  ***
+****************************************************************************
+
+Loading library 'EXTRACT' from file '/usr/local/Softwares/Sentaurus/Sentaurus_vH_2013.03/bin/../tcad/current/lib/inspectlib/EXTRACT.tcl'
+Loading EXTRACT.tcl V2.2
+ 
+--------------------------------------------------- 
+   INSPECT variable extraction: 
+--------------------------------------------------- 
+ 
+Date      : Tue Oct 22 12:03:53 IST 2013 
+Directory : /home/users/sabareeshn/Desktop/calibrationFinFET 
+ 
+out_file = Cprime_prelims_1388
+proj_load = Cprime_prelims_1388.plt
+DOE: Vti -0.180
+Vti (Vg at Io=1.000e-05): -0.180 V
+
+DOE: VTS 0.17955949765436871
+DOE: IOFF 1.121420265079955e-08
+DOE: IDSAT 0.0004151843494115719

@@ -1,0 +1,2052 @@
+****************************************************************************
+***                           Sentaurus Device                           ***
+***                          Version G-2012.06                           ***
+***                         (1.5, amd64, linux)                          ***
+***                                                                      ***
+***                       Copyright (C) 1994-2012                        ***
+***                            Synopsys, Inc.                            ***
+***                                                                      ***
+***  This software and the associated documentation are confidential     ***
+***  and proprietary to Synopsys, Inc.  Your use or disclosure of this   ***
+***  software is subject to the terms and conditions of a written        ***
+***  license agreement between you, or your company, and Synopsys, Inc.  ***
+****************************************************************************
+
+	Running on machine with the following configuration:
+	Host Name: thzlabsv.ee.ucla.edu
+	Operating System: Linux rel. 2.6.32-504.1.3.el6.x86_64 ver. #1 SMP Fri Oct 31 11:37:10 EDT 2014
+	Machine Type: x86_64
+	Process ID: 46440
+	Number of processors: 56
+	Domain Name: ee.ucla.edu
+	Date: Thu Dec 11 15:22:59 2014  (PDT)
+
+Thu Dec 11 15:22:59 2014: checked out 1 Dessis license(s)
+Thu Dec 11 15:22:59 2014: checked out 1 sdevice license(s)
+Parsing circuit file /w/apps3/Synopsys/TCAD_Sentaurus/vG_2012.06/tcad/current/amd64/lib/sdevice/sd_hb_vsource.ccf
+Parsing circuit file /w/apps3/Synopsys/TCAD_Sentaurus/vG_2012.06/tcad/current/amd64/lib/sdevice/sd_SRL1.ccf
+Parsing circuit file /w/apps3/Synopsys/TCAD_Sentaurus/vG_2012.06/tcad/current/amd64/lib/sdevice/bs_psource.ccf
+Parsing circuit file /w/apps3/Synopsys/TCAD_Sentaurus/vG_2012.06/tcad/current/amd64/lib/sdevice/sd_hb_vsource2.ccf
+Parsing circuit file /w/apps3/Synopsys/TCAD_Sentaurus/vG_2012.06/tcad/current/amd64/lib/sdevice/sd_hb_pGC.ccf
+Parsing circuit file /w/apps3/Synopsys/TCAD_Sentaurus/vG_2012.06/tcad/current/amd64/lib/sdevice/sd_hb_sRL.ccf
+Parsing circuit file /w/apps3/Synopsys/TCAD_Sentaurus/vG_2012.06/tcad/current/amd64/lib/sdevice/sd_hb_isource2.ccf
+Parsing circuit file /w/apps3/Synopsys/TCAD_Sentaurus/vG_2012.06/tcad/current/amd64/lib/sdevice/sd_hb_isource.ccf
+Parsing circuit file /w/apps3/Synopsys/TCAD_Sentaurus/vG_2012.06/tcad/current/amd64/lib/scm/MOS_harness.ccf
+Loading shared object file /w/apps3/Synopsys/TCAD_Sentaurus/vG_2012.06/tcad/current/amd64/lib/scm/MOS_harness.so.amd64
+Loading shared object file /w/apps3/Synopsys/TCAD_Sentaurus/vG_2012.06/tcad/current/amd64/lib/sdevice/sd_hb_isource.so.amd64
+Loading shared object file /w/apps3/Synopsys/TCAD_Sentaurus/vG_2012.06/tcad/current/amd64/lib/sdevice/sd_hb_isource2.so.amd64
+Loading shared object file /w/apps3/Synopsys/TCAD_Sentaurus/vG_2012.06/tcad/current/amd64/lib/sdevice/sd_hb_sRL.so.amd64
+Loading shared object file /w/apps3/Synopsys/TCAD_Sentaurus/vG_2012.06/tcad/current/amd64/lib/sdevice/sd_hb_pGC.so.amd64
+Loading shared object file /w/apps3/Synopsys/TCAD_Sentaurus/vG_2012.06/tcad/current/amd64/lib/sdevice/sd_hb_vsource2.so.amd64
+Loading shared object file /w/apps3/Synopsys/TCAD_Sentaurus/vG_2012.06/tcad/current/amd64/lib/sdevice/bs_psource.so.amd64
+Loading shared object file /w/apps3/Synopsys/TCAD_Sentaurus/vG_2012.06/tcad/current/amd64/lib/sdevice/sd_SRL1.so.amd64
+Loading shared object file /w/apps3/Synopsys/TCAD_Sentaurus/vG_2012.06/tcad/current/amd64/lib/sdevice/sd_hb_vsource.so.amd64
+
+Input source: sdevice_2d_2_des.cmd
+
+===============================
+
+Output file: sde_2d_2_des.log
+
+
+GlobalParameter {
+}
+no ACExtract file
+
+PMIPath file: /w/apps3/Synopsys/TCAD_Sentaurus/vG_2012.06/tcad/current/amd64/lib/sdevice-20.0.5 /w/apps3/Synopsys/TCAD_Sentaurus/vG_2012.06/tcad/current/amd64/lib/sdevice
+
+CMIPath file: /w/apps3/Synopsys/TCAD_Sentaurus/vG_2012.06/tcad/current/amd64/lib/sdevice /w/apps3/Synopsys/TCAD_Sentaurus/vG_2012.06/tcad/current/amd64/lib/scm
+
+SPICEPath file: /w/apps3/Synopsys/TCAD_Sentaurus/vG_2012.06/tcad/current/lib/sdevice-20.0.5/spice
+
+no DevicePath file
+
+no CIRCUITSAVENAME file
+
+no CIRCUITLOADNAME file
+
+Numerical parameters:
+  Absolute error : 
+    Poisson : 1.0000e-03
+    Electron : 1.0000e-05
+    Hole : 1.0000e-05
+    Photon-Rate-Equation : 1.0000e-07
+    Photon-Phase-Equation : 1.0000e-05
+    Rate-Stabilize-Equation : 1.0000e-07
+    QW-Scattering-Equations : 1.0000e-05
+    QW-eScattering-Equation : 1.0000e-05
+    QW-hScattering-Equation : 1.0000e-05
+    Optical Problem : 1.0000e-03
+    Wavelength : 1.0000e-03
+    Bandstructure : 1.0000e-03
+    EmissionTable : 1.0000e-03
+    DephasingRates : 1.0000e-03
+    Photon Recycling : 1.0000e-03
+    Electron-Temperature : 1.0000e-04
+    Hole-Temperature : 1.0000e-04
+    Lattice-Hole-Electron-Temperature : 1.0000e-03
+    Circuit : 1.0000e-03
+    TCircuit : 1.0000e-03
+    Contact : 1.0000e-03
+    TContact : 1.0000e-03
+    Continuation : 1.0000e-03
+    eLaplace : 1.0000e-03
+    hLaplace : 1.0000e-03
+    tLaplace : 1.0000e-03
+    MonteCarlo : 1.0000e-03
+    MCPoissonPDE : 1.0000e-03
+    eQuantumPotential : 1.0000e-03
+    hQuantumPotential : 1.0000e-03
+    quasi-fermi-potential : 1.0000e-03
+    ConductiveInsulator : 1.0000e-03
+    ContactAndConductiveInsulator : 1.0000e-03
+    SingletExciton : 1.0000e-05
+    eHopping : 1.0000e-03
+    hHopping : 1.0000e-03
+    HydrogenAtom : 1.0000e-03
+    HydrogenMolecule : 1.0000e-03
+    HydrogenIon : 1.0000e-03
+    HydrogenSiliconBondOccupation : 1.0000e-03
+    eSHEDistribution : 1.0000e-03
+    hSHEDistribution : 1.0000e-03
+  RelErrControl (Reference error): 
+    Poisson : 0.025852
+    Electron : 1.0000e+20
+    Hole : 1.0000e+20
+    Photon-Rate-Equation : 1.0000e-07
+    Photon-Phase-Equation : 1
+    Rate-Stabilize-Equation : 1.0000e-07
+    QW-Scattering-Equations : 1.0000e+10
+    QW-eScattering-Equation : 1.0000e+10
+    QW-hScattering-Equation : 1.0000e+10
+    Optical Problem : 1
+    Wavelength : 1
+    Bandstructure : 1
+    EmissionTable : 1
+    DephasingRates : 1
+    Photon Recycling : 1
+    Electron-Temperature : 3.0000e+02
+    Hole-Temperature : 3.0000e+02
+    Lattice-Hole-Electron-Temperature : 3.0000e+02
+    Circuit : 1
+    TCircuit : 1
+    Contact : 0.025852
+    TContact : 1
+    Continuation : 1
+    eLaplace : 1
+    hLaplace : 1
+    tLaplace : 1
+    MonteCarlo : 1
+    MCPoissonPDE : 1
+    eQuantumPotential : 0.025852
+    hQuantumPotential : 0.025852
+    quasi-fermi-potential : 0.025852
+    ConductiveInsulator : 1
+    ContactAndConductiveInsulator : 1
+    SingletExciton : 1.0000e+10
+    eHopping : 0.025852
+    hHopping : 0.025852
+    HydrogenAtom : 1.0000e+10
+    HydrogenMolecule : 1.0000e+10
+    HydrogenIon : 1.0000e+10
+    HydrogenSiliconBondOccupation : 1
+    eSHEDistribution : 0.025852
+    hSHEDistribution : 0.025852
+  Relative error : 5 digits
+  Without checked transient error
+  Max. #iterations : 50
+  LineSearchDamping=1
+  #undamped iterations : 1000
+  No incomplete Newton
+  transient method : TR-BDF
+  Linear solver : Pardiso
+  Linear solver for AC analysis : blocked decomposition
+  Linear solver for SHEDistribution Model : Super
+  use linear extrapolation in transient/quasistationary computations
+  use complex supernodal in ac-analysis (if possible)
+  do not use smoothed PDE's in transient/quasistationary computations
+  Harmonic balance (HB) specifications:
+    Do not use MDFT mode in HB (i.e. one-tone and time domain assembly).
+    Do not use in HB the logarithm of densities.
+    No SolveSpectrum entries are specified.
+    Plot HB results for time domain interval (0.0000e+00 , 0.0000e+00) using 0 intervals.
+    HB Newton scaling parameters for rhs and update:
+      Equation                         :  RhsScale  : UpdateScale
+      Poisson                          :   1.00E+00 :   1.00E+00 
+      Electron                         :   1.00E-05 :   1.00E+00 
+      Hole                             :   1.00E-05 :   1.00E+00 
+      Photon-Rate-Equation             :   1.00E-05 :   1.00E+00 
+      Photon-Phase-Equation            :   1.00E+00 :   1.00E+00 
+      Rate-Stabilize-Equation          :   1.00E+00 :   1.00E+00 
+      QW-Scattering-Equations          :   1.00E-05 :   1.00E+00 
+      QW-eScattering-Equation          :   1.00E-05 :   1.00E+00 
+      QW-hScattering-Equation          :   1.00E-05 :   1.00E+00 
+      Optical Problem                  :   1.00E+00 :   1.00E+00 
+      Wavelength                       :   1.00E+00 :   1.00E+00 
+      Bandstructure                    :   1.00E+00 :   1.00E+00 
+      EmissionTable                    :   1.00E+00 :   1.00E+00 
+      DephasingRates                   :   1.00E+00 :   1.00E+00 
+      Photon Recycling                 :   1.00E+00 :   1.00E+00 
+      Electron-Temperature             :   1.00E+00 :   1.00E+00 
+      Hole-Temperature                 :   1.00E+00 :   1.00E+00 
+      Lattice-Hole-Electron-Temperature:   1.00E+00 :   1.00E+00 
+      Circuit                          :   1.00E-05 :   1.00E+00 
+      TCircuit                         :   1.00E+00 :   1.00E+00 
+      Contact                          :   1.00E-05 :   1.00E+00 
+      TContact                         :   1.00E+00 :   1.00E+00 
+      Continuation                     :   1.00E+00 :   1.00E+00 
+      eLaplace                         :   1.00E+00 :   1.00E+00 
+      hLaplace                         :   1.00E+00 :   1.00E+00 
+      tLaplace                         :   1.00E+00 :   1.00E+00 
+      MonteCarlo                       :   1.00E+00 :   1.00E+00 
+      MCPoissonPDE                     :   1.00E+00 :   1.00E+00 
+      eQuantumPotential                :   1.00E+00 :   1.00E+00 
+      hQuantumPotential                :   1.00E+00 :   1.00E+00 
+      quasi-fermi-potential            :   1.00E+00 :   1.00E+00 
+      ConductiveInsulator              :   1.00E+00 :   1.00E+00 
+      ContactAndConductiveInsulator    :   1.00E+00 :   1.00E+00 
+      SingletExciton                   :   1.00E+00 :   1.00E+00 
+      eHopping                         :   1.00E+00 :   1.00E+00 
+      hHopping                         :   1.00E+00 :   1.00E+00 
+      HydrogenAtom                     :   1.00E+00 :   1.00E+00 
+      HydrogenMolecule                 :   1.00E+00 :   1.00E+00 
+      HydrogenIon                      :   1.00E+00 :   1.00E+00 
+      HydrogenSiliconBondOccupation    :   1.00E+00 :   1.00E+00 
+      eSHEDistribution                 :   1.00E+00 :   1.00E+00 
+      hSHEDistribution                 :   1.00E+00 :   1.00E+00 
+    HB Newton correction parameters for values:
+      Equation                         :     Min    :  Variation 
+      Electron                         :   1.00E-20 :   1.00E+18 
+      Hole                             :   1.00E-20 :   1.00E+18 
+      Photon-Rate-Equation             :   0.00E+00 :   1.00E+18 
+      QW-eScattering-Equation          :   1.00E-20 :   1.00E+18 
+      QW-hScattering-Equation          :   1.00E-20 :   1.00E+18 
+      Electron-Temperature             :   1.00E+02 :   1.00E+18 
+      Hole-Temperature                 :   1.00E+02 :   1.00E+18 
+      Lattice-Hole-Electron-Temperature:   1.00E+02 :   1.00E+18 
+    
+    Traps are solved by decoupled mode.
+  use automatic coupling of contact/circuit stuff
+  Spice temperature: 3.0015e+02
+  Spice nominal temperature of parameter measurements: 3.0015e+02
+  Spice minimum conductance gmin: 1.0000e-12
+  Mininum |rhs| : 1.0000e-05
+  Maximum |rhs| : 1.0000e+15
+  Maximum |rhs| factor : 1.0000e+10
+  Lattice Temperature Range : (50,5.0000e+03)
+  Carrier Temperature Range : (10,8.0000e+04)
+  Simplified first order SHE of BTE will be solved
+  SHERefinementCutoff : 20
+  No user dependencies.
+  Number of assembly threads: 1 (default)
+  Number of solver threads: 1 (OMP_NUM_THREADS)
+  Thread stacksize: 1000000 bytes (default)
+  Go serial if not enough parallel licenses are available.
+
+Default device parameters:
+  Electrodes:
+    "cathode" : 30 V (Ohmic, Material = "Gold"), area factor : 1
+    "cathode1" : 30 V (Ohmic, Material = "Gold"), area factor : 1
+    "anode" : 30 V (Ohmic, Material = "Gold"), area factor : 1
+  Files:
+    no Boundary file
+    Grid file: sde_2d_2_msh.tdr
+    no Doping file
+    no MobilityDoping file
+    no Load file
+    no Save file
+    Plot file: sde_2d_2_des.tdr
+    no DevFieldsName file
+    no Path file
+    no optical-Generation file
+    no Lifetime file
+    no Temperature file
+    Current file: sde_2d_2_des.plt
+    no PMIUserFields file
+    no Extraction file
+    ModelParameters file: ../LAE/models.par
+    no Piezo file
+    no ModeGain file
+    no Optical emission table for stimulated emission file
+    no Optical emission table for spontaneous emission file
+    no Optical emission table for photon phase change coefficient file
+    no EmissionTable file
+    no DephasingRates file
+    no ASESpectrum file
+    no OpticalFarField file
+    no OpticalIntensityPattern file
+    no SaveOpticalIntensityPattern file
+    no OpticalXYAnglePattern file
+    no SaveOpticalXYAnglePattern file
+    no MonteCarloInput file
+    no MonteCarloOutput file
+    no ACPlot file
+-----------------------------------------------
+  Numerical parameters:
+    With exact derivatives
+    With avalanche derivatives
+    Using old wavelength search algorithm
+    Do not reinitialize quasi Fermi potentials in quasi-stationary simulations
+    Ignore ionization integral constraints
+    Without diagonal preconditioning
+    With Hydrodynamic Discretization for Electron and Hole temperatures
+      Without logarithmic damping 
+      With convective contribution 
+    Relative error : 5 digits
+    Delta for numerical tunnelling derivatives : 1.0000e-03
+    DualGridInterpolation: Method=Simple
+    Do not compute breakdown paths and ionization integrals
+    RecomputeQFP
+    QuasiFermiPotential is used for Contact Equation
+-----------------------------------------------
+-----------------------------------------------
+  Physical models:
+    Without incomplete ionization
+    Use Si parameters
+    TATNonlocalPathNC = 0.0000e+00
+    With SRH-Recombination
+      Without field dependent lifetimes
+      Without doping dependent lifetimes
+      With temperature dependent lifetimes (power law)
+    Without CDL-Recombination
+    With optical generation computation 
+    Without Band-to-Band-Tunneling
+    With Auger-Recombination (without Generation)
+    Without Radiative Recombination
+    With Surface-Recombination
+    Without Trap-Assisted-Auger-Recombination
+    PMI recombination models: none
+  Without thermal resistance interfaces
+  With HeteroInterfaces
+  With Thermionic Emission at heterointerfaces for electrons and holes
+  Without Piezo
+  Without Anisotropic Material Properties
+
+  With Avalanche-Generation: 
+  For electrons:
+    driving force is Gradient Quasi Fermi,
+    model according to van Overstraeten / de Man
+  For holes:
+    driving force is Gradient Quasi Fermi,
+    model according to van Overstraeten / de Man
+
+  Without Alpha Particle
+  Without Heavy Ion
+  Without polarization
+  Volume charge density: 0.0000e+00 cm^-3
+  Device Temperature = 77 K
+  Electron Quasi Fermi Potential: 0.0000e+00 V
+  Hole Quasi Fermi Potential: 0.0000e+00 V
+  Without MagneticField
+  With SingletExciton Barrier Type
+  Fermi Statistic 
+  Intrinsic density models:
+    default bandgap model
+    Bandgap narrowing model: Bennett/Wilson with bandgap narrowing (no Fermi)
+  default affinity model
+  default effective mass model
+  Electron mobility:
+    Philips unified mobility
+    no Carrier-Carrier scattering
+    no E_normal dependence
+    Without ThinLayer mobility model
+    Diffusivity: Caughey-Thomas saturation model, carrier temperature saturation
+    Einstein relation for diffusivity-mobility ratio.
+  Hole mobility:
+    Philips unified mobility
+    no Carrier-Carrier scattering
+    no E_normal dependence
+    Without ThinLayer mobility model
+    Diffusivity: Caughey-Thomas saturation model, carrier temperature saturation
+    Einstein relation for diffusivity-mobility ratio.
+  DeviceAreaFactor = 4
+  Model: Optics  Switched on
+    Model: OpticalGeneration  Switched on
+      Model: ComputeFromMonochromaticSource  Switched on
+      Model: QuantumYield  Switched on
+        Model: StepFunction  Switched on
+          Parameter: EffectiveBandgap = on
+    Model: Excitation  Switched on
+      Parameter: Wavelength = 0.422 um
+      Parameter: Intensity = 0.0001 W*cm^-2
+      Model: Window(Window1)  Switched on
+        Parameter: Origin = [ 3.15 0 ] um
+        Parameter: OriginAnchor = Center
+        Model: Line  Switched on
+          Parameter: Dx = 3.5 um
+    Model: OpticalSolver  Switched on
+      Model: TMM  Switched on
+        Parameter: PropagationDirection = Refractive
+        Model: LayerStackExtraction(Window1)  Switched on
+    Model: ComplexRefractiveIndex  Switched on
+      Model: WavelengthDep  Switched on
+        Parameter: Real = on
+        Parameter: Imag = on
+      Model: TemperatureDep  Switched on
+        Parameter: Real = on
+  Energy relaxation time model: according to formula in parameter file
+  Lattice thermal conductivity model: according to formula in parameter file
+  Metal Resistivity model: according to formula in parameter file
+  Thermo Electric Power model: extraploted Si data
+  Metal Thermo Electric Power model: MetalThermoElectricPower model not defined
+  Lattice heat capacity model: temperature dependent
+  no piezoelectric polarization model
+  Without default parameters from file (use built-in default parameters)
+-----------------------------------------------
+- - - - - - - - - - - - - - - - - - - - - - - - 
+The following Physical models were changed
+              for Material = 'Silicon'
+  With SRH-Recombination
+    Without field dependent lifetimes
+    With doping dependent lifetimes
+    Without temperature dependent lifetimes
+  With Surface-Recombination
+  Without thermal resistance interfaces
+  Intrinsic density models:
+    default bandgap model
+    Bandgap narrowing model: Table BGN with bandgap narrowing (no Fermi)
+- - - - - - - - - - - - - - - - - - - - - - - -
+- - - - - - - - - - - - - - - - - - - - - - - - 
+The following Physical models have been specified
+              for Interface = 'Silicon/Oxide'
+  With Surface-Recombination
+  Without thermal resistance interfaces
+- - - - - - - - - - - - - - - - - - - - - - - -
+Process information for extraction purposes:
+  none
+Plot variables:
+  eDensity
+  hDensity
+  eCurrentDensity/Vector
+  hCurrentDensity/Vector
+  TotalCurrentDensity/Vector
+  ConductionCurrentDensity/Vector
+  DisplacementCurrentDensity/Vector
+  ElectrostaticPotential
+  SpaceCharge
+  ElectricField/Vector
+  eMobility/Element
+  hMobility/Element
+  eVelocity/Vector
+  hVelocity/Vector
+  eDriftVelocity/Vector
+  hDriftVelocity/Vector
+  eSaturationVelocity
+  hSaturationVelocity
+  OpticalGeneration
+  SRHRecombination
+  SurfaceRecombination
+  TotalRecombination
+  eLifetime
+  hLifetime
+  eAugerRecombination
+  hAugerRecombination
+  Band2BandGeneration
+  RadiativeRecombination
+  ValenceBandEnergy
+  ConductionBandEnergy
+  ElectronAffinity
+  EquilibriumPotential
+  eQuasiFermiPotential
+  hQuasiFermiPotential
+  eGradQuasiFermi/Vector
+  hGradQuasiFermi/Vector
+  BuiltinPotential
+  BandGap
+  BandgapNarrowing
+  EffectiveIntrinsicDensity
+  EffectiveBandGap
+  eTemperature
+  hTemperature
+  LatticeTemperature
+  DopingConcentration
+  BoronConcentration
+  BoronMinusConcentration
+  PhosphorusConcentration
+  PhosphorusPlusConcentration
+  TotalHeat
+  ThermalConductivity
+  RecombinationHeat
+  OpticalIntensity
+
+------------------------------------------------
+NoisePlot variables:
+  none
+Plot groups:
+  none
+
+------------------------------------------------
+CurrentPlot variables:
+  none
+Devices:
+Systems:
+Solve :
+Optical Problem 
+ Poisson
+Coupled ( Digits : 5, Max. #iterations : 40, 
+    Solver : Pardiso,
+    #undamped iterations : 1000 
+)
+    { Poisson Electron Hole } 
+Quasistationary ( Digits : 5, Max. #iterations : 50, 
+      Initial step in t : 0.01, 
+      Minimum step in t : 1.0000e-12, Maximum step in t : 3.0000e-03, 
+      Increment : 1.5, Decrement : 1.5, 
+      Goal values :
+        Contact anode : 0.0000e+00
+    )
+  {
+    Coupled ( Digits : 5, Max. #iterations : 20, 
+        Solver : Pardiso,
+        #undamped iterations : 1000 
+)
+        { Poisson Electron Hole } 
+  }
+
+===============================
+
+Reading grid 'sde_2d_2_msh.tdr' ... 
+  coordinate system: DFISE, 2d_dfise (y is device down direction, 3d extension right-handed)
+  use coordinate system as is (no transformation)
+  TDR format
+  Number of grid points is 6200.
+done.
+
+Adding interfaces and contacts .... done.
+Computing edges ...
+  Number of edges: 20005
+done.
+Computing boxes ...
+
+  CVPL_AverageBoxMethod = TRUE 
+   
+  ElementWithMinVolume( 11224) Vertex0( 6121)( 3.140625e+00, 0.000000e+00) Volume = 3.295898e-07 um3 (1.80e-08 from TotalVolume)
+    ElementWithMinEdge( 11224) Vertex0( 6121)( 3.140625e+00, 0.000000e+00) Length = 6.250000e-04 um
+        MaxFlatElement( 11861) Vertex0( 6474)( 5.600000e+00, 1.600000e+00)  Angle = 5.557338e+01 degrees
+   ElementWithMinAngle(  1689) Vertex0( 3826)( 4.218750e+00,-0.000000e+00)  Angle = 6.445503e-01 degrees
+                   tan(MinAngle) = 1.125000e-02 
+
+   NumberOfEdges              =  20005 
+   NumberOfGeometricalEdges   =  18375 
+   NumberOfDoubleEdges        =    198 
+   MaxNumberOfElementsPerEdge =      2 
+   MaxNumberOfEdgesPerVertex  =      9 
+ MaxNumberElemEdgesPerVertex  =     10 
+
+  Computing coefficient and measure ...   done.
+  Old Parameters time:   0.00 s
+
+  Computing Voronoi faces, coefficients, and measures ... 
+  CVPL_Algorithm = TRUE 
+
+    Computing Obtuse Elements ... 
+     Obtuse Elements time:   0.00 s
+      New Parameters time:   0.00 s
+
+                       NumberOfVertices =   6477 
+                       NumberOfElements =  12176 
+                      NumberOfTriangles =  12176  (100.00 %)
+                     NumberOfRectangles =      0  ( 0.00 %)
+                 NumberOfObtuseElements =     20  ( 0.16 %)
+            NumberOfNonDelaunayElements =      0  ( 0.00 %)
+    done.
+  done.
+  (times: wc = 0.04 s, tcpu = 0.05 s)
+
+
+/-------- Region non Delaunay elements ------------------------------------------------
+ Region               Volume      BoxMethodVolume  DeltaVolume  Elements  non Delaunay 
+  name                 [um2]          [um2]           [%]                   Elements   
+ --------------------------------------------------------------------------------------
+ STI_1             3.2250000e-01  3.2250000e-01       0.000      1514       0 ( 0.00 %) 
+ STI               3.2250000e-01  3.2250000e-01       0.000      1390       0 ( 0.00 %) 
+ n_well            7.0200000e+00  7.0200000e+00       0.000      4484       0 ( 0.00 %) 
+ n+_1              1.2750000e-01  1.2750000e-01       0.000       995       0 ( 0.00 %) 
+ n+                1.2750000e-01  1.2750000e-01       0.000       871       0 ( 0.00 %) 
+ anode_contact     3.9200000e-02  3.9200000e-02       0.000        70       0 ( 0.00 %) 
+ STI_left          1.7200000e-01  1.7200000e-01       0.000        30       0 ( 0.00 %) 
+ cathode_contact   1.1900000e-01  1.1900000e-01       0.000       242       0 ( 0.00 %) 
+ p+                4.0000000e-01  4.0000000e-01       0.000      1818       0 ( 0.00 %) 
+ p_substrate       9.3360000e+00  9.3360000e+00       0.000       457       0 ( 0.00 %) 
+ cathode1_contact  1.1900000e-01  1.1900000e-01       0.000       260       0 ( 0.00 %) 
+ STI_right         1.7200000e-01  1.7200000e-01       0.000        45       0 ( 0.00 %) 
+ Total             1.8277200e+01  1.8277200e+01       0.000     12176       0 ( 0.00 %) 
+\--------------------------------------------------------------------------------------
+
+
+/-------- Interface non Delaunay elements ---------------------------------------------
+ Region1              Volume      BoxMethodVolume  DeltaVolume  Elements  non Delaunay 
+ Region2               [um2]          [um2]           [%]                   Elements   
+ --------------------------------------------------------------------------------------
+ STI_1             5.6250000e-03  5.6250000e-03       0.000        73       0 ( 0.00 %) 
+ n_well            9.9218750e-03  9.9218750e-03       0.000        68       0 ( 0.00 %) 
+ ......................................................................................
+ STI_1             1.5881348e-03  1.5881348e-03       0.000        19       0 ( 0.00 %) 
+ n+_1              5.8593750e-04  5.8593750e-04       0.000        13       0 ( 0.00 %) 
+ ......................................................................................
+ STI_1             1.1975098e-03  1.1975098e-03       0.000        21       0 ( 0.00 %) 
+ p+                1.5625000e-03  1.5625000e-03       0.000        15       0 ( 0.00 %) 
+ ......................................................................................
+ STI               3.5906982e-03  3.5906982e-03       0.000        65       0 ( 0.00 %) 
+ n_well            9.9218750e-03  9.9218750e-03       0.000        66       0 ( 0.00 %) 
+ ......................................................................................
+ STI               2.9296875e-04  2.9296875e-04       0.000        13       0 ( 0.00 %) 
+ n+                5.8593750e-04  5.8593750e-04       0.000        13       0 ( 0.00 %) 
+ ......................................................................................
+ STI               7.8125000e-04  7.8125000e-04       0.000        15       0 ( 0.00 %) 
+ p+                1.5625000e-03  1.5625000e-03       0.000        15       0 ( 0.00 %) 
+ ......................................................................................
+ n_well            1.8593750e-03  1.8593750e-03       0.000        41       0 ( 0.00 %) 
+ n+_1              1.0559570e-02  1.0559570e-02       0.000        41       0 ( 0.00 %) 
+ ......................................................................................
+ n_well            1.8593750e-03  1.8593750e-03       0.000        35       0 ( 0.00 %) 
+ n+                1.0559570e-02  1.0559570e-02       0.000        35       0 ( 0.00 %) 
+ ......................................................................................
+ n_well            9.6250000e-03  9.5043752e-03       1.253         3       0 ( 0.00 %) 
+ STI_left          3.5000000e-03  3.5000000e-03       0.000         3       0 ( 0.00 %) 
+ ......................................................................................
+ n_well            3.4375000e-03  3.4375000e-03       0.000        56       0 ( 0.00 %) 
+ p+                2.1093750e-02  2.1093750e-02       0.000        56       0 ( 0.00 %) 
+ ......................................................................................
+ n_well            3.1968555e-01  3.1968555e-01       0.000        57       0 ( 0.00 %) 
+ p_substrate       9.7500000e-02  9.7500000e-02       0.000        58       0 ( 0.00 %) 
+ ......................................................................................
+ n_well            9.6250000e-03  9.6250000e-03       0.000         5       0 ( 0.00 %) 
+ STI_right         3.5000000e-03  3.5000000e-03       0.000         5       0 ( 0.00 %) 
+ ......................................................................................
+ n+_1              5.1562500e-03  5.1562500e-03       0.000         2       0 ( 0.00 %) 
+ STI_left          1.8750000e-03  1.8750000e-03       0.000         2       0 ( 0.00 %) 
+ ......................................................................................
+ n+_1              1.1621399e-03  1.1621399e-03       0.000        41       0 ( 0.00 %) 
+ cathode1_contact  5.4354248e-03  5.4354248e-03       0.000        41       0 ( 0.00 %) 
+ ......................................................................................
+ n+                9.4653320e-04  9.4653320e-04       0.000        35       0 ( 0.00 %) 
+ cathode_contact   2.5798340e-03  2.5798340e-03       0.000        35       0 ( 0.00 %) 
+ ......................................................................................
+ n+                5.1562500e-03  5.1562500e-03       0.000         4       0 ( 0.00 %) 
+ STI_right         1.8750000e-03  1.8750000e-03       0.000         4       0 ( 0.00 %) 
+ ......................................................................................
+ anode_contact     7.1093750e-04  7.1093750e-04       0.000        10       0 ( 0.00 %) 
+ p+                1.4765625e-04  1.4765625e-04       0.000        10       0 ( 0.00 %) 
+ ......................................................................................
+ STI_left          1.5875000e-02  1.5875000e-02       0.000         3       0 ( 0.00 %) 
+ p_substrate       3.7500000e-03  3.7500000e-03       0.000         3       0 ( 0.00 %) 
+ ......................................................................................
+ p_substrate       3.7500000e-03  3.7500000e-03       0.000         3       0 ( 0.00 %) 
+ STI_right         1.5875000e-02  1.5875000e-02       0.000         3       0 ( 0.00 %) 
+ ......................................................................................
+ Total             5.9431590e-01  5.9419527e-01       0.020       987       0 ( 0.00 %) 
+\--------------------------------------------------------------------------------------
+done.
+Reading doping 'sde_2d_2_msh.tdr' (TDR format) ...
+done.
+done.
+Reading parameter file '../LAE/models.par' ...
+---------------------------------------------------
+ Reading parameters for material "AlAs"
+---------------------------------------------------
+
+---------------------------------------------------
+ Reading parameters for material "AlGaAs"
+---------------------------------------------------
+
+---------------------------------------------------
+ Reading parameters for material "AlGaN"
+---------------------------------------------------
+
+---------------------------------------------------
+ Reading parameters for material "AlGaP"
+---------------------------------------------------
+
+---------------------------------------------------
+ Reading parameters for material "AlInGaAs"
+---------------------------------------------------
+
+---------------------------------------------------
+ Reading parameters for material "AlInGaN"
+---------------------------------------------------
+
+---------------------------------------------------
+ Reading parameters for material "AlInGaP"
+---------------------------------------------------
+
+---------------------------------------------------
+ Reading parameters for material "AlInN"
+---------------------------------------------------
+
+---------------------------------------------------
+ Reading parameters for material "AlInP"
+---------------------------------------------------
+
+---------------------------------------------------
+ Reading parameters for material "AlN"
+---------------------------------------------------
+
+---------------------------------------------------
+ Reading parameters for material "AlP"
+---------------------------------------------------
+
+---------------------------------------------------
+ Reading parameters for material "Aluminum"
+---------------------------------------------------
+
+---------------------------------------------------
+ Reading parameters for material "Ambient"
+---------------------------------------------------
+
+---------------------------------------------------
+ Reading parameters for material "Anyinsulator"
+---------------------------------------------------
+
+---------------------------------------------------
+ Reading parameters for material "Anysemiconductor"
+---------------------------------------------------
+
+---------------------------------------------------
+ Reading parameters for material "BSG"
+---------------------------------------------------
+
+---------------------------------------------------
+ Reading parameters for material "CdTe"
+---------------------------------------------------
+
+	Differences compared with default parameters:
+	absorption: A0 = 1.2107e+15, instead of: 1.2107e+15 [cm-1]
+
+---------------------------------------------------
+ Reading parameters for material "Ceramic"
+---------------------------------------------------
+
+---------------------------------------------------
+ Reading parameters for material "Cobalt"
+---------------------------------------------------
+
+---------------------------------------------------
+ Reading parameters for material "CobaltSilicide"
+---------------------------------------------------
+
+---------------------------------------------------
+ Reading parameters for material "Copper"
+---------------------------------------------------
+
+---------------------------------------------------
+ Reading parameters for material "GaAs"
+---------------------------------------------------
+
+---------------------------------------------------
+ Reading parameters for material "GaAsP"
+---------------------------------------------------
+
+---------------------------------------------------
+ Reading parameters for material "GaInP"
+---------------------------------------------------
+
+---------------------------------------------------
+ Reading parameters for material "GaN"
+---------------------------------------------------
+
+---------------------------------------------------
+ Reading parameters for material "GaP"
+---------------------------------------------------
+
+---------------------------------------------------
+ Reading parameters for material "GatePolySilicon"
+---------------------------------------------------
+
+---------------------------------------------------
+ Reading parameters for material "Germanium"
+---------------------------------------------------
+
+---------------------------------------------------
+ Reading parameters for material "Gold"
+---------------------------------------------------
+
+---------------------------------------------------
+ Reading parameters for material "HfO2"
+---------------------------------------------------
+
+---------------------------------------------------
+ Reading parameters for material "HgCdTe"
+---------------------------------------------------
+
+	Differences compared with default parameters:
+	Absorption(interval[1]): A0 = 1.2107e+15, instead of: 1.2107e+15 [cm-1]
+
+---------------------------------------------------
+ Reading parameters for material "HgTe"
+---------------------------------------------------
+
+---------------------------------------------------
+ Reading parameters for material "InAlAs"
+---------------------------------------------------
+
+---------------------------------------------------
+ Reading parameters for material "InAs"
+---------------------------------------------------
+
+---------------------------------------------------
+ Reading parameters for material "InAsP"
+---------------------------------------------------
+
+---------------------------------------------------
+ Reading parameters for material "InGaAs"
+---------------------------------------------------
+
+---------------------------------------------------
+ Reading parameters for material "InGaAsP"
+---------------------------------------------------
+
+---------------------------------------------------
+ Reading parameters for material "InGaN"
+---------------------------------------------------
+
+---------------------------------------------------
+ Reading parameters for material "InN"
+---------------------------------------------------
+
+---------------------------------------------------
+ Reading parameters for material "InP"
+---------------------------------------------------
+
+---------------------------------------------------
+ Reading parameters for material "Insulator1"
+---------------------------------------------------
+
+---------------------------------------------------
+ Reading parameters for material "Insulator2"
+---------------------------------------------------
+
+---------------------------------------------------
+ Reading parameters for material "Insulator3"
+---------------------------------------------------
+
+---------------------------------------------------
+ Reading parameters for material "InsulatorX"
+---------------------------------------------------
+
+---------------------------------------------------
+ Reading parameters for material "InterfacialOxide"
+---------------------------------------------------
+
+---------------------------------------------------
+ Reading parameters for material "Metal"
+---------------------------------------------------
+
+---------------------------------------------------
+ Reading parameters for material "Molybdenum"
+---------------------------------------------------
+
+---------------------------------------------------
+ Reading parameters for material "Nickel"
+---------------------------------------------------
+
+---------------------------------------------------
+ Reading parameters for material "NickelSilicide"
+---------------------------------------------------
+
+---------------------------------------------------
+ Reading parameters for material "Nitride"
+---------------------------------------------------
+
+---------------------------------------------------
+ Reading parameters for material "Oxide"
+---------------------------------------------------
+
+---------------------------------------------------
+ Reading parameters for material "OxideAsSemiconductor"
+---------------------------------------------------
+
+---------------------------------------------------
+ Reading parameters for material "Oxynitride"
+---------------------------------------------------
+
+---------------------------------------------------
+ Reading parameters for material "Photoresist"
+---------------------------------------------------
+
+---------------------------------------------------
+ Reading parameters for material "Platinum"
+---------------------------------------------------
+
+---------------------------------------------------
+ Reading parameters for material "PolySi"
+---------------------------------------------------
+
+---------------------------------------------------
+ Reading parameters for material "Silicide"
+---------------------------------------------------
+
+---------------------------------------------------
+ Reading parameters for material "Silicon"
+---------------------------------------------------
+
+	Differences compared with default parameters:
+	StressMobility: beta_mlda = 1.5, instead of: 1.22 [1]
+
+---------------------------------------------------
+ Reading parameters for material "SiliconCarbide"
+---------------------------------------------------
+
+---------------------------------------------------
+ Reading parameters for material "SiliconGermanium"
+---------------------------------------------------
+
+	Differences compared with default parameters:
+	Bandgap(interval[1]): dEg0(OldSlotboom) = 0.0000e+00, instead of: -1.5950e-02 [eV]
+	Bandgap(interval[2]): dEg0(OldSlotboom) = 0.0000e+00, instead of: -1.5950e-02 [eV]
+	Bandgap(interval[3]): dEg0(OldSlotboom) = 0.0000e+00, instead of: -1.5950e-02 [eV]
+	Bandgap(interval[4]): dEg0(OldSlotboom) = 0.0000e+00, instead of: -1.5950e-02 [eV]
+	Bandgap(interval[5]): dEg0(OldSlotboom) = 0.0000e+00, instead of: -1.5950e-02 [eV]
+	Bandgap(interval[6]): dEg0(OldSlotboom) = 0.0000e+00, instead of: -1.5950e-02 [eV]
+	Bandgap(interval[1]): dEg0(Slotboom) = 0.0000e+00, instead of: -4.7950e-03 [eV]
+	Bandgap(interval[2]): dEg0(Slotboom) = 0.0000e+00, instead of: -4.7950e-03 [eV]
+	Bandgap(interval[3]): dEg0(Slotboom) = 0.0000e+00, instead of: -4.7950e-03 [eV]
+	Bandgap(interval[4]): dEg0(Slotboom) = 0.0000e+00, instead of: -4.7950e-03 [eV]
+	Bandgap(interval[5]): dEg0(Slotboom) = 0.0000e+00, instead of: -4.7950e-03 [eV]
+	Bandgap(interval[6]): dEg0(Slotboom) = 0.0000e+00, instead of: -4.7950e-03 [eV]
+	Bandgap(interval[1]): dEg0(delAlamo) = 0.0000e+00, instead of: -1.4070e-02 [eV]
+	Bandgap(interval[2]): dEg0(delAlamo) = 0.0000e+00, instead of: -1.4070e-02 [eV]
+	Bandgap(interval[3]): dEg0(delAlamo) = 0.0000e+00, instead of: -1.4070e-02 [eV]
+	Bandgap(interval[4]): dEg0(delAlamo) = 0.0000e+00, instead of: -1.4070e-02 [eV]
+	Bandgap(interval[5]): dEg0(delAlamo) = 0.0000e+00, instead of: -1.4070e-02 [eV]
+	Bandgap(interval[6]): dEg0(delAlamo) = 0.0000e+00, instead of: -1.4070e-02 [eV]
+	StressMobility: beta_mlda = 1.5, instead of: 1.22 [1]
+
+---------------------------------------------------
+ Reading parameters for material "Silver"
+---------------------------------------------------
+
+---------------------------------------------------
+ Reading parameters for material "Solder60_40"
+---------------------------------------------------
+
+---------------------------------------------------
+ Reading parameters for material "StrainedSilicon"
+---------------------------------------------------
+
+---------------------------------------------------
+ Reading parameters for material "Tantalum"
+---------------------------------------------------
+
+---------------------------------------------------
+ Reading parameters for material "Titanium"
+---------------------------------------------------
+
+---------------------------------------------------
+ Reading parameters for material "Tungsten"
+---------------------------------------------------
+
+---------------------------------------------------
+ Reading parameters for material "TungstenSilicide"
+---------------------------------------------------
+
+
+=======
+Region: "STI"
+  (material is "Oxide")
+=======
+  Constants are not modified and equal to default ones
+
+=======
+Region: "STI_1"
+  (material is "Oxide")
+=======
+  Constants are not modified and equal to default ones
+
+=======
+Region: "STI_left"
+  (material is "Oxide")
+=======
+  Constants are not modified and equal to default ones
+
+=======
+Region: "STI_right"
+  (material is "Oxide")
+=======
+  Constants are not modified and equal to default ones
+
+=======
+Region: "anode_contact"
+  (material is "Gold")
+=======
+  Constants are not modified and equal to default ones
+
+=======
+Region: "cathode1_contact"
+  (material is "Gold")
+=======
+  Constants are not modified and equal to default ones
+
+=======
+Region: "cathode_contact"
+  (material is "Gold")
+=======
+  Constants are not modified and equal to default ones
+
+=======
+Region: "n+"
+  (material is "Silicon")
+=======
+  Constants are not modified and equal to default ones
+
+=======
+Region: "n+_1"
+  (material is "Silicon")
+=======
+  Constants are not modified and equal to default ones
+
+=======
+Region: "n_well"
+  (material is "Silicon")
+=======
+  Constants are not modified and equal to default ones
+
+=======
+Region: "p+"
+  (material is "Silicon")
+=======
+  Constants are not modified and equal to default ones
+
+=======
+Region: "p_substrate"
+  (material is "Silicon")
+=======
+  Constants are not modified and equal to default ones
+
+================
+RegionInterface: "STI/n+"
+  (material interface is "Oxide/Silicon")
+================
+  Constants are not modified and equal to default ones
+
+================
+RegionInterface: "STI/n_well"
+  (material interface is "Oxide/Silicon")
+================
+  Constants are not modified and equal to default ones
+
+================
+RegionInterface: "STI/p+"
+  (material interface is "Oxide/Silicon")
+================
+  Constants are not modified and equal to default ones
+
+================
+RegionInterface: "STI_1/n+_1"
+  (material interface is "Oxide/Silicon")
+================
+  Constants are not modified and equal to default ones
+
+================
+RegionInterface: "STI_1/n_well"
+  (material interface is "Oxide/Silicon")
+================
+  Constants are not modified and equal to default ones
+
+================
+RegionInterface: "STI_1/p+"
+  (material interface is "Oxide/Silicon")
+================
+  Constants are not modified and equal to default ones
+
+================
+RegionInterface: "n+_1/STI_left"
+  (material interface is "Silicon/Oxide")
+================
+  Constants are not modified and equal to default ones
+
+================
+RegionInterface: "n_well/STI_left"
+  (material interface is "Silicon/Oxide")
+================
+  Constants are not modified and equal to default ones
+
+================
+RegionInterface: "STI_left/p_substrate"
+  (material interface is "Oxide/Silicon")
+================
+  Constants are not modified and equal to default ones
+
+================
+RegionInterface: "n+/STI_right"
+  (material interface is "Silicon/Oxide")
+================
+  Constants are not modified and equal to default ones
+
+================
+RegionInterface: "n_well/STI_right"
+  (material interface is "Silicon/Oxide")
+================
+  Constants are not modified and equal to default ones
+
+================
+RegionInterface: "p_substrate/STI_right"
+  (material interface is "Silicon/Oxide")
+================
+  Constants are not modified and equal to default ones
+
+================
+RegionInterface: "anode_contact/p+"
+  (material interface is "Gold/Silicon")
+================
+  Constants are not modified and equal to default ones
+
+================
+RegionInterface: "n+_1/cathode1_contact"
+  (material interface is "Silicon/Gold")
+================
+  Constants are not modified and equal to default ones
+
+================
+RegionInterface: "n+/cathode_contact"
+  (material interface is "Silicon/Gold")
+================
+  Constants are not modified and equal to default ones
+
+================
+RegionInterface: "n_well/n+"
+  (material interface is "Silicon/Silicon")
+================
+  Constants are not modified and equal to default ones
+
+================
+RegionInterface: "n_well/n+_1"
+  (material interface is "Silicon/Silicon")
+================
+  Constants are not modified and equal to default ones
+
+================
+RegionInterface: "n_well/p+"
+  (material interface is "Silicon/Silicon")
+================
+  Constants are not modified and equal to default ones
+
+================
+RegionInterface: "n_well/p_substrate"
+  (material interface is "Silicon/Silicon")
+================
+  Constants are not modified and equal to default ones
+
+==========
+Electrode: "anode"
+==========
+  Constants are not modified and equal to default ones
+
+==========
+Electrode: "cathode"
+==========
+  Constants are not modified and equal to default ones
+
+==========
+Electrode: "cathode1"
+==========
+  Constants are not modified and equal to default ones
+
+
+No individual doping species (B,In,P,As,Sb,Ndop,Pdop or UserSpecies) information in doping file!
+No total doping concentration in doping file (Nnet => Ntot,Na,Nd).
+
+
+
+With Constant Reference Potential:
+  Parameters of Reference Semiconductor:
+    The Electron Affinity: 4.05197
+    The Band Gap: 1.16571
+    The Electron DOS: 2.7548e+19
+    The Hole DOS: 1.6903e+19
+  The Constant Reference Potential: 4.63644
+Thu Dec 11 15:23:00 2014: checked out 1 Dessis-Optic license(s)
+Thu Dec 11 15:23:01 2014: checked out 1 sdevice-optic license(s)
+
+===============================
+Starting solve of next problem:
+Optical Problem 
+===============================
+
+Reading geometry 'sde_2d_2_msh.tdr' ...
+  coordinate system: DFISE, 2d_dfise (y is device down direction, 3d extension right-handed)
+  use coordinate system as is (no transformation)
+done.
+
+Parsing parameter file ../LAE/models.par ...
+
+------------------------------------------------------------------------------------
+ Reading parameters of ComplexRefractiveIndex section for material "AlAs".
+------------------------------------------------------------------------------------
+
+ComplexRefractiveIndex: n_0 = 2.9080499999999998, instead of: 1 [1]
+ComplexRefractiveIndex: Cn_temp = 0.0001, instead of: 0.00020000000000000001 [K^-1]
+SchroedingerParameters: ml = 0.26000000000000001, instead of: 0 [1]
+SchroedingerParameters: mh = 0.5, instead of: 0 [1]
+SchroedingerParameters: me = 0.070000000000000007, instead of: 0 [1]
+
+------------------------------------------------------------------------------------
+ Reading parameters of ComplexRefractiveIndex section for material "AlGaAs".
+------------------------------------------------------------------------------------
+
+
+------------------------------------------------------------------------------------
+ Reading parameters of ComplexRefractiveIndex section for material "AlGaN".
+------------------------------------------------------------------------------------
+
+
+------------------------------------------------------------------------------------
+ Reading parameters of ComplexRefractiveIndex section for material "AlGaP".
+------------------------------------------------------------------------------------
+
+
+------------------------------------------------------------------------------------
+ Reading parameters of ComplexRefractiveIndex section for material "AlInGaAs".
+------------------------------------------------------------------------------------
+
+
+------------------------------------------------------------------------------------
+ Reading parameters of ComplexRefractiveIndex section for material "AlInGaN".
+------------------------------------------------------------------------------------
+
+
+------------------------------------------------------------------------------------
+ Reading parameters of ComplexRefractiveIndex section for material "AlInGaP".
+------------------------------------------------------------------------------------
+
+
+------------------------------------------------------------------------------------
+ Reading parameters of ComplexRefractiveIndex section for material "AlInN".
+------------------------------------------------------------------------------------
+
+
+------------------------------------------------------------------------------------
+ Reading parameters of ComplexRefractiveIndex section for material "AlInP".
+------------------------------------------------------------------------------------
+
+
+------------------------------------------------------------------------------------
+ Reading parameters of ComplexRefractiveIndex section for material "AlN".
+------------------------------------------------------------------------------------
+
+
+------------------------------------------------------------------------------------
+ Reading parameters of ComplexRefractiveIndex section for material "AlP".
+------------------------------------------------------------------------------------
+
+
+------------------------------------------------------------------------------------
+ Reading parameters of ComplexRefractiveIndex section for material "Aluminum".
+------------------------------------------------------------------------------------
+
+ComplexRefractiveIndex: n_0 = 0, instead of: 1 [1]
+ComplexRefractiveIndex: Formula = 3, instead of: 1 [1]
+
+------------------------------------------------------------------------------------
+ Reading parameters of ComplexRefractiveIndex section for material "Ambient".
+------------------------------------------------------------------------------------
+
+ComplexRefractiveIndex: Cn_temp = 0, instead of: 0.00020000000000000001 [K^-1]
+
+------------------------------------------------------------------------------------
+ Reading parameters of ComplexRefractiveIndex section for material "Anyinsulator".
+------------------------------------------------------------------------------------
+
+SchroedingerParameters: ml = 0.62996099999999999, instead of: 0 [1]
+SchroedingerParameters: mh = 0.62996099999999999, instead of: 0 [1]
+SchroedingerParameters: me = 0.070000000000000007, instead of: 0 [1]
+
+------------------------------------------------------------------------------------
+ Reading parameters of ComplexRefractiveIndex section for material "Anysemiconductor".
+------------------------------------------------------------------------------------
+
+SchroedingerParameters: ml = 0.26000000000000001, instead of: 0 [1]
+SchroedingerParameters: mh = 0.5, instead of: 0 [1]
+SchroedingerParameters: me = 0.070000000000000007, instead of: 0 [1]
+
+------------------------------------------------------------------------------------
+ Reading parameters of ComplexRefractiveIndex section for material "BSG".
+------------------------------------------------------------------------------------
+
+ComplexRefractiveIndex: n_0 = 1.97, instead of: 1 [1]
+SchroedingerParameters: ml = 0.62996099999999999, instead of: 0 [1]
+SchroedingerParameters: mh = 0.62996099999999999, instead of: 0 [1]
+SchroedingerParameters: me = 0.070000000000000007, instead of: 0 [1]
+
+------------------------------------------------------------------------------------
+ Reading parameters of ComplexRefractiveIndex section for material "CdTe".
+------------------------------------------------------------------------------------
+
+
+------------------------------------------------------------------------------------
+ Reading parameters of ComplexRefractiveIndex section for material "Ceramic".
+------------------------------------------------------------------------------------
+
+ComplexRefractiveIndex: n_0 = 2.21, instead of: 1 [1]
+SchroedingerParameters: ml = 0.62996099999999999, instead of: 0 [1]
+SchroedingerParameters: mh = 0.62996099999999999, instead of: 0 [1]
+SchroedingerParameters: me = 0.070000000000000007, instead of: 0 [1]
+
+------------------------------------------------------------------------------------
+ Reading parameters of ComplexRefractiveIndex section for material "Cobalt".
+------------------------------------------------------------------------------------
+
+
+------------------------------------------------------------------------------------
+ Reading parameters of ComplexRefractiveIndex section for material "CobaltSilicide".
+------------------------------------------------------------------------------------
+
+
+------------------------------------------------------------------------------------
+ Reading parameters of ComplexRefractiveIndex section for material "Copper".
+------------------------------------------------------------------------------------
+
+ComplexRefractiveIndex: n_0 = 0, instead of: 1 [1]
+
+------------------------------------------------------------------------------------
+ Reading parameters of ComplexRefractiveIndex section for material "GaAs".
+------------------------------------------------------------------------------------
+
+ComplexRefractiveIndex: n_0 = 3.5108000000000001, instead of: 1 [1]
+ComplexRefractiveIndex: Cn_temp = 0.00040000000000000002, instead of: 0.00020000000000000001 [K^-1]
+SchroedingerParameters: ml = 0.073999999999999996, instead of: 0 [1]
+SchroedingerParameters: mh = 0.62, instead of: 0 [1]
+SchroedingerParameters: me = 0.070000000000000007, instead of: 0 [1]
+
+------------------------------------------------------------------------------------
+ Reading parameters of ComplexRefractiveIndex section for material "GaAsP".
+------------------------------------------------------------------------------------
+
+
+------------------------------------------------------------------------------------
+ Reading parameters of ComplexRefractiveIndex section for material "GaInP".
+------------------------------------------------------------------------------------
+
+
+------------------------------------------------------------------------------------
+ Reading parameters of ComplexRefractiveIndex section for material "GaN".
+------------------------------------------------------------------------------------
+
+
+------------------------------------------------------------------------------------
+ Reading parameters of ComplexRefractiveIndex section for material "GaP".
+------------------------------------------------------------------------------------
+
+ComplexRefractiveIndex: n_0 = 3.3300000000000001, instead of: 1 [1]
+SchroedingerParameters: ml = 0.14000000000000001, instead of: 0 [1]
+SchroedingerParameters: mh = 0.79000000000000004, instead of: 0 [1]
+SchroedingerParameters: me = 0.070000000000000007, instead of: 0 [1]
+
+------------------------------------------------------------------------------------
+ Reading parameters of ComplexRefractiveIndex section for material "GatePolySilicon".
+------------------------------------------------------------------------------------
+
+ComplexRefractiveIndex: n_0 = 3.4500000000000002, instead of: 1 [1]
+ComplexRefractiveIndex: Formula = 3, instead of: 1 [1]
+Ck_carr: Ck_carr_n = 0, instead of: 3.7100000000000003e-18 [cm^2]
+Ck_carr: Ck_carr_p = 0, instead of: 3.33e-18 [cm^2]
+Gamma_k_carr: Gamma_k_carr_n = 1, instead of: 3 [1]
+Gamma_k_carr: Gamma_k_carr_p = 1, instead of: 3 [1]
+
+------------------------------------------------------------------------------------
+ Reading parameters of ComplexRefractiveIndex section for material "Germanium".
+------------------------------------------------------------------------------------
+
+
+------------------------------------------------------------------------------------
+ Reading parameters of ComplexRefractiveIndex section for material "Gold".
+------------------------------------------------------------------------------------
+
+ComplexRefractiveIndex: n_0 = 0, instead of: 1 [1]
+ComplexRefractiveIndex: Formula = 3, instead of: 1 [1]
+
+------------------------------------------------------------------------------------
+ Reading parameters of ComplexRefractiveIndex section for material "HfO2".
+------------------------------------------------------------------------------------
+
+ComplexRefractiveIndex: n_0 = 1.95, instead of: 1 [1]
+SchroedingerParameters: ml = 0.62996099999999999, instead of: 0 [1]
+SchroedingerParameters: mh = 0.62996099999999999, instead of: 0 [1]
+SchroedingerParameters: me = 0.070000000000000007, instead of: 0 [1]
+
+------------------------------------------------------------------------------------
+ Reading parameters of ComplexRefractiveIndex section for material "HgCdTe".
+------------------------------------------------------------------------------------
+
+
+------------------------------------------------------------------------------------
+ Reading parameters of ComplexRefractiveIndex section for material "HgTe".
+------------------------------------------------------------------------------------
+
+
+------------------------------------------------------------------------------------
+ Reading parameters of ComplexRefractiveIndex section for material "InAlAs".
+------------------------------------------------------------------------------------
+
+
+------------------------------------------------------------------------------------
+ Reading parameters of ComplexRefractiveIndex section for material "InAs".
+------------------------------------------------------------------------------------
+
+ComplexRefractiveIndex: n_0 = 3.8919999999999999, instead of: 1 [1]
+SchroedingerParameters: ml = 0.024, instead of: 0 [1]
+SchroedingerParameters: mh = 0.40999999999999998, instead of: 0 [1]
+SchroedingerParameters: me = 0.070000000000000007, instead of: 0 [1]
+
+------------------------------------------------------------------------------------
+ Reading parameters of ComplexRefractiveIndex section for material "InAsP".
+------------------------------------------------------------------------------------
+
+
+------------------------------------------------------------------------------------
+ Reading parameters of ComplexRefractiveIndex section for material "InGaAs".
+------------------------------------------------------------------------------------
+
+
+------------------------------------------------------------------------------------
+ Reading parameters of ComplexRefractiveIndex section for material "InGaAsP".
+------------------------------------------------------------------------------------
+
+
+------------------------------------------------------------------------------------
+ Reading parameters of ComplexRefractiveIndex section for material "InGaN".
+------------------------------------------------------------------------------------
+
+
+------------------------------------------------------------------------------------
+ Reading parameters of ComplexRefractiveIndex section for material "InN".
+------------------------------------------------------------------------------------
+
+
+------------------------------------------------------------------------------------
+ Reading parameters of ComplexRefractiveIndex section for material "InP".
+------------------------------------------------------------------------------------
+
+ComplexRefractiveIndex: n_0 = 3.2200000000000002, instead of: 1 [1]
+SchroedingerParameters: ml = 0.088999999999999996, instead of: 0 [1]
+SchroedingerParameters: mh = 0.84999999999999998, instead of: 0 [1]
+SchroedingerParameters: me = 0.070000000000000007, instead of: 0 [1]
+
+------------------------------------------------------------------------------------
+ Reading parameters of ComplexRefractiveIndex section for material "Insulator1".
+------------------------------------------------------------------------------------
+
+ComplexRefractiveIndex: n_0 = 1.97, instead of: 1 [1]
+SchroedingerParameters: ml = 0.62996099999999999, instead of: 0 [1]
+SchroedingerParameters: mh = 0.62996099999999999, instead of: 0 [1]
+SchroedingerParameters: me = 0.070000000000000007, instead of: 0 [1]
+
+------------------------------------------------------------------------------------
+ Reading parameters of ComplexRefractiveIndex section for material "Insulator2".
+------------------------------------------------------------------------------------
+
+ComplexRefractiveIndex: n_0 = 1.97, instead of: 1 [1]
+SchroedingerParameters: ml = 0.62996099999999999, instead of: 0 [1]
+SchroedingerParameters: mh = 0.62996099999999999, instead of: 0 [1]
+SchroedingerParameters: me = 0.070000000000000007, instead of: 0 [1]
+
+------------------------------------------------------------------------------------
+ Reading parameters of ComplexRefractiveIndex section for material "Insulator3".
+------------------------------------------------------------------------------------
+
+ComplexRefractiveIndex: n_0 = 1.97, instead of: 1 [1]
+SchroedingerParameters: ml = 0.62996099999999999, instead of: 0 [1]
+SchroedingerParameters: mh = 0.62996099999999999, instead of: 0 [1]
+SchroedingerParameters: me = 0.070000000000000007, instead of: 0 [1]
+
+------------------------------------------------------------------------------------
+ Reading parameters of ComplexRefractiveIndex section for material "InsulatorX".
+------------------------------------------------------------------------------------
+
+ComplexRefractiveIndex: n_0 = 1.97, instead of: 1 [1]
+SchroedingerParameters: ml = 0.62996099999999999, instead of: 0 [1]
+SchroedingerParameters: mh = 0.62996099999999999, instead of: 0 [1]
+SchroedingerParameters: me = 0.070000000000000007, instead of: 0 [1]
+
+------------------------------------------------------------------------------------
+ Reading parameters of ComplexRefractiveIndex section for material "InterfacialOxide".
+------------------------------------------------------------------------------------
+
+ComplexRefractiveIndex: n_0 = 1.46, instead of: 1 [1]
+SchroedingerParameters: ml = 0.62996099999999999, instead of: 0 [1]
+SchroedingerParameters: mh = 0.62996099999999999, instead of: 0 [1]
+SchroedingerParameters: me = 0.070000000000000007, instead of: 0 [1]
+
+------------------------------------------------------------------------------------
+ Reading parameters of ComplexRefractiveIndex section for material "Metal".
+------------------------------------------------------------------------------------
+
+ComplexRefractiveIndex: n_0 = 0, instead of: 1 [1]
+
+------------------------------------------------------------------------------------
+ Reading parameters of ComplexRefractiveIndex section for material "Molybdenum".
+------------------------------------------------------------------------------------
+
+ComplexRefractiveIndex: n_0 = 0, instead of: 1 [1]
+
+------------------------------------------------------------------------------------
+ Reading parameters of ComplexRefractiveIndex section for material "Nickel".
+------------------------------------------------------------------------------------
+
+
+------------------------------------------------------------------------------------
+ Reading parameters of ComplexRefractiveIndex section for material "NickelSilicide".
+------------------------------------------------------------------------------------
+
+
+------------------------------------------------------------------------------------
+ Reading parameters of ComplexRefractiveIndex section for material "Nitride".
+------------------------------------------------------------------------------------
+
+ComplexRefractiveIndex: n_0 = 2.7400000000000002, instead of: 1 [1]
+ComplexRefractiveIndex: Formula = 3, instead of: 1 [1]
+
+------------------------------------------------------------------------------------
+ Reading parameters of ComplexRefractiveIndex section for material "Oxide".
+------------------------------------------------------------------------------------
+
+ComplexRefractiveIndex: n_0 = 1.46, instead of: 1 [1]
+ComplexRefractiveIndex: Formula = 3, instead of: 1 [1]
+SchroedingerParameters: ml = 0.62996099999999999, instead of: 0 [1]
+SchroedingerParameters: mh = 0.62996099999999999, instead of: 0 [1]
+SchroedingerParameters: me = 0.070000000000000007, instead of: 0 [1]
+
+------------------------------------------------------------------------------------
+ Reading parameters of ComplexRefractiveIndex section for material "OxideAsSemiconductor".
+------------------------------------------------------------------------------------
+
+ComplexRefractiveIndex: n_0 = 1.46, instead of: 1 [1]
+SchroedingerParameters: ml = 0.62996099999999999, instead of: 0 [1]
+SchroedingerParameters: mh = 0.62996099999999999, instead of: 0 [1]
+SchroedingerParameters: me = 0.070000000000000007, instead of: 0 [1]
+
+------------------------------------------------------------------------------------
+ Reading parameters of ComplexRefractiveIndex section for material "Oxynitride".
+------------------------------------------------------------------------------------
+
+SchroedingerParameters: ml = 0.62996099999999999, instead of: 0 [1]
+SchroedingerParameters: mh = 0.62996099999999999, instead of: 0 [1]
+SchroedingerParameters: me = 0.070000000000000007, instead of: 0 [1]
+
+------------------------------------------------------------------------------------
+ Reading parameters of ComplexRefractiveIndex section for material "Photoresist".
+------------------------------------------------------------------------------------
+
+SchroedingerParameters: ml = 0.62996099999999999, instead of: 0 [1]
+SchroedingerParameters: mh = 0.62996099999999999, instead of: 0 [1]
+SchroedingerParameters: me = 0.070000000000000007, instead of: 0 [1]
+
+------------------------------------------------------------------------------------
+ Reading parameters of ComplexRefractiveIndex section for material "Platinum".
+------------------------------------------------------------------------------------
+
+ComplexRefractiveIndex: Formula = 3, instead of: 1 [1]
+
+------------------------------------------------------------------------------------
+ Reading parameters of ComplexRefractiveIndex section for material "PolySi".
+------------------------------------------------------------------------------------
+
+ComplexRefractiveIndex: n_0 = 3.4500000000000002, instead of: 1 [1]
+ComplexRefractiveIndex: Formula = 3, instead of: 0 [1]
+
+------------------------------------------------------------------------------------
+ Reading parameters of ComplexRefractiveIndex section for material "Silicide".
+------------------------------------------------------------------------------------
+
+
+------------------------------------------------------------------------------------
+ Reading parameters of ComplexRefractiveIndex section for material "Silicon".
+------------------------------------------------------------------------------------
+
+ComplexRefractiveIndex: n_0 = 3.4500000000000002, instead of: 1 [1]
+ComplexRefractiveIndex: Formula = 3, instead of: 1 [1]
+Ck_carr: Ck_carr_n = 0, instead of: 3.7100000000000003e-18 [cm^2]
+Ck_carr: Ck_carr_p = 0, instead of: 3.33e-18 [cm^2]
+Gamma_k_carr: Gamma_k_carr_n = 1, instead of: 3 [1]
+Gamma_k_carr: Gamma_k_carr_p = 1, instead of: 3 [1]
+
+------------------------------------------------------------------------------------
+ Reading parameters of ComplexRefractiveIndex section for material "SiliconCarbide".
+------------------------------------------------------------------------------------
+
+ComplexRefractiveIndex: n_0 = 3.1099999999999999, instead of: 1 [1]
+
+------------------------------------------------------------------------------------
+ Reading parameters of ComplexRefractiveIndex section for material "SiliconGermanium".
+------------------------------------------------------------------------------------
+
+
+------------------------------------------------------------------------------------
+ Reading parameters of ComplexRefractiveIndex section for material "Silver".
+------------------------------------------------------------------------------------
+
+ComplexRefractiveIndex: n_0 = 0, instead of: 1 [1]
+ComplexRefractiveIndex: Formula = 3, instead of: 1 [1]
+
+------------------------------------------------------------------------------------
+ Reading parameters of ComplexRefractiveIndex section for material "Solder60_40".
+------------------------------------------------------------------------------------
+
+ComplexRefractiveIndex: n_0 = 0, instead of: 1 [1]
+
+------------------------------------------------------------------------------------
+ Reading parameters of ComplexRefractiveIndex section for material "StrainedSilicon".
+------------------------------------------------------------------------------------
+
+
+------------------------------------------------------------------------------------
+ Reading parameters of ComplexRefractiveIndex section for material "Tantalum".
+------------------------------------------------------------------------------------
+
+
+------------------------------------------------------------------------------------
+ Reading parameters of ComplexRefractiveIndex section for material "Titanium".
+------------------------------------------------------------------------------------
+
+
+------------------------------------------------------------------------------------
+ Reading parameters of ComplexRefractiveIndex section for material "Tungsten".
+------------------------------------------------------------------------------------
+
+ComplexRefractiveIndex: Formula = 3, instead of: 1 [1]
+
+------------------------------------------------------------------------------------
+ Reading parameters of ComplexRefractiveIndex section for material "TungstenSilicide".
+------------------------------------------------------------------------------------
+
+
+done.
+
+Computing optics...
+IlluminationWindow("Window1"):
+Origin: (3.15, 0.0000e+00)
+XDirection: (1, 0.0000e+00, 0.0000e+00)
+LayerStackExtraction("Window1"):
+Position of starting point: (3.15, 0.0000e+00, 0.0000e+00)
+Direction of extraction line: (-0.0000e+00, 1, 0.0000e+00)
+
+done.
+
+contact        voltage     electron current    hole current  conduction current
+ cathode      3.000E+01       7.900E-14        -7.900E-14        0.000E+00
+ cathode1     3.000E+01       3.020E-91         1.990E-89        2.021E-89
+ anode        3.000E+01       1.661E-12        -1.661E-12        4.641E-27
+
+
+===============================
+Starting solve of next problem:
+ Poisson
+===============================
+
+Computing poisson-equation 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      8.31e+02                                                      0.00
+    1      6.78e+02   1.00e+00   9.58e+00   8.38e+02    0         1      0.05
+    2      3.59e+03   1.00e+00   3.41e+00   2.90e+02    0         1      0.08
+    3      7.78e+02   1.00e+00   1.37e+00   1.19e+02    0         1      0.11
+    4      1.81e+02   1.00e+00   1.12e-01   9.63e+00    0         1      0.13
+    5      2.95e+01   1.00e+00   9.79e-02   8.51e+00    0         1      0.16
+    6      1.72e+00   1.00e+00   4.92e-02   4.29e+00    0         1      0.19
+    7      3.45e-02   1.00e+00   2.09e-03   1.79e-01    0         1      0.22
+Finished, because...
+Error smaller than 1 ( 1.7852E-01 ).
+
+Accumulated (wallclock) times:
+Rhs time:        0.04 s
+Jacobian time:   0.03 s
+Solve time:      0.14 s
+Total time:      0.22 s
+
+contact        voltage     electron current    hole current  conduction current
+ cathode      3.000E+01       7.900E-14        -7.900E-14       -8.194E-25
+ cathode1     3.000E+01      -1.125E-24        -5.771E-91       -1.125E-24
+ anode        3.000E+01       1.661E-12        -1.661E-12        1.945E-24
+
+
+===============================
+Starting solve of next problem:
+Coupled ( Digits : 5, Max. #iterations : 40, 
+    Solver : Pardiso,
+    #undamped iterations : 1000 
+)
+    { Poisson Electron Hole } 
+===============================
+
+Computing Coupled( 1 poisson-equation(s) , 1 current-contact-equation(s) , 
+                   1 electron-equation(s) , 1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      3.45e-02                                                      0.13
+    1      1.28e+02   1.00e+00   1.97e+01   6.03e-02    0         1      0.55
+Finished, because...
+Error smaller than 1 ( 6.0342E-02 ).
+
+Accumulated (wallclock) times:
+Rhs time:        0.26 s
+Jacobian time:   0.15 s
+Solve time:      0.14 s
+Total time:      0.56 s
+
+contact        voltage     electron current    hole current  conduction current
+ cathode      3.000E+01       7.326E-13        -5.911E-17        7.326E-13
+ cathode1     3.000E+01       6.556E-13        -7.526E-17        6.556E-13
+ anode        3.000E+01      -1.365E-12        -2.310E-14       -1.388E-12
+
+
+===============================
+Starting solve of next problem:
+Quasistationary ( Digits : 5, Max. #iterations : 50, 
+      Initial step in t : 0.01, 
+      Minimum step in t : 1.0000e-12, Maximum step in t : 3.0000e-03, 
+      Increment : 1.5, Decrement : 1.5, 
+      Goal values :
+        Contact anode : 0.0000e+00
+    )
+  {
+    Coupled ( Digits : 5, Max. #iterations : 20, 
+        Solver : Pardiso,
+        #undamped iterations : 1000 
+)
+        { Poisson Electron Hole } 
+  }
+===============================
+
+Computing step from t=0.0000e+00 to t=3.0000e-03 (Stepsize: 3.0000e-03) :
+Computing Coupled( 1 poisson-equation(s) , 1 current-contact-equation(s) , 
+                   1 electron-equation(s) , 1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      1.64e+14                                                      0.13
+    1      3.59e+06   1.00e+00   5.80e+00   1.68e+02    0         1      0.42
+    2      1.12e+06   1.00e+00   1.49e+00   4.18e-01    0         1      0.63
+Finished, because...
+Error smaller than 1 ( 4.1775E-01 ).
+
+Accumulated (wallclock) times:
+Rhs time:        0.39 s
+Jacobian time:   0.04 s
+Solve time:      0.19 s
+Total time:      0.62 s
+
+contact        voltage     electron current    hole current  conduction current
+ cathode      3.000E+01       1.080E-10         4.473E-16        1.080E-10
+ cathode1     3.000E+01       1.232E-10         1.316E-14        1.233E-10
+ anode        2.991E+01      -3.101E-10         7.887E-11       -2.313E-10
+
+Computing step from t=3.0000e-03 to t=6.0000e-03 (Stepsize: 3.0000e-03) :
+Computing Coupled( 1 poisson-equation(s) , 1 current-contact-equation(s) , 
+                   1 electron-equation(s) , 1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0           inf                                                      0.13
+    1      2.23e+08   1.00e+00   8.90e+35        nan    0         1      0.32
+    2      2.23e+08   1.00e+00       -nan        nan    0         1      0.51
+    3      2.23e+08   1.00e+00        nan        nan    0         1      0.70
+    4      2.23e+08   1.00e+00        nan        nan    0         1      0.90
+    5      2.23e+08   1.00e+00        nan        nan    0         1      1.10
+    6      2.23e+08   1.00e+00        nan        nan    0         1      1.29
+    7      2.23e+08   1.00e+00        nan        nan    0         1      1.49
+    8      2.23e+08   1.00e+00        nan        nan    0         1      1.70
+    9      2.23e+08   1.00e+00        nan        nan    0         1      1.89
+   10      2.23e+08   1.00e+00        nan        nan    0         1      2.08
+   11      2.23e+08   1.00e+00        nan        nan    0         1      2.28
+   12      2.23e+08   1.00e+00        nan        nan    0         1      2.47
+   13      2.23e+08   1.00e+00        nan        nan    0         1      2.67
+   14      2.23e+08   1.00e+00        nan        nan    0         1      2.86
+   15      2.23e+08   1.00e+00        nan        nan    0         1      3.05
+   16      2.23e+08   1.00e+00        nan        nan    0         1      3.25
+   17      2.23e+08   1.00e+00        nan        nan    0         1      3.44
+   18      2.23e+08   1.00e+00        nan        nan    0         1      3.63
+   19      2.23e+08   1.00e+00        nan        nan    0         1      3.83
+   20      2.23e+08   1.00e+00        nan        nan    0         1      4.03
+Finished, because...
+#iterations larger than 20.
+Finished, because...
+Floating point exception caught.
+
+Accumulated (wallclock) times:
+Rhs time:        2.52 s
+Jacobian time:   0.38 s
+Solve time:      1.07 s
+Total time:      4.04 s
+
+Newton didn't converge, trying again with smaller step...
+
+Computing step from t=3.0000e-03 to t=5.0000e-03 (Stepsize: 2.0000e-03) :
+Computing Coupled( 1 poisson-equation(s) , 1 current-contact-equation(s) , 
+                   1 electron-equation(s) , 1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0           inf                                                      0.13
+    1      2.23e+08   1.00e+00   7.14e+20        nan    0         1      0.33
+    2      2.23e+08   1.00e+00       -nan        nan    0         1      0.52
+    3      2.23e+08   1.00e+00        nan        nan    0         1      0.71
+    4      2.23e+08   1.00e+00        nan        nan    0         1      0.91
+    5      2.23e+08   1.00e+00        nan        nan    0         1      1.10
+    6      2.23e+08   1.00e+00        nan        nan    0         1      1.30
+    7      2.23e+08   1.00e+00        nan        nan    0         1      1.49
+    8      2.23e+08   1.00e+00        nan        nan    0         1      1.69
+    9      2.23e+08   1.00e+00        nan        nan    0         1      1.89
+   10      2.23e+08   1.00e+00        nan        nan    0         1      2.09
+   11      2.23e+08   1.00e+00        nan        nan    0         1      2.28
+   12      2.23e+08   1.00e+00        nan        nan    0         1      2.48
+   13      2.23e+08   1.00e+00        nan        nan    0         1      2.68
+   14      2.23e+08   1.00e+00        nan        nan    0         1      2.88
+   15      2.23e+08   1.00e+00        nan        nan    0         1      3.07
+   16      2.23e+08   1.00e+00        nan        nan    0         1      3.27
+   17      2.23e+08   1.00e+00        nan        nan    0         1      3.46
+   18      2.23e+08   1.00e+00        nan        nan    0         1      3.66
+   19      2.23e+08   1.00e+00        nan        nan    0         1      3.85
+   20      2.23e+08   1.00e+00        nan        nan    0         1      4.05
+Finished, because...
+#iterations larger than 20.
+Finished, because...
+Floating point exception caught.
+
+Accumulated (wallclock) times:
+Rhs time:        2.51 s
+Jacobian time:   0.40 s
+Solve time:      1.04 s
+Total time:      4.05 s
+
+Newton didn't converge, trying again with smaller step...
+
+Computing step from t=3.0000e-03 to t=4.3333e-03 (Stepsize: 1.3333e-03) :
+Computing Coupled( 1 poisson-equation(s) , 1 current-contact-equation(s) , 
+                   1 electron-equation(s) , 1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0           inf                                                      0.13
+    1      2.23e+08   1.00e+00   6.20e+10        nan    0         1      0.33
+    2      2.23e+08   1.00e+00       -nan        nan    0         1      0.52
+    3      2.23e+08   1.00e+00        nan        nan    0         1      0.72
+    4      2.23e+08   1.00e+00        nan        nan    0         1      0.92
+    5      2.23e+08   1.00e+00        nan        nan    0         1      1.12
+    6      2.23e+08   1.00e+00        nan        nan    0         1      1.32
+    7      2.23e+08   1.00e+00        nan        nan    0         1      1.51
+    8      2.23e+08   1.00e+00        nan        nan    0         1      1.70
+    9      2.23e+08   1.00e+00        nan        nan    0         1      1.91
+   10      2.23e+08   1.00e+00        nan        nan    0         1      2.11
+   11      2.23e+08   1.00e+00        nan        nan    0         1      2.30
+   12      2.23e+08   1.00e+00        nan        nan    0         1      2.49
+   13      2.23e+08   1.00e+00        nan        nan    0         1      2.68
+   14      2.23e+08   1.00e+00        nan        nan    0         1      2.88
+   15      2.23e+08   1.00e+00        nan        nan    0         1      3.07
+   16      2.23e+08   1.00e+00        nan        nan    0         1      3.26
+   17      2.23e+08   1.00e+00        nan        nan    0         1      3.45
+   18      2.23e+08   1.00e+00        nan        nan    0         1      3.64
+   19      2.23e+08   1.00e+00        nan        nan    0         1      3.83
+   20      2.23e+08   1.00e+00        nan        nan    0         1      4.03
+Finished, because...
+#iterations larger than 20.
+Finished, because...
+Floating point exception caught.
+
+Accumulated (wallclock) times:
+Rhs time:        2.53 s
+Jacobian time:   0.40 s
+Solve time:      1.05 s
+Total time:      4.03 s
+
+Newton didn't converge, trying again with smaller step...
+
+Computing step from t=3.0000e-03 to t=3.8889e-03 (Stepsize: 8.8889e-04) :
+Computing Coupled( 1 poisson-equation(s) , 1 current-contact-equation(s) , 
+                   1 electron-equation(s) , 1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0           inf                                                      0.13
+    1      2.23e+08   1.00e+00   1.22e+04        nan    0         1      0.32
+    2      2.23e+08   1.00e+00       -nan        nan    0         1      0.51
+    3      2.23e+08   1.00e+00        nan        nan    0         1      0.70
+    4      2.23e+08   1.00e+00        nan        nan    0         1      0.89
+    5      2.23e+08   1.00e+00        nan        nan    0         1      1.07
+    6      2.23e+08   1.00e+00        nan        nan    0         1      1.26
+    7      2.23e+08   1.00e+00        nan        nan    0         1      1.45
+    8      2.23e+08   1.00e+00        nan        nan    0         1      1.64
+    9      2.23e+08   1.00e+00        nan        nan    0         1      1.83
+   10      2.23e+08   1.00e+00        nan        nan    0         1      2.02
+   11      2.23e+08   1.00e+00        nan        nan    0         1      2.21
+   12      2.23e+08   1.00e+00        nan        nan    0         1      2.40
+   13      2.23e+08   1.00e+00        nan        nan    0         1      2.59
+   14      2.23e+08   1.00e+00        nan        nan    0         1      2.79
+   15      2.23e+08   1.00e+00        nan        nan    0         1      2.99
+   16      2.23e+08   1.00e+00        nan        nan    0         1      3.18
+   17      2.23e+08   1.00e+00        nan        nan    0         1      3.37
+   18      2.23e+08   1.00e+00        nan        nan    0         1      3.56
+   19      2.23e+08   1.00e+00        nan        nan    0         1      3.75
+   20      2.23e+08   1.00e+00        nan        nan    0         1      3.95
+Finished, because...
+#iterations larger than 20.
+Finished, because...
+Floating point exception caught.
+
+Accumulated (wallclock) times:
+Rhs time:        2.47 s
+Jacobian time:   0.37 s
+Solve time:      1.03 s
+Total time:      3.96 s
+
+Newton didn't converge, trying again with smaller step...
+
+Computing step from t=3.0000e-03 to t=3.5926e-03 (Stepsize: 5.9259e-04) :
+Computing Coupled( 1 poisson-equation(s) , 1 current-contact-equation(s) , 
+                   1 electron-equation(s) , 1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      4.27e+76                                                      0.13
+    1      1.57e+76   1.00e+00   2.32e+01   2.43e+04    0         1      0.35
+    2           inf   1.00e+00   7.51e+50   1.94e+53    0         1      0.57
+Finished, because...
+|RHS| increased by more than factor 1.0000E+10.
+Finished, because...
+Floating point exception caught.
+
+Accumulated (wallclock) times:
+Rhs time:        0.41 s
+Jacobian time:   0.04 s
+Solve time:      0.11 s
+Total time:      0.57 s
+
+Newton didn't converge, trying again with smaller step...
+
+Computing step from t=3.0000e-03 to t=3.3951e-03 (Stepsize: 3.9506e-04) :
+Computing Coupled( 1 poisson-equation(s) , 1 current-contact-equation(s) , 
+                   1 electron-equation(s) , 1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      3.30e+09                                                      0.13
+    1      1.21e+08   1.00e+00   4.96e-01   2.23e+01    0         1      0.34
+    2      1.77e+05   1.00e+00   4.72e-01   4.32e-01    0         1      0.56
+Finished, because...
+Error smaller than 1 ( 4.3175E-01 ).
+
+Accumulated (wallclock) times:
+Rhs time:        0.40 s
+Jacobian time:   0.04 s
+Solve time:      0.10 s
+Total time:      0.56 s
+
+contact        voltage     electron current    hole current  conduction current
+ cathode      3.000E+01       4.451E-12         2.319E-16        4.451E-12
+ cathode1     3.000E+01       2.843E-07         1.477E-08        2.990E-07
+ anode        2.990E+01      -6.044E-07         3.053E-07       -2.990E-07
+
+Computing step from t=3.3951e-03 to t=3.9745e-03 (Stepsize: 5.7942e-04) :
+Computing Coupled( 1 poisson-equation(s) , 1 current-contact-equation(s) , 
+                   1 electron-equation(s) , 1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0           inf                                                      0.13
+    1      2.23e+08   1.00e+00   2.96e+57        nan    0         1      0.33
+    2      2.23e+08   1.00e+00       -nan        nan    0         1      0.53
+    3      2.23e+08   1.00e+00        nan        nan    0         1      0.72
+    4      2.23e+08   1.00e+00        nan        nan    0         1      0.91
+    5      2.23e+08   1.00e+00        nan        nan    0         1      1.10
+    6      2.23e+08   1.00e+00        nan        nan    0         1      1.29
+    7      2.23e+08   1.00e+00        nan        nan    0         1      1.48
+    8      2.23e+08   1.00e+00        nan        nan    0         1      1.67
+    9      2.23e+08   1.00e+00        nan        nan    0         1      1.86
+   10      2.23e+08   1.00e+00        nan        nan    0         1      2.05
+   11      2.23e+08   1.00e+00        nan        nan    0         1      2.24
+   12      2.23e+08   1.00e+00        nan        nan    0         1      2.44
+   13      2.23e+08   1.00e+00        nan        nan    0         1      2.63
+   14      2.23e+08   1.00e+00        nan        nan    0         1      2.82
+   15      2.23e+08   1.00e+00        nan        nan    0         1      3.01
+   16      2.23e+08   1.00e+00        nan        nan    0         1      3.20
+   17      2.23e+08   1.00e+00        nan        nan    0         1      3.39
+   18      2.23e+08   1.00e+00        nan        nan    0         1      3.58
+   19      2.23e+08   1.00e+00        nan        nan    0         1      3.77
+   20      2.23e+08   1.00e+00        nan        nan    0         1      3.96
+Finished, because...
+#iterations larger than 20.
+Finished, because...
+Floating point exception caught.
+
+Accumulated (wallclock) times:
+Rhs time:        2.46 s
+Jacobian time:   0.39 s
+Solve time:      1.01 s
+Total time:      3.97 s
+
+Newton didn't converge, trying again with smaller step...
+
+Computing step from t=3.3951e-03 to t=3.7813e-03 (Stepsize: 3.8628e-04) :
+Computing Coupled( 1 poisson-equation(s) , 1 current-contact-equation(s) , 
+                   1 electron-equation(s) , 1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0           inf                                                      0.13
+    1      2.23e+08   1.00e+00   5.68e+34        nan    0         1      0.32
+    2      2.23e+08   1.00e+00       -nan        nan    0         1      0.51
+    3      2.23e+08   1.00e+00        nan        nan    0         1      0.70
+    4      2.23e+08   1.00e+00        nan        nan    0         1      0.89
+    5      2.23e+08   1.00e+00        nan        nan    0         1      1.08
+    6      2.23e+08   1.00e+00        nan        nan    0         1      1.27
+    7      2.23e+08   1.00e+00        nan        nan    0         1      1.46
+    8      2.23e+08   1.00e+00        nan        nan    0         1      1.64
+    9      2.23e+08   1.00e+00        nan        nan    0         1      1.83
+   10      2.23e+08   1.00e+00        nan        nan    0         1      2.02
+   11      2.23e+08   1.00e+00        nan        nan    0         1      2.21
+   12      2.23e+08   1.00e+00        nan        nan    0         1      2.40
+   13      2.23e+08   1.00e+00        nan        nan    0         1      2.59
+   14      2.23e+08   1.00e+00        nan        nan    0         1      2.78
+   15      2.23e+08   1.00e+00        nan        nan    0         1      2.97
+   16      2.23e+08   1.00e+00        nan        nan    0         1      3.16
+   17      2.23e+08   1.00e+00        nan        nan    0         1      3.34
+   18      2.23e+08   1.00e+00        nan        nan    0         1      3.53
+   19      2.23e+08   1.00e+00        nan        nan    0         1      3.72
+   20      2.23e+08   1.00e+00        nan        nan    0         1      3.91
+Finished, because...
+#iterations larger than 20.
+Finished, because...
+Floating point exception caught.
+
+Accumulated (wallclock) times:
+Rhs time:        2.43 s
+Jacobian time:   0.37 s
+Solve time:      1.03 s
+Total time:      3.91 s
+
+Newton didn't converge, trying again with smaller step...
+
+Computing step from t=3.3951e-03 to t=3.6526e-03 (Stepsize: 2.5752e-04) :
+Computing Coupled( 1 poisson-equation(s) , 1 current-contact-equation(s) , 
+                   1 electron-equation(s) , 1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0           inf                                                      0.13
+    1      2.23e+08   1.00e+00   4.07e+19        nan    0         1      0.32
+    2      2.23e+08   1.00e+00       -nan        nan    0         1      0.52
+    3      2.23e+08   1.00e+00        nan        nan    0         1      0.71
+    4      2.23e+08   1.00e+00        nan        nan    0         1      0.90
+    5      2.23e+08   1.00e+00        nan        nan    0         1      1.09
+    6      2.23e+08   1.00e+00        nan        nan    0         1      1.28
+    7      2.23e+08   1.00e+00        nan        nan    0         1      1.47
+    8      2.23e+08   1.00e+00        nan        nan    0         1      1.66
+    9      2.23e+08   1.00e+00        nan        nan    0         1      1.85
+   10      2.23e+08   1.00e+00        nan        nan    0         1      2.04
+   11      2.23e+08   1.00e+00        nan        nan    0         1      2.23
+   12      2.23e+08   1.00e+00        nan        nan    0         1      2.42
+   13      2.23e+08   1.00e+00        nan        nan    0         1      2.60
+   14      2.23e+08   1.00e+00        nan        nan    0         1      2.79

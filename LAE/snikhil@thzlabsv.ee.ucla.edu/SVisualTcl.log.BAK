@@ -1,0 +1,14 @@
+load_file /home/yardimci/sentaurus/projects/hetero_thz2/trans_5d1_hetero_des.plt
+create_plot -1d
+select_plots {Plot_1}
+#-> Plot_1
+#-> Plot_1
+#-> trans_5d1_hetero_des
+create_curve -plot Plot_1 -dataset {trans_5d1_hetero_des} -axisX "time" -axisY "ntype TotalCurrent"
+#-> Curve_1
+zoom_plot -plot Plot_1 -factor 1.1
+zoom_plot -plot Plot_1 -factor 0.9
+zoom_plot -plot Plot_1 -factor 0.746285
+move_plot -position {2.40696e-11 -7.34938e-09} -plot Plot_1
+#-> 0
+exit

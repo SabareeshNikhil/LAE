@@ -1,0 +1,834 @@
+20:30:44 Nov 25 2014 <Tolga_LAE> submitted to the batch system
+20:30:44 Nov 25 2014     job 4 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp4_des.cmd"
+21:11:42 Nov 25 2014 +++ job 4 <sdevice> done: exit(0)
+21:11:43 Nov 25 2014     job 5 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp5_des.cmd"
+21:51:11 Nov 25 2014 +++ job 5 <sdevice> done: exit(0)
+21:51:14 Nov 25 2014 <Tolga_LAE> done (4830 sec)
+13:26:41 Nov 26 2014 <Tolga_LAE> submitted to the batch system
+13:26:42 Nov 26 2014     job 4 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp4_des.cmd"
+13:27:43 Nov 26 2014 +++ job 4 <sdevice> done: exit(0)
+13:27:44 Nov 26 2014     job 5 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp5_des.cmd"
+13:28:45 Nov 26 2014 +++ job 5 <sdevice> done: exit(0)
+13:28:47 Nov 26 2014 <Tolga_LAE> done (126 sec)
+16:23:57 Nov 28 2014 <Tolga_LAE> submitted to the batch system
+16:23:58 Nov 28 2014     job 4 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp4_des.cmd"
+16:24:02 Nov 28 2014 --- job 4 <sdevice> exited abnormally: exit()
+16:24:03 Nov 28 2014     job 5 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp5_des.cmd"
+16:24:07 Nov 28 2014 --- job 5 <sdevice> exited abnormally: exit()
+16:24:09 Nov 28 2014 <Tolga_LAE> failed
+16:25:11 Nov 28 2014 <Tolga_LAE> submitted to the batch system
+16:25:12 Nov 28 2014     job 4 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp4_des.cmd"
+16:25:16 Nov 28 2014 --- job 4 <sdevice> exited abnormally: exit()
+16:25:17 Nov 28 2014     job 5 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp5_des.cmd"
+16:25:21 Nov 28 2014 --- job 5 <sdevice> exited abnormally: exit()
+16:25:23 Nov 28 2014 <Tolga_LAE> failed
+16:27:14 Nov 28 2014 <Tolga_LAE> submitted to the batch system
+16:27:14 Nov 28 2014     job 4 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp4_des.cmd"
+16:28:18 Nov 28 2014 +++ job 4 <sdevice> done: exit(0)
+16:28:19 Nov 28 2014     job 5 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp5_des.cmd"
+16:29:20 Nov 28 2014 +++ job 5 <sdevice> done: exit(0)
+16:29:23 Nov 28 2014 <Tolga_LAE> done (129 sec)
+16:37:41 Nov 28 2014 <Tolga_LAE> submitted to the batch system
+16:37:41 Nov 28 2014     job 4 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp4_des.cmd"
+16:38:42 Nov 28 2014 +++ job 4 <sdevice> done: exit(0)
+16:38:43 Nov 28 2014     job 5 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp5_des.cmd"
+16:39:45 Nov 28 2014 +++ job 5 <sdevice> done: exit(0)
+16:39:47 Nov 28 2014 <Tolga_LAE> done (126 sec)
+16:48:32 Nov 28 2014 <Tolga_LAE> submitted to the batch system
+16:48:33 Nov 28 2014     job 4 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp4_des.cmd"
+16:49:49 Nov 28 2014 +++ job 4 <sdevice> done: exit(0)
+16:49:50 Nov 28 2014     job 5 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp5_des.cmd"
+16:49:54 Nov 28 2014 --- job 5 <sdevice> exited abnormally: exit()
+16:49:56 Nov 28 2014 <Tolga_LAE> failed
+16:50:40 Nov 28 2014 <Tolga_LAE> submitted to the batch system
+16:50:40 Nov 28 2014     job 4 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp4_des.cmd"
+16:52:02 Nov 28 2014 +++ job 4 <sdevice> done: exit(0)
+16:52:03 Nov 28 2014     job 5 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp5_des.cmd"
+16:53:23 Nov 28 2014 +++ job 5 <sdevice> done: exit(0)
+16:53:25 Nov 28 2014 <Tolga_LAE> done (165 sec)
+22:31:18 Nov 28 2014 <Tolga_LAE> submitted to the batch system
+22:31:19 Nov 28 2014     job 4 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp4_des.cmd"
+22:34:22 Nov 28 2014 --- job 4 <sdevice> exited abnormally: exit()
+22:34:23 Nov 28 2014     job 5 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp5_des.cmd"
+22:37:33 Nov 28 2014 --- job 5 <sdevice> exited abnormally: exit()
+22:37:35 Nov 28 2014 <Tolga_LAE> failed
+22:41:04 Nov 28 2014 <Tolga_LAE> submitted to the batch system
+22:41:05 Nov 28 2014     job 4 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp4_des.cmd"
+22:42:22 Nov 28 2014 +++ job 4 <sdevice> done: exit(0)
+22:42:23 Nov 28 2014     job 5 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp5_des.cmd"
+22:43:38 Nov 28 2014 +++ job 5 <sdevice> done: exit(0)
+22:43:40 Nov 28 2014 <Tolga_LAE> done (156 sec)
+22:47:16 Nov 28 2014 <Tolga_LAE> submitted to the batch system
+22:47:16 Nov 28 2014     job 4 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp4_des.cmd"
+22:48:33 Nov 28 2014 +++ job 4 <sdevice> done: exit(0)
+22:48:34 Nov 28 2014     job 5 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp5_des.cmd"
+22:49:54 Nov 28 2014 +++ job 5 <sdevice> done: exit(0)
+22:49:56 Nov 28 2014 <Tolga_LAE> done (160 sec)
+23:10:50 Nov 28 2014 <Tolga_LAE> submitted to the batch system
+23:10:51 Nov 28 2014     job 4 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp4_des.cmd"
+23:12:06 Nov 28 2014 +++ job 4 <sdevice> done: exit(0)
+23:12:07 Nov 28 2014     job 5 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp5_des.cmd"
+23:13:22 Nov 28 2014 +++ job 5 <sdevice> done: exit(0)
+23:13:24 Nov 28 2014 <Tolga_LAE> done (154 sec)
+00:10:33 Nov 29 2014 <Tolga_LAE> submitted to the batch system
+00:10:33 Nov 29 2014     job 4 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp4_des.cmd"
+00:13:36 Nov 29 2014 --- job 4 <sdevice> exited abnormally: exit()
+00:13:37 Nov 29 2014     job 5 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp5_des.cmd"
+00:16:42 Nov 29 2014 --- job 5 <sdevice> exited abnormally: exit()
+00:16:44 Nov 29 2014 <Tolga_LAE> failed
+00:19:14 Nov 29 2014 <Tolga_LAE> submitted to the batch system
+00:19:15 Nov 29 2014     job 4 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp4_des.cmd"
+00:22:14 Nov 29 2014 --- job 4 <sdevice> exited abnormally: exit()
+00:22:15 Nov 29 2014     job 5 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp5_des.cmd"
+00:25:15 Nov 29 2014 --- job 5 <sdevice> exited abnormally: exit()
+00:25:17 Nov 29 2014 <Tolga_LAE> failed
+14:31:33 Nov 29 2014     job 4 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp4_des.cmd"
+14:31:37 Nov 29 2014 --- job 4 <sdevice> exited abnormally: exit()
+14:31:38 Nov 29 2014     job 5 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp5_des.cmd"
+14:31:42 Nov 29 2014 --- job 5 <sdevice> exited abnormally: exit()
+14:31:44 Nov 29 2014 <Tolga_LAE> failed
+14:33:11 Nov 29 2014     job 4 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp4_des.cmd"
+14:33:15 Nov 29 2014 --- job 4 <sdevice> exited abnormally: exit()
+14:33:16 Nov 29 2014     job 5 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp5_des.cmd"
+14:33:21 Nov 29 2014 --- job 5 <sdevice> exited abnormally: exit()
+14:33:23 Nov 29 2014 <Tolga_LAE> failed
+14:34:45 Nov 29 2014     job 4 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp4_des.cmd"
+14:34:50 Nov 29 2014 --- job 4 <sdevice> exited abnormally: exit()
+14:34:51 Nov 29 2014     job 5 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp5_des.cmd"
+14:34:56 Nov 29 2014 --- job 5 <sdevice> exited abnormally: exit()
+14:34:58 Nov 29 2014 <Tolga_LAE> failed
+14:36:25 Nov 29 2014     job 4 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp4_des.cmd"
+14:36:33 Nov 29 2014 --- job 4 <sdevice> exited abnormally: exit()
+14:36:34 Nov 29 2014     job 5 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp5_des.cmd"
+14:36:43 Nov 29 2014 --- job 5 <sdevice> exited abnormally: exit()
+14:36:45 Nov 29 2014 <Tolga_LAE> failed
+14:37:25 Nov 29 2014     job 4 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp4_des.cmd"
+14:37:33 Nov 29 2014 --- job 4 <sdevice> exited abnormally: exit()
+14:37:34 Nov 29 2014     job 5 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp5_des.cmd"
+14:37:43 Nov 29 2014 --- job 5 <sdevice> exited abnormally: exit()
+14:37:45 Nov 29 2014 <Tolga_LAE> failed
+14:38:27 Nov 29 2014     job 4 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp4_des.cmd"
+14:38:38 Nov 29 2014 --- job 4 <sdevice> exited abnormally: exit()
+14:38:39 Nov 29 2014     job 5 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp5_des.cmd"
+14:38:49 Nov 29 2014 --- job 5 <sdevice> exited abnormally: exit()
+14:38:51 Nov 29 2014 <Tolga_LAE> failed
+14:40:16 Nov 29 2014     job 4 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp4_des.cmd"
+14:40:21 Nov 29 2014 --- job 4 <sdevice> exited abnormally: exit()
+14:40:22 Nov 29 2014     job 5 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp5_des.cmd"
+14:40:27 Nov 29 2014 --- job 5 <sdevice> exited abnormally: exit()
+14:40:29 Nov 29 2014 <Tolga_LAE> failed
+14:40:42 Nov 29 2014     job 4 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp4_des.cmd"
+15:08:00 Nov 29 2014 --- job 4 <unknown> exited abnormally: exit()
+15:08:01 Nov 29 2014     job 5 <unknown> started on host 'thzlabsv.ee.ucla.edu': ""
+15:08:05 Nov 29 2014 --- job 5 <unknown> exited abnormally: exit()
+15:08:07 Nov 29 2014 <Tolga_LAE> failed
+15:08:19 Nov 29 2014     job 4 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp4_des.cmd"
+15:08:23 Nov 29 2014 --- job 4 <sdevice> exited abnormally: exit()
+15:08:24 Nov 29 2014     job 5 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp5_des.cmd"
+15:08:29 Nov 29 2014 --- job 5 <sdevice> exited abnormally: exit()
+15:08:31 Nov 29 2014 <Tolga_LAE> failed
+15:09:10 Nov 29 2014     job 4 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp4_des.cmd"
+15:10:30 Nov 29 2014 +++ job 4 <sdevice> done: exit(0)
+15:10:31 Nov 29 2014     job 5 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp5_des.cmd"
+15:11:51 Nov 29 2014 +++ job 5 <sdevice> done: exit(0)
+15:11:53 Nov 29 2014 <Tolga_LAE> done (164 sec)
+15:15:22 Nov 29 2014     job 4 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp4_des.cmd"
+15:15:26 Nov 29 2014 --- job 4 <sdevice> exited abnormally: exit()
+15:15:27 Nov 29 2014     job 5 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp5_des.cmd"
+15:15:31 Nov 29 2014 --- job 5 <sdevice> exited abnormally: exit()
+15:15:33 Nov 29 2014 <Tolga_LAE> failed
+15:15:58 Nov 29 2014     job 4 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp4_des.cmd"
+15:16:07 Nov 29 2014 --- job 4 <sdevice> exited abnormally: exit()
+15:16:08 Nov 29 2014     job 5 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp5_des.cmd"
+15:16:18 Nov 29 2014 --- job 5 <sdevice> exited abnormally: exit()
+15:16:20 Nov 29 2014 <Tolga_LAE> failed
+15:32:02 Nov 29 2014     job 4 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp4_des.cmd"
+15:32:12 Nov 29 2014 --- job 4 <sdevice> exited abnormally: exit()
+15:32:13 Nov 29 2014     job 5 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp5_des.cmd"
+15:32:24 Nov 29 2014 --- job 5 <sdevice> exited abnormally: exit()
+15:32:26 Nov 29 2014 <Tolga_LAE> failed
+15:32:48 Nov 29 2014     job 4 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp4_des.cmd"
+15:32:58 Nov 29 2014 --- job 4 <sdevice> exited abnormally: exit()
+15:32:59 Nov 29 2014     job 5 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp5_des.cmd"
+15:33:10 Nov 29 2014 --- job 5 <sdevice> exited abnormally: exit()
+15:33:12 Nov 29 2014 <Tolga_LAE> failed
+15:33:24 Nov 29 2014     job 4 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp4_des.cmd"
+16:35:41 Nov 29 2014 +++ job 4 <sdevice> done: exit(0)
+16:35:42 Nov 29 2014     job 5 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp5_des.cmd"
+17:36:46 Nov 29 2014 +++ job 5 <sdevice> done: exit(0)
+17:36:50 Nov 29 2014 <Tolga_LAE> done (7406 sec)
+18:14:26 Nov 29 2014     job 4 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp4_des.cmd"
+18:14:31 Nov 29 2014 --- job 4 <sdevice> exited abnormally: exit()
+18:14:32 Nov 29 2014     job 5 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp5_des.cmd"
+18:14:37 Nov 29 2014 --- job 5 <sdevice> exited abnormally: exit()
+18:14:39 Nov 29 2014 <Tolga_LAE> failed
+19:34:30 Nov 29 2014     job 4 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp4_des.cmd"
+19:35:24 Nov 29 2014 +++ job 4 <sdevice> done: exit(0)
+19:35:25 Nov 29 2014     job 5 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp5_des.cmd"
+19:36:07 Nov 29 2014 +++ job 5 <sdevice> done: exit(0)
+19:36:10 Nov 29 2014 <Tolga_LAE> done (100 sec)
+20:00:44 Nov 29 2014     job 4 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp4_des.cmd"
+20:01:26 Nov 29 2014 +++ job 4 <sdevice> done: exit(0)
+20:01:27 Nov 29 2014     job 5 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp5_des.cmd"
+20:02:08 Nov 29 2014 +++ job 5 <sdevice> done: exit(0)
+20:02:10 Nov 29 2014 <Tolga_LAE> done (86 sec)
+20:06:10 Nov 29 2014     job 4 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp4_des.cmd"
+20:06:50 Nov 29 2014 +++ job 4 <sdevice> done: exit(0)
+20:06:51 Nov 29 2014     job 5 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp5_des.cmd"
+20:07:32 Nov 29 2014 +++ job 5 <sdevice> done: exit(0)
+20:07:34 Nov 29 2014 <Tolga_LAE> done (85 sec)
+20:21:53 Nov 29 2014     job 4 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp4_des.cmd"
+20:22:38 Nov 29 2014 +++ job 4 <sdevice> done: exit(0)
+20:22:39 Nov 29 2014     job 5 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp5_des.cmd"
+20:23:24 Nov 29 2014 +++ job 5 <sdevice> done: exit(0)
+20:23:26 Nov 29 2014 <Tolga_LAE> done (94 sec)
+20:41:31 Nov 29 2014     job 4 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp4_des.cmd"
+20:41:36 Nov 29 2014 --- job 4 <sdevice> exited abnormally: exit()
+20:41:37 Nov 29 2014     job 5 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp5_des.cmd"
+20:41:42 Nov 29 2014 --- job 5 <sdevice> exited abnormally: exit()
+20:41:44 Nov 29 2014 <Tolga_LAE> failed
+20:41:52 Nov 29 2014     job 4 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp4_des.cmd"
+20:41:57 Nov 29 2014 --- job 4 <sdevice> exited abnormally: exit()
+20:41:58 Nov 29 2014     job 5 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp5_des.cmd"
+20:42:03 Nov 29 2014 --- job 5 <sdevice> exited abnormally: exit()
+20:42:05 Nov 29 2014 <Tolga_LAE> failed
+20:43:39 Nov 29 2014     job 4 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp4_des.cmd"
+20:44:23 Nov 29 2014 +++ job 4 <sdevice> done: exit(0)
+20:44:24 Nov 29 2014     job 5 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp5_des.cmd"
+20:45:08 Nov 29 2014 +++ job 5 <sdevice> done: exit(0)
+20:45:10 Nov 29 2014 <Tolga_LAE> done (92 sec)
+20:57:13 Nov 29 2014     job 4 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp4_des.cmd"
+20:57:57 Nov 29 2014 +++ job 4 <sdevice> done: exit(0)
+20:57:58 Nov 29 2014     job 5 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp5_des.cmd"
+20:58:02 Nov 29 2014 --- job 5 <sdevice> exited abnormally: exit()
+20:58:04 Nov 29 2014 <Tolga_LAE> failed
+21:07:39 Nov 29 2014 <Tolga_LAE> submitted to the batch system
+21:07:41 Nov 29 2014 <Tolga_LAE> done (2 sec)
+21:08:22 Nov 29 2014 <Tolga_LAE> submitted to the batch system
+21:08:23 Nov 29 2014 <Tolga_LAE> done (1 sec)
+21:08:47 Nov 29 2014 <Tolga_LAE> submitted to the batch system
+21:08:49 Nov 29 2014 <Tolga_LAE> done (2 sec)
+21:12:33 Nov 29 2014 <Tolga_LAE> submitted to the batch system
+21:12:34 Nov 29 2014     job 5 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp5_des.cmd"
+21:13:18 Nov 29 2014 +++ job 5 <sdevice> done: exit(0)
+21:13:20 Nov 29 2014 <Tolga_LAE> done (47 sec)
+13:34:12 Dec 02 2014     job 4 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp4_des.cmd"
+13:34:57 Dec 02 2014 +++ job 4 <sdevice> done: exit(0)
+13:34:58 Dec 02 2014     job 5 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp5_des.cmd"
+13:35:42 Dec 02 2014 +++ job 5 <sdevice> done: exit(0)
+13:35:44 Dec 02 2014 <Tolga_LAE> done (92 sec)
+13:39:10 Dec 02 2014     job 4 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp4_des.cmd"
+13:39:40 Dec 02 2014 +++ job 4 <sdevice> done: exit(0)
+13:39:41 Dec 02 2014     job 5 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp5_des.cmd"
+13:40:16 Dec 02 2014 +++ job 5 <sdevice> done: exit(0)
+13:40:18 Dec 02 2014 <Tolga_LAE> done (69 sec)
+13:43:04 Dec 02 2014     job 4 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp4_des.cmd"
+13:43:45 Dec 02 2014 +++ job 4 <sdevice> done: exit(0)
+13:43:46 Dec 02 2014     job 5 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp5_des.cmd"
+13:44:28 Dec 02 2014 +++ job 5 <sdevice> done: exit(0)
+13:44:31 Dec 02 2014 <Tolga_LAE> done (87 sec)
+13:45:20 Dec 02 2014     job 4 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp4_des.cmd"
+13:46:01 Dec 02 2014 +++ job 4 <sdevice> done: exit(0)
+13:46:02 Dec 02 2014     job 5 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp5_des.cmd"
+13:46:44 Dec 02 2014 +++ job 5 <sdevice> done: exit(0)
+13:46:46 Dec 02 2014 <Tolga_LAE> done (87 sec)
+13:50:41 Dec 02 2014     job 4 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp4_des.cmd"
+13:52:16 Dec 02 2014 +++ job 4 <sdevice> done: exit(0)
+13:52:17 Dec 02 2014     job 5 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp5_des.cmd"
+13:53:46 Dec 02 2014 +++ job 5 <sdevice> done: exit(0)
+13:53:48 Dec 02 2014 <Tolga_LAE> done (188 sec)
+14:02:36 Dec 02 2014     job 4 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp4_des.cmd"
+14:03:20 Dec 02 2014 +++ job 4 <sdevice> done: exit(0)
+14:03:21 Dec 02 2014     job 5 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp5_des.cmd"
+14:04:06 Dec 02 2014 +++ job 5 <sdevice> done: exit(0)
+14:04:08 Dec 02 2014 <Tolga_LAE> done (92 sec)
+14:05:49 Dec 02 2014     job 5 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp5_des.cmd"
+14:06:36 Dec 02 2014 +++ job 5 <sdevice> done: exit(0)
+14:06:38 Dec 02 2014 <Tolga_LAE> done (50 sec)
+14:14:03 Dec 02 2014     job 4 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp4_des.cmd"
+14:14:48 Dec 02 2014 +++ job 4 <sdevice> done: exit(0)
+14:14:49 Dec 02 2014     job 5 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp5_des.cmd"
+14:15:30 Dec 02 2014 +++ job 5 <sdevice> done: exit(0)
+14:15:33 Dec 02 2014 <Tolga_LAE> done (90 sec)
+14:17:03 Dec 02 2014     job 4 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp4_des.cmd"
+14:17:49 Dec 02 2014 +++ job 4 <sdevice> done: exit(0)
+14:17:50 Dec 02 2014     job 5 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp5_des.cmd"
+14:18:34 Dec 02 2014 +++ job 5 <sdevice> done: exit(0)
+14:18:37 Dec 02 2014 <Tolga_LAE> done (94 sec)
+14:31:58 Dec 02 2014     job 4 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp4_des.cmd"
+14:32:07 Dec 02 2014 --- job 4 <sdevice> exited abnormally: exit()
+14:32:08 Dec 02 2014     job 5 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp5_des.cmd"
+14:32:16 Dec 02 2014 --- job 5 <sdevice> exited abnormally: exit()
+14:32:18 Dec 02 2014 <Tolga_LAE> failed
+14:32:39 Dec 02 2014     job 4 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp4_des.cmd"
+15:00:51 Dec 02 2014 +++ job 4 <sdevice> done: exit(0)
+15:00:52 Dec 02 2014     job 5 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp5_des.cmd"
+15:28:59 Dec 02 2014 +++ job 5 <sdevice> done: exit(0)
+15:29:02 Dec 02 2014 <Tolga_LAE> done (3384 sec)
+15:46:17 Dec 02 2014     job 4 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp4_des.cmd"
+15:46:21 Dec 02 2014 --- job 4 <sdevice> exited abnormally: exit()
+15:46:22 Dec 02 2014     job 5 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp5_des.cmd"
+15:46:26 Dec 02 2014 --- job 5 <sdevice> exited abnormally: exit()
+15:46:29 Dec 02 2014 <Tolga_LAE> failed
+15:46:48 Dec 02 2014     job 4 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp4_des.cmd"
+15:46:52 Dec 02 2014 --- job 4 <sdevice> exited abnormally: exit()
+15:46:53 Dec 02 2014     job 5 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp5_des.cmd"
+15:46:57 Dec 02 2014 --- job 5 <sdevice> exited abnormally: exit()
+15:46:59 Dec 02 2014 <Tolga_LAE> failed
+15:48:40 Dec 02 2014     job 4 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp4_des.cmd"
+16:18:04 Dec 02 2014 +++ job 4 <sdevice> done: exit(0)
+16:18:05 Dec 02 2014     job 5 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp5_des.cmd"
+16:18:50 Dec 02 2014 +++ job 5 <sdevice> done: exit(0)
+16:18:53 Dec 02 2014 <Tolga_LAE> done (1813 sec)
+16:23:20 Dec 02 2014     job 4 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp4_des.cmd"
+16:24:05 Dec 02 2014 +++ job 4 <sdevice> done: exit(0)
+16:24:06 Dec 02 2014     job 5 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp5_des.cmd"
+16:24:49 Dec 02 2014 +++ job 5 <sdevice> done: exit(0)
+16:24:51 Dec 02 2014 <Tolga_LAE> done (92 sec)
+16:33:06 Dec 02 2014     job 4 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp4_des.cmd"
+16:33:10 Dec 02 2014 --- job 4 <sdevice> exited abnormally: exit()
+16:33:11 Dec 02 2014     job 5 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp5_des.cmd"
+16:33:15 Dec 02 2014 --- job 5 <sdevice> exited abnormally: exit()
+16:33:17 Dec 02 2014 <Tolga_LAE> failed
+16:35:00 Dec 02 2014     job 4 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp4_des.cmd"
+16:35:04 Dec 02 2014 --- job 4 <sdevice> exited abnormally: exit()
+16:35:05 Dec 02 2014     job 5 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp5_des.cmd"
+16:35:09 Dec 02 2014 --- job 5 <sdevice> exited abnormally: exit()
+16:35:11 Dec 02 2014 <Tolga_LAE> failed
+16:35:36 Dec 02 2014     job 4 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp4_des.cmd"
+16:35:40 Dec 02 2014 --- job 4 <sdevice> exited abnormally: exit()
+16:35:41 Dec 02 2014     job 5 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp5_des.cmd"
+16:35:45 Dec 02 2014 --- job 5 <sdevice> exited abnormally: exit()
+16:35:47 Dec 02 2014 <Tolga_LAE> failed
+16:36:13 Dec 02 2014     job 4 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp4_des.cmd"
+16:37:00 Dec 02 2014 +++ job 4 <sdevice> done: exit(0)
+16:37:01 Dec 02 2014     job 5 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp5_des.cmd"
+16:37:47 Dec 02 2014 +++ job 5 <sdevice> done: exit(0)
+16:37:50 Dec 02 2014 <Tolga_LAE> done (97 sec)
+17:42:07 Dec 07 2014     job 4 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp4_des.cmd"
+17:43:00 Dec 07 2014 +++ job 4 <sdevice> done: exit(0)
+17:43:01 Dec 07 2014     job 10 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp10_des.cmd"
+17:43:49 Dec 07 2014 +++ job 10 <sdevice> done: exit(0)
+17:43:50 Dec 07 2014     job 14 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp14_des.cmd"
+17:44:38 Dec 07 2014 +++ job 14 <sdevice> done: exit(0)
+17:44:39 Dec 07 2014     job 18 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp18_des.cmd"
+17:45:28 Dec 07 2014 +++ job 18 <sdevice> done: exit(0)
+17:45:29 Dec 07 2014     job 22 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp22_des.cmd"
+17:47:21 Dec 07 2014 +++ job 22 <sdevice> done: exit(0)
+17:47:22 Dec 07 2014     job 5 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp5_des.cmd"
+17:48:08 Dec 07 2014 +++ job 5 <sdevice> done: exit(0)
+17:48:09 Dec 07 2014     job 12 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp12_des.cmd"
+17:48:55 Dec 07 2014 +++ job 12 <sdevice> done: exit(0)
+17:48:56 Dec 07 2014     job 16 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp16_des.cmd"
+17:49:42 Dec 07 2014 +++ job 16 <sdevice> done: exit(0)
+17:49:43 Dec 07 2014     job 20 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp20_des.cmd"
+17:50:27 Dec 07 2014 +++ job 20 <sdevice> done: exit(0)
+17:50:28 Dec 07 2014     job 24 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp24_des.cmd"
+17:51:41 Dec 07 2014 +++ job 24 <sdevice> done: exit(0)
+17:51:43 Dec 07 2014 <Tolga_LAE> done (577 sec)
+18:08:13 Dec 07 2014     job 4 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp4_des.cmd"
+18:09:03 Dec 07 2014 +++ job 4 <sdevice> done: exit(0)
+18:09:04 Dec 07 2014     job 10 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp10_des.cmd"
+18:12:19 Dec 07 2014 --- job 10 <sdevice> exited abnormally: exit()
+18:12:20 Dec 07 2014     job 14 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp14_des.cmd"
+18:15:49 Dec 07 2014 --- job 14 <sdevice> exited abnormally: exit()
+18:15:50 Dec 07 2014     job 18 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp18_des.cmd"
+18:18:47 Dec 07 2014 --- job 18 <sdevice> exited abnormally: exit()
+18:18:48 Dec 07 2014     job 22 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp22_des.cmd"
+18:19:58 Dec 07 2014 --- job 22 <sdevice> exited abnormally: exit()
+18:19:59 Dec 07 2014     job 5 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp5_des.cmd"
+18:20:14 Dec 07 2014 --- job 5 <sdevice> exited abnormally: exit()
+18:20:15 Dec 07 2014     job 12 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp12_des.cmd"
+18:20:29 Dec 07 2014 --- job 12 <sdevice> exited abnormally: exit()
+18:20:30 Dec 07 2014     job 16 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp16_des.cmd"
+18:20:42 Dec 07 2014 --- job 16 <sdevice> exited abnormally: exit()
+18:20:43 Dec 07 2014     job 20 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp20_des.cmd"
+18:20:57 Dec 07 2014 --- job 20 <sdevice> exited abnormally: exit()
+18:20:58 Dec 07 2014     job 24 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp24_des.cmd"
+18:21:11 Dec 07 2014 --- job 24 <sdevice> exited abnormally: exit()
+18:21:13 Dec 07 2014 <Tolga_LAE> failed
+12:18:05 Dec 09 2014     job 10 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp10_des.cmd"
+12:21:45 Dec 09 2014 --- job 10 <sdevice> exited abnormally: exit()
+12:21:46 Dec 09 2014     job 34 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp34_des.cmd"
+12:23:01 Dec 09 2014 --- job 34 <sdevice> exited abnormally: exit()
+12:23:02 Dec 09 2014     job 38 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp38_des.cmd"
+12:23:18 Dec 09 2014 --- job 38 <sdevice> exited abnormally: exit()
+12:23:19 Dec 09 2014     job 42 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp42_des.cmd"
+12:23:30 Dec 09 2014     job 46 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp46_des.cmd"
+12:24:02 Dec 09 2014 --- job 46 <sdevice> exited abnormally: exit()
+12:24:03 Dec 09 2014     job 50 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp50_des.cmd"
+12:24:34 Dec 09 2014 --- job 50 <sdevice> exited abnormally: exit()
+12:24:35 Dec 09 2014     job 12 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp12_des.cmd"
+12:24:49 Dec 09 2014 --- job 12 <sdevice> exited abnormally: exit()
+12:24:50 Dec 09 2014     job 36 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp36_des.cmd"
+12:25:04 Dec 09 2014 --- job 36 <sdevice> exited abnormally: exit()
+12:25:05 Dec 09 2014     job 40 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp40_des.cmd"
+12:25:18 Dec 09 2014 --- job 40 <sdevice> exited abnormally: exit()
+12:25:19 Dec 09 2014     job 44 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp44_des.cmd"
+12:25:33 Dec 09 2014 --- job 44 <sdevice> exited abnormally: exit()
+12:25:34 Dec 09 2014     job 48 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp48_des.cmd"
+12:25:47 Dec 09 2014 --- job 48 <sdevice> exited abnormally: exit()
+12:25:48 Dec 09 2014     job 52 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp52_des.cmd"
+12:26:01 Dec 09 2014 --- job 52 <sdevice> exited abnormally: exit()
+12:26:04 Dec 09 2014 <Tolga_LAE> failed
+12:38:52 Dec 09 2014     job 10 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp10_des.cmd"
+12:38:56 Dec 09 2014 --- job 10 <sdevice> exited abnormally: exit()
+12:38:58 Dec 09 2014 <Tolga_LAE> failed
+12:51:41 Dec 09 2014 <Tolga_LAE> done (1 sec)
+12:52:14 Dec 09 2014 <Tolga_LAE> done (1 sec)
+12:52:49 Dec 09 2014 <Tolga_LAE> done (1 sec)
+12:54:48 Dec 09 2014 <Tolga_LAE> done (1 sec)
+12:55:03 Dec 09 2014     job 6 <sde> started on host 'thzlabsv.ee.ucla.edu': "sde -l n6_dvs.cmd"
+12:55:05 Dec 09 2014 --- job 6 <sde> exited abnormally: exit()
+12:55:08 Dec 09 2014 <Tolga_LAE> failed
+12:55:34 Dec 09 2014 <Tolga_LAE> done (2 sec)
+12:56:01 Dec 09 2014 <Tolga_LAE> done (2 sec)
+12:57:34 Dec 09 2014 <Tolga_LAE> done (2 sec)
+12:58:44 Dec 09 2014     job 10 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp10_des.cmd"
+12:58:48 Dec 09 2014 --- job 10 <sdevice> exited abnormally: exit()
+12:58:49 Dec 09 2014     job 58 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp58_des.cmd"
+12:58:53 Dec 09 2014 --- job 58 <sdevice> exited abnormally: exit()
+12:58:54 Dec 09 2014     job 62 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp62_des.cmd"
+12:58:58 Dec 09 2014 --- job 62 <sdevice> exited abnormally: exit()
+12:58:59 Dec 09 2014     job 66 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp66_des.cmd"
+12:59:03 Dec 09 2014 --- job 66 <sdevice> exited abnormally: exit()
+12:59:04 Dec 09 2014     job 70 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp70_des.cmd"
+12:59:08 Dec 09 2014 --- job 70 <sdevice> exited abnormally: exit()
+12:59:09 Dec 09 2014     job 74 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp74_des.cmd"
+12:59:13 Dec 09 2014 --- job 74 <sdevice> exited abnormally: exit()
+12:59:14 Dec 09 2014     job 12 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp12_des.cmd"
+12:59:18 Dec 09 2014 --- job 12 <sdevice> exited abnormally: exit()
+12:59:19 Dec 09 2014     job 60 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp60_des.cmd"
+12:59:23 Dec 09 2014 --- job 60 <sdevice> exited abnormally: exit()
+12:59:24 Dec 09 2014     job 64 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp64_des.cmd"
+12:59:28 Dec 09 2014 --- job 64 <sdevice> exited abnormally: exit()
+12:59:29 Dec 09 2014     job 68 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp68_des.cmd"
+12:59:33 Dec 09 2014 --- job 68 <sdevice> exited abnormally: exit()
+12:59:34 Dec 09 2014     job 72 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp72_des.cmd"
+12:59:38 Dec 09 2014 --- job 72 <sdevice> exited abnormally: exit()
+12:59:39 Dec 09 2014     job 76 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp76_des.cmd"
+12:59:43 Dec 09 2014 --- job 76 <sdevice> exited abnormally: exit()
+12:59:45 Dec 09 2014 <Tolga_LAE> failed
+13:00:46 Dec 09 2014     job 10 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp10_des.cmd"
+13:00:51 Dec 09 2014 --- job 10 <sdevice> exited abnormally: exit()
+13:00:52 Dec 09 2014     job 58 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp58_des.cmd"
+13:00:58 Dec 09 2014 --- job 58 <sdevice> exited abnormally: exit()
+13:00:59 Dec 09 2014     job 62 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp62_des.cmd"
+13:01:04 Dec 09 2014 --- job 62 <sdevice> exited abnormally: exit()
+13:01:05 Dec 09 2014     job 66 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp66_des.cmd"
+13:01:10 Dec 09 2014 --- job 66 <sdevice> exited abnormally: exit()
+13:01:11 Dec 09 2014     job 70 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp70_des.cmd"
+13:01:16 Dec 09 2014 --- job 70 <sdevice> exited abnormally: exit()
+13:01:17 Dec 09 2014     job 74 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp74_des.cmd"
+13:01:22 Dec 09 2014 --- job 74 <sdevice> exited abnormally: exit()
+13:01:23 Dec 09 2014     job 12 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp12_des.cmd"
+13:01:28 Dec 09 2014 --- job 12 <sdevice> exited abnormally: exit()
+13:01:29 Dec 09 2014     job 60 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp60_des.cmd"
+13:01:34 Dec 09 2014 --- job 60 <sdevice> exited abnormally: exit()
+13:01:35 Dec 09 2014     job 64 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp64_des.cmd"
+13:01:40 Dec 09 2014 --- job 64 <sdevice> exited abnormally: exit()
+13:01:41 Dec 09 2014     job 68 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp68_des.cmd"
+13:01:46 Dec 09 2014 --- job 68 <sdevice> exited abnormally: exit()
+13:01:47 Dec 09 2014     job 72 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp72_des.cmd"
+13:01:52 Dec 09 2014 --- job 72 <sdevice> exited abnormally: exit()
+13:01:53 Dec 09 2014     job 76 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp76_des.cmd"
+13:01:58 Dec 09 2014 --- job 76 <sdevice> exited abnormally: exit()
+13:02:00 Dec 09 2014 <Tolga_LAE> failed
+13:05:15 Dec 09 2014     job 10 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp10_des.cmd"
+13:05:20 Dec 09 2014 --- job 10 <sdevice> exited abnormally: exit()
+13:05:22 Dec 09 2014 <Tolga_LAE> failed
+13:05:50 Dec 09 2014     job 10 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp10_des.cmd"
+13:05:55 Dec 09 2014 --- job 10 <sdevice> exited abnormally: exit()
+13:05:57 Dec 09 2014 <Tolga_LAE> failed
+13:09:50 Dec 09 2014     job 10 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp10_des.cmd"
+13:09:55 Dec 09 2014 --- job 10 <sdevice> exited abnormally: exit()
+13:09:58 Dec 09 2014 <Tolga_LAE> failed
+13:10:05 Dec 09 2014     job 10 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp10_des.cmd"
+13:10:10 Dec 09 2014 --- job 10 <sdevice> exited abnormally: exit()
+13:10:12 Dec 09 2014 <Tolga_LAE> failed
+13:10:53 Dec 09 2014     job 10 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp10_des.cmd"
+13:10:58 Dec 09 2014 --- job 10 <sdevice> exited abnormally: exit()
+13:11:00 Dec 09 2014 <Tolga_LAE> failed
+13:12:22 Dec 09 2014     job 10 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp10_des.cmd"
+13:12:26 Dec 09 2014 --- job 10 <sdevice> exited abnormally: exit()
+13:12:28 Dec 09 2014 <Tolga_LAE> failed
+13:17:21 Dec 09 2014     job 10 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp10_des.cmd"
+13:17:26 Dec 09 2014 --- job 10 <sdevice> exited abnormally: exit()
+13:17:28 Dec 09 2014 <Tolga_LAE> failed
+13:27:12 Dec 09 2014     job 10 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp10_des.cmd"
+13:28:53 Dec 09 2014 --- job 10 <sdevice> exited abnormally: exit()
+13:28:55 Dec 09 2014 <Tolga_LAE> failed
+13:31:52 Dec 09 2014     job 58 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp58_des.cmd"
+13:33:01 Dec 09 2014 --- job 58 <sdevice> exited abnormally: exit()
+13:33:02 Dec 09 2014     job 62 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp62_des.cmd"
+13:35:54 Dec 09 2014 --- job 62 <sdevice> exited abnormally: exit()
+13:35:55 Dec 09 2014     job 66 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp66_des.cmd"
+13:38:22 Dec 09 2014 --- job 66 <sdevice> exited abnormally: exit()
+13:38:23 Dec 09 2014     job 70 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp70_des.cmd"
+13:40:31 Dec 09 2014 --- job 70 <sdevice> exited abnormally: exit()
+13:40:32 Dec 09 2014     job 74 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp74_des.cmd"
+13:43:05 Dec 09 2014 --- job 74 <sdevice> exited abnormally: exit()
+13:43:06 Dec 09 2014     job 78 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp78_des.cmd"
+13:45:31 Dec 09 2014 --- job 78 <sdevice> exited abnormally: exit()
+13:45:32 Dec 09 2014     job 81 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp81_des.cmd"
+13:45:42 Dec 09 2014 --- job 81 <sdevice> exited abnormally: exit()
+13:45:43 Dec 09 2014     job 83 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp83_des.cmd"
+13:45:54 Dec 09 2014 --- job 83 <sdevice> exited abnormally: exit()
+13:45:55 Dec 09 2014     job 85 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp85_des.cmd"
+13:46:04 Dec 09 2014 --- job 85 <sdevice> exited abnormally: exit()
+13:46:05 Dec 09 2014     job 87 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp87_des.cmd"
+13:46:15 Dec 09 2014 --- job 87 <sdevice> exited abnormally: exit()
+13:46:16 Dec 09 2014     job 89 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp89_des.cmd"
+13:46:26 Dec 09 2014 --- job 89 <sdevice> exited abnormally: exit()
+13:46:27 Dec 09 2014     job 91 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp91_des.cmd"
+13:49:04 Dec 09 2014 --- job 91 <sdevice> exited abnormally: exit()
+13:49:05 Dec 09 2014     job 93 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp93_des.cmd"
+13:51:45 Dec 09 2014 --- job 93 <sdevice> exited abnormally: exit()
+13:51:47 Dec 09 2014 <Tolga_LAE> failed
+13:58:11 Dec 09 2014     job 66 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp66_des.cmd"
+14:00:51 Dec 09 2014 --- job 66 <sdevice> exited abnormally: exit()
+14:00:53 Dec 09 2014 <Tolga_LAE> failed
+10:28:37 Dec 11 2014     job 66 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp66_des.cmd"
+10:30:59 Dec 11 2014 --- job 66 <sdevice> exited abnormally: exit()
+10:31:01 Dec 11 2014 <Tolga_LAE> failed
+10:32:45 Dec 11 2014     job 66 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp66_des.cmd"
+10:34:56 Dec 11 2014 --- job 66 <sdevice> exited abnormally: exit()
+10:34:58 Dec 11 2014 <Tolga_LAE> failed
+10:38:12 Dec 11 2014     job 66 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp66_des.cmd"
+10:39:06 Dec 11 2014 +++ job 66 <sdevice> done: exit(0)
+10:39:08 Dec 11 2014 <Tolga_LAE> done (57 sec)
+10:39:27 Dec 11 2014     job 10 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp10_des.cmd"
+10:40:18 Dec 11 2014 +++ job 10 <sdevice> done: exit(0)
+10:40:19 Dec 11 2014     job 58 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp58_des.cmd"
+10:41:12 Dec 11 2014 +++ job 58 <sdevice> done: exit(0)
+10:41:13 Dec 11 2014     job 62 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp62_des.cmd"
+10:42:07 Dec 11 2014 +++ job 62 <sdevice> done: exit(0)
+10:42:08 Dec 11 2014     job 66 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp66_des.cmd"
+10:42:59 Dec 11 2014 +++ job 66 <sdevice> done: exit(0)
+10:43:00 Dec 11 2014     job 70 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp70_des.cmd"
+10:43:53 Dec 11 2014 +++ job 70 <sdevice> done: exit(0)
+10:43:54 Dec 11 2014     job 74 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp74_des.cmd"
+10:44:50 Dec 11 2014 +++ job 74 <sdevice> done: exit(0)
+10:44:51 Dec 11 2014     job 78 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp78_des.cmd"
+10:45:52 Dec 11 2014 +++ job 78 <sdevice> done: exit(0)
+10:45:53 Dec 11 2014     job 81 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp81_des.cmd"
+10:46:05 Dec 11 2014 --- job 81 <sdevice> exited abnormally: exit()
+10:46:06 Dec 11 2014     job 83 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp83_des.cmd"
+10:46:15 Dec 11 2014 --- job 83 <sdevice> exited abnormally: exit()
+10:46:16 Dec 11 2014     job 85 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp85_des.cmd"
+10:46:25 Dec 11 2014 --- job 85 <sdevice> exited abnormally: exit()
+10:46:26 Dec 11 2014     job 87 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp87_des.cmd"
+10:46:36 Dec 11 2014 --- job 87 <sdevice> exited abnormally: exit()
+10:46:37 Dec 11 2014     job 89 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp89_des.cmd"
+10:46:47 Dec 11 2014 --- job 89 <sdevice> exited abnormally: exit()
+10:46:48 Dec 11 2014     job 91 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp91_des.cmd"
+10:47:44 Dec 11 2014 +++ job 91 <sdevice> done: exit(0)
+10:47:45 Dec 11 2014     job 93 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp93_des.cmd"
+10:48:45 Dec 11 2014 +++ job 93 <sdevice> done: exit(0)
+10:48:47 Dec 11 2014 <Tolga_LAE> failed
+11:28:23 Dec 11 2014     job 10 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp10_des.cmd"
+12:00:57 Dec 11 2014 +++ job 10 <sdevice> done: exit(0)
+12:00:58 Dec 11 2014     job 58 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp58_des.cmd"
+12:04:21 Dec 11 2014 --- job 58 <unknown> exited abnormally: exit()
+12:04:22 Dec 11 2014     job 62 <unknown> started on host 'thzlabsv.ee.ucla.edu': ""
+12:04:32 Dec 11 2014     job 66 <unknown> started on host 'thzlabsv.ee.ucla.edu': ""
+12:04:49 Dec 11 2014 --- job 66 <unknown> exited abnormally: exit()
+12:04:50 Dec 11 2014     job 70 <unknown> started on host 'thzlabsv.ee.ucla.edu': ""
+12:05:01 Dec 11 2014 --- job 70 <unknown> exited abnormally: exit()
+12:05:02 Dec 11 2014     job 74 <unknown> started on host 'thzlabsv.ee.ucla.edu': ""
+12:05:11 Dec 11 2014 --- job 74 <unknown> exited abnormally: exit()
+12:05:12 Dec 11 2014     job 78 <unknown> started on host 'thzlabsv.ee.ucla.edu': ""
+12:05:23 Dec 11 2014 --- job 78 <unknown> exited abnormally: exit()
+12:05:24 Dec 11 2014     job 81 <unknown> started on host 'thzlabsv.ee.ucla.edu': ""
+12:05:33 Dec 11 2014 --- job 81 <unknown> exited abnormally: exit()
+12:05:34 Dec 11 2014     job 83 <unknown> started on host 'thzlabsv.ee.ucla.edu': ""
+12:05:43 Dec 11 2014 --- job 83 <unknown> exited abnormally: exit()
+12:05:44 Dec 11 2014     job 85 <unknown> started on host 'thzlabsv.ee.ucla.edu': ""
+12:05:54 Dec 11 2014 --- job 85 <unknown> exited abnormally: exit()
+12:05:55 Dec 11 2014     job 87 <unknown> started on host 'thzlabsv.ee.ucla.edu': ""
+12:06:04 Dec 11 2014 --- job 87 <unknown> exited abnormally: exit()
+12:06:05 Dec 11 2014     job 89 <unknown> started on host 'thzlabsv.ee.ucla.edu': ""
+12:38:32 Dec 11 2014 +++ job 89 <unknown> done: exit(0)
+12:38:33 Dec 11 2014     job 91 <unknown> started on host 'thzlabsv.ee.ucla.edu': ""
+13:11:20 Dec 11 2014 +++ job 91 <unknown> done: exit(0)
+13:11:21 Dec 11 2014     job 93 <unknown> started on host 'thzlabsv.ee.ucla.edu': ""
+13:43:19 Dec 11 2014 +++ job 93 <unknown> done: exit(0)
+13:43:24 Dec 11 2014 <Tolga_LAE> failed
+14:15:55 Dec 11 2014     job 89 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp89_des.cmd"
+14:48:39 Dec 11 2014 +++ job 89 <sdevice> done: exit(0)
+14:48:43 Dec 11 2014 <Tolga_LAE> done (1969 sec)
+15:00:28 Dec 11 2014     job 87 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp87_des.cmd"
+15:00:37 Dec 11 2014 --- job 87 <sdevice> exited abnormally: exit()
+15:00:42 Dec 11 2014 <Tolga_LAE> failed
+15:00:49 Dec 11 2014     job 89 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp89_des.cmd"
+15:02:38 Dec 11 2014 +++ job 89 <sdevice> done: exit(0)
+15:02:42 Dec 11 2014 <Tolga_LAE> done (113 sec)
+15:44:52 Dec 11 2014     job 89 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp89_des.cmd"
+15:44:58 Dec 11 2014 --- job 89 <sdevice> exited abnormally: exit()
+15:45:02 Dec 11 2014 <Tolga_LAE> failed
+15:45:19 Dec 11 2014     job 89 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp89_des.cmd"
+15:45:25 Dec 11 2014 --- job 89 <sdevice> exited abnormally: exit()
+15:45:29 Dec 11 2014 <Tolga_LAE> failed
+15:46:01 Dec 11 2014     job 89 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp89_des.cmd"
+15:46:07 Dec 11 2014 --- job 89 <sdevice> exited abnormally: exit()
+15:46:11 Dec 11 2014 <Tolga_LAE> failed
+13:29:18 Dec 12 2014     job 66 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp66_des.cmd"
+13:31:16 Dec 12 2014 +++ job 66 <sdevice> done: exit(0)
+13:31:17 Dec 12 2014     job 70 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp70_des.cmd"
+13:33:15 Dec 12 2014 +++ job 70 <sdevice> done: exit(0)
+13:33:16 Dec 12 2014     job 74 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp74_des.cmd"
+13:35:12 Dec 12 2014 +++ job 74 <sdevice> done: exit(0)
+13:35:13 Dec 12 2014     job 87 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp87_des.cmd"
+13:35:22 Dec 12 2014 --- job 87 <sdevice> exited abnormally: exit()
+13:35:23 Dec 12 2014     job 89 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp89_des.cmd"
+13:35:32 Dec 12 2014 --- job 89 <sdevice> exited abnormally: exit()
+13:35:33 Dec 12 2014     job 91 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp91_des.cmd"
+13:35:42 Dec 12 2014 --- job 91 <sdevice> exited abnormally: exit()
+13:35:46 Dec 12 2014 <Tolga_LAE> failed
+13:53:58 Dec 12 2014     job 87 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp87_des.cmd"
+13:54:07 Dec 12 2014 --- job 87 <sdevice> exited abnormally: exit()
+13:54:08 Dec 12 2014     job 89 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp89_des.cmd"
+13:56:08 Dec 12 2014 +++ job 89 <sdevice> done: exit(0)
+13:56:09 Dec 12 2014     job 91 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp91_des.cmd"
+13:58:18 Dec 12 2014 +++ job 91 <sdevice> done: exit(0)
+13:58:22 Dec 12 2014 <Tolga_LAE> failed
+14:48:38 Jan 14 2015 <Tolga_LAE> submitted to the batch system
+14:48:39 Jan 14 2015     job 89 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp89_des.cmd"
+15:31:59 Jan 14 2015 --- job 89 <sdevice> exited abnormally: exit()
+15:32:03 Jan 14 2015 <Tolga_LAE> failed
+12:46:27 Jan 16 2015 <Tolga_LAE> submitted to the batch system
+12:46:28 Jan 16 2015     job 6 <sde> started on host 'thzlabsv.ee.ucla.edu': "sde -l n6_dvs.cmd"
+12:46:44 Jan 16 2015 +++ job 6 <sde> done: exit(0)
+12:46:45 Jan 16 2015     job 87 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp87_des.cmd"
+12:46:50 Jan 16 2015 --- job 87 <sdevice> exited abnormally: exit()
+12:46:51 Jan 16 2015     job 94 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp94_des.cmd"
+12:46:56 Jan 16 2015 --- job 94 <sdevice> exited abnormally: exit()
+12:46:57 Jan 16 2015     job 95 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp95_des.cmd"
+12:47:02 Jan 16 2015 --- job 95 <sdevice> exited abnormally: exit()
+12:47:03 Jan 16 2015     job 96 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp96_des.cmd"
+12:47:08 Jan 16 2015 --- job 96 <sdevice> exited abnormally: exit()
+12:47:09 Jan 16 2015     job 97 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp97_des.cmd"
+12:47:14 Jan 16 2015 --- job 97 <sdevice> exited abnormally: exit()
+12:47:15 Jan 16 2015     job 98 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp98_des.cmd"
+12:47:20 Jan 16 2015 --- job 98 <sdevice> exited abnormally: exit()
+12:47:21 Jan 16 2015     job 89 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp89_des.cmd"
+12:47:26 Jan 16 2015 --- job 89 <sdevice> exited abnormally: exit()
+12:47:29 Jan 16 2015 <Tolga_LAE> failed
+12:48:12 Jan 16 2015 <Tolga_LAE> submitted to the batch system
+12:48:12 Jan 16 2015     job 87 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp87_des.cmd"
+12:48:28 Jan 16 2015 --- job 87 <sdevice> exited abnormally: exit()
+12:48:29 Jan 16 2015     job 94 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp94_des.cmd"
+12:48:45 Jan 16 2015 --- job 94 <sdevice> exited abnormally: exit()
+12:48:46 Jan 16 2015     job 95 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp95_des.cmd"
+12:49:01 Jan 16 2015 --- job 95 <sdevice> exited abnormally: exit()
+12:49:02 Jan 16 2015     job 96 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp96_des.cmd"
+12:49:17 Jan 16 2015 --- job 96 <sdevice> exited abnormally: exit()
+12:49:18 Jan 16 2015     job 97 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp97_des.cmd"
+12:49:20 Jan 16 2015 --- job 97 <sdevice> exited abnormally: exit()
+12:49:21 Jan 16 2015     job 98 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp98_des.cmd"
+12:49:23 Jan 16 2015 --- job 98 <sdevice> exited abnormally: exit()
+12:49:27 Jan 16 2015 <Tolga_LAE> failed
+12:49:55 Jan 16 2015 <Tolga_LAE> submitted to the batch system
+12:49:55 Jan 16 2015     job 87 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp87_des.cmd"
+12:50:10 Jan 16 2015 --- job 87 <sdevice> exited abnormally: exit()
+12:50:11 Jan 16 2015     job 94 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp94_des.cmd"
+12:50:26 Jan 16 2015 --- job 94 <sdevice> exited abnormally: exit()
+12:50:27 Jan 16 2015     job 95 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp95_des.cmd"
+12:50:42 Jan 16 2015 --- job 95 <sdevice> exited abnormally: exit()
+12:50:43 Jan 16 2015     job 96 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp96_des.cmd"
+12:50:59 Jan 16 2015 --- job 96 <sdevice> exited abnormally: exit()
+12:51:00 Jan 16 2015     job 97 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp97_des.cmd"
+12:51:15 Jan 16 2015 --- job 97 <sdevice> exited abnormally: exit()
+12:51:16 Jan 16 2015     job 98 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp98_des.cmd"
+12:51:32 Jan 16 2015 --- job 98 <sdevice> exited abnormally: exit()
+12:51:35 Jan 16 2015 <Tolga_LAE> failed
+12:59:59 Jan 16 2015 <Tolga_LAE> submitted to the batch system
+13:00:00 Jan 16 2015     job 87 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp87_des.cmd"
+13:00:18 Jan 16 2015 --- job 87 <sdevice> exited abnormally: exit()
+13:00:19 Jan 16 2015     job 94 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp94_des.cmd"
+13:00:37 Jan 16 2015 --- job 94 <sdevice> exited abnormally: exit()
+13:00:38 Jan 16 2015     job 95 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp95_des.cmd"
+13:00:56 Jan 16 2015 --- job 95 <sdevice> exited abnormally: exit()
+13:00:57 Jan 16 2015     job 96 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp96_des.cmd"
+13:00:59 Jan 16 2015 --- job 96 <sdevice> exited abnormally: exit()
+13:01:00 Jan 16 2015     job 97 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp97_des.cmd"
+13:01:02 Jan 16 2015 --- job 97 <sdevice> exited abnormally: exit()
+13:01:03 Jan 16 2015     job 98 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp98_des.cmd"
+13:01:05 Jan 16 2015 --- job 98 <sdevice> exited abnormally: exit()
+13:01:09 Jan 16 2015 <Tolga_LAE> failed
+13:01:28 Jan 16 2015 <Tolga_LAE> submitted to the batch system
+13:01:29 Jan 16 2015     job 87 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp87_des.cmd"
+13:01:46 Jan 16 2015 --- job 87 <sdevice> exited abnormally: exit()
+13:01:47 Jan 16 2015     job 94 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp94_des.cmd"
+13:02:04 Jan 16 2015 --- job 94 <sdevice> exited abnormally: exit()
+13:02:05 Jan 16 2015     job 95 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp95_des.cmd"
+13:02:22 Jan 16 2015 --- job 95 <sdevice> exited abnormally: exit()
+13:02:23 Jan 16 2015     job 96 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp96_des.cmd"
+13:02:40 Jan 16 2015 --- job 96 <sdevice> exited abnormally: exit()
+13:02:41 Jan 16 2015     job 97 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp97_des.cmd"
+13:02:58 Jan 16 2015 --- job 97 <sdevice> exited abnormally: exit()
+13:02:59 Jan 16 2015     job 98 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp98_des.cmd"
+13:03:16 Jan 16 2015 --- job 98 <sdevice> exited abnormally: exit()
+13:03:19 Jan 16 2015 <Tolga_LAE> failed
+13:07:09 Jan 16 2015 <Tolga_LAE> submitted to the batch system
+13:07:09 Jan 16 2015     job 87 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp87_des.cmd"
+13:07:26 Jan 16 2015 --- job 87 <sdevice> exited abnormally: exit()
+13:07:27 Jan 16 2015     job 94 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp94_des.cmd"
+13:07:44 Jan 16 2015 --- job 94 <sdevice> exited abnormally: exit()
+13:07:45 Jan 16 2015     job 95 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp95_des.cmd"
+13:08:02 Jan 16 2015 --- job 95 <sdevice> exited abnormally: exit()
+13:08:03 Jan 16 2015     job 96 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp96_des.cmd"
+13:08:20 Jan 16 2015 --- job 96 <sdevice> exited abnormally: exit()
+13:08:21 Jan 16 2015     job 97 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp97_des.cmd"
+13:08:38 Jan 16 2015 --- job 97 <sdevice> exited abnormally: exit()
+13:08:39 Jan 16 2015     job 98 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp98_des.cmd"
+13:08:56 Jan 16 2015 --- job 98 <sdevice> exited abnormally: exit()
+13:09:00 Jan 16 2015 <Tolga_LAE> failed
+13:27:16 Jan 16 2015 <Tolga_LAE> submitted to the batch system
+13:27:16 Jan 16 2015     job 87 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp87_des.cmd"
+13:51:29 Jan 16 2015 --- job 87 <sdevice> exited abnormally: exit()
+13:51:30 Jan 16 2015     job 94 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp94_des.cmd"
+09:13:03 Jan 17 2015 +++ job 94 <sdevice> done: exit(0)
+09:13:04 Jan 17 2015     job 95 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp95_des.cmd"
+09:24:57 Jan 17 2015 --- job 95 <sdevice> exited abnormally: exit()
+09:24:58 Jan 17 2015     job 96 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp96_des.cmd"
+09:52:14 Jan 17 2015 --- job 96 <sdevice> exited abnormally: exit()
+09:52:15 Jan 17 2015     job 97 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp97_des.cmd"
+10:18:22 Jan 17 2015 --- job 97 <sdevice> exited abnormally: exit()
+10:18:23 Jan 17 2015     job 98 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp98_des.cmd"
+10:27:59 Jan 17 2015 --- job 98 <sdevice> exited abnormally: exit()
+10:28:02 Jan 17 2015 <Tolga_LAE> failed
+18:05:39 Jan 17 2015 <Tolga_LAE> submitted to the batch system
+18:05:40 Jan 17 2015     job 94 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp94_des.cmd"
+09:17:10 Jan 18 2015 +++ job 94 <sdevice> done: exit(0)
+09:17:14 Jan 18 2015 <Tolga_LAE> done (54695 sec)
+15:45:52 Jan 19 2015 <Tolga_LAE> submitted to the batch system
+15:45:54 Jan 19 2015     job 102 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp102_des.cmd"
+15:46:00 Jan 19 2015 --- job 102 <sdevice> exited abnormally: exit()
+15:46:01 Jan 19 2015     job 109 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp109_des.cmd"
+15:46:05 Jan 19 2015 --- job 109 <sdevice> exited abnormally: exit()
+15:46:06 Jan 19 2015     job 110 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp110_des.cmd"
+15:46:10 Jan 19 2015 --- job 110 <sdevice> exited abnormally: exit()
+15:46:11 Jan 19 2015     job 111 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp111_des.cmd"
+15:46:18 Jan 19 2015 --- job 111 <sdevice> exited abnormally: exit()
+15:46:19 Jan 19 2015     job 112 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp112_des.cmd"
+15:46:23 Jan 19 2015 --- job 112 <sdevice> exited abnormally: exit()
+15:46:24 Jan 19 2015     job 113 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp113_des.cmd"
+15:46:28 Jan 19 2015 --- job 113 <sdevice> exited abnormally: exit()
+15:46:29 Jan 19 2015     job 114 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp114_des.cmd"
+15:46:33 Jan 19 2015 --- job 114 <sdevice> exited abnormally: exit()
+15:46:37 Jan 19 2015 <Tolga_LAE> failed
+15:47:22 Jan 19 2015 <Tolga_LAE> submitted to the batch system
+15:47:23 Jan 19 2015     job 102 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp102_des.cmd"
+01:28:30 Jan 20 2015 +++ job 102 <sdevice> done: exit(0)
+01:28:31 Jan 20 2015     job 109 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp109_des.cmd"
+01:41:53 Jan 20 2015 --- job 109 <sdevice> exited abnormally: exit()
+01:41:54 Jan 20 2015     job 110 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp110_des.cmd"
+10:08:19 Jan 20 2015 +++ job 110 <sdevice> done: exit(0)
+10:08:20 Jan 20 2015     job 111 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp111_des.cmd"
+10:50:49 Jan 20 2015 --- job 111 <sdevice> exited abnormally: exit()
+10:50:50 Jan 20 2015     job 112 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp112_des.cmd"
+11:02:08 Jan 20 2015 --- job 112 <sdevice> exited abnormally: exit()
+11:02:09 Jan 20 2015     job 113 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp113_des.cmd"
+11:13:29 Jan 20 2015 --- job 113 <sdevice> exited abnormally: exit()
+11:13:30 Jan 20 2015     job 114 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp114_des.cmd"
+11:24:49 Jan 20 2015 --- job 114 <sdevice> exited abnormally: exit()
+11:24:52 Jan 20 2015 <Tolga_LAE> failed
+17:15:08 Jan 20 2015 <Tolga_LAE> submitted to the batch system
+17:15:09 Jan 20 2015     job 102 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp102_des.cmd"
+19:00:56 Jan 20 2015 +++ job 102 <sdevice> done: exit(0)
+19:00:57 Jan 20 2015     job 109 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp109_des.cmd"
+21:25:51 Jan 20 2015 +++ job 109 <sdevice> done: exit(0)
+21:25:52 Jan 20 2015     job 110 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp110_des.cmd"
+23:21:37 Jan 20 2015 +++ job 110 <sdevice> done: exit(0)
+23:21:38 Jan 20 2015     job 111 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp111_des.cmd"
+01:00:49 Jan 21 2015 +++ job 111 <sdevice> done: exit(0)
+01:00:50 Jan 21 2015     job 112 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp112_des.cmd"
+02:37:18 Jan 21 2015 +++ job 112 <sdevice> done: exit(0)
+02:37:19 Jan 21 2015     job 113 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp113_des.cmd"
+04:15:15 Jan 21 2015 +++ job 113 <sdevice> done: exit(0)
+04:15:16 Jan 21 2015     job 114 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp114_des.cmd"
+04:18:35 Jan 21 2015 --- job 114 <sdevice> exited abnormally: exit()
+04:18:39 Jan 21 2015 <Tolga_LAE> failed
+16:19:48 Jan 21 2015 <Tolga_LAE> submitted to the batch system
+16:19:49 Jan 21 2015     job 109 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp109_des.cmd"
+18:07:13 Jan 21 2015 +++ job 109 <sdevice> done: exit(0)
+18:07:14 Jan 21 2015     job 110 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp110_des.cmd"
+19:55:17 Jan 21 2015 +++ job 110 <sdevice> done: exit(0)
+19:55:18 Jan 21 2015     job 111 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp111_des.cmd"
+21:36:39 Jan 21 2015 +++ job 111 <sdevice> done: exit(0)
+21:36:40 Jan 21 2015     job 112 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp112_des.cmd"
+23:16:05 Jan 21 2015 +++ job 112 <sdevice> done: exit(0)
+23:16:06 Jan 21 2015     job 113 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp113_des.cmd"
+00:54:00 Jan 22 2015 +++ job 113 <sdevice> done: exit(0)
+00:54:01 Jan 22 2015     job 114 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp114_des.cmd"
+00:57:21 Jan 22 2015 --- job 114 <sdevice> exited abnormally: exit()
+00:57:25 Jan 22 2015 <Tolga_LAE> failed
+19:03:56 Jan 24 2015 <Tolga_LAE> submitted to the batch system
+19:03:57 Jan 24 2015     job 114 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp114_des.cmd"
+19:06:40 Jan 24 2015 --- job 114 <sdevice> exited abnormally: exit()
+19:06:43 Jan 24 2015 <Tolga_LAE> failed
+19:18:29 Jan 24 2015 <Tolga_LAE> submitted to the batch system
+19:18:30 Jan 24 2015     job 87 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp87_des.cmd"
+22:38:41 Jan 24 2015 +++ job 87 <sdevice> done: exit(0)
+22:38:42 Jan 24 2015     job 95 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp95_des.cmd"
+01:45:32 Jan 25 2015 +++ job 95 <sdevice> done: exit(0)
+01:45:33 Jan 25 2015     job 96 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp96_des.cmd"
+04:50:27 Jan 25 2015 +++ job 96 <sdevice> done: exit(0)
+04:50:28 Jan 25 2015     job 97 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp97_des.cmd"
+07:54:48 Jan 25 2015 +++ job 97 <sdevice> done: exit(0)
+07:54:49 Jan 25 2015     job 98 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp98_des.cmd"
+07:58:59 Jan 25 2015 --- job 98 <sdevice> exited abnormally: exit()
+07:59:00 Jan 25 2015     job 114 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp114_des.cmd"
+08:01:54 Jan 25 2015 --- job 114 <sdevice> exited abnormally: exit()
+08:01:58 Jan 25 2015 <Tolga_LAE> failed
+17:30:09 Jan 25 2015 <Tolga_LAE> submitted to the batch system
+17:30:09 Jan 25 2015     job 66 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp66_des.cmd"
+20:49:48 Jan 25 2015 +++ job 66 <sdevice> done: exit(0)
+20:49:49 Jan 25 2015     job 87 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp87_des.cmd"
+00:12:09 Jan 26 2015 +++ job 87 <sdevice> done: exit(0)
+00:12:10 Jan 26 2015     job 94 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp94_des.cmd"
+03:15:02 Jan 26 2015 +++ job 94 <sdevice> done: exit(0)
+03:15:03 Jan 26 2015     job 95 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp95_des.cmd"
+06:16:47 Jan 26 2015 +++ job 95 <sdevice> done: exit(0)
+06:16:48 Jan 26 2015     job 96 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp96_des.cmd"
+09:16:15 Jan 26 2015 +++ job 96 <sdevice> done: exit(0)
+09:16:16 Jan 26 2015     job 97 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp97_des.cmd"
+10:25:24 Jan 26 2015 --- job 97 <unknown> exited abnormally: exit()
+10:25:25 Jan 26 2015     job 98 <unknown> started on host 'thzlabsv.ee.ucla.edu': ""
+10:26:19 Jan 26 2015 --- job 98 <unknown> exited abnormally: exit()
+10:26:20 Jan 26 2015     job 102 <unknown> started on host 'thzlabsv.ee.ucla.edu': ""
+11:59:09 Jan 26 2015 --- job 102 <unknown> exited abnormally: exit()
+11:59:10 Jan 26 2015     job 109 <unknown> started on host 'thzlabsv.ee.ucla.edu': ""
+14:10:12 Jan 26 2015 +++ job 109 <unknown> done: exit(0)
+14:10:13 Jan 26 2015     job 110 <unknown> started on host 'thzlabsv.ee.ucla.edu': ""
+16:17:32 Jan 26 2015 +++ job 110 <unknown> done: exit(0)
+16:17:33 Jan 26 2015     job 111 <unknown> started on host 'thzlabsv.ee.ucla.edu': ""
+18:20:14 Jan 26 2015 +++ job 111 <unknown> done: exit(0)
+18:20:15 Jan 26 2015     job 112 <unknown> started on host 'thzlabsv.ee.ucla.edu': ""
+20:22:00 Jan 26 2015 +++ job 112 <unknown> done: exit(0)
+20:22:01 Jan 26 2015     job 113 <unknown> started on host 'thzlabsv.ee.ucla.edu': ""
+22:23:24 Jan 26 2015 +++ job 113 <unknown> done: exit(0)
+22:23:25 Jan 26 2015     job 114 <unknown> started on host 'thzlabsv.ee.ucla.edu': ""
+22:26:26 Jan 26 2015 --- job 114 <unknown> exited abnormally: exit()
+22:26:30 Jan 26 2015 <Tolga_LAE> failed
+11:17:36 Jan 27 2015 <Tolga_LAE> submitted to the batch system
+11:17:36 Jan 27 2015     job 114 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp114_des.cmd"
+11:20:46 Jan 27 2015 --- job 114 <sdevice> exited abnormally: exit()
+11:20:49 Jan 27 2015 <Tolga_LAE> failed
+11:33:49 Jan 27 2015 <Tolga_LAE> submitted to the batch system
+11:33:50 Jan 27 2015     job 102 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp102_des.cmd"
+11:53:42 Jan 27 2015 --- job 102 <sdevice> exited abnormally: exit()
+11:53:43 Jan 27 2015     job 110 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp110_des.cmd"
+11:54:19 Jan 27 2015 --- job 110 <sdevice> exited abnormally: exit()
+11:54:23 Jan 27 2015 <Tolga_LAE> failed
+11:54:54 Jan 27 2015 <Tolga_LAE> submitted to the batch system
+11:54:54 Jan 27 2015     job 102 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp102_des.cmd"
+12:19:01 Jan 27 2015 --- job 102 <sdevice> exited abnormally: exit()
+12:19:02 Jan 27 2015     job 110 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp110_des.cmd"
+12:19:29 Jan 27 2015 --- job 110 <sdevice> exited abnormally: exit()
+12:19:32 Jan 27 2015 <Tolga_LAE> failed
+12:20:59 Jan 27 2015 <Tolga_LAE> submitted to the batch system
+12:21:00 Jan 27 2015     job 110 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp110_des.cmd"
+14:28:36 Jan 27 2015 +++ job 110 <sdevice> done: exit(0)
+14:28:40 Jan 27 2015 <Tolga_LAE> done (7661 sec)

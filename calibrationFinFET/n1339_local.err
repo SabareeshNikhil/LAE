@@ -1,0 +1,3 @@
+Job failed
+Error: Child process with pid '9834' got the signal 'SIGSEGV' (segmentation violation)
+gjob exits with status 1

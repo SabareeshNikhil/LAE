@@ -1,0 +1,582 @@
+
+****************************************************************************
+***                       Sentaurus Workbench gsub                       ***
+***                          Version G-2012.06                           ***
+***                         (1.7, amd64, linux)                          ***
+***                                                                      ***
+***                       Copyright (C) 1994-2012                        ***
+***                            Synopsys, Inc.                            ***
+***                                                                      ***
+***  This software and the associated documentation are confidential     ***
+***  and proprietary to Synopsys, Inc.  Your use or disclosure of this   ***
+***  software is subject to the terms and conditions of a written        ***
+***  license agreement between you, or your company, and Synopsys, Inc.  ***
+****************************************************************************
+
+gsub is running on host 'thzlabsv.ee.ucla.edu' by user 'snikhil'
+Binary 'gsub'
+Command line options '-verbose -swb_pid 70827 -q local:default -e {111 + 87 + 112 + 88 + 103 + 127 + 104 + 113 + 89 + 114 + 90 + 115 + 91 + 116 + 92 + 105 + 128 + 106 + 117 + 93 + 118 + 94 + 119 + 95 + 120 + 96 + 107 + 129 + 108 + 121 + 97 + 122 + 98 + 123 + 99 + 124 + 100 + 109 + 130 + 110 + 125 + 101 + 126 + 102} @STDB@/LAE_complex'
+Current directory '/u1/ee/snikhil/Research'
+Some relevant environment variables:
+	STROOT=/w/apps3/Synopsys/TCAD_Sentaurus/vG_2012.06
+	STRELEASE=current
+	STROOT_LIB=/w/apps3/Synopsys/TCAD_Sentaurus/vG_2012.06/tcad/current/lib
+	STDB=/u1/ee/snikhil/Research
+	DATEX=/w/apps3/Synopsys/TCAD_Sentaurus/vG_2012.06/tcad/current/lib/datexcodes.txt
+	DISPLAY=localhost:10.0
+
+Starting swblm daemon...OK
+relativizing paths:
+project path: /u1/ee/snikhil/Research/LAE_complex
+STDB path: @STDB@
+normalized STDB path: /w/ee.00/mjarrahi/snikhil/Research
+Project '@STDB@/LAE_complex'
+Loading global tool database '/w/apps3/Synopsys/TCAD_Sentaurus/vG_2012.06/tcad/current/lib/glib2/tooldb.tcl'
+Loading preferences '/u1/ee/snikhil/Research/gpref2_snikhil.G-2012.06'...
+Loading preferences '/u1/ee/snikhil/Research/gpref2_snikhil.G-2012.06'...
+16:54:23 Feb 03 2015 <LAE_complex> submitted to the batch system
+Loading global queue configuration file '/w/apps3/Synopsys/TCAD_Sentaurus/vG_2012.06/queues/gqueues.dat'...ok
+Loading project tree '/u1/ee/snikhil/Research/LAE_complex/gtree.dat'
+>>>>>preprocessing the project for running in intelligent mode
+Loading jobs and dependence graph '"/u1/ee/snikhil/Research/LAE_complex/gexec.cmd"'
+INITIALIZING PREPROCESSOR:
+Loading project tree '/u1/ee/snikhil/Research/LAE_complex/gtree.dat'
+Loading project variables '/u1/ee/snikhil/Research/LAE_complex/gvars.dat'
+--Get files to preprocess...
+--Create file handlers...
+--Read the toolflow...
+--Analyze tool-file dependencies...
+--Read all nodes to preprocess...
+--Group nodes into experiments...
+--Get all variables...
+--Get all parameters...
+PREPROCESSOR SUCCESSFULLY INITIALIZED.
+PREPROCESSING STEP 1:
+Reading file /u1/ee/snikhil/Research/LAE_complex/sde_dvs.cmd
+Reading file /u1/ee/snikhil/Research/LAE_complex/sdevice_des.cmd
+Reading file /u1/ee/snikhil/Research/LAE_complex/sdevice.par
+Reading file /u1/ee/snikhil/Research/LAE_complex/sdevice2_des.cmd
+Reading file /u1/ee/snikhil/Research/LAE_complex/sdevice1_des.cmd
+PREPROCESSING STEP 2:
+Preprocessing file /u1/ee/snikhil/Research/LAE_complex/sdevice1_des.cmd fornode 87
+Preprocessing file /u1/ee/snikhil/Research/LAE_complex/sdevice.par fornode 87
++++Node successfully preprocessed+++
+Preprocessing file /u1/ee/snikhil/Research/LAE_complex/sdevice1_des.cmd fornode 88
+Preprocessing file /u1/ee/snikhil/Research/LAE_complex/sdevice.par fornode 88
++++Node successfully preprocessed+++
+Preprocessing file /u1/ee/snikhil/Research/LAE_complex/sdevice1_des.cmd fornode 89
+Preprocessing file /u1/ee/snikhil/Research/LAE_complex/sdevice.par fornode 89
++++Node successfully preprocessed+++
+Preprocessing file /u1/ee/snikhil/Research/LAE_complex/sdevice1_des.cmd fornode 90
+Preprocessing file /u1/ee/snikhil/Research/LAE_complex/sdevice.par fornode 90
++++Node successfully preprocessed+++
+Preprocessing file /u1/ee/snikhil/Research/LAE_complex/sdevice1_des.cmd fornode 91
+Preprocessing file /u1/ee/snikhil/Research/LAE_complex/sdevice.par fornode 91
++++Node successfully preprocessed+++
+Preprocessing file /u1/ee/snikhil/Research/LAE_complex/sdevice1_des.cmd fornode 92
+Preprocessing file /u1/ee/snikhil/Research/LAE_complex/sdevice.par fornode 92
++++Node successfully preprocessed+++
+Preprocessing file /u1/ee/snikhil/Research/LAE_complex/sdevice1_des.cmd fornode 93
+Preprocessing file /u1/ee/snikhil/Research/LAE_complex/sdevice.par fornode 93
++++Node successfully preprocessed+++
+Preprocessing file /u1/ee/snikhil/Research/LAE_complex/sdevice1_des.cmd fornode 94
+Preprocessing file /u1/ee/snikhil/Research/LAE_complex/sdevice.par fornode 94
++++Node successfully preprocessed+++
+Preprocessing file /u1/ee/snikhil/Research/LAE_complex/sdevice1_des.cmd fornode 95
+Preprocessing file /u1/ee/snikhil/Research/LAE_complex/sdevice.par fornode 95
++++Node successfully preprocessed+++
+Preprocessing file /u1/ee/snikhil/Research/LAE_complex/sdevice1_des.cmd fornode 96
+Preprocessing file /u1/ee/snikhil/Research/LAE_complex/sdevice.par fornode 96
++++Node successfully preprocessed+++
+Preprocessing file /u1/ee/snikhil/Research/LAE_complex/sdevice1_des.cmd fornode 97
+Preprocessing file /u1/ee/snikhil/Research/LAE_complex/sdevice.par fornode 97
++++Node successfully preprocessed+++
+Preprocessing file /u1/ee/snikhil/Research/LAE_complex/sdevice1_des.cmd fornode 98
+Preprocessing file /u1/ee/snikhil/Research/LAE_complex/sdevice.par fornode 98
++++Node successfully preprocessed+++
+Preprocessing file /u1/ee/snikhil/Research/LAE_complex/sdevice1_des.cmd fornode 99
+Preprocessing file /u1/ee/snikhil/Research/LAE_complex/sdevice.par fornode 99
++++Node successfully preprocessed+++
+Preprocessing file /u1/ee/snikhil/Research/LAE_complex/sdevice1_des.cmd fornode 100
+Preprocessing file /u1/ee/snikhil/Research/LAE_complex/sdevice.par fornode 100
++++Node successfully preprocessed+++
+Preprocessing file /u1/ee/snikhil/Research/LAE_complex/sdevice1_des.cmd fornode 101
+Preprocessing file /u1/ee/snikhil/Research/LAE_complex/sdevice.par fornode 101
++++Node successfully preprocessed+++
+Preprocessing file /u1/ee/snikhil/Research/LAE_complex/sdevice1_des.cmd fornode 102
+Preprocessing file /u1/ee/snikhil/Research/LAE_complex/sdevice.par fornode 102
++++Node successfully preprocessed+++
+Preprocessing file /u1/ee/snikhil/Research/LAE_complex/sdevice_des.cmd fornode 103
+Preprocessing file /u1/ee/snikhil/Research/LAE_complex/sdevice.par fornode 103
++++Node successfully preprocessed+++
+Preprocessing file /u1/ee/snikhil/Research/LAE_complex/sdevice1_des.cmd fornode 104
+Preprocessing file /u1/ee/snikhil/Research/LAE_complex/sdevice.par fornode 104
++++Node successfully preprocessed+++
+Preprocessing file /u1/ee/snikhil/Research/LAE_complex/sdevice_des.cmd fornode 105
+Preprocessing file /u1/ee/snikhil/Research/LAE_complex/sdevice.par fornode 105
++++Node successfully preprocessed+++
+Preprocessing file /u1/ee/snikhil/Research/LAE_complex/sdevice1_des.cmd fornode 106
+Preprocessing file /u1/ee/snikhil/Research/LAE_complex/sdevice.par fornode 106
++++Node successfully preprocessed+++
+Preprocessing file /u1/ee/snikhil/Research/LAE_complex/sdevice_des.cmd fornode 107
+Preprocessing file /u1/ee/snikhil/Research/LAE_complex/sdevice.par fornode 107
++++Node successfully preprocessed+++
+Preprocessing file /u1/ee/snikhil/Research/LAE_complex/sdevice1_des.cmd fornode 108
+Preprocessing file /u1/ee/snikhil/Research/LAE_complex/sdevice.par fornode 108
++++Node successfully preprocessed+++
+Preprocessing file /u1/ee/snikhil/Research/LAE_complex/sdevice_des.cmd fornode 109
+Preprocessing file /u1/ee/snikhil/Research/LAE_complex/sdevice.par fornode 109
++++Node successfully preprocessed+++
+Preprocessing file /u1/ee/snikhil/Research/LAE_complex/sdevice1_des.cmd fornode 110
+Preprocessing file /u1/ee/snikhil/Research/LAE_complex/sdevice.par fornode 110
++++Node successfully preprocessed+++
+Preprocessing file /u1/ee/snikhil/Research/LAE_complex/sdevice2_des.cmd fornode 111
+Preprocessing file /u1/ee/snikhil/Research/LAE_complex/sdevice.par fornode 111
++++Node successfully preprocessed+++
+Preprocessing file /u1/ee/snikhil/Research/LAE_complex/sdevice2_des.cmd fornode 112
+Preprocessing file /u1/ee/snikhil/Research/LAE_complex/sdevice.par fornode 112
++++Node successfully preprocessed+++
+Preprocessing file /u1/ee/snikhil/Research/LAE_complex/sdevice2_des.cmd fornode 113
+Preprocessing file /u1/ee/snikhil/Research/LAE_complex/sdevice.par fornode 113
++++Node successfully preprocessed+++
+Preprocessing file /u1/ee/snikhil/Research/LAE_complex/sdevice2_des.cmd fornode 114
+Preprocessing file /u1/ee/snikhil/Research/LAE_complex/sdevice.par fornode 114
++++Node successfully preprocessed+++
+Preprocessing file /u1/ee/snikhil/Research/LAE_complex/sdevice2_des.cmd fornode 115
+Preprocessing file /u1/ee/snikhil/Research/LAE_complex/sdevice.par fornode 115
++++Node successfully preprocessed+++
+Preprocessing file /u1/ee/snikhil/Research/LAE_complex/sdevice2_des.cmd fornode 116
+Preprocessing file /u1/ee/snikhil/Research/LAE_complex/sdevice.par fornode 116
++++Node successfully preprocessed+++
+Preprocessing file /u1/ee/snikhil/Research/LAE_complex/sdevice2_des.cmd fornode 117
+Preprocessing file /u1/ee/snikhil/Research/LAE_complex/sdevice.par fornode 117
++++Node successfully preprocessed+++
+Preprocessing file /u1/ee/snikhil/Research/LAE_complex/sdevice2_des.cmd fornode 118
+Preprocessing file /u1/ee/snikhil/Research/LAE_complex/sdevice.par fornode 118
++++Node successfully preprocessed+++
+Preprocessing file /u1/ee/snikhil/Research/LAE_complex/sdevice2_des.cmd fornode 119
+Preprocessing file /u1/ee/snikhil/Research/LAE_complex/sdevice.par fornode 119
++++Node successfully preprocessed+++
+Preprocessing file /u1/ee/snikhil/Research/LAE_complex/sdevice2_des.cmd fornode 120
+Preprocessing file /u1/ee/snikhil/Research/LAE_complex/sdevice.par fornode 120
++++Node successfully preprocessed+++
+Preprocessing file /u1/ee/snikhil/Research/LAE_complex/sdevice2_des.cmd fornode 121
+Preprocessing file /u1/ee/snikhil/Research/LAE_complex/sdevice.par fornode 121
++++Node successfully preprocessed+++
+Preprocessing file /u1/ee/snikhil/Research/LAE_complex/sdevice2_des.cmd fornode 122
+Preprocessing file /u1/ee/snikhil/Research/LAE_complex/sdevice.par fornode 122
++++Node successfully preprocessed+++
+Preprocessing file /u1/ee/snikhil/Research/LAE_complex/sdevice2_des.cmd fornode 123
+Preprocessing file /u1/ee/snikhil/Research/LAE_complex/sdevice.par fornode 123
++++Node successfully preprocessed+++
+Preprocessing file /u1/ee/snikhil/Research/LAE_complex/sdevice2_des.cmd fornode 124
+Preprocessing file /u1/ee/snikhil/Research/LAE_complex/sdevice.par fornode 124
++++Node successfully preprocessed+++
+Preprocessing file /u1/ee/snikhil/Research/LAE_complex/sdevice2_des.cmd fornode 125
+Preprocessing file /u1/ee/snikhil/Research/LAE_complex/sdevice.par fornode 125
++++Node successfully preprocessed+++
+Preprocessing file /u1/ee/snikhil/Research/LAE_complex/sdevice2_des.cmd fornode 126
+Preprocessing file /u1/ee/snikhil/Research/LAE_complex/sdevice.par fornode 126
++++Node successfully preprocessed+++
+Preprocessing file /u1/ee/snikhil/Research/LAE_complex/sdevice2_des.cmd fornode 127
+Preprocessing file /u1/ee/snikhil/Research/LAE_complex/sdevice.par fornode 127
++++Node successfully preprocessed+++
+Preprocessing file /u1/ee/snikhil/Research/LAE_complex/sdevice2_des.cmd fornode 128
+Preprocessing file /u1/ee/snikhil/Research/LAE_complex/sdevice.par fornode 128
++++Node successfully preprocessed+++
+Preprocessing file /u1/ee/snikhil/Research/LAE_complex/sdevice2_des.cmd fornode 129
+Preprocessing file /u1/ee/snikhil/Research/LAE_complex/sdevice.par fornode 129
++++Node successfully preprocessed+++
+Preprocessing file /u1/ee/snikhil/Research/LAE_complex/sdevice2_des.cmd fornode 130
+Preprocessing file /u1/ee/snikhil/Research/LAE_complex/sdevice.par fornode 130
++++Node successfully preprocessed+++
+Writing 'gexec.cmd'
+saving variables
+Loading jobs and dependence graph '"/u1/ee/snikhil/Research/LAE_complex/gexec.cmd"'
+INITIALIZING PREPROCESSOR:
+Loading project tree '/u1/ee/snikhil/Research/LAE_complex/gtree.dat'
+Loading project variables '/u1/ee/snikhil/Research/LAE_complex/gvars.dat'
+--Get files to preprocess...
+--Create file handlers...
+--Read the toolflow...
+--Analyze tool-file dependencies...
+--Read all nodes to preprocess...
+--Group nodes into experiments...
+--Get all variables...
+--Get all parameters...
+PREPROCESSOR SUCCESSFULLY INITIALIZED.
+PREPROCESSING STEP 1:
+Reading file /u1/ee/snikhil/Research/LAE_complex/sde_dvs.cmd
+Reading file /u1/ee/snikhil/Research/LAE_complex/sdevice_des.cmd
+Reading file /u1/ee/snikhil/Research/LAE_complex/sdevice.par
+Reading file /u1/ee/snikhil/Research/LAE_complex/sdevice2_des.cmd
+Reading file /u1/ee/snikhil/Research/LAE_complex/sdevice1_des.cmd
+PREPROCESSING STEP 2:
+Preprocessing file /u1/ee/snikhil/Research/LAE_complex/sdevice1_des.cmd fornode 87
+Preprocessing file /u1/ee/snikhil/Research/LAE_complex/sdevice.par fornode 87
++++Node successfully preprocessed+++
+Preprocessing file /u1/ee/snikhil/Research/LAE_complex/sdevice1_des.cmd fornode 88
+Preprocessing file /u1/ee/snikhil/Research/LAE_complex/sdevice.par fornode 88
++++Node successfully preprocessed+++
+Preprocessing file /u1/ee/snikhil/Research/LAE_complex/sdevice1_des.cmd fornode 89
+Preprocessing file /u1/ee/snikhil/Research/LAE_complex/sdevice.par fornode 89
++++Node successfully preprocessed+++
+Preprocessing file /u1/ee/snikhil/Research/LAE_complex/sdevice1_des.cmd fornode 90
+Preprocessing file /u1/ee/snikhil/Research/LAE_complex/sdevice.par fornode 90
++++Node successfully preprocessed+++
+Preprocessing file /u1/ee/snikhil/Research/LAE_complex/sdevice1_des.cmd fornode 91
+Preprocessing file /u1/ee/snikhil/Research/LAE_complex/sdevice.par fornode 91
++++Node successfully preprocessed+++
+Preprocessing file /u1/ee/snikhil/Research/LAE_complex/sdevice1_des.cmd fornode 92
+Preprocessing file /u1/ee/snikhil/Research/LAE_complex/sdevice.par fornode 92
++++Node successfully preprocessed+++
+Preprocessing file /u1/ee/snikhil/Research/LAE_complex/sdevice1_des.cmd fornode 93
+Preprocessing file /u1/ee/snikhil/Research/LAE_complex/sdevice.par fornode 93
++++Node successfully preprocessed+++
+Preprocessing file /u1/ee/snikhil/Research/LAE_complex/sdevice1_des.cmd fornode 94
+Preprocessing file /u1/ee/snikhil/Research/LAE_complex/sdevice.par fornode 94
++++Node successfully preprocessed+++
+Preprocessing file /u1/ee/snikhil/Research/LAE_complex/sdevice1_des.cmd fornode 95
+Preprocessing file /u1/ee/snikhil/Research/LAE_complex/sdevice.par fornode 95
++++Node successfully preprocessed+++
+Preprocessing file /u1/ee/snikhil/Research/LAE_complex/sdevice1_des.cmd fornode 96
+Preprocessing file /u1/ee/snikhil/Research/LAE_complex/sdevice.par fornode 96
++++Node successfully preprocessed+++
+Preprocessing file /u1/ee/snikhil/Research/LAE_complex/sdevice1_des.cmd fornode 97
+Preprocessing file /u1/ee/snikhil/Research/LAE_complex/sdevice.par fornode 97
++++Node successfully preprocessed+++
+Preprocessing file /u1/ee/snikhil/Research/LAE_complex/sdevice1_des.cmd fornode 98
+Preprocessing file /u1/ee/snikhil/Research/LAE_complex/sdevice.par fornode 98
++++Node successfully preprocessed+++
+Preprocessing file /u1/ee/snikhil/Research/LAE_complex/sdevice1_des.cmd fornode 99
+Preprocessing file /u1/ee/snikhil/Research/LAE_complex/sdevice.par fornode 99
++++Node successfully preprocessed+++
+Preprocessing file /u1/ee/snikhil/Research/LAE_complex/sdevice1_des.cmd fornode 100
+Preprocessing file /u1/ee/snikhil/Research/LAE_complex/sdevice.par fornode 100
++++Node successfully preprocessed+++
+Preprocessing file /u1/ee/snikhil/Research/LAE_complex/sdevice1_des.cmd fornode 101
+Preprocessing file /u1/ee/snikhil/Research/LAE_complex/sdevice.par fornode 101
++++Node successfully preprocessed+++
+Preprocessing file /u1/ee/snikhil/Research/LAE_complex/sdevice1_des.cmd fornode 102
+Preprocessing file /u1/ee/snikhil/Research/LAE_complex/sdevice.par fornode 102
++++Node successfully preprocessed+++
+Preprocessing file /u1/ee/snikhil/Research/LAE_complex/sdevice_des.cmd fornode 103
+Preprocessing file /u1/ee/snikhil/Research/LAE_complex/sdevice.par fornode 103
++++Node successfully preprocessed+++
+Preprocessing file /u1/ee/snikhil/Research/LAE_complex/sdevice1_des.cmd fornode 104
+Preprocessing file /u1/ee/snikhil/Research/LAE_complex/sdevice.par fornode 104
++++Node successfully preprocessed+++
+Preprocessing file /u1/ee/snikhil/Research/LAE_complex/sdevice_des.cmd fornode 105
+Preprocessing file /u1/ee/snikhil/Research/LAE_complex/sdevice.par fornode 105
++++Node successfully preprocessed+++
+Preprocessing file /u1/ee/snikhil/Research/LAE_complex/sdevice1_des.cmd fornode 106
+Preprocessing file /u1/ee/snikhil/Research/LAE_complex/sdevice.par fornode 106
++++Node successfully preprocessed+++
+Preprocessing file /u1/ee/snikhil/Research/LAE_complex/sdevice_des.cmd fornode 107
+Preprocessing file /u1/ee/snikhil/Research/LAE_complex/sdevice.par fornode 107
++++Node successfully preprocessed+++
+Preprocessing file /u1/ee/snikhil/Research/LAE_complex/sdevice1_des.cmd fornode 108
+Preprocessing file /u1/ee/snikhil/Research/LAE_complex/sdevice.par fornode 108
++++Node successfully preprocessed+++
+Preprocessing file /u1/ee/snikhil/Research/LAE_complex/sdevice_des.cmd fornode 109
+Preprocessing file /u1/ee/snikhil/Research/LAE_complex/sdevice.par fornode 109
++++Node successfully preprocessed+++
+Preprocessing file /u1/ee/snikhil/Research/LAE_complex/sdevice1_des.cmd fornode 110
+Preprocessing file /u1/ee/snikhil/Research/LAE_complex/sdevice.par fornode 110
++++Node successfully preprocessed+++
+Preprocessing file /u1/ee/snikhil/Research/LAE_complex/sdevice2_des.cmd fornode 111
+Preprocessing file /u1/ee/snikhil/Research/LAE_complex/sdevice.par fornode 111
++++Node successfully preprocessed+++
+Preprocessing file /u1/ee/snikhil/Research/LAE_complex/sdevice2_des.cmd fornode 112
+Preprocessing file /u1/ee/snikhil/Research/LAE_complex/sdevice.par fornode 112
++++Node successfully preprocessed+++
+Preprocessing file /u1/ee/snikhil/Research/LAE_complex/sdevice2_des.cmd fornode 113
+Preprocessing file /u1/ee/snikhil/Research/LAE_complex/sdevice.par fornode 113
++++Node successfully preprocessed+++
+Preprocessing file /u1/ee/snikhil/Research/LAE_complex/sdevice2_des.cmd fornode 114
+Preprocessing file /u1/ee/snikhil/Research/LAE_complex/sdevice.par fornode 114
++++Node successfully preprocessed+++
+Preprocessing file /u1/ee/snikhil/Research/LAE_complex/sdevice2_des.cmd fornode 115
+Preprocessing file /u1/ee/snikhil/Research/LAE_complex/sdevice.par fornode 115
++++Node successfully preprocessed+++
+Preprocessing file /u1/ee/snikhil/Research/LAE_complex/sdevice2_des.cmd fornode 116
+Preprocessing file /u1/ee/snikhil/Research/LAE_complex/sdevice.par fornode 116
++++Node successfully preprocessed+++
+Preprocessing file /u1/ee/snikhil/Research/LAE_complex/sdevice2_des.cmd fornode 117
+Preprocessing file /u1/ee/snikhil/Research/LAE_complex/sdevice.par fornode 117
++++Node successfully preprocessed+++
+Preprocessing file /u1/ee/snikhil/Research/LAE_complex/sdevice2_des.cmd fornode 118
+Preprocessing file /u1/ee/snikhil/Research/LAE_complex/sdevice.par fornode 118
++++Node successfully preprocessed+++
+Preprocessing file /u1/ee/snikhil/Research/LAE_complex/sdevice2_des.cmd fornode 119
+Preprocessing file /u1/ee/snikhil/Research/LAE_complex/sdevice.par fornode 119
++++Node successfully preprocessed+++
+Preprocessing file /u1/ee/snikhil/Research/LAE_complex/sdevice2_des.cmd fornode 120
+Preprocessing file /u1/ee/snikhil/Research/LAE_complex/sdevice.par fornode 120
++++Node successfully preprocessed+++
+Preprocessing file /u1/ee/snikhil/Research/LAE_complex/sdevice2_des.cmd fornode 121
+Preprocessing file /u1/ee/snikhil/Research/LAE_complex/sdevice.par fornode 121
++++Node successfully preprocessed+++
+Preprocessing file /u1/ee/snikhil/Research/LAE_complex/sdevice2_des.cmd fornode 122
+Preprocessing file /u1/ee/snikhil/Research/LAE_complex/sdevice.par fornode 122
++++Node successfully preprocessed+++
+Preprocessing file /u1/ee/snikhil/Research/LAE_complex/sdevice2_des.cmd fornode 123
+Preprocessing file /u1/ee/snikhil/Research/LAE_complex/sdevice.par fornode 123
++++Node successfully preprocessed+++
+Preprocessing file /u1/ee/snikhil/Research/LAE_complex/sdevice2_des.cmd fornode 124
+Preprocessing file /u1/ee/snikhil/Research/LAE_complex/sdevice.par fornode 124
++++Node successfully preprocessed+++
+Preprocessing file /u1/ee/snikhil/Research/LAE_complex/sdevice2_des.cmd fornode 125
+Preprocessing file /u1/ee/snikhil/Research/LAE_complex/sdevice.par fornode 125
++++Node successfully preprocessed+++
+Preprocessing file /u1/ee/snikhil/Research/LAE_complex/sdevice2_des.cmd fornode 126
+Preprocessing file /u1/ee/snikhil/Research/LAE_complex/sdevice.par fornode 126
++++Node successfully preprocessed+++
+Preprocessing file /u1/ee/snikhil/Research/LAE_complex/sdevice2_des.cmd fornode 127
+Preprocessing file /u1/ee/snikhil/Research/LAE_complex/sdevice.par fornode 127
++++Node successfully preprocessed+++
+Preprocessing file /u1/ee/snikhil/Research/LAE_complex/sdevice2_des.cmd fornode 128
+Preprocessing file /u1/ee/snikhil/Research/LAE_complex/sdevice.par fornode 128
++++Node successfully preprocessed+++
+Preprocessing file /u1/ee/snikhil/Research/LAE_complex/sdevice2_des.cmd fornode 129
+Preprocessing file /u1/ee/snikhil/Research/LAE_complex/sdevice.par fornode 129
++++Node successfully preprocessed+++
+Preprocessing file /u1/ee/snikhil/Research/LAE_complex/sdevice2_des.cmd fornode 130
+Preprocessing file /u1/ee/snikhil/Research/LAE_complex/sdevice.par fornode 130
++++Node successfully preprocessed+++
+Writing 'gexec.cmd'
+saving variables
+Loading jobs and dependence graph '"/u1/ee/snikhil/Research/LAE_complex/gexec.cmd"'
+>>>>>>>>>> job '87' status changed from 'failed' to 'queued'
+>>>>>>>>>> job '88' status changed from 'failed' to 'queued'
+>>>>>>>>>> job '89' status changed from 'failed' to 'queued'
+>>>>>>>>>> job '90' status changed from 'failed' to 'queued'
+>>>>>>>>>> job '91' status changed from 'failed' to 'queued'
+>>>>>>>>>> job '92' status changed from 'failed' to 'queued'
+>>>>>>>>>> job '93' status changed from 'failed' to 'queued'
+>>>>>>>>>> job '94' status changed from 'failed' to 'queued'
+>>>>>>>>>> job '95' status changed from 'failed' to 'queued'
+>>>>>>>>>> job '96' status changed from 'failed' to 'queued'
+>>>>>>>>>> job '97' status changed from 'failed' to 'queued'
+>>>>>>>>>> job '98' status changed from 'failed' to 'queued'
+>>>>>>>>>> job '99' status changed from 'failed' to 'queued'
+>>>>>>>>>> job '100' status changed from 'failed' to 'queued'
+>>>>>>>>>> job '101' status changed from 'failed' to 'queued'
+>>>>>>>>>> job '102' status changed from 'failed' to 'queued'
+>>>>>>>>>> job '103' status changed from 'none' to 'queued'
+>>>>>>>>>> job '104' status changed from 'none' to 'queued'
+>>>>>>>>>> job '105' status changed from 'none' to 'queued'
+>>>>>>>>>> job '106' status changed from 'none' to 'queued'
+>>>>>>>>>> job '107' status changed from 'none' to 'queued'
+>>>>>>>>>> job '108' status changed from 'none' to 'queued'
+>>>>>>>>>> job '109' status changed from 'none' to 'queued'
+>>>>>>>>>> job '110' status changed from 'none' to 'queued'
+>>>>>>>>>> job '111' status changed from 'none' to 'queued'
+>>>>>>>>>> job '112' status changed from 'none' to 'queued'
+>>>>>>>>>> job '113' status changed from 'none' to 'queued'
+>>>>>>>>>> job '114' status changed from 'none' to 'queued'
+>>>>>>>>>> job '115' status changed from 'none' to 'queued'
+>>>>>>>>>> job '116' status changed from 'none' to 'queued'
+>>>>>>>>>> job '117' status changed from 'none' to 'queued'
+>>>>>>>>>> job '118' status changed from 'none' to 'queued'
+>>>>>>>>>> job '119' status changed from 'none' to 'queued'
+>>>>>>>>>> job '120' status changed from 'none' to 'queued'
+>>>>>>>>>> job '121' status changed from 'none' to 'queued'
+>>>>>>>>>> job '122' status changed from 'none' to 'queued'
+>>>>>>>>>> job '123' status changed from 'none' to 'queued'
+>>>>>>>>>> job '124' status changed from 'none' to 'queued'
+>>>>>>>>>> job '125' status changed from 'none' to 'queued'
+>>>>>>>>>> job '126' status changed from 'none' to 'queued'
+>>>>>>>>>> job '127' status changed from 'none' to 'queued'
+>>>>>>>>>> job '128' status changed from 'none' to 'queued'
+>>>>>>>>>> job '129' status changed from 'none' to 'queued'
+>>>>>>>>>> job '130' status changed from 'none' to 'queued'
+-----------------------------------------------------------------
+queue "local:default" - 87 88 89 90 91 92 93 94 95 96 97 98 99 100 101 102 103 104 105 106 107 108 109 110 111 112 113 114 115 116 117 118 119 120 121 122 123 124 125 126 127 128 129 130
+-----------------------------------------------------------------
+>>>>> cleaning the index file from previous simulations 
+                       /u1/ee/snikhil/Research/LAE_complex/.gindex
+>>>>>>>>>> Initializing back-end schedulers...
+>>>>>>>> Loaded Schedulers are ... local
+local% initialize 'local' scheduler data
+>>>>> List of Active Schedulers : local
+<<<<<<<<<<
+>>>>>>>>>> job '103' status changed from 'queued' to 'ready'
+>>>>>>>>>> os_rm /u1/ee/snikhil/Research/LAE_complex/n103_des.job
+local% submit job 103 for local execution
+>>>>>>>>>> job '103' status changed from 'ready' to 'pending'
+>>>>>>>>>> job '105' status changed from 'queued' to 'ready'
+>>>>>>>>>> os_rm /u1/ee/snikhil/Research/LAE_complex/n105_des.job
+local% submit job 105 for local execution
+>>>>>>>>>> job '105' status changed from 'ready' to 'pending'
+>>>>>>>>>> job '107' status changed from 'queued' to 'ready'
+>>>>>>>>>> os_rm /u1/ee/snikhil/Research/LAE_complex/n107_des.job
+local% submit job 107 for local execution
+>>>>>>>>>> job '107' status changed from 'ready' to 'pending'
+>>>>>>>>>> job '109' status changed from 'queued' to 'ready'
+>>>>>>>>>> os_rm /u1/ee/snikhil/Research/LAE_complex/n109_des.job
+local% submit job 109 for local execution
+>>>>>>>>>> job '109' status changed from 'ready' to 'pending'
+>>>>>>>>>> job '111' status changed from 'queued' to 'ready'
+>>>>>>>>>> os_rm /u1/ee/snikhil/Research/LAE_complex/n111_des.job
+local% submit job 111 for local execution
+>>>>>>>>>> job '111' status changed from 'ready' to 'pending'
+>>>>>>>>>> job '112' status changed from 'queued' to 'ready'
+>>>>>>>>>> os_rm /u1/ee/snikhil/Research/LAE_complex/n112_des.job
+local% submit job 112 for local execution
+>>>>>>>>>> job '112' status changed from 'ready' to 'pending'
+>>>>>>>>>> job '127' status changed from 'queued' to 'ready'
+>>>>>>>>>> os_rm /u1/ee/snikhil/Research/LAE_complex/n127_des.job
+local% submit job 127 for local execution
+>>>>>>>>>> job '127' status changed from 'ready' to 'pending'
+>>>>>>>>>> job '113' status changed from 'queued' to 'ready'
+>>>>>>>>>> os_rm /u1/ee/snikhil/Research/LAE_complex/n113_des.job
+local% submit job 113 for local execution
+>>>>>>>>>> job '113' status changed from 'ready' to 'pending'
+>>>>>>>>>> job '114' status changed from 'queued' to 'ready'
+>>>>>>>>>> os_rm /u1/ee/snikhil/Research/LAE_complex/n114_des.job
+local% submit job 114 for local execution
+>>>>>>>>>> job '114' status changed from 'ready' to 'pending'
+>>>>>>>>>> job '115' status changed from 'queued' to 'ready'
+>>>>>>>>>> os_rm /u1/ee/snikhil/Research/LAE_complex/n115_des.job
+local% submit job 115 for local execution
+>>>>>>>>>> job '115' status changed from 'ready' to 'pending'
+>>>>>>>>>> job '116' status changed from 'queued' to 'ready'
+>>>>>>>>>> os_rm /u1/ee/snikhil/Research/LAE_complex/n116_des.job
+local% submit job 116 for local execution
+>>>>>>>>>> job '116' status changed from 'ready' to 'pending'
+>>>>>>>>>> job '128' status changed from 'queued' to 'ready'
+>>>>>>>>>> os_rm /u1/ee/snikhil/Research/LAE_complex/n128_des.job
+local% submit job 128 for local execution
+>>>>>>>>>> job '128' status changed from 'ready' to 'pending'
+>>>>>>>>>> job '117' status changed from 'queued' to 'ready'
+>>>>>>>>>> os_rm /u1/ee/snikhil/Research/LAE_complex/n117_des.job
+local% submit job 117 for local execution
+>>>>>>>>>> job '117' status changed from 'ready' to 'pending'
+>>>>>>>>>> job '118' status changed from 'queued' to 'ready'
+>>>>>>>>>> os_rm /u1/ee/snikhil/Research/LAE_complex/n118_des.job
+local% submit job 118 for local execution
+>>>>>>>>>> job '118' status changed from 'ready' to 'pending'
+>>>>>>>>>> job '119' status changed from 'queued' to 'ready'
+>>>>>>>>>> os_rm /u1/ee/snikhil/Research/LAE_complex/n119_des.job
+local% submit job 119 for local execution
+>>>>>>>>>> job '119' status changed from 'ready' to 'pending'
+>>>>>>>>>> job '120' status changed from 'queued' to 'ready'
+>>>>>>>>>> os_rm /u1/ee/snikhil/Research/LAE_complex/n120_des.job
+local% submit job 120 for local execution
+>>>>>>>>>> job '120' status changed from 'ready' to 'pending'
+>>>>>>>>>> job '129' status changed from 'queued' to 'ready'
+>>>>>>>>>> os_rm /u1/ee/snikhil/Research/LAE_complex/n129_des.job
+local% submit job 129 for local execution
+>>>>>>>>>> job '129' status changed from 'ready' to 'pending'
+>>>>>>>>>> job '121' status changed from 'queued' to 'ready'
+>>>>>>>>>> os_rm /u1/ee/snikhil/Research/LAE_complex/n121_des.job
+local% submit job 121 for local execution
+>>>>>>>>>> job '121' status changed from 'ready' to 'pending'
+>>>>>>>>>> job '122' status changed from 'queued' to 'ready'
+>>>>>>>>>> os_rm /u1/ee/snikhil/Research/LAE_complex/n122_des.job
+local% submit job 122 for local execution
+>>>>>>>>>> job '122' status changed from 'ready' to 'pending'
+>>>>>>>>>> job '123' status changed from 'queued' to 'ready'
+>>>>>>>>>> os_rm /u1/ee/snikhil/Research/LAE_complex/n123_des.job
+local% submit job 123 for local execution
+>>>>>>>>>> job '123' status changed from 'ready' to 'pending'
+>>>>>>>>>> job '124' status changed from 'queued' to 'ready'
+>>>>>>>>>> os_rm /u1/ee/snikhil/Research/LAE_complex/n124_des.job
+local% submit job 124 for local execution
+>>>>>>>>>> job '124' status changed from 'ready' to 'pending'
+>>>>>>>>>> job '130' status changed from 'queued' to 'ready'
+>>>>>>>>>> os_rm /u1/ee/snikhil/Research/LAE_complex/n130_des.job
+local% submit job 130 for local execution
+>>>>>>>>>> job '130' status changed from 'ready' to 'pending'
+>>>>>>>>>> job '125' status changed from 'queued' to 'ready'
+>>>>>>>>>> os_rm /u1/ee/snikhil/Research/LAE_complex/n125_des.job
+local% submit job 125 for local execution
+>>>>>>>>>> job '125' status changed from 'ready' to 'pending'
+>>>>>>>>>> job '126' status changed from 'queued' to 'ready'
+>>>>>>>>>> os_rm /u1/ee/snikhil/Research/LAE_complex/n126_des.job
+local% submit job 126 for local execution
+>>>>>>>>>> job '126' status changed from 'ready' to 'pending'
+>>>>>>>>>> job '87' status changed from 'queued' to 'ready'
+>>>>>>>>>> os_rm /u1/ee/snikhil/Research/LAE_complex/n87_des.job
+local% submit job 87 for local execution
+>>>>>>>>>> job '87' status changed from 'ready' to 'pending'
+>>>>>>>>>> job '88' status changed from 'queued' to 'ready'
+>>>>>>>>>> os_rm /u1/ee/snikhil/Research/LAE_complex/n88_des.job
+local% submit job 88 for local execution
+>>>>>>>>>> job '88' status changed from 'ready' to 'pending'
+>>>>>>>>>> job '104' status changed from 'queued' to 'ready'
+>>>>>>>>>> os_rm /u1/ee/snikhil/Research/LAE_complex/n104_des.job
+local% submit job 104 for local execution
+>>>>>>>>>> job '104' status changed from 'ready' to 'pending'
+>>>>>>>>>> job '89' status changed from 'queued' to 'ready'
+>>>>>>>>>> os_rm /u1/ee/snikhil/Research/LAE_complex/n89_des.job
+local% submit job 89 for local execution
+>>>>>>>>>> job '89' status changed from 'ready' to 'pending'
+>>>>>>>>>> job '90' status changed from 'queued' to 'ready'
+>>>>>>>>>> os_rm /u1/ee/snikhil/Research/LAE_complex/n90_des.job
+local% submit job 90 for local execution
+>>>>>>>>>> job '90' status changed from 'ready' to 'pending'
+>>>>>>>>>> job '91' status changed from 'queued' to 'ready'
+>>>>>>>>>> os_rm /u1/ee/snikhil/Research/LAE_complex/n91_des.job
+local% submit job 91 for local execution
+>>>>>>>>>> job '91' status changed from 'ready' to 'pending'
+>>>>>>>>>> job '92' status changed from 'queued' to 'ready'
+>>>>>>>>>> os_rm /u1/ee/snikhil/Research/LAE_complex/n92_des.job
+local% submit job 92 for local execution
+>>>>>>>>>> job '92' status changed from 'ready' to 'pending'
+>>>>>>>>>> job '106' status changed from 'queued' to 'ready'
+>>>>>>>>>> os_rm /u1/ee/snikhil/Research/LAE_complex/n106_des.job
+local% submit job 106 for local execution
+>>>>>>>>>> job '106' status changed from 'ready' to 'pending'
+>>>>>>>>>> job '93' status changed from 'queued' to 'ready'
+>>>>>>>>>> os_rm /u1/ee/snikhil/Research/LAE_complex/n93_des.job
+local% submit job 93 for local execution
+>>>>>>>>>> job '93' status changed from 'ready' to 'pending'
+>>>>>>>>>> job '94' status changed from 'queued' to 'ready'
+>>>>>>>>>> os_rm /u1/ee/snikhil/Research/LAE_complex/n94_des.job
+local% submit job 94 for local execution
+>>>>>>>>>> job '94' status changed from 'ready' to 'pending'
+>>>>>>>>>> job '95' status changed from 'queued' to 'ready'
+>>>>>>>>>> os_rm /u1/ee/snikhil/Research/LAE_complex/n95_des.job
+local% submit job 95 for local execution
+>>>>>>>>>> job '95' status changed from 'ready' to 'pending'
+>>>>>>>>>> job '96' status changed from 'queued' to 'ready'
+>>>>>>>>>> os_rm /u1/ee/snikhil/Research/LAE_complex/n96_des.job
+local% submit job 96 for local execution
+>>>>>>>>>> job '96' status changed from 'ready' to 'pending'
+>>>>>>>>>> job '108' status changed from 'queued' to 'ready'
+>>>>>>>>>> os_rm /u1/ee/snikhil/Research/LAE_complex/n108_des.job
+local% submit job 108 for local execution
+>>>>>>>>>> job '108' status changed from 'ready' to 'pending'
+>>>>>>>>>> job '97' status changed from 'queued' to 'ready'
+>>>>>>>>>> os_rm /u1/ee/snikhil/Research/LAE_complex/n97_des.job
+local% submit job 97 for local execution
+>>>>>>>>>> job '97' status changed from 'ready' to 'pending'
+>>>>>>>>>> job '98' status changed from 'queued' to 'ready'
+>>>>>>>>>> os_rm /u1/ee/snikhil/Research/LAE_complex/n98_des.job
+local% submit job 98 for local execution
+>>>>>>>>>> job '98' status changed from 'ready' to 'pending'
+>>>>>>>>>> job '99' status changed from 'queued' to 'ready'
+>>>>>>>>>> os_rm /u1/ee/snikhil/Research/LAE_complex/n99_des.job
+local% submit job 99 for local execution
+>>>>>>>>>> job '99' status changed from 'ready' to 'pending'
+>>>>>>>>>> job '100' status changed from 'queued' to 'ready'
+>>>>>>>>>> os_rm /u1/ee/snikhil/Research/LAE_complex/n100_des.job
+local% submit job 100 for local execution
+>>>>>>>>>> job '100' status changed from 'ready' to 'pending'
+>>>>>>>>>> job '110' status changed from 'queued' to 'ready'
+>>>>>>>>>> os_rm /u1/ee/snikhil/Research/LAE_complex/n110_des.job
+local% submit job 110 for local execution
+>>>>>>>>>> job '110' status changed from 'ready' to 'pending'
+>>>>>>>>>> job '101' status changed from 'queued' to 'ready'
+>>>>>>>>>> os_rm /u1/ee/snikhil/Research/LAE_complex/n101_des.job
+local% submit job 101 for local execution
+>>>>>>>>>> job '101' status changed from 'ready' to 'pending'
+>>>>>>>>>> job '102' status changed from 'queued' to 'ready'
+>>>>>>>>>> os_rm /u1/ee/snikhil/Research/LAE_complex/n102_des.job
+local% submit job 102 for local execution
+>>>>>>>>>> job '102' status changed from 'ready' to 'pending'
+local% exec "/w/apps3/Synopsys/TCAD_Sentaurus/vG_2012.06/bin/gjob -verbose -nice 19  -job 103 -swb_pid 70827 -gsub_pid 70925 -gsub_host thzlabsv.ee.ucla.edu -gsub_port 39363 "@STDB@/LAE_complex""
+>>>>>>>>>> job '103' status changed from 'pending' to 'running'
+16:54:24 Feb 03 2015     job 103 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp103_des.cmd"

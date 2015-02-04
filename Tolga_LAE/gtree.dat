@@ -1,0 +1,72 @@
+# Copyright (C) 1994-2011 Synopsys Inc.
+# swbtree vcurrent, Tue Jan 27 11:33:46 2015
+
+# --- simulation flow
+sde sde "" {}
+sdevice sdevice "" {}
+sdevice light "0" {0 1}
+sdevice tau "1E-9" {06 07 08 09 10 11 12}
+sdevice OptGen "200e22" {10e23 5e31 0 5e23 5E20 5E21 1E22 5E19 5E18 5E17 1E22}
+sdevice1 sdevice "" {}
+# --- variables
+# --- scenarios and parameter specs
+scenario default light ""
+scenario default tau ""
+scenario default OptGen ""
+# --- simulation tree
+0 6 0 {} {default}
+1 1 6 {} {default}
+2 55 1 {0} {default}
+3 7 55 {06} {default}
+4 10 7 {10e23} {default}
+5 99 10 {} {default}
+3 57 55 {07} {default}
+4 58 57 {10e23} {default}
+5 100 58 {} {default}
+3 61 55 {08} {default}
+4 62 61 {10e23} {default}
+5 101 62 {} {default}
+3 65 55 {09} {default}
+4 66 65 {0} {default}
+5 102 66 {} {default}
+3 69 55 {10} {default}
+4 70 69 {5e31} {default}
+5 103 70 {} {default}
+3 73 55 {11} {default}
+4 74 73 {5e31} {default}
+5 104 74 {} {default}
+3 77 55 {12} {default}
+4 78 77 {10e23} {default}
+5 105 78 {} {default}
+2 79 1 {1} {default}
+3 80 79 {06} {default}
+4 81 80 {10e23} {default}
+5 106 81 {} {default}
+3 82 79 {07} {default}
+4 83 82 {10e23} {default}
+5 107 83 {} {default}
+3 84 79 {08} {default}
+4 85 84 {10e23} {default}
+5 108 85 {} {default}
+3 86 79 {09} {default}
+4 87 86 {5E21} {default}
+5 109 87 {} {default}
+4 94 86 {1E22} {default}
+5 110 94 {} {default}
+4 95 86 {5E20} {default}
+5 111 95 {} {default}
+4 96 86 {5E19} {default}
+5 112 96 {} {default}
+4 97 86 {5E18} {default}
+5 113 97 {} {default}
+4 98 86 {5e23} {default}
+5 114 98 {} {default}
+3 88 79 {10} {default}
+4 89 88 {5e23} {default}
+5 115 89 {} {default}
+3 90 79 {11} {default}
+4 91 90 {5e23} {default}
+5 116 91 {} {default}
+3 92 79 {12} {default}
+4 93 92 {10e23} {default}
+5 117 93 {} {default}

@@ -1,0 +1,36 @@
+DF-ISE text
+
+Info {
+  version   = 1.0
+  type      = xyplot
+  datasets  = [
+    "time"
+    "ntype OuterVoltage" "ntype InnerVoltage" "ntype QuasiFermiPotential" "ntype DisplacementCurrent" "ntype eCurrent"
+    "ntype hCurrent" "ntype TotalCurrent" "ntype Charge" "ptype OuterVoltage" "ptype InnerVoltage"
+    "ptype QuasiFermiPotential" "ptype DisplacementCurrent" "ptype eCurrent" "ptype hCurrent" "ptype TotalCurrent"
+    "ptype Charge" ]
+  functions = [
+    Time
+    OuterVoltage InnerVoltage QuasiFermiPotential DisplacementCurrent eCurrent
+    hCurrent TotalCurrent Charge OuterVoltage InnerVoltage
+    QuasiFermiPotential DisplacementCurrent eCurrent hCurrent TotalCurrent
+    Charge ]
+}
+
+Data {
+      0.00000000000000E+00
+      0.00000000000000E+00   0.00000000000000E+00   0.00000000000000E+00   0.00000000000000E+00   1.60406656464024E-07
+     -1.60406656464023E-07   1.00232462972689E-21  -1.79824014189435E-27   0.00000000000000E+00   0.00000000000000E+00
+      0.00000000000000E+00   0.00000000000000E+00   2.75639750775821E-24  -1.23769038826475E-18  -1.23768763186724E-18
+     -3.09671004767242E-30
+      0.00000000000000E+00
+      0.00000000000000E+00  -1.70747258797356E-11   0.00000000000000E+00   0.00000000000000E+00  -1.00475775823084E+04
+      1.00475775823767E+04   6.82628737762535E-08  -5.99209992077344E-28   0.00000000000000E+00  -1.19513506174956E-12
+      0.00000000000000E+00   0.00000000000000E+00   1.19514637962053E-08  -3.75206042820163E-15   1.19514600441449E-08
+      2.09995650107786E-29
+      0.00000000000000E+00
+      0.00000000000000E+00  -1.82448014171643E+01   0.00000000000000E+00   0.00000000000000E+00   2.98882420859207E+28
+     -2.98882420859208E+28  -1.26340496083406E+14  -2.10260408907390E-21   0.00000000000000E+00   1.82475527772774E+01
+      0.00000000000000E+00   0.00000000000000E+00  -3.43588204865957E+16   3.43588204864114E+16  -1.84293573937172E+05
+      2.23240588652686E-24
+}

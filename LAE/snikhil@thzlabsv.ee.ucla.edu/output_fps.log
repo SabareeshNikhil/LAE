@@ -1,0 +1,30 @@
+****************************************************************************
+***                          Sentaurus Process                           ***
+***                          Version G-2012.06                           ***
+***                         (1.7, amd64, linux)                          ***
+***                                                                      ***
+***                       Copyright (C) 1993-2002                        ***
+***          The board of regents of the University of Florida           ***
+***                       Copyright (C) 1994-2012                        ***
+***                            Synopsys, Inc.                            ***
+***                                                                      ***
+***  This software and the associated documentation are confidential     ***
+***  and proprietary to Synopsys, Inc.  Your use or disclosure of this   ***
+***  software is subject to the terms and conditions of a written        ***
+***  license agreement between you, or your company, and Synopsys, Inc.  ***
+****************************************************************************
+
+Compiled Mon Apr 30 22:52:45 PDT 2012 on tcadprod5
+
+      Started at: Wed Jun 19 19:08:30 2013 (UTC)
+       User name: yardimci
+       Host name: thzlab4.eecs.umich.edu
+             PID: 14826
+    Architecture: x86_64
+Operating system: Linux rel. 2.6.18-348.1.1.el5 ver. #1 SMP Fri Dec 14 05:25:59 EST 2012
+
+No inputfile given - enter command line mode
+            sprocess: Checked Out
+           Floops-1D: Checked Out
+
+Loading models file: /usr/caen/sentaurus-2012.06/tcad/current/lib/sprocess-20.0.7/TclLib/SPROCESS.models... 

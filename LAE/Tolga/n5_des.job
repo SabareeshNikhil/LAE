@@ -1,0 +1,63 @@
+
+****************************************************************************
+***                       Sentaurus Workbench gjob                       ***
+***                          Version G-2012.06                           ***
+***                         (1.7, amd64, linux)                          ***
+***                                                                      ***
+***                       Copyright (C) 1994-2012                        ***
+***                            Synopsys, Inc.                            ***
+***                                                                      ***
+***  This software and the associated documentation are confidential     ***
+***  and proprietary to Synopsys, Inc.  Your use or disclosure of this   ***
+***  software is subject to the terms and conditions of a written        ***
+***  license agreement between you, or your company, and Synopsys, Inc.  ***
+****************************************************************************
+
+gjob is running on host 'thzlab4.eecs.umich.edu' by user 'yardimci'
+Binary 'gjob'
+Command line options '-verbose -nice 19 -job 5 -swb_pid 15852 -gsub_pid 6278 -gsub_host thzlab4.eecs.umich.edu -gsub_port 45842 @STDB@/projects/hetero_thz2'
+Current directory '/home/yardimci/sentaurus/projects/hetero_thz2'
+Some relevant environment variables:
+	STROOT=/usr/caen/sentaurus-2012.06
+	STRELEASE=current
+	STROOT_LIB=/usr/caen/sentaurus-2012.06/tcad/current/lib
+	STDB=/home/yardimci/sentaurus
+	DATEX=/usr/caen/sentaurus-2012.06/tcad/current/lib/datexcodes.txt
+	DISPLAY=:0.0
+
+relativizing paths:
+project path: /home/yardimci/sentaurus/projects/hetero_thz2
+STDB path: @STDB@
+Project '@STDB@/projects/hetero_thz2'
+Loading global tool database '/usr/caen/sentaurus-2012.06/tcad/current/lib/glib2/tooldb.tcl'
+Loading preferences '/home/yardimci/sentaurus/gpref2_yardimci.G-2012.06'...
+INITIALIZING PREPROCESSOR:
+Loading project tree '/home/yardimci/sentaurus/projects/hetero_thz2/gtree.dat'
+Loading jobs and dependence graph '"/home/yardimci/sentaurus/projects/hetero_thz2/gexec.cmd"'
+Loading project variables '/home/yardimci/sentaurus/projects/hetero_thz2/gvars.dat'
+--Get files to preprocess...
+--Create file handlers...
+--Read the toolflow...
+--Analyze tool-file dependencies...
+--Read all nodes to preprocess...
+--Group nodes into experiments...
+--Get all variables...
+--Get all parameters...
+PREPROCESSOR SUCCESSFULLY INITIALIZED.
+PREPROCESSING STEP 1:
+Reading file /home/yardimci/sentaurus/projects/hetero_thz2/sdevice_des.cmd
+Reading file /home/yardimci/sentaurus/projects/hetero_thz2/sdevice.par
+PREPROCESSING STEP 2:
+Preprocessing file /home/yardimci/sentaurus/projects/hetero_thz2/sdevice_des.cmd fornode 5
++++Preprocessing results written to /home/yardimci/sentaurus/projects/hetero_thz2/pp5_des.cmd
+Preprocessing file /home/yardimci/sentaurus/projects/hetero_thz2/sdevice.par fornode 5
++++Preprocessing results written to /home/yardimci/sentaurus/projects/hetero_thz2/pp5_des.par
+Start Simulation section
+15:12:31 Jul 01 2013     job 5 <sdevice> started on host 'thzlab4.eecs.umich.edu': "sdevice pp5_des.cmd"
+16:26:30 Jul 01 2013 +++ job 5 <sdevice> done: exit(0)
+End Simulation section
+Start Epilogue section
+16:26:30 Jul 01 2013 *** job 5 pre/post execution: eval " gjob::find_extracted_vars "/home/yardimci/sentaurus/projects/hetero_thz2" n5_des.out 5 "
+End Epilogue section
+Job succeeded
+gjob exits with status 0

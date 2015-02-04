@@ -1,0 +1,57 @@
+
+****************************************************************************
+***                       Sentaurus Workbench gjob                       ***
+***                          Version H-2013.03                           ***
+***                            (1.5, RHEL64)                             ***
+***                                                                      ***
+***                Copyright (c) 1994-2013 Synopsys, Inc.                ***
+***                                                                      ***
+***  This software and the associated documentation are confidential     ***
+***  and proprietary to Synopsys, Inc.  Your use or disclosure of this   ***
+***  software is subject to the terms and conditions of a written        ***
+***  license agreement between you, or your company, and Synopsys, Inc.  ***
+****************************************************************************
+
+gjob is running on host 'mcl18' by user 'sharath'
+Binary 'gjob'
+Command line options '-verbose -nice 19 -job 1002 -swb_pid 22237 -gsub_pid 22297 -gsub_host mcl18 -gsub_port 34338 /home/users/sharath/Desktop/calibrationFinFET'
+Current directory '/home/users/sharath/Desktop/calibrationFinFET'
+Some relevant environment variables:
+	STROOT=/usr/local/Softwares/Sentaurus/Sentaurus_vH_2013.03/bin/..
+	STRELEASE=current
+	STROOT_LIB=/usr/local/Softwares/Sentaurus/Sentaurus_vH_2013.03/bin/../tcad/current/lib
+	STDB=/home/users/sharath/Desktop/calibrationFinFET
+	DATEX=/usr/local/Softwares/Sentaurus/Sentaurus_vH_2013.03/bin/../tcad/current/lib/datexcodes.txt
+	DISPLAY=localhost:10.0
+
+Project '/home/users/sharath/Desktop/calibrationFinFET'
+Loading global tool database '/usr/local/Softwares/Sentaurus/Sentaurus_vH_2013.03/bin/../tcad/current/lib/glib2/tooldb.tcl'
+Loading preferences '/home/users/sharath/Desktop/calibrationFinFET/gpref2_sharath.H-2013.03'...
+INITIALIZING PREPROCESSOR:
+Loading project tree '/home/users/sharath/Desktop/calibrationFinFET/gtree.dat'
+Loading jobs and dependence graph '"/home/users/sharath/Desktop/calibrationFinFET/gexec.cmd"'
+Loading project variables '/home/users/sharath/Desktop/calibrationFinFET/gvars.dat'
+--Get files to preprocess...
+--Create file handlers...
+--Read the toolflow...
+--Analyze tool-file dependencies...
+--Read all nodes to preprocess...
+--Group nodes into experiments...
+--Get all variables...
+--Get all parameters...
+PREPROCESSOR SUCCESSFULLY INITIALIZED.
+PREPROCESSING STEP 1:
+Reading file /home/users/sharath/Desktop/calibrationFinFET/sdevice2_des.cmd
+Reading file /home/users/sharath/Desktop/calibrationFinFET/sdevice.par
+PREPROCESSING STEP 2:
+Preprocessing file /home/users/sharath/Desktop/calibrationFinFET/sdevice2_des.cmd fornode 1002
++++Preprocessing results written to /home/users/sharath/Desktop/calibrationFinFET/pp1002_des.cmd
+Preprocessing file /home/users/sharath/Desktop/calibrationFinFET/sdevice.par fornode 1002
++++Preprocessing results written to /home/users/sharath/Desktop/calibrationFinFET/pp1002_des.par
+Start Simulation section
+03:21:04 Jul 12 2014     job 1002 <sdevice> started on host 'mcl18': "sdevice pp1002_des.cmd"
+03:22:40 Jul 12 2014 --- job 1002 <sdevice> exited abnormally: exit(5)
+End Simulation section
+Job failed
+Error: Child process with pid '22629' exists with the code '5'
+gjob exits with status 5

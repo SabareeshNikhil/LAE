@@ -1,0 +1,79 @@
+> Compiled Sun May 22 15:24:44 PDT 2011 on: tcadprod5
+> Running on: Linux mcl19 2.6.18-308.11.1.el5 #1 SMP Tue Jul 10 08:48:43 EDT 2012 x86_64
+
+> Process ID: 20600
+> 
+> Flags used: -F tdr
+> 
+> Reading Boundary from 2d_Lg_15_654_bnd.tdr
+> Loaded 36 point(s), 17 region(s), 4 contact(s). done. Time: 0.061991 secs.
+> Statistics from input geometry:
+> 34 vertices, 50 edges, 29 elements (12 segments) (17 polygons)
+> 	12 1D elements
+> 	17 2D elements
+> Average edge length (std): 0.00890111 (0.0389102)
+> Min edge length (17): 0.00067
+> 
+> Average area (std): 0.00518028 (0.0374718)
+> Min. element area (4): 1.005e-05
+> 
+> Average connectivity: 2.94118
+> Max. connectivity (2): 5
+> 
+> Warning: Lateral factor must be positive -> value corrected
+> Warning: Lateral factor must be positive -> value corrected
+> Step sequence to perform: 
+> 	MLRefineGeometry-MLRefineOnSize
+> 
+> Fitting geometry ... Number of elements to check: 1
+> Number of elements to check: 13
+> done. Time: 0.006999 secs.
+> Refining on MaxElementSize ... Number of elements to check: 12
+> Number of elements to check: 5709
+> done. Time: 0.304953 secs.
+> Handling green elements ... Number of elements to check: 5664
+> Number of elements to check: 699
+> Number of elements to check: 46
+> Number of elements to check: 16
+> Number of elements to check: 16
+> Number of elements to check: 16
+> Number of elements to check: 16
+> Number of elements to check: 16
+> Number of elements to check: 13
+> Number of elements to check: 11
+> Number of elements to check: 11
+> Number of elements to check: 11
+> Number of elements to check: 11
+> Number of elements to check: 11
+> Number of elements to check: 11
+> Number of elements to check: 6
+> Number of elements to check: 3
+> Number of elements to check: 3
+> Number of elements to check: 3
+> done. Time: 0.022997 secs.
+> Building final elements ... Number of elements to check: 6210
+> Number of elements to check: 739
+> done. Time: 0.012998 secs.
+> Testing elements ... Number of elements to check: 6662
+> done. Time: 0.101984 secs.
+> Preparing data for output... Number of final elements 6662
+> Statistics from Qtree/Oc-tree:
+> 6444 vertices, 13105 edges, 6802 elements (140 segments) (691 triangles) (5971 rectangles)
+> 	140 1D elements
+> 	6662 2D elements
+> Average edge length (std): 0.000420896 (0.0471929)
+> Min edge length (9703): 7.8125e-05
+> 
+> Average area (std): 2.20859e-05 (0.0145783)
+> Min. element area (4747): 8.13802e-09
+> 
+> Min. element angle (4726): 2.43361 degrees.
+> Max. element angle (0): 90 degrees.
+> Average connectivity: 4.06735
+> Max. connectivity (4581): 9
+> 
+> done. Time: 0.100985 secs.
+> 
+> Total time : 0.612907 secs.
+> Saving mesh `2d_Lg_15_654_msh' in TDR format...
+> Interpolating data ... done

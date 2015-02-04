@@ -1,0 +1,23 @@
+****************************************************************************
+***                            Sentaurus Mesh                            ***
+***                          Version H-2013.03                           ***
+***                            (1.4, RHEL64)                             ***
+***                                                                      ***
+***                       Copyright (C) 2005-2013                        ***
+***                            Synopsys, Inc.                          ***
+***                                                                      ***
+***  This software and the associated documentation are confidential     ***
+***  and proprietary to Synopsys, Inc.  Your use or disclosure of this   ***
+***  software is subject to the terms and conditions of a written        ***
+***  license agreement between you, or your company, and Synopsys, Inc.  ***
+****************************************************************************
+
+Compiled Fri Jan 11 15:10:11 PST 2013 on: tcadprod5
+Running on: mtlsim2
+Process ID: 7822
+
+Flags used: -a -c boxmethod
+
+sdemodel_msh.cmd: line 71: invalid polygon   (Close to ']'.)
+
+Using total concentrations for net doping

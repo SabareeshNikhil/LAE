@@ -1,0 +1,559 @@
+****************************************************************************
+***                      Sentaurus Structure Editor                      ***
+***                          Version F-2011.09                           ***
+***                         (1.3, amd64, linux)                          ***
+***                                                                      ***
+***               Copyright (C) 1994-2011 Synopsys, Inc.                 ***
+***        Portions of this software are owned by Spatial Corp.          ***
+***            Copyright (C) 1986-2011. All Rights Reserved.             ***
+***                                                                      ***
+***  This software and the associated documentation are confidential     ***
+***  and proprietary to Synopsys, Inc.  Your use or disclosure of this   ***
+***  software is subject to the terms and conditions of a written        ***
+***  license agreement between you, or your company, and Synopsys, Inc.  ***
+****************************************************************************
+
+Compiled Thu Jun 16 22:30:45 PDT 2011 on tcadprod5
+
+Machine type information not available.
+
+Evaluating file n1305_dvs.cmd
+
+---> (sde:clear)
+
+
+---> (define Nd_high 1e+17)
+
+---> (define Nd 1e+17)
+
+---> (define Na_ldd 2e+20)
+
+---> (define Na 2e+20)
+
+---> (define Naext 2e+20)
+
+---> (define nm 0.001)
+
+---> (define Lbox (* 300 nm))
+
+---> (define Wbox (* 300 nm))
+
+---> (define Hbox (* 100 nm))
+
+---> (define gausdivfac 70)
+
+---> (define nmperdec (* 2 nm))
+
+---> (define decades 5)
+
+---> (define overlap (* -0.01 nm))
+
+---> (define modoverlap (* 0.01 nm))
+
+---> (define EOT (* 0.67 nm))
+
+---> (define Ehighk 3.9)
+
+---> (define ESiO2 3.9)
+
+---> (define TOX (/ (* Ehighk EOT) ESiO2))
+
+---> (define ESi 11.8)
+
+---> (define Lgate (* 50 nm))
+
+---> (define over (* 0 nm))
+
+---> (define Wfin (* 5 nm))
+
+---> (define Hfin (* 45 nm))
+
+---> (define pitchfin (* 50 nm))
+
+---> (define by10factor (/ 50 15))
+
+---> (define depth_inversion (/ (* 2 nm) by10factor))
+
+---> (define junction_refine (/ (* 5 nm) by10factor))
+
+---> (define debye_length_original (* 0.1 nm))
+
+---> (define debye_length (/ (/ debye_length_original 2) by10factor))
+
+---> (define nfin 1)
+
+---> (define Gthick (* 20 nm))
+
+---> (define TOX_twice (* 2 TOX))
+
+---> (define Gthick_twice (* 2 Gthick))
+
+---> (define Woxide (+ Wfin TOX_twice))
+
+---> (define Hoxide (+ Hfin TOX))
+
+---> (define Wgate (+ Woxide Gthick_twice))
+
+---> (define Hgate (+ Hoxide Gthick))
+
+---> (define Loxide Lgate)
+
+---> (define Lspacer (* 5 nm))
+
+---> (define Wspacer (+ Wfin (/ pitchfin 3)))
+
+---> (define Hspacer (/ (+ Hgate Hfin) 2))
+
+---> (define Lfin (+ Lgate (* 2 Lspacer)))
+
+---> (define hmask (* 20 nm))
+
+---> (define Lext (* 20 nm))
+
+---> (define Epi (* 13 nm))
+
+---> (define Wext (+ Wfin (* Epi 2)))
+
+---> (define Hext (+ Hfin Epi))
+
+---> (define Silicide (* 6.5 nm))
+
+---> (define LSilicide Lext)
+
+---> (define WSilicide (+ Wext (* 2 Silicide)))
+
+---> (define HSilicide (+ Hext Silicide))
+
+---> (define xfinlow (- (/ Lbox 2) (/ Lfin 2)))
+
+---> (define xfinhigh (+ (/ Lbox 2) (/ Lfin 2)))
+
+---> (define yfinlow (- (/ Wbox 2) (/ Wfin 2)))
+
+---> (define yfinhigh (+ (/ Wbox 2) (/ Wfin 2)))
+
+---> (define zfinlow Hbox)
+
+---> (define zfinhigh (+ Hbox Hfin))
+
+---> (define xoxidelow (- (/ Lbox 2) (/ Loxide 2)))
+
+---> (define xoxidehigh (+ (/ Lbox 2) (/ Loxide 2)))
+
+---> (define yoxidelow (- (/ Wbox 2) (/ Woxide 2)))
+
+---> (define yoxidehigh (+ (/ Wbox 2) (/ Woxide 2)))
+
+---> (define zoxidelow Hbox)
+
+---> (define zoxidehigh (+ Hbox Hoxide))
+
+---> (define xhmasklow (- (/ Lbox 2) (/ Loxide 2)))
+
+---> (define xhmaskhigh (+ (/ Lbox 2) (/ Loxide 2)))
+
+---> (define yhmasklow (- (/ Wbox 2) (/ Woxide 2)))
+
+---> (define yhmaskhigh (+ (/ Wbox 2) (/ Woxide 2)))
+
+---> (define zhmasklow Hbox)
+
+---> (define zhmaskhigh (+ zoxidehigh hmask))
+
+---> (define xgatelow (- (/ Lbox 2) (/ Lgate 2)))
+
+---> (define xgatehigh (+ (/ Lbox 2) (/ Lgate 2)))
+
+---> (define ygatelow (- (/ Wbox 2) (/ Wgate 2)))
+
+---> (define ygatehigh (+ (/ Wbox 2) (/ Wgate 2)))
+
+---> (define zgatelow Hbox)
+
+---> (define zgatehigh (+ zhmaskhigh Gthick))
+
+---> (define xsrcextlow (- xfinlow Lext))
+
+---> (define xsrcexthigh xfinlow)
+
+---> (define ysrcextlow (- (/ Wbox 2) (/ Wext 2)))
+
+---> (define ysrcexthigh (+ (+ (/ Wbox 2) (* (- nfin 1) pitchfin)) (/ Wext 2)))
+
+---> (define zsrcextlow Hbox)
+
+---> (define zsrcexthigh (+ Hbox Hext))
+
+---> (define xdrnextlow xfinhigh)
+
+---> (define xdrnexthigh (+ xfinhigh Lext))
+
+---> (define ydrnextlow (- (/ Wbox 2) (/ Wext 2)))
+
+---> (define ydrnexthigh (+ (+ (/ Wbox 2) (* (- nfin 1) pitchfin)) (/ Wext 2)))
+
+---> (define zdrnextlow Hbox)
+
+---> (define zdrnexthigh (+ Hbox Hext))
+
+---> (define xsrcSilextlow (- xfinlow LSilicide))
+
+---> (define xsrcSilexthigh xfinlow)
+
+---> (define ysrcSilextlow (- (/ Wbox 2) (/ WSilicide 2)))
+
+---> (define ysrcSilexthigh (+ (+ (/ Wbox 2) (* (- nfin 1) pitchfin)) (/ WSilicide 2)))
+
+---> (define zsrcSilextlow Hbox)
+
+---> (define zsrcSilexthigh (+ Hbox HSilicide))
+
+---> (define xdrnSilextlow xfinhigh)
+
+---> (define xdrnSilexthigh (+ xfinhigh LSilicide))
+
+---> (define ydrnSilextlow (- (/ Wbox 2) (/ WSilicide 2)))
+
+---> (define ydrnSilexthigh (+ (+ (/ Wbox 2) (* (- nfin 1) pitchfin)) (/ WSilicide 2)))
+
+---> (define zdrnSilextlow Hbox)
+
+---> (define zdrnSilexthigh (+ Hbox HSilicide))
+
+---> (define xSspacerlow (- xgatelow Lspacer))
+
+---> (define xSspacerhigh xgatelow)
+
+---> (define ySspacerlow (- (/ Wbox 2) (/ Wspacer 2)))
+
+---> (define ySspacerhigh (+ (/ Wbox 2) (/ Wspacer 2)))
+
+---> (define zSspacerlow Hbox)
+
+---> (define zSspacerhigh (+ Hbox Hspacer))
+
+---> (define xDspacerlow xgatehigh)
+
+---> (define xDspacerhigh (+ xgatehigh Lspacer))
+
+---> (define yDspacerlow (- (/ Wbox 2) (/ Wspacer 2)))
+
+---> (define yDspacerhigh (+ (/ Wbox 2) (/ Wspacer 2)))
+
+---> (define zDspacerlow Hbox)
+
+---> (define zDspacerhigh (+ Hbox Hspacer))
+
+---> (define printfin nfin)
+
+
+---> (define newygatehigh (+ (* (- nfin 1) pitchfin) ygatehigh))
+
+---> (sdegeo:set-default-boolean BAB)
+
+---> (sdegeo:set-default-boolean BAB)
+
+---> (sdegeo:create-rectangle (position xdrnextlow ydrnextlow 0) (position xdrnexthigh ydrnexthigh 0) Silicon Drain_Ext)
+
+---> (sdegeo:create-rectangle (position xsrcextlow ysrcextlow 0) (position xsrcexthigh ysrcexthigh 0) Silicon Source_Ext)
+
+---> (sdegeo:set-default-boolean BAB)
+
+---> (sdegeo:create-rectangle (position xdrnSilextlow ydrnSilextlow 0) (position xdrnSilexthigh ydrnSilexthigh 0) Silicide Drain_Sili)
+
+---> (sdegeo:create-rectangle (position xsrcSilextlow ysrcSilextlow 0) (position xsrcSilexthigh ysrcSilexthigh 0) Silicide Source_Sili)
+
+---> (sdegeo:define-contact-set gate 4.0 (color:rgb 1.0 0.0 0.0) ##)
+
+---> (sdegeo:define-contact-set drain 4.0 (color:rgb 1.0 0.0 0.0) ||)
+
+---> (sdegeo:define-contact-set source 4.0 (color:rgb 1.0 0.0 0.0) ==)
+
+---> (sdegeo:set-current-contact-set gate)
+
+---> (sdegeo:set-contact-edges (find-edge-id (position xgatelow (/ (+ yoxidehigh ySspacerhigh) 2) 0)) gate)
+
+(sdegeo:set-contact-edges (list (car (find-edge-id (position 0.125 0.157001666666667 0)))) "gate")
+
+---> (sdegeo:set-current-contact-set gate)
+
+---> (sdegeo:set-contact-edges (find-edge-id (position xgatehigh (/ (+ yoxidehigh ySspacerhigh) 2) 0)) gate)
+
+(sdegeo:set-contact-edges (list (car (find-edge-id (position 0.175 0.157001666666667 0)))) "gate")
+
+---> (sdegeo:set-current-contact-set gate)
+
+---> (sdegeo:set-contact-edges (find-edge-id (position xgatelow (/ (+ yoxidelow ySspacerlow) 2) 0)) gate)
+
+(sdegeo:set-contact-edges (list (car (find-edge-id (position 0.125 0.142998333333333 0)))) "gate")
+
+---> (sdegeo:set-current-contact-set gate)
+
+---> (sdegeo:set-contact-edges (find-edge-id (position xgatehigh (/ (+ yoxidelow ySspacerlow) 2) 0)) gate)
+
+(sdegeo:set-contact-edges (list (car (find-edge-id (position 0.175 0.142998333333333 0)))) "gate")
+
+---> (sdegeo:set-current-contact-set gate)
+
+---> (sdegeo:set-contact-edges (find-edge-id (position (/ (+ xgatehigh xgatelow) 2) yoxidehigh 0)) gate)
+
+(sdegeo:set-contact-edges (list (car (find-edge-id (position 0.15 0.15317 0)))) "gate")
+
+---> (sdegeo:set-current-contact-set gate)
+
+
+(sdegeo:set-contact-edges (list (car (find-edge-id (position 0.15 0.14683 0)))) "gate")
+
+---> (sdegeo:set-current-contact-set source)
+
+
+(sdegeo:set-contact-edges (list (car (find-edge-id (position 0.11 0.128 0)))) "source")
+
+
+(sdegeo:set-contact-edges (list (car (find-edge-id (position 0.11 0.172 0)))) "source")
+
+---> (sdegeo:set-current-contact-set drain)
+
+---> (sdegeo:set-contact-edges (find-edge-id (position (/ (+ xdrnSilexthigh xdrnSilextlow) 2) ydrnSilextlow 0)) drain)
+
+(sdegeo:set-contact-edges (list (car (find-edge-id (position 0.19 0.128 0)))) "drain")
+
+---> (sdegeo:set-contact-edges (find-edge-id (position (/ (+ xdrnSilexthigh xdrnSilextlow) 2) ydrnSilexthigh 0)) drain)
+
+(sdegeo:set-contact-edges (list (car (find-edge-id (position 0.19 0.172 0)))) "drain")
+
+---> (define xchannel_N_low xoxidelow)
+
+---> (define xchannel_N_high xoxidehigh)
+
+---> (define xchannellow (+ xoxidelow overlap))
+
+---> (define xchannelhigh (- xoxidehigh overlap))
+
+---> (define ychannellow (+ yoxidelow TOX))
+
+---> (define ychannelhigh (- yoxidehigh TOX))
+
+---> (define zchannellow Hbox)
+
+---> (define zchannelhigh (+ Hbox Hfin))
+
+---> (define length_highdope (* 5 nm))
+
+
+---> (define xsourcelow xfinlow)
+
+---> (define xsourcehigh xchannellow)
+
+---> (define ysourcelow ychannellow)
+
+---> (define ysourcehigh ychannelhigh)
+
+---> (define zsourcelow Hbox)
+
+---> (define zsourcehigh (+ Hbox Hfin))
+
+---> (define xdrainlow xchannelhigh)
+
+---> (define xdrainhigh xfinhigh)
+
+---> (define ydrainlow ychannellow)
+
+---> (define ydrainhigh ychannelhigh)
+
+---> (define zdrainlow Hbox)
+
+---> (define zdrainhigh (+ Hbox Hfin))
+
+---> (define length_ldd (* 0.1 nm))
+
+
+---> (sdedr:define-refinement-window G2 Line (position 0.1214 0.1525 0) (position 0.1214 0.1475 0))
+
+---> (sdedr:define-gaussian-profile G2_Prof DSD PeakPos 0 PeakVal (* 2 Na) ValueAtDepth (* 2 Na) Depth 2.5e-09 Gauss Length 0)
+
+---> (sdedr:define-analytical-profile-placement G2_def G2_Prof G2 Negative NoReplace NoEval)
+
+
+---> (sdedr:define-gaussian-profile G2_Prof_1 DSD PeakPos 0 PeakVal (* 2 Na) ValueAtDepth Nd Depth 0.0036 Gauss Length 0)
+
+---> (sdedr:define-analytical-profile-placement G2_def_1 G2_Prof_1 G2_1 Positive NoReplace NoEval)
+
+---> (sdedr:define-refinement-window G1 Line (position 0.1786 0.1525 0) (position 0.1786 0.1475 0))
+
+
+---> (sdedr:define-analytical-profile-placement G1_def G1_Prof G1 Positive NoReplace NoEval)
+
+---> (sdedr:define-refinement-window G1_1 Line (position 0.1786 0.1525 0) (position 0.1786 0.1475 0))
+
+---> (sdedr:define-gaussian-profile G1_Prof_1 DSD PeakPos 0 PeakVal (* 2 Na) ValueAtDepth Nd Depth 0.0036 Gauss Length 0)
+
+---> (sdedr:define-analytical-profile-placement G1_def_1 G1_Prof_1 G1_1 Negative NoReplace NoEval)
+
+---> (sdedr:define-constant-profile SourceRegion DSD Naext)
+
+
+
+---> (sdedr:define-constant-profile DrainRegion DSD Naext)
+
+
+---> (sdedr:define-constant-profile-placement DrainExtDef DrainRegion DrainExtention)
+
+---> (sdedr:define-refeval-window UnivMesh Rectangle (position 0 0 0) (position Lbox Wbox 0))
+
+---> (sdedr:define-refinement-size UnivMeshDef 0.001 0.001 0.001 0.001 0.001 0.001)
+
+---> (sdedr:define-refinement-placement Ref1 UnivMeshDef UnivMesh)
+
+---> (sdedr:define-refeval-window SourceExtMesh Rectangle (position xsrcextlow ysrcextlow 0) (position xsrcexthigh ysrcexthigh 0))
+
+---> (sdedr:define-refinement-size SourceExtMeshDef (/ Lext 3) (/ Wext 3) (/ Lext 3) (/ Wext 3))
+
+---> (sdedr:define-refinement-placement RefSrcExt SourceExtMeshDef SourceExtMesh)
+
+---> (sdedr:define-refeval-window DrainExtMesh Rectangle (position xdrnextlow ydrnextlow 0) (position xdrnexthigh ydrnexthigh 0))
+
+---> (sdedr:define-refinement-size DrainExtMeshDef (/ Lext 3) (/ Wext 3) (/ Lext 3) (/ Wext 3))
+
+---> (sdedr:define-refinement-placement RefDrnExt DrainExtMeshDef DrainExtMesh)
+
+
+
+---> (sdedr:define-refinement-placement RefFin FinMeshDef FinMesh)
+
+
+
+---> (sdedr:define-refinement-placement CRefFin CFinMeshDef CFinMesh)
+
+
+
+---> (sdedr:define-refinement-placement RefCh0 Ch0MeshDef Ch0Mesh)
+
+
+---> (sdedr:define-refinement-size Ch1MeshDef (/ Lgate 25) (/ debye_length 0.5) (/ Lgate 25) (/ debye_length 0.5))
+
+---> (sdedr:define-refinement-placement RefCh1 Ch1MeshDef Ch1Mesh)
+
+
+
+---> (sdedr:define-refinement-placement RefBackOxide BackOxideMeshDef BackOxideMesh)
+
+
+---> (sdedr:define-refinement-size FntOxideMeshDef (/ Lgate 30) (/ EOT 15) (/ Lgate 30) (/ EOT 15))
+
+---> (sdedr:define-refinement-placement RefFntOxide FntOxideMeshDef FntOxideMesh)
+
+---> (sdedr:define-refeval-window BackGateChMesh Rectangle (position xchannellow ychannelhigh 0) (position xchannelhigh (+ ychannelhigh (/ junction_refine 14)) 0))
+
+---> (sdedr:define-refinement-size BackGateChMeshDef (/ Lgate 30) (/ junction_refine 8) (/ Lgate 30) debye_length)
+
+---> (sdedr:define-refinement-placement RefBackGateCh BackGateChMeshDef BackGateChMesh)
+
+
+---> (sdedr:define-refinement-size FntGateChMeshDef (/ Lgate 30) (/ junction_refine 8) (/ Lgate 30) debye_length)
+
+---> (sdedr:define-refinement-placement RefFntGateCh FntGateChMeshDef FntGateChMesh)
+
+---> (sdedr:define-refeval-window GateMesh0 Rectangle (position xgatelow ygatelow 0) (position xdrainlow yoxidelow 0))
+
+
+---> (sdedr:define-refinement-placement RefGate0 GateMeshDef0 GateMesh0)
+
+
+---> (sdedr:define-refinement-size GateMeshDef2 (/ Lgate 10) (/ Wgate 5) (/ Lgate 13) (/ Wgate 7))
+
+---> (sdedr:define-refinement-placement RefGate2 GateMeshDef2 GateMesh2)
+
+****************************************************************************
+***                                 Mesh                                 ***
+***                          Version F-2011.09                           ***
+***                         (1.0, amd64, linux)                          ***
+***                                                                      ***
+***                       Copyright (C) 1994-2011                        ***
+***                            Synopsys, Inc.                            ***
+***                                                                      ***
+***  This software and the associated documentation are confidential     ***
+***  and proprietary to Synopsys, Inc.  Your use or disclosure of this   ***
+***  software is subject to the terms and conditions of a written        ***
+***  license agreement between you, or your company, and Synopsys, Inc.  ***
+****************************************************************************
+
+> Compiled Sun May 22 15:24:44 PDT 2011 on: tcadprod5
+> Running on: Linux mcl16 2.6.32-71.el6.x86_64 #1 SMP Tue Nov 23 06:49:13 CST 2010 x86_64
+
+> Process ID: 5123
+> 
+> Flags used: -F tdr
+> 
+> Reading Boundary from 2d_Lg_15_1305_bnd.tdr
+> Loaded 36 point(s), 15 region(s), 3 contact(s). done. Time: 0.029995 secs.
+> Statistics from input geometry:
+> 36 vertices, 50 edges, 25 elements (10 segments) (15 polygons)
+> 	10 1D elements
+> 	15 2D elements
+> Average edge length (std): 0.0123867 (0.0932208)
+> Min edge length (17): 0.00067
+> 
+> Average area (std): 0.00851788 (0.0708658)
+> Min. element area (8): 2.5e-05
+> 
+> Average connectivity: 2.77778
+> Max. connectivity (8): 4
+> 
+> Error: peak value 4e+20 must be greater than the value at junction 4e+20 .
+Assigning a default value of sqrt(2.0) for the standard deviation
+> Error: peak value 4e+20 must be greater than the value at junction 4e+20 .
+Assigning a default value of sqrt(2.0) for the standard deviation
+> Step sequence to perform: 
+> 	MLRefineGeometry-MLRefineOnSize
+> 
+> Fitting geometry ... Number of elements to check: 1
+> Number of elements to check: 9
+> done. Time: 0.004 secs.
+> Refining on MaxElementSize ... Number of elements to check: 8
+> Number of elements to check: 9371
+> done. Time: 0.604908 secs.
+> Handling green elements ... Number of elements to check: 9351
+> Number of elements to check: 283
+> Number of elements to check: 49
+> Number of elements to check: 6
+> Number of elements to check: 6
+> Number of elements to check: 7
+> done. Time: 0.017997 secs.
+> Building final elements ... Number of elements to check: 9555
+> Number of elements to check: 786
+> done. Time: 0.004999 secs.
+> Testing elements ... Number of elements to check: 10079
+> done. Time: 0.211968 secs.
+> Preparing data for output... Number of final elements 10079
+> Statistics from Qtree/Oc-tree:
+> 9847 vertices, 19925 edges, 10291 elements (212 segments) (786 triangles) (9293 rectangles)
+> 	212 1D elements
+> 	10079 2D elements
+> Average edge length (std): 0.00052775 (0.0646207)
+> Min edge length (1926): 3.125e-05
+> 
+> Average area (std): 2.06912e-05 (0.0149549)
+> Min. element area (1023): 9.76563e-09
+> 
+> Min. element angle (514): 2.06176 degrees.
+> Max. element angle (0): 90 degrees.
+> Average connectivity: 4.04692
+> Max. connectivity (492): 7
+> 
+> done. Time: 0.086987 secs.
+> 
+> Total time : 0.960854 secs.
+> Saving mesh `2d_Lg_15_1305_msh' in TDR format...
+> Interpolating data ... done
+---> (sde:build-mesh mesh -F tdr  2d_Lg_15_1305)
+
+
+"Meshing successful"
+---> #[end-of-file]
+
+"************************************************************************"
+"Sentaurus Structure Editor "
+"Total Execution Time (sec):    2"
+"Total System calls Time (sec): 0"
+"************************************************************************"

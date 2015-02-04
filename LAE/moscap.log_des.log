@@ -1,0 +1,4049 @@
+****************************************************************************
+***                           Sentaurus Device                           ***
+***                          Version G-2012.06                           ***
+***                         (1.5, amd64, linux)                          ***
+***                                                                      ***
+***                       Copyright (C) 1994-2012                        ***
+***                            Synopsys, Inc.                            ***
+***                                                                      ***
+***  This software and the associated documentation are confidential     ***
+***  and proprietary to Synopsys, Inc.  Your use or disclosure of this   ***
+***  software is subject to the terms and conditions of a written        ***
+***  license agreement between you, or your company, and Synopsys, Inc.  ***
+****************************************************************************
+
+	Running on machine with the following configuration:
+	Host Name: thzlabsv.ee.ucla.edu
+	Operating System: Linux rel. 2.6.32-504.1.3.el6.x86_64 ver. #1 SMP Fri Oct 31 11:37:10 EDT 2014
+	Machine Type: x86_64
+	Process ID: 29799
+	Number of processors: 56
+	Domain Name: ee.ucla.edu
+	Date: Wed Jan 28 14:56:40 2015  (PDT)
+
+Wed Jan 28 14:56:41 2015: checked out 1 Dessis license(s)
+Wed Jan 28 14:56:41 2015: checked out 1 sdevice license(s)
+Parsing circuit file /w/apps3/Synopsys/TCAD_Sentaurus/vG_2012.06/tcad/current/amd64/lib/sdevice/sd_hb_vsource.ccf
+Parsing circuit file /w/apps3/Synopsys/TCAD_Sentaurus/vG_2012.06/tcad/current/amd64/lib/sdevice/sd_SRL1.ccf
+Parsing circuit file /w/apps3/Synopsys/TCAD_Sentaurus/vG_2012.06/tcad/current/amd64/lib/sdevice/bs_psource.ccf
+Parsing circuit file /w/apps3/Synopsys/TCAD_Sentaurus/vG_2012.06/tcad/current/amd64/lib/sdevice/sd_hb_vsource2.ccf
+Parsing circuit file /w/apps3/Synopsys/TCAD_Sentaurus/vG_2012.06/tcad/current/amd64/lib/sdevice/sd_hb_pGC.ccf
+Parsing circuit file /w/apps3/Synopsys/TCAD_Sentaurus/vG_2012.06/tcad/current/amd64/lib/sdevice/sd_hb_sRL.ccf
+Parsing circuit file /w/apps3/Synopsys/TCAD_Sentaurus/vG_2012.06/tcad/current/amd64/lib/sdevice/sd_hb_isource2.ccf
+Parsing circuit file /w/apps3/Synopsys/TCAD_Sentaurus/vG_2012.06/tcad/current/amd64/lib/sdevice/sd_hb_isource.ccf
+Parsing circuit file /w/apps3/Synopsys/TCAD_Sentaurus/vG_2012.06/tcad/current/amd64/lib/scm/MOS_harness.ccf
+Loading shared object file /w/apps3/Synopsys/TCAD_Sentaurus/vG_2012.06/tcad/current/amd64/lib/scm/MOS_harness.so.amd64
+Loading shared object file /w/apps3/Synopsys/TCAD_Sentaurus/vG_2012.06/tcad/current/amd64/lib/sdevice/sd_hb_isource.so.amd64
+Loading shared object file /w/apps3/Synopsys/TCAD_Sentaurus/vG_2012.06/tcad/current/amd64/lib/sdevice/sd_hb_isource2.so.amd64
+Loading shared object file /w/apps3/Synopsys/TCAD_Sentaurus/vG_2012.06/tcad/current/amd64/lib/sdevice/sd_hb_sRL.so.amd64
+Loading shared object file /w/apps3/Synopsys/TCAD_Sentaurus/vG_2012.06/tcad/current/amd64/lib/sdevice/sd_hb_pGC.so.amd64
+Loading shared object file /w/apps3/Synopsys/TCAD_Sentaurus/vG_2012.06/tcad/current/amd64/lib/sdevice/sd_hb_vsource2.so.amd64
+Loading shared object file /w/apps3/Synopsys/TCAD_Sentaurus/vG_2012.06/tcad/current/amd64/lib/sdevice/bs_psource.so.amd64
+Loading shared object file /w/apps3/Synopsys/TCAD_Sentaurus/vG_2012.06/tcad/current/amd64/lib/sdevice/sd_SRL1.so.amd64
+Loading shared object file /w/apps3/Synopsys/TCAD_Sentaurus/vG_2012.06/tcad/current/amd64/lib/sdevice/sd_hb_vsource.so.amd64
+Wed Jan 28 14:56:41 2015: checked out 5 Dessis-Parallel license(s)
+Wed Jan 28 14:56:41 2015: checked out 5 sdevice-parallel license(s)
+Wed Jan 28 14:56:41 2015: checked out 5 sparallel license(s)
+
+Input source: pp14_des.cmd
+
+===============================
+
+Output file: moscap.log_des.log
+
+
+GlobalParameter {
+}
+ACExtract file: moscap_cv_complex1_14.plt_ac_des.plt
+
+PMIPath file: /w/apps3/Synopsys/TCAD_Sentaurus/vG_2012.06/tcad/current/amd64/lib/sdevice-20.0.5 /w/apps3/Synopsys/TCAD_Sentaurus/vG_2012.06/tcad/current/amd64/lib/sdevice
+
+CMIPath file: /w/apps3/Synopsys/TCAD_Sentaurus/vG_2012.06/tcad/current/amd64/lib/sdevice /w/apps3/Synopsys/TCAD_Sentaurus/vG_2012.06/tcad/current/amd64/lib/scm
+
+SPICEPath file: /w/apps3/Synopsys/TCAD_Sentaurus/vG_2012.06/tcad/current/lib/sdevice-20.0.5/spice
+
+no DevicePath file
+
+no CIRCUITSAVENAME file
+
+no CIRCUITLOADNAME file
+
+Numerical parameters:
+  Absolute error : 
+    Poisson : 1.0000e-03
+    Electron : 1.0000e-05
+    Hole : 1.0000e-05
+    Photon-Rate-Equation : 1.0000e-07
+    Photon-Phase-Equation : 1.0000e-05
+    Rate-Stabilize-Equation : 1.0000e-07
+    QW-Scattering-Equations : 1.0000e-05
+    QW-eScattering-Equation : 1.0000e-05
+    QW-hScattering-Equation : 1.0000e-05
+    Optical Problem : 1.0000e-03
+    Wavelength : 1.0000e-03
+    Bandstructure : 1.0000e-03
+    EmissionTable : 1.0000e-03
+    DephasingRates : 1.0000e-03
+    Photon Recycling : 1.0000e-03
+    Electron-Temperature : 1.0000e-04
+    Hole-Temperature : 1.0000e-04
+    Lattice-Hole-Electron-Temperature : 1.0000e-03
+    Circuit : 1.0000e-03
+    TCircuit : 1.0000e-03
+    Contact : 1.0000e-03
+    TContact : 1.0000e-03
+    Continuation : 1.0000e-03
+    eLaplace : 1.0000e-03
+    hLaplace : 1.0000e-03
+    tLaplace : 1.0000e-03
+    MonteCarlo : 1.0000e-03
+    MCPoissonPDE : 1.0000e-03
+    eQuantumPotential : 1.0000e-03
+    hQuantumPotential : 1.0000e-03
+    quasi-fermi-potential : 1.0000e-03
+    ConductiveInsulator : 1.0000e-03
+    ContactAndConductiveInsulator : 1.0000e-03
+    SingletExciton : 1.0000e-05
+    eHopping : 1.0000e-03
+    hHopping : 1.0000e-03
+    HydrogenAtom : 1.0000e-03
+    HydrogenMolecule : 1.0000e-03
+    HydrogenIon : 1.0000e-03
+    HydrogenSiliconBondOccupation : 1.0000e-03
+    eSHEDistribution : 1.0000e-03
+    hSHEDistribution : 1.0000e-03
+  RelErrControl (Reference error): 
+    Poisson : 0.025852
+    Electron : 1.0000e+10
+    Hole : 1.0000e+10
+    Photon-Rate-Equation : 1.0000e-07
+    Photon-Phase-Equation : 1
+    Rate-Stabilize-Equation : 1.0000e-07
+    QW-Scattering-Equations : 1.0000e+10
+    QW-eScattering-Equation : 1.0000e+10
+    QW-hScattering-Equation : 1.0000e+10
+    Optical Problem : 1
+    Wavelength : 1
+    Bandstructure : 1
+    EmissionTable : 1
+    DephasingRates : 1
+    Photon Recycling : 1
+    Electron-Temperature : 3.0000e+02
+    Hole-Temperature : 3.0000e+02
+    Lattice-Hole-Electron-Temperature : 3.0000e+02
+    Circuit : 1
+    TCircuit : 1
+    Contact : 0.025852
+    TContact : 1
+    Continuation : 1
+    eLaplace : 1
+    hLaplace : 1
+    tLaplace : 1
+    MonteCarlo : 1
+    MCPoissonPDE : 1
+    eQuantumPotential : 0.025852
+    hQuantumPotential : 0.025852
+    quasi-fermi-potential : 0.025852
+    ConductiveInsulator : 1
+    ContactAndConductiveInsulator : 1
+    SingletExciton : 1.0000e+10
+    eHopping : 0.025852
+    hHopping : 0.025852
+    HydrogenAtom : 1.0000e+10
+    HydrogenMolecule : 1.0000e+10
+    HydrogenIon : 1.0000e+10
+    HydrogenSiliconBondOccupation : 1
+    eSHEDistribution : 0.025852
+    hSHEDistribution : 0.025852
+  Relative error : 5 digits
+  Without checked transient error
+  Max. #iterations : 20
+  LineSearchDamping=1
+  #undamped iterations : 50
+  No incomplete Newton
+  transient method : TR-BDF
+  Linear solver : blocked decomposition
+  Linear solver for AC analysis : blocked decomposition
+  Linear solver for SHEDistribution Model : Super
+  use linear extrapolation in transient/quasistationary computations
+  use complex supernodal in ac-analysis (if possible)
+  do not use smoothed PDE's in transient/quasistationary computations
+  Harmonic balance (HB) specifications:
+    Do not use MDFT mode in HB (i.e. one-tone and time domain assembly).
+    Do not use in HB the logarithm of densities.
+    No SolveSpectrum entries are specified.
+    Plot HB results for time domain interval (0.0000e+00 , 0.0000e+00) using 0 intervals.
+    HB Newton scaling parameters for rhs and update:
+      Equation                         :  RhsScale  : UpdateScale
+      Poisson                          :   1.00E+00 :   1.00E+00 
+      Electron                         :   1.00E-05 :   1.00E+00 
+      Hole                             :   1.00E-05 :   1.00E+00 
+      Photon-Rate-Equation             :   1.00E-05 :   1.00E+00 
+      Photon-Phase-Equation            :   1.00E+00 :   1.00E+00 
+      Rate-Stabilize-Equation          :   1.00E+00 :   1.00E+00 
+      QW-Scattering-Equations          :   1.00E-05 :   1.00E+00 
+      QW-eScattering-Equation          :   1.00E-05 :   1.00E+00 
+      QW-hScattering-Equation          :   1.00E-05 :   1.00E+00 
+      Optical Problem                  :   1.00E+00 :   1.00E+00 
+      Wavelength                       :   1.00E+00 :   1.00E+00 
+      Bandstructure                    :   1.00E+00 :   1.00E+00 
+      EmissionTable                    :   1.00E+00 :   1.00E+00 
+      DephasingRates                   :   1.00E+00 :   1.00E+00 
+      Photon Recycling                 :   1.00E+00 :   1.00E+00 
+      Electron-Temperature             :   1.00E+00 :   1.00E+00 
+      Hole-Temperature                 :   1.00E+00 :   1.00E+00 
+      Lattice-Hole-Electron-Temperature:   1.00E+00 :   1.00E+00 
+      Circuit                          :   1.00E-05 :   1.00E+00 
+      TCircuit                         :   1.00E+00 :   1.00E+00 
+      Contact                          :   1.00E-05 :   1.00E+00 
+      TContact                         :   1.00E+00 :   1.00E+00 
+      Continuation                     :   1.00E+00 :   1.00E+00 
+      eLaplace                         :   1.00E+00 :   1.00E+00 
+      hLaplace                         :   1.00E+00 :   1.00E+00 
+      tLaplace                         :   1.00E+00 :   1.00E+00 
+      MonteCarlo                       :   1.00E+00 :   1.00E+00 
+      MCPoissonPDE                     :   1.00E+00 :   1.00E+00 
+      eQuantumPotential                :   1.00E+00 :   1.00E+00 
+      hQuantumPotential                :   1.00E+00 :   1.00E+00 
+      quasi-fermi-potential            :   1.00E+00 :   1.00E+00 
+      ConductiveInsulator              :   1.00E+00 :   1.00E+00 
+      ContactAndConductiveInsulator    :   1.00E+00 :   1.00E+00 
+      SingletExciton                   :   1.00E+00 :   1.00E+00 
+      eHopping                         :   1.00E+00 :   1.00E+00 
+      hHopping                         :   1.00E+00 :   1.00E+00 
+      HydrogenAtom                     :   1.00E+00 :   1.00E+00 
+      HydrogenMolecule                 :   1.00E+00 :   1.00E+00 
+      HydrogenIon                      :   1.00E+00 :   1.00E+00 
+      HydrogenSiliconBondOccupation    :   1.00E+00 :   1.00E+00 
+      eSHEDistribution                 :   1.00E+00 :   1.00E+00 
+      hSHEDistribution                 :   1.00E+00 :   1.00E+00 
+    HB Newton correction parameters for values:
+      Equation                         :     Min    :  Variation 
+      Electron                         :   1.00E-20 :   1.00E+18 
+      Hole                             :   1.00E-20 :   1.00E+18 
+      Photon-Rate-Equation             :   0.00E+00 :   1.00E+18 
+      QW-eScattering-Equation          :   1.00E-20 :   1.00E+18 
+      QW-hScattering-Equation          :   1.00E-20 :   1.00E+18 
+      Electron-Temperature             :   1.00E+02 :   1.00E+18 
+      Hole-Temperature                 :   1.00E+02 :   1.00E+18 
+      Lattice-Hole-Electron-Temperature:   1.00E+02 :   1.00E+18 
+    
+    Traps are solved by decoupled mode.
+  use automatic coupling of contact/circuit stuff
+  Spice temperature: 3.0015e+02
+  Spice nominal temperature of parameter measurements: 3.0015e+02
+  Spice minimum conductance gmin: 1.0000e-12
+  Mininum |rhs| : 1.0000e-05
+  Maximum |rhs| : 1.0000e+15
+  Maximum |rhs| factor : 1.0000e+10
+  Lattice Temperature Range : (50,5.0000e+03)
+  Carrier Temperature Range : (10,8.0000e+04)
+  Simplified first order SHE of BTE will be solved
+  SHERefinementCutoff : 20
+  No user dependencies.
+  Number of assembly threads: 20 (Sentaurus Device command file)
+  Number of solver threads: 20 (Sentaurus Device command file)
+  Thread stacksize: 20000000 bytes (Sentaurus Device command file)
+  Go serial if not enough parallel licenses are available.
+
+Default device parameters:
+  Files:
+    no Boundary file
+    no Grid file
+    no Doping file
+    no MobilityDoping file
+    no Load file
+    no Save file
+    Plot file: moscap.dat
+    no DevFieldsName file
+    no Path file
+    no optical-Generation file
+    no Lifetime file
+    no Temperature file
+    Current file: moscap.plt
+    no PMIUserFields file
+    no Extraction file
+    no ModelParameters file
+    no Piezo file
+    no ModeGain file
+    no Optical emission table for stimulated emission file
+    no Optical emission table for spontaneous emission file
+    no Optical emission table for photon phase change coefficient file
+    no EmissionTable file
+    no DephasingRates file
+    no ASESpectrum file
+    no OpticalFarField file
+    no OpticalIntensityPattern file
+    no SaveOpticalIntensityPattern file
+    no OpticalXYAnglePattern file
+    no SaveOpticalXYAnglePattern file
+    no MonteCarloInput file
+    no MonteCarloOutput file
+    no ACPlot file
+-----------------------------------------------
+  Numerical parameters:
+    With exact derivatives
+    With avalanche derivatives
+    Using old wavelength search algorithm
+    Do not reinitialize quasi Fermi potentials in quasi-stationary simulations
+    Ignore ionization integral constraints
+    Without SRH per potential 
+    Without CDL per potential 
+    Without diagonal preconditioning
+    With Scharfetter-Gummel Discretization
+    Relative error : 5 digits
+    Delta for numerical tunnelling derivatives : 1.0000e-03
+    Do not compute breakdown paths and ionization integrals
+    QuasiFermiPotential is used for Contact Equation
+-----------------------------------------------
+-----------------------------------------------
+  Physical models:
+    Without incomplete ionization
+    Use Si parameters
+    TATNonlocalPathNC = 0.0000e+00
+    Without SRH-Recombination
+    Without CDL-Recombination
+    With optical generation computation 
+    Without Band-to-Band-Tunneling
+    Without Auger-Recombination
+    Without Radiative Recombination
+    Without Surface-Recombination
+    Without Trap-Assisted-Auger-Recombination
+    PMI recombination models: none
+  Without thermal resistance interfaces
+  Without Piezo
+  Without Anisotropic Material Properties
+  Without Avalanche-Generation 
+  Without Alpha Particle
+  Without Heavy Ion
+  Without polarization
+  Volume charge density: 0.0000e+00 cm^-3
+  Device Temperature = 3.0000e+02 K
+  Electron Quasi Fermi Potential: 0.0000e+00 V
+  Hole Quasi Fermi Potential: 0.0000e+00 V
+  Without MagneticField
+  With SingletExciton Barrier Type
+  Intrinsic density models:
+    default bandgap model
+    Bandgap narrowing model: Bennett/Wilson with bandgap narrowing (no Fermi)
+  default affinity model
+  default effective mass model
+  Electron mobility:
+    no Doping dependence (using constant mobility)
+    no Carrier-Carrier scattering
+    no E_normal dependence
+    Without ThinLayer mobility model
+    no high-field saturation
+    Einstein relation for diffusivity-mobility ratio.
+  Hole mobility:
+    no Doping dependence (using constant mobility)
+    no Carrier-Carrier scattering
+    no E_normal dependence
+    Without ThinLayer mobility model
+    no high-field saturation
+    Einstein relation for diffusivity-mobility ratio.
+  Energy relaxation time model: according to formula in parameter file
+  Lattice thermal conductivity model: according to formula in parameter file
+  Metal Resistivity model: according to formula in parameter file
+  Thermo Electric Power model: extraploted Si data
+  Metal Thermo Electric Power model: MetalThermoElectricPower model not defined
+  Lattice heat capacity model: temperature dependent
+  no piezoelectric polarization model
+  Without default parameters from file (use built-in default parameters)
+-----------------------------------------------
+Process information for extraction purposes:
+  none
+Plot variables:
+  eDensity
+  hDensity
+  eCurrentDensity
+  hCurrentDensity
+  TotalCurrentDensity/Vector
+  eLifetime
+  hLifetime
+  EffectiveIntrinsicDensity
+  IntrinsicDensity
+  eEquilibriumDensity
+  hEquilibriumDensity
+  ElectrostaticPotential
+  SpaceCharge
+  ElectricField/Vector
+  eMobility
+  hMobility
+  eVelocity
+  hVelocity
+  DopingConcentration
+  DonorConcentration
+  AcceptorConcentration
+  ConductionBandEnergy
+  ValenceBandEnergy
+  BandGap
+  eQuasiFermiPotential
+  hQuasiFermiPotential
+  SRHRecombination
+  AugerRecombination
+  TotalRecombination
+  SurfaceRecombination
+  Band2BandGeneration
+  OpticalIntensity
+  OpticalGeneration
+
+------------------------------------------------
+NoisePlot variables:
+  none
+Plot groups:
+  none
+
+------------------------------------------------
+CurrentPlot variables:
+  none
+Devices:
+Device moscap:
+Parameters
+Electrodes:
+  "ntype" : 0.0000e+00 V (Ohmic), area factor : 1
+  "ptype" : 0.0000e+00 V (Ohmic), area factor : 1
+Files:
+  Grid file: ../LAE/sdemodel_msh.tdr
+  Plot file: ../LAE/sde_dvs_des_decade.tdr
+  Current file: ../LAE/sde_des_opt_complex1_14_decade.plt
+  ModelParameters file: ../LAE/models.par
+-----------------------------------------------
+Numerical parameters:
+  With Hydrodynamic Discretization for Electron and Hole temperatures
+        -----------------------------------------------
+-----------------------------------------------
+Physical models:
+  With SRH-Recombination
+    With Schenk field dependent lifetimes (trap assisted tunneling model)
+    With Schenk local density modification in SRH
+    With doping dependent lifetimes
+    With temperature dependent lifetimes (power law)
+  With Band-to-Band-Tunneling
+    Schenk model
+      Local density correction
+  With Auger-Recombination (without Generation)
+  With Surface-Recombination
+  Without thermal resistance interfaces
+  With HeteroInterfaces
+  With Thermionic Emission at heterointerfaces for electrons and holes
+
+  With Avalanche-Generation: 
+  For electrons:
+    driving force is Parallel (to current) Electric Field,
+    model according to van Overstraeten / de Man
+  For holes:
+    driving force is Parallel (to current) Electric Field,
+    model according to van Overstraeten / de Man
+
+  Intrinsic density models:
+    default bandgap model
+    Bandgap narrowing model: OldSlotboom with bandgap narrowing (no Fermi)
+  Electron mobility:
+    Doping dependence:
+      Default
+    E_normal dependence:
+      Lombardi
+    Diffusivity: Caughey-Thomas saturation model, carrier temperature saturation
+  Hole mobility:
+    Doping dependence:
+      Default
+    E_normal dependence:
+      Lombardi
+    Diffusivity: Caughey-Thomas saturation model, carrier temperature saturation
+  DeviceAreaFactor = 10
+-----------------------------------------------
+- - - - - - - - - - - - - - - - - - - - - - - - 
+The following Physical models have been changed
+              for Region = 'n_region_9'
+
+  Internal Mole Fraction Specification:
+    xMoleFractionConst = 0.47
+
+  Without thermal resistance interfaces
+  Model: Optics  Switched on
+    Model: OpticalGeneration  Switched on
+      Model: SetConstant  Switched on
+        Model: TimeDependence  Switched on
+          Parameter: WaveTime = [ 1.4e-10 1.402e-10 ] s
+          Parameter: WaveTSigma = 1e-14 s
+        Parameter: Value = 1.9e+22 cm^-3*s^-1
+      Model: QuantumYield  Switched on
+        Parameter: Unity = on
+        Model: StepFunction  Switched off
+          Parameter: Energy = -1 eV
+          Parameter: Wavelength = -1 um
+    Model: ComplexRefractiveIndex  Switched on
+      Model: WavelengthDep  Switched on
+        Parameter: Real = on
+        Parameter: Imag = on
+- - - - - - - - - - - - - - - - - - - - - - - -
+- - - - - - - - - - - - - - - - - - - - - - - - 
+The following Physical models have been changed
+              for Region = 'n_region_8'
+
+  Internal Mole Fraction Specification:
+    xMoleFractionConst = 0.47
+
+  Without thermal resistance interfaces
+  Model: Optics  Switched on
+    Model: OpticalGeneration  Switched on
+      Model: SetConstant  Switched on
+        Model: TimeDependence  Switched on
+          Parameter: WaveTime = [ 1.4e-10 1.402e-10 ] s
+          Parameter: WaveTSigma = 1e-14 s
+        Parameter: Value = 1.7e+22 cm^-3*s^-1
+      Model: QuantumYield  Switched on
+        Parameter: Unity = on
+        Model: StepFunction  Switched off
+          Parameter: Energy = -1 eV
+          Parameter: Wavelength = -1 um
+    Model: ComplexRefractiveIndex  Switched on
+      Model: WavelengthDep  Switched on
+        Parameter: Real = on
+        Parameter: Imag = on
+- - - - - - - - - - - - - - - - - - - - - - - -
+- - - - - - - - - - - - - - - - - - - - - - - - 
+The following Physical models have been changed
+              for Region = 'n_region_7'
+
+  Internal Mole Fraction Specification:
+    xMoleFractionConst = 0.47
+
+  Without thermal resistance interfaces
+  Model: Optics  Switched on
+    Model: OpticalGeneration  Switched on
+      Model: SetConstant  Switched on
+        Model: TimeDependence  Switched on
+          Parameter: WaveTime = [ 1.4e-10 1.402e-10 ] s
+          Parameter: WaveTSigma = 1e-14 s
+        Parameter: Value = 1.5e+22 cm^-3*s^-1
+      Model: QuantumYield  Switched on
+        Parameter: Unity = on
+        Model: StepFunction  Switched off
+          Parameter: Energy = -1 eV
+          Parameter: Wavelength = -1 um
+    Model: ComplexRefractiveIndex  Switched on
+      Model: WavelengthDep  Switched on
+        Parameter: Real = on
+        Parameter: Imag = on
+- - - - - - - - - - - - - - - - - - - - - - - -
+- - - - - - - - - - - - - - - - - - - - - - - - 
+The following Physical models have been changed
+              for Region = 'n_region_6'
+
+  Internal Mole Fraction Specification:
+    xMoleFractionConst = 0.47
+
+  Without thermal resistance interfaces
+  Model: Optics  Switched on
+    Model: OpticalGeneration  Switched on
+      Model: SetConstant  Switched on
+        Model: TimeDependence  Switched on
+          Parameter: WaveTime = [ 1.4e-10 1.402e-10 ] s
+          Parameter: WaveTSigma = 1e-14 s
+        Parameter: Value = 1.3e+22 cm^-3*s^-1
+      Model: QuantumYield  Switched on
+        Parameter: Unity = on
+        Model: StepFunction  Switched off
+          Parameter: Energy = -1 eV
+          Parameter: Wavelength = -1 um
+    Model: ComplexRefractiveIndex  Switched on
+      Model: WavelengthDep  Switched on
+        Parameter: Real = on
+        Parameter: Imag = on
+- - - - - - - - - - - - - - - - - - - - - - - -
+- - - - - - - - - - - - - - - - - - - - - - - - 
+The following Physical models have been changed
+              for Region = 'n_region_5'
+
+  Internal Mole Fraction Specification:
+    xMoleFractionConst = 0.47
+
+  Without thermal resistance interfaces
+  Model: Optics  Switched on
+    Model: OpticalGeneration  Switched on
+      Model: SetConstant  Switched on
+        Model: TimeDependence  Switched on
+          Parameter: WaveTime = [ 1.4e-10 1.402e-10 ] s
+          Parameter: WaveTSigma = 1e-14 s
+        Parameter: Value = 1.1e+22 cm^-3*s^-1
+      Model: QuantumYield  Switched on
+        Parameter: Unity = on
+        Model: StepFunction  Switched off
+          Parameter: Energy = -1 eV
+          Parameter: Wavelength = -1 um
+    Model: ComplexRefractiveIndex  Switched on
+      Model: WavelengthDep  Switched on
+        Parameter: Real = on
+        Parameter: Imag = on
+- - - - - - - - - - - - - - - - - - - - - - - -
+- - - - - - - - - - - - - - - - - - - - - - - - 
+The following Physical models have been changed
+              for Region = 'n_region_4'
+
+  Internal Mole Fraction Specification:
+    xMoleFractionConst = 0.47
+
+  Without thermal resistance interfaces
+  Model: Optics  Switched on
+    Model: OpticalGeneration  Switched on
+      Model: SetConstant  Switched on
+        Model: TimeDependence  Switched on
+          Parameter: WaveTime = [ 1.4e-10 1.402e-10 ] s
+          Parameter: WaveTSigma = 1e-14 s
+        Parameter: Value = 9e+21 cm^-3*s^-1
+      Model: QuantumYield  Switched on
+        Parameter: Unity = on
+        Model: StepFunction  Switched off
+          Parameter: Energy = -1 eV
+          Parameter: Wavelength = -1 um
+    Model: ComplexRefractiveIndex  Switched on
+      Model: WavelengthDep  Switched on
+        Parameter: Real = on
+        Parameter: Imag = on
+- - - - - - - - - - - - - - - - - - - - - - - -
+- - - - - - - - - - - - - - - - - - - - - - - - 
+The following Physical models have been changed
+              for Region = 'n_region_3'
+
+  Internal Mole Fraction Specification:
+    xMoleFractionConst = 0.47
+
+  Without thermal resistance interfaces
+  Model: Optics  Switched on
+    Model: OpticalGeneration  Switched on
+      Model: SetConstant  Switched on
+        Model: TimeDependence  Switched on
+          Parameter: WaveTime = [ 1.4e-10 1.402e-10 ] s
+          Parameter: WaveTSigma = 1e-14 s
+        Parameter: Value = 7e+21 cm^-3*s^-1
+      Model: QuantumYield  Switched on
+        Parameter: Unity = on
+        Model: StepFunction  Switched off
+          Parameter: Energy = -1 eV
+          Parameter: Wavelength = -1 um
+    Model: ComplexRefractiveIndex  Switched on
+      Model: WavelengthDep  Switched on
+        Parameter: Real = on
+        Parameter: Imag = on
+- - - - - - - - - - - - - - - - - - - - - - - -
+- - - - - - - - - - - - - - - - - - - - - - - - 
+The following Physical models have been changed
+              for Region = 'n_region_2'
+
+  Internal Mole Fraction Specification:
+    xMoleFractionConst = 0.47
+
+  Without thermal resistance interfaces
+  Model: Optics  Switched on
+    Model: OpticalGeneration  Switched on
+      Model: SetConstant  Switched on
+        Model: TimeDependence  Switched on
+          Parameter: WaveTime = [ 1.4e-10 1.402e-10 ] s
+          Parameter: WaveTSigma = 1e-14 s
+        Parameter: Value = 5e+21 cm^-3*s^-1
+      Model: QuantumYield  Switched on
+        Parameter: Unity = on
+        Model: StepFunction  Switched off
+          Parameter: Energy = -1 eV
+          Parameter: Wavelength = -1 um
+    Model: ComplexRefractiveIndex  Switched on
+      Model: WavelengthDep  Switched on
+        Parameter: Real = on
+        Parameter: Imag = on
+- - - - - - - - - - - - - - - - - - - - - - - -
+- - - - - - - - - - - - - - - - - - - - - - - - 
+The following Physical models have been changed
+              for Region = 'p_region_1'
+
+  Internal Mole Fraction Specification:
+    xMoleFractionConst = 0.47
+
+  Without thermal resistance interfaces
+  Model: Optics  Switched on
+    Model: OpticalGeneration  Switched on
+      Model: SetConstant  Switched on
+        Model: TimeDependence  Switched on
+          Parameter: WaveTime = [ 1.4e-10 1.402e-10 ] s
+          Parameter: WaveTSigma = 1e-14 s
+        Parameter: Value = 3e+21 cm^-3*s^-1
+      Model: QuantumYield  Switched on
+        Parameter: Unity = on
+        Model: StepFunction  Switched off
+          Parameter: Energy = -1 eV
+          Parameter: Wavelength = -1 um
+    Model: ComplexRefractiveIndex  Switched on
+      Model: WavelengthDep  Switched on
+        Parameter: Real = on
+        Parameter: Imag = on
+- - - - - - - - - - - - - - - - - - - - - - - -
+- - - - - - - - - - - - - - - - - - - - - - - - 
+The following Physical models have been changed
+              for Region = 'p_region_0'
+
+  Internal Mole Fraction Specification:
+    xMoleFractionConst = 0.47
+
+  Without thermal resistance interfaces
+  Model: Optics  Switched on
+    Model: OpticalGeneration  Switched on
+      Model: SetConstant  Switched on
+        Model: TimeDependence  Switched on
+          Parameter: WaveTime = [ 1.4e-10 1.402e-10 ] s
+          Parameter: WaveTSigma = 1e-14 s
+        Parameter: Value = 1e+21 cm^-3*s^-1
+      Model: QuantumYield  Switched on
+        Parameter: Unity = on
+        Model: StepFunction  Switched off
+          Parameter: Energy = -1 eV
+          Parameter: Wavelength = -1 um
+    Model: ComplexRefractiveIndex  Switched on
+      Model: WavelengthDep  Switched on
+        Parameter: Real = on
+        Parameter: Imag = on
+- - - - - - - - - - - - - - - - - - - - - - - -
+- - - - - - - - - - - - - - - - - - - - - - - - 
+The following Physical models have been changed
+              for Region = 'substrate'
+  Without thermal resistance interfaces
+  Model: Optics  Switched on
+    Model: OpticalGeneration  Switched off
+- - - - - - - - - - - - - - - - - - - - - - - -
+- - - - - - - - - - - - - - - - - - - - - - - - 
+The following Physical models were changed
+              for Material = 'Gold'
+  Without thermal resistance interfaces
+  Model: Optics  Switched on
+    Model: OpticalGeneration  Switched off
+- - - - - - - - - - - - - - - - - - - - - - - -
+
+------------------------------------------------
+
+------------------------------------------------
+Systems:
+System :
+DEVICE MOS_harness
+  PARAMETERS 
+END DEVICE
+PSET MOS_harness_pset
+  PARAMETERS 
+END PSET
+moscap trans ( ntype=g ptype=b ){
+-----------------------------------------------
+Physical models:
+  Without thermal resistance interfaces
+-----------------------------------------------
+
+------------------------------------------------
+
+------------------------------------------------
+    }
+Vsource_pset vg ( g 0 ){
+	dc	= 0
+}
+Vsource_pset vb ( b 0 ){
+	dc	= 0
+}
+
+Plot "nodes.plt" ( time() v(g) v(b) )
+
+Solve :
+ Poisson
+Coupled ( Digits : 5, Max. #iterations : 20, 
+    Solver : blocked decomposition,
+    #undamped iterations : 50 
+)
+    { Poisson Electron } 
+Coupled ( Digits : 5, Max. #iterations : 20, 
+    Solver : blocked decomposition,
+    #undamped iterations : 50 
+)
+    { Poisson Electron Hole } 
+Quasistationary ( Digits : 5, Max. #iterations : 20, 
+      Initial step in t : 0.1, 
+      Minimum step in t : 1.0000e-08, Maximum step in t : 0.01, 
+      Increment : 2, Decrement : 2, 
+      Goal values :
+        Circuit element vg.dc : 1.2V
+    )
+  {
+    Coupled ( Digits : 5, Max. #iterations : 20, 
+        Solver : blocked decomposition,
+        #undamped iterations : 50 
+)
+        { Poisson Electron Hole } 
+  }
+Quasistationary ( Digits : 5, Max. #iterations : 20, 
+      Initial step in t : 0.1, 
+      Minimum step in t : 1.0000e-08, Maximum step in t : 0.01, 
+      Increment : 2, Decrement : 2, 
+      Goal values :
+        Circuit element vg.dc : 1.2V
+    )
+  {
+    ACCoupled ( Digits : 5, Max. #iterations : 20, 
+          Solver : blocked decomposition,
+          AC Solver : blocked decomposition,
+          #undamped iterations : 50 ,
+          StartFrequency: 1, EndFrequency: 1.0000e+10, 
+          NumberOfPoints: 40 Mode: Decade, 
+          Node(g, b) 
+          Exclude() 
+          ACCompute (
+           Time (fixed times:
+               0.0000e+00 0.0125 0.025 0.0375 0.05
+               0.0625 0.075 0.0875 0.1 0.1125
+               0.125 0.1375 0.15 0.1625 0.175
+               0.1875 0.2 0.2125 0.225 0.2375
+               0.25 0.2625 0.275 0.2875 0.3
+               0.3125 0.325 0.3375 0.35 0.3625
+               0.375 0.3875 0.4 0.4125 0.425
+               0.4375 0.45 0.4625 0.475 0.4875
+               0.5 0.5125 0.525 0.5375 0.55
+               0.5625 0.575 0.5875 0.6 0.6125
+               0.625 0.6375 0.65 0.6625 0.675
+               0.6875 0.7 0.7125 0.725 0.7375
+               0.75 0.7625 0.775 0.7875 0.8
+               0.8125 0.825 0.8375 0.85 0.8625
+               0.875 0.8875 0.9 0.9125 0.925
+               0.9375 0.95 0.9625 0.975 0.9875
+               1) )
+        )
+      { Poisson Electron Hole }
+  }
+
+===============================
+
+Reading device instance 'trans'
+Reading grid '../LAE/sdemodel_msh.tdr' ... 
+  coordinate system: DFISE, 2d_dfise (y is device down direction, 3d extension right-handed)
+  use coordinate system as is (no transformation)
+  TDR format
+  Number of grid points is 94568.
+done.
+
+Adding interfaces and contacts .... done.
+Computing edges ...
+  Number of edges: 320563
+done.
+Computing boxes ...
+
+  CVPL_AverageBoxMethod = TRUE 
+   
+  ElementWithMinVolume(172156) Vertex0(96697)( 1.000000e+01,-0.000000e+00) Volume = 5.626678e-07 um3 (3.51e-08 from TotalVolume)
+    ElementWithMinEdge(159943) Vertex0(96331)( 2.734375e-02,-0.000000e+00) Length = 1.440430e-04 um
+        MaxFlatElement(172163) Vertex0(92501)( 1.300000e+01,-0.000000e+00)  Angle = 6.414999e+01 degrees
+   ElementWithMinAngle(164323) Vertex0(96487)( 4.292969e+00,-0.000000e+00)  Angle = 3.018232e-01 degrees
+                   tan(MinAngle) = 5.267857e-03 
+
+   NumberOfEdges              = 320563 
+   NumberOfGeometricalEdges   = 282497 
+   NumberOfDoubleEdges        =   4313 
+   MaxNumberOfElementsPerEdge =      2 
+   MaxNumberOfEdgesPerVertex  =      7 
+ MaxNumberElemEdgesPerVertex  =      9 
+
+  Computing coefficient and measure ...   done.
+  Old Parameters time:   0.01 s
+
+  Computing Voronoi faces, coefficients, and measures ... 
+  CVPL_Algorithm = TRUE 
+
+    Computing Obtuse Elements ... 
+     Obtuse Elements time:   0.00 s
+      New Parameters time:   0.01 s
+
+                       NumberOfVertices =  99262 
+                       NumberOfElements = 187930 
+                      NumberOfTriangles = 187930  (100.00 %)
+                     NumberOfRectangles =      0  ( 0.00 %)
+                 NumberOfObtuseElements =      1  ( 0.00 %)
+            NumberOfNonDelaunayElements =      0  ( 0.00 %)
+    done.
+  done.
+  (times: wc = 0.24 s, tcpu = 0.23 s)
+
+
+/-------- Region non Delaunay elements ---------------------------------------------
+ Region            Volume      BoxMethodVolume  DeltaVolume  Elements  non Delaunay 
+  name              [um2]          [um2]           [%]                   Elements   
+ -----------------------------------------------------------------------------------
+ n_region_8     1.4720000e-01  1.4720000e-01       0.000       731       0 ( 0.00 %) 
+ n_region_9     1.3170000e-01  1.3170000e-01       0.000       732       0 ( 0.00 %) 
+ n_region_2     4.9500000e-01  4.9500000e-01       0.000     62220       0 ( 0.00 %) 
+ p_region_0     5.7705200e+00  5.7705200e+00       0.000     91136       0 ( 0.00 %) 
+ n_region_3     3.5960000e-01  3.5960000e-01       0.000      5124       0 ( 0.00 %) 
+ p_region_1     1.2294800e+00  1.2294800e+00       0.000     12378       0 ( 0.00 %) 
+ ntype_contact  8.0000000e-03  8.0000000e-03       0.000       586       0 ( 0.00 %) 
+ n_region_4     2.7900000e-01  2.7900000e-01       0.000      1463       0 ( 0.00 %) 
+ substrate      7.0000000e+00  7.0000000e+00       0.000     10496       0 ( 0.00 %) 
+ n_region_5     2.2790000e-01  2.2790000e-01       0.000      1460       0 ( 0.00 %) 
+ ptype_contact  2.0000000e-03  2.0000000e-03       0.000       144       0 ( 0.00 %) 
+ n_region_6     1.9270000e-01  1.9270000e-01       0.000       730       0 ( 0.00 %) 
+ n_region_7     1.6690000e-01  1.6690000e-01       0.000       730       0 ( 0.00 %) 
+ Total          1.6010000e+01  1.6010000e+01       0.000    187930       0 ( 0.00 %) 
+\-----------------------------------------------------------------------------------
+
+
+/-------- Interface non Delaunay elements ------------------------------------------
+ Region1           Volume      BoxMethodVolume  DeltaVolume  Elements  non Delaunay 
+ Region2            [um2]          [um2]           [%]                   Elements   
+ -----------------------------------------------------------------------------------
+ n_region_8     7.4807500e-02  7.4807500e-02       0.000       372       0 ( 0.00 %) 
+ n_region_9     6.5850000e-02  6.5850000e-02       0.000       366       0 ( 0.00 %) 
+ ...................................................................................
+ n_region_8     7.4807500e-02  7.4807500e-02       0.000       371       0 ( 0.00 %) 
+ n_region_7     8.3450000e-02  8.3450000e-02       0.000       365       0 ( 0.00 %) 
+ ...................................................................................
+ n_region_9     5.2680000e-02  5.2680000e-02       0.000       293       0 ( 0.00 %) 
+ ntype_contact  4.0000000e-03  4.0000000e-03       0.000       293       0 ( 0.00 %) 
+ ...................................................................................
+ n_region_2     1.9213867e-03  1.9213867e-03       0.000       366       0 ( 0.00 %) 
+ n_region_3     1.0107422e-03  1.0107422e-03       0.000       366       0 ( 0.00 %) 
+ ...................................................................................
+ n_region_2     2.2119141e-03  2.2119141e-03       0.000       366       0 ( 0.00 %) 
+ p_region_1     7.2021484e-04  7.2021484e-04       0.000       366       0 ( 0.00 %) 
+ ...................................................................................
+ p_region_0     1.4330312e-02  1.4330312e-02       0.000       512       0 ( 0.00 %) 
+ p_region_1     1.8509531e-02  1.8509531e-02       0.000       512       0 ( 0.00 %) 
+ ...................................................................................
+ p_region_0     1.3863281e-02  1.3863281e-02       0.000       512       0 ( 0.00 %) 
+ substrate      1.8976563e-02  1.8976563e-02       0.000       512       0 ( 0.00 %) 
+ ...................................................................................
+ n_region_3     7.9096875e-02  7.9096875e-02       0.000       366       0 ( 0.00 %) 
+ n_region_4     1.4731250e-02  1.4731250e-02       0.000       366       0 ( 0.00 %) 
+ ...................................................................................
+ p_region_1     2.4187500e-02  2.4187500e-02       0.000        72       0 ( 0.00 %) 
+ ptype_contact  1.0000000e-03  1.0000000e-03       0.000        72       0 ( 0.00 %) 
+ ...................................................................................
+ n_region_4     1.2476875e-01  1.2476875e-01       0.000       365       0 ( 0.00 %) 
+ n_region_5     6.2887500e-02  6.2887500e-02       0.000       365       0 ( 0.00 %) 
+ ...................................................................................
+ n_region_5     5.1062500e-02  5.1062500e-02       0.000       365       0 ( 0.00 %) 
+ n_region_6     9.6350000e-02  9.6350000e-02       0.000       365       0 ( 0.00 %) 
+ ...................................................................................
+ n_region_6     9.6350000e-02  9.6350000e-02       0.000       365       0 ( 0.00 %) 
+ n_region_7     8.3450000e-02  8.3450000e-02       0.000       365       0 ( 0.00 %) 
+ ...................................................................................
+ Total          1.0610233e+00  1.0610233e+00       0.000      8638       0 ( 0.00 %) 
+\-----------------------------------------------------------------------------------
+done.
+Reading doping '../LAE/sdemodel_msh.tdr' (TDR format) ...
+done.
+done.
+Reading parameter file '../LAE/models.par' ...
+---------------------------------------------------
+ Reading parameters for material "InP"
+---------------------------------------------------
+
+
+=======
+Region: "n_region_2"
+  (material is "InGaAs")
+=======
+  Constants are not modified and equal to default ones
+
+=======
+Region: "n_region_3"
+  (material is "InGaAs")
+=======
+  Constants are not modified and equal to default ones
+
+=======
+Region: "n_region_4"
+  (material is "InGaAs")
+=======
+  Constants are not modified and equal to default ones
+
+=======
+Region: "n_region_5"
+  (material is "InGaAs")
+=======
+  Constants are not modified and equal to default ones
+
+=======
+Region: "n_region_6"
+  (material is "InGaAs")
+=======
+  Constants are not modified and equal to default ones
+
+=======
+Region: "n_region_7"
+  (material is "InGaAs")
+=======
+  Constants are not modified and equal to default ones
+
+=======
+Region: "n_region_8"
+  (material is "InGaAs")
+=======
+  Constants are not modified and equal to default ones
+
+=======
+Region: "n_region_9"
+  (material is "InGaAs")
+=======
+  Constants are not modified and equal to default ones
+
+=======
+Region: "ntype_contact"
+  (material is "InGaAs")
+=======
+  Constants are not modified and equal to default ones
+
+=======
+Region: "p_region_0"
+  (material is "InGaAs")
+=======
+  Constants are not modified and equal to default ones
+
+=======
+Region: "p_region_1"
+  (material is "InGaAs")
+=======
+  Constants are not modified and equal to default ones
+
+=======
+Region: "ptype_contact"
+  (material is "InGaAs")
+=======
+  Constants are not modified and equal to default ones
+
+=======
+Region: "substrate"
+  (material is "InP")
+=======
+  Constants are not modified and equal to default ones
+
+================
+RegionInterface: "n_region_2/n_region_3"
+  (material interface is "InGaAs/InGaAs")
+================
+  Constants are not modified and equal to default ones
+
+================
+RegionInterface: "n_region_2/p_region_1"
+  (material interface is "InGaAs/InGaAs")
+================
+  Constants are not modified and equal to default ones
+
+================
+RegionInterface: "n_region_3/n_region_4"
+  (material interface is "InGaAs/InGaAs")
+================
+  Constants are not modified and equal to default ones
+
+================
+RegionInterface: "n_region_4/n_region_5"
+  (material interface is "InGaAs/InGaAs")
+================
+  Constants are not modified and equal to default ones
+
+================
+RegionInterface: "n_region_5/n_region_6"
+  (material interface is "InGaAs/InGaAs")
+================
+  Constants are not modified and equal to default ones
+
+================
+RegionInterface: "n_region_6/n_region_7"
+  (material interface is "InGaAs/InGaAs")
+================
+  Constants are not modified and equal to default ones
+
+================
+RegionInterface: "n_region_8/n_region_7"
+  (material interface is "InGaAs/InGaAs")
+================
+  Constants are not modified and equal to default ones
+
+================
+RegionInterface: "n_region_8/n_region_9"
+  (material interface is "InGaAs/InGaAs")
+================
+  Constants are not modified and equal to default ones
+
+================
+RegionInterface: "n_region_9/ntype_contact"
+  (material interface is "InGaAs/InGaAs")
+================
+  Constants are not modified and equal to default ones
+
+================
+RegionInterface: "p_region_0/p_region_1"
+  (material interface is "InGaAs/InGaAs")
+================
+  Constants are not modified and equal to default ones
+
+================
+RegionInterface: "p_region_0/substrate"
+  (material interface is "InGaAs/InP")
+================
+  Constants are not modified and equal to default ones
+
+================
+RegionInterface: "p_region_1/ptype_contact"
+  (material interface is "InGaAs/InGaAs")
+================
+  Constants are not modified and equal to default ones
+
+==========
+Electrode: "ntype"
+==========
+  Constants are not modified and equal to default ones
+
+==========
+Electrode: "ptype"
+==========
+  Constants are not modified and equal to default ones
+
+
+Use doping species (B, P) concentrations from file (Species => Na,Nd)!
+Use doping concentration (Nnet) from file.
+No total doping concentration in doping file (Species => Ntot)!
+
+
+ Region "n_region_8" (Material "InGaAs"): "DopingDependence(electrons)" computed by side materials "InAs,GaAs"
+ Region "n_region_8" (Material "InGaAs"): "DopingDependence(holes)" computed by side materials "InAs,GaAs"
+ Region "n_region_9" (Material "InGaAs"): "DopingDependence(electrons)" computed by side materials "InAs,GaAs"
+ Region "n_region_9" (Material "InGaAs"): "DopingDependence(holes)" computed by side materials "InAs,GaAs"
+ Region "n_region_2" (Material "InGaAs"): "DopingDependence(electrons)" computed by side materials "InAs,GaAs"
+ Region "n_region_2" (Material "InGaAs"): "DopingDependence(holes)" computed by side materials "InAs,GaAs"
+ Region "p_region_0" (Material "InGaAs"): "DopingDependence(electrons)" computed by side materials "InAs,GaAs"
+ Region "p_region_0" (Material "InGaAs"): "DopingDependence(holes)" computed by side materials "InAs,GaAs"
+ Region "n_region_3" (Material "InGaAs"): "DopingDependence(electrons)" computed by side materials "InAs,GaAs"
+ Region "n_region_3" (Material "InGaAs"): "DopingDependence(holes)" computed by side materials "InAs,GaAs"
+ Region "p_region_1" (Material "InGaAs"): "DopingDependence(electrons)" computed by side materials "InAs,GaAs"
+ Region "p_region_1" (Material "InGaAs"): "DopingDependence(holes)" computed by side materials "InAs,GaAs"
+ Region "ntype_contact" (Material "InGaAs"): "DopingDependence(electrons)" computed by side materials "InAs,GaAs"
+ Region "ntype_contact" (Material "InGaAs"): "DopingDependence(holes)" computed by side materials "InAs,GaAs"
+ Region "n_region_4" (Material "InGaAs"): "DopingDependence(electrons)" computed by side materials "InAs,GaAs"
+ Region "n_region_4" (Material "InGaAs"): "DopingDependence(holes)" computed by side materials "InAs,GaAs"
+ Region "n_region_5" (Material "InGaAs"): "DopingDependence(electrons)" computed by side materials "InAs,GaAs"
+ Region "n_region_5" (Material "InGaAs"): "DopingDependence(holes)" computed by side materials "InAs,GaAs"
+ Region "ptype_contact" (Material "InGaAs"): "DopingDependence(electrons)" computed by side materials "InAs,GaAs"
+ Region "ptype_contact" (Material "InGaAs"): "DopingDependence(holes)" computed by side materials "InAs,GaAs"
+ Region "n_region_6" (Material "InGaAs"): "DopingDependence(electrons)" computed by side materials "InAs,GaAs"
+ Region "n_region_6" (Material "InGaAs"): "DopingDependence(holes)" computed by side materials "InAs,GaAs"
+ Region "n_region_7" (Material "InGaAs"): "DopingDependence(electrons)" computed by side materials "InAs,GaAs"
+ Region "n_region_7" (Material "InGaAs"): "DopingDependence(holes)" computed by side materials "InAs,GaAs"
+Done reading device instance 'trans'
+Wed Jan 28 14:56:47 2015: checked out 1 Dessis-Hetero license(s)
+Wed Jan 28 14:56:47 2015: checked out 1 sdevice-hetero license(s)
+
+With Constant Reference Potential:
+  Parameters of Reference Semiconductor:
+    The Electron Affinity: 4.92751
+    The Band Gap: 0.355482
+    The Electron DOS: 8.7200e+16
+    The Hole DOS: 6.6600e+18
+  The Constant Reference Potential: 5.04921
+Wed Jan 28 14:56:48 2015: checked out 1 Dessis-Optic license(s)
+Wed Jan 28 14:56:48 2015: checked out 1 sdevice-optic license(s)
+
+===============================
+Starting solve of next problem:
+ Poisson
+===============================
+
+Computing poisson-equation 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      5.51e+03                                                      0.24
+    1      1.45e+01   1.00e+00   4.54e+00   1.77e+05    0         1      1.64
+    2      1.77e+00   1.00e+00   3.29e+00   8.89e+04    0         1      2.70
+    3      3.47e-01   1.00e+00   1.03e+00   1.68e+04    0         1      3.62
+    4      2.52e-02   1.00e+00   1.58e-01   2.12e+03    0         1      4.52
+    5      3.16e-04   1.00e+00   9.61e-03   1.31e+02    0         1      5.42
+    6      2.84e-08   1.00e+00   6.81e-05   9.00e-01    0         1      6.32
+Finished, because...
+Error smaller than 1 ( 8.9980E-01 ).
+
+Accumulated times:
+Rhs time:        1.41 s
+Jacobian time:   0.35 s
+Solve time:      4.54 s
+Total time:      6.32 s
+
+Device Instance trans:
+Contact              Voltage              Electron      Hole         Conduction 
+                 outer       inner        current       current      current
+ ntype        0.000E+00    0.000E+00      3.208E-08    -3.208E-08    1.750E-21
+ ptype        0.000E+00    0.000E+00      2.756E-24    -1.238E-18   -1.238E-18
+
+
+===============================
+Starting solve of next problem:
+Coupled ( Digits : 5, Max. #iterations : 20, 
+    Solver : blocked decomposition,
+    #undamped iterations : 50 
+)
+    { Poisson Electron } 
+===============================
+
+Computing Coupled( 3 circuit-equation(s) , 1 poisson-equation(s) , 
+                   1 current-contact-equation(s) , 1 electron-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      3.14e+00                                                      9.41
+    1      1.75e+09   1.00e+00   4.48e+00   4.41e+04    0         3     31.30
+    2      3.52e+08   1.00e+00   8.88e-01   2.23e+05    0         3     46.34
+    3      8.10e+07   1.00e+00   1.27e+00   5.50e+05    0         3     61.31
+    4      5.20e+06   1.00e+00   6.99e-01   1.79e+04    0         3     76.28
+    5      6.69e+03   1.00e+00   1.91e-02   9.43e+02    0         3     91.33
+    6      1.20e+01   1.00e+00   8.87e-04   1.89e+01    0         3    106.66
+    7      7.87e-01   1.00e+00   4.62e-05   1.20e+00    0         3    121.71
+    8      6.33e-02   1.00e+00   3.65e-06   9.62e-02    0         3    136.77
+Finished, because...
+Error smaller than 1 ( 9.6163E-02 ).
+
+Accumulated times:
+Rhs time:       88.95 s
+Jacobian time:  11.46 s
+Solve time:     36.12 s
+Total time:    136.77 s
+
+Device Instance trans:
+Contact              Voltage              Electron      Hole         Conduction 
+                 outer       inner        current       current      current
+ ntype        0.000E+00   -3.598E-12      3.598E-08    -2.712E-08    8.862E-09
+ ptype        0.000E+00   -2.391E-13      2.391E-09    -7.520E-16    2.391E-09
+
+
+===============================
+Starting solve of next problem:
+Coupled ( Digits : 5, Max. #iterations : 20, 
+    Solver : blocked decomposition,
+    #undamped iterations : 50 
+)
+    { Poisson Electron Hole } 
+===============================
+
+Computing Coupled( 3 circuit-equation(s) , 1 poisson-equation(s) , 
+                   1 current-contact-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      3.14e+00                                                     10.13
+    1      6.69e+03   1.00e+00   4.97e-01   7.94e+03    0         3     37.37
+    2      1.49e+00   1.00e+00   1.51e-04   8.78e+00    0         3     64.53
+    3      2.21e-03   1.00e+00   2.88e-06   1.87e-01    0         3     91.83
+Finished, because...
+Error smaller than 1 ( 1.8709E-01 ).
+
+Accumulated times:
+Rhs time:       40.70 s
+Jacobian time:   3.22 s
+Solve time:     47.74 s
+Total time:     91.83 s
+
+Device Instance trans:
+Contact              Voltage              Electron      Hole         Conduction 
+                 outer       inner        current       current      current
+ ntype        0.000E+00   -2.040E-12      3.545E-08    -1.505E-08    2.040E-08
+ ptype        0.000E+00    2.040E-12      2.391E-09    -2.279E-08   -2.040E-08
+
+
+===============================
+Starting solve of next problem:
+Quasistationary ( Digits : 5, Max. #iterations : 20, 
+      Initial step in t : 0.1, 
+      Minimum step in t : 1.0000e-08, Maximum step in t : 0.01, 
+      Increment : 2, Decrement : 2, 
+      Goal values :
+        Circuit element vg.dc : 1.2V
+    )
+  {
+    Coupled ( Digits : 5, Max. #iterations : 20, 
+        Solver : blocked decomposition,
+        #undamped iterations : 50 
+)
+        { Poisson Electron Hole } 
+  }
+===============================
+
+Computing step from t=0.0000e+00 to t=0.01 (Stepsize: 0.01) :
+Computing Coupled( 3 circuit-equation(s) , 1 poisson-equation(s) , 
+                   1 current-contact-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      1.49e+09                                                     10.16
+    1      4.06e+06   1.00e+00   1.57e-01   1.21e+04    0         3     38.26
+    2      6.26e+02   1.00e+00   2.03e-02   1.34e+03    0         3     66.57
+    3      2.24e-03   1.00e+00   1.42e-06   8.35e-02    0         3     94.17
+Finished, because...
+Error smaller than 1 ( 8.3513E-02 ).
+
+Accumulated times:
+Rhs time:       41.02 s
+Jacobian time:   3.16 s
+Solve time:     49.82 s
+Total time:     94.17 s
+
+Device Instance trans:
+Contact              Voltage              Electron      Hole         Conduction 
+                 outer       inner        current       current      current
+ ntype        1.200E-02    1.200E-02      3.623E-08    -1.495E-08    2.128E-08
+ ptype        0.000E+00    2.128E-12      2.391E-09    -2.367E-08   -2.128E-08
+
+Computing step from t=0.01 to t=0.02 (Stepsize: 0.01) :
+Computing Coupled( 3 circuit-equation(s) , 1 poisson-equation(s) , 
+                   1 current-contact-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      1.66e+00                                                     10.28
+    1      5.60e+03   1.00e+00   2.81e-03   1.66e+02    0         3     39.64
+    2      1.39e-03   1.00e+00   1.38e-06   1.21e-01    0         3     67.68
+Finished, because...
+Error smaller than 1 ( 1.2064E-01 ).
+
+Accumulated times:
+Rhs time:       30.72 s
+Jacobian time:   2.13 s
+Solve time:     34.72 s
+Total time:     67.68 s
+
+Device Instance trans:
+Contact              Voltage              Electron      Hole         Conduction 
+                 outer       inner        current       current      current
+ ntype        2.400E-02    2.400E-02      3.686E-08    -1.486E-08    2.200E-08
+ ptype        0.000E+00    2.200E-12      2.391E-09    -2.439E-08   -2.200E-08
+
+Computing step from t=0.02 to t=0.03 (Stepsize: 0.01) :
+Computing Coupled( 3 circuit-equation(s) , 1 poisson-equation(s) , 
+                   1 current-contact-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      1.36e+00                                                     10.26
+    1      5.11e+03   1.00e+00   2.94e-03   1.55e+02    0         3     37.63
+    2      6.93e-03   1.00e+00   1.28e-06   1.13e-01    0         3     65.45
+Finished, because...
+Error smaller than 1 ( 1.1313E-01 ).
+
+Accumulated times:
+Rhs time:       30.74 s
+Jacobian time:   2.15 s
+Solve time:     32.45 s
+Total time:     65.45 s
+
+Device Instance trans:
+Contact              Voltage              Electron      Hole         Conduction 
+                 outer       inner        current       current      current
+ ntype        3.600E-02    3.600E-02      3.737E-08    -1.478E-08    2.260E-08
+ ptype        0.000E+00    2.260E-12      2.391E-09    -2.499E-08   -2.260E-08
+
+Computing step from t=0.03 to t=0.04 (Stepsize: 0.01) :
+Computing Coupled( 3 circuit-equation(s) , 1 poisson-equation(s) , 
+                   1 current-contact-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      1.03e+00                                                     10.21
+    1      4.68e+03   1.00e+00   3.25e-03   1.46e+02    0         3     38.15
+    2      4.40e-03   1.00e+00   1.26e-06   1.05e-01    0         3     66.01
+Finished, because...
+Error smaller than 1 ( 1.0514E-01 ).
+
+Accumulated times:
+Rhs time:       30.72 s
+Jacobian time:   2.10 s
+Solve time:     33.08 s
+Total time:     66.01 s
+
+Device Instance trans:
+Contact              Voltage              Electron      Hole         Conduction 
+                 outer       inner        current       current      current
+ ntype        4.800E-02    4.800E-02      3.780E-08    -1.470E-08    2.310E-08
+ ptype        0.000E+00    2.310E-12      2.391E-09    -2.549E-08   -2.310E-08
+
+Computing step from t=0.04 to t=0.05 (Stepsize: 0.01) :
+Computing Coupled( 3 circuit-equation(s) , 1 poisson-equation(s) , 
+                   1 current-contact-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      7.25e-01                                                     10.26
+    1      4.29e+03   1.00e+00   3.64e-03   1.38e+02    0         3     38.09
+    2      1.95e-02   1.00e+00   1.24e-06   9.66e-02    0         3     65.87
+Finished, because...
+Error smaller than 1 ( 9.6610E-02 ).
+
+Accumulated times:
+Rhs time:       30.62 s
+Jacobian time:   2.11 s
+Solve time:     33.03 s
+Total time:     65.87 s
+
+Device Instance trans:
+Contact              Voltage              Electron      Hole         Conduction 
+                 outer       inner        current       current      current
+ ntype        6.000E-02    6.000E-02      3.816E-08    -1.462E-08    2.353E-08
+ ptype        0.000E+00    2.353E-12      2.391E-09    -2.592E-08   -2.353E-08
+
+Computing step from t=0.05 to t=0.06 (Stepsize: 0.01) :
+Computing Coupled( 3 circuit-equation(s) , 1 poisson-equation(s) , 
+                   1 current-contact-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      4.90e-01                                                     10.29
+    1      3.94e+03   1.00e+00   4.03e-03   1.31e+02    0         3     38.25
+    2      1.81e-02   1.00e+00   1.21e-06   8.79e-02    0         3     65.65
+Finished, because...
+Error smaller than 1 ( 8.7941E-02 ).
+
+Accumulated times:
+Rhs time:       30.72 s
+Jacobian time:   2.13 s
+Solve time:     32.70 s
+Total time:     65.65 s
+
+Device Instance trans:
+Contact              Voltage              Electron      Hole         Conduction 
+                 outer       inner        current       current      current
+ ntype        7.200E-02    7.200E-02      3.846E-08    -1.455E-08    2.391E-08
+ ptype        0.000E+00    2.391E-12      2.391E-09    -2.630E-08   -2.391E-08
+
+Computing step from t=0.06 to t=0.07 (Stepsize: 0.01) :
+Computing Coupled( 3 circuit-equation(s) , 1 poisson-equation(s) , 
+                   1 current-contact-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      3.30e-01                                                     10.20
+    1      3.61e+03   1.00e+00   4.35e-03   1.25e+02    0         3     37.81
+    2      1.29e-02   1.00e+00   1.17e-06   7.95e-02    0         3     65.44
+Finished, because...
+Error smaller than 1 ( 7.9526E-02 ).
+
+Accumulated times:
+Rhs time:       30.59 s
+Jacobian time:   2.12 s
+Solve time:     32.60 s
+Total time:     65.44 s
+
+Device Instance trans:
+Contact              Voltage              Electron      Hole         Conduction 
+                 outer       inner        current       current      current
+ ntype        8.400E-02    8.400E-02      3.872E-08    -1.449E-08    2.424E-08
+ ptype        0.000E+00    2.424E-12      2.391E-09    -2.663E-08   -2.424E-08
+
+Computing step from t=0.07 to t=0.08 (Stepsize: 0.01) :
+Computing Coupled( 3 circuit-equation(s) , 1 poisson-equation(s) , 
+                   1 current-contact-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      3.17e-01                                                     10.26
+    1      3.31e+03   1.00e+00   4.57e-03   1.19e+02    0         3     37.72
+    2      1.24e-02   1.00e+00   1.12e-06   7.17e-02    0         3     65.04
+Finished, because...
+Error smaller than 1 ( 7.1667E-02 ).
+
+Accumulated times:
+Rhs time:       30.64 s
+Jacobian time:   2.12 s
+Solve time:     32.17 s
+Total time:     65.04 s
+
+Device Instance trans:
+Contact              Voltage              Electron      Hole         Conduction 
+                 outer       inner        current       current      current
+ ntype        9.600E-02    9.600E-02      3.895E-08    -1.442E-08    2.453E-08
+ ptype        0.000E+00    2.453E-12      2.390E-09    -2.692E-08   -2.453E-08
+
+Computing step from t=0.08 to t=0.09 (Stepsize: 0.01) :
+Computing Coupled( 3 circuit-equation(s) , 1 poisson-equation(s) , 
+                   1 current-contact-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      3.24e-01                                                     10.29
+    1      3.34e+03   1.00e+00   4.68e-03   1.13e+02    0         3     40.35
+    2      1.18e-02   1.00e+00   1.07e-06   6.46e-02    0         3     68.66
+Finished, because...
+Error smaller than 1 ( 6.4560E-02 ).
+
+Accumulated times:
+Rhs time:       31.14 s
+Jacobian time:   2.07 s
+Solve time:     35.34 s
+Total time:     68.66 s
+
+Device Instance trans:
+Contact              Voltage              Electron      Hole         Conduction 
+                 outer       inner        current       current      current
+ ntype        1.080E-01    1.080E-01      3.916E-08    -1.436E-08    2.480E-08
+ ptype        0.000E+00    2.480E-12      2.390E-09    -2.719E-08   -2.480E-08
+
+Computing step from t=0.09 to t=0.1 (Stepsize: 0.01) :
+Computing Coupled( 3 circuit-equation(s) , 1 poisson-equation(s) , 
+                   1 current-contact-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      3.31e-01                                                     10.22
+    1      3.38e+03   1.00e+00   4.71e-03   1.08e+02    0         3     38.71
+    2      4.43e-02   1.00e+00   1.02e-06   5.83e-02    0         3     65.87
+Finished, because...
+Error smaller than 1 ( 5.8295E-02 ).
+
+Accumulated times:
+Rhs time:       30.80 s
+Jacobian time:   2.15 s
+Solve time:     32.81 s
+Total time:     65.87 s
+
+Device Instance trans:
+Contact              Voltage              Electron      Hole         Conduction 
+                 outer       inner        current       current      current
+ ntype        1.200E-01    1.200E-01      3.935E-08    -1.429E-08    2.506E-08
+ ptype        0.000E+00    2.506E-12      2.390E-09    -2.745E-08   -2.506E-08
+
+Computing step from t=0.1 to t=0.11 (Stepsize: 0.01) :
+Computing Coupled( 3 circuit-equation(s) , 1 poisson-equation(s) , 
+                   1 current-contact-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      3.38e-01                                                     10.29
+    1      3.42e+03   1.00e+00   4.69e-03   1.04e+02    0         3     44.16
+    2      2.22e-02   1.00e+00   9.73e-07   5.29e-02    0         3     71.55
+Finished, because...
+Error smaller than 1 ( 5.2901E-02 ).
+
+Accumulated times:
+Rhs time:       30.93 s
+Jacobian time:   2.10 s
+Solve time:     38.41 s
+Total time:     71.55 s
+
+Device Instance trans:
+Contact              Voltage              Electron      Hole         Conduction 
+                 outer       inner        current       current      current
+ ntype        1.320E-01    1.320E-01      3.953E-08    -1.423E-08    2.530E-08
+ ptype        0.000E+00    2.530E-12      2.390E-09    -2.769E-08   -2.530E-08
+
+Computing step from t=0.11 to t=0.12 (Stepsize: 0.01) :
+Computing Coupled( 3 circuit-equation(s) , 1 poisson-equation(s) , 
+                   1 current-contact-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      3.44e-01                                                     10.26
+    1      3.47e+03   1.00e+00   4.63e-03   9.93e+01    0         3     38.81
+    2      4.21e-02   1.00e+00   9.26e-07   4.84e-02    0         3     69.81
+Finished, because...
+Error smaller than 1 ( 4.8355E-02 ).
+
+Accumulated times:
+Rhs time:       34.40 s
+Jacobian time:   2.10 s
+Solve time:     33.22 s
+Total time:     69.81 s
+
+Device Instance trans:
+Contact              Voltage              Electron      Hole         Conduction 
+                 outer       inner        current       current      current
+ ntype        1.440E-01    1.440E-01      3.969E-08    -1.417E-08    2.553E-08
+ ptype        0.000E+00    2.553E-12      2.390E-09    -2.792E-08   -2.553E-08
+
+Computing step from t=0.12 to t=0.13 (Stepsize: 0.01) :
+Computing Coupled( 3 circuit-equation(s) , 1 poisson-equation(s) , 
+                   1 current-contact-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      3.50e-01                                                      8.11
+    1      3.51e+03   1.00e+00   4.56e-03   9.55e+01    0         3     36.58
+    2      3.79e-02   1.00e+00   8.81e-07   4.46e-02    0         3     65.59
+Finished, because...
+Error smaller than 1 ( 4.4603E-02 ).
+
+Accumulated times:
+Rhs time:       29.87 s
+Jacobian time:   2.24 s
+Solve time:     33.37 s
+Total time:     65.59 s
+
+Device Instance trans:
+Contact              Voltage              Electron      Hole         Conduction 
+                 outer       inner        current       current      current
+ ntype        1.560E-01    1.560E-01      3.985E-08    -1.410E-08    2.575E-08
+ ptype        0.000E+00    2.575E-12      2.390E-09    -2.814E-08   -2.575E-08
+
+Computing step from t=0.13 to t=0.14 (Stepsize: 0.01) :
+Computing Coupled( 3 circuit-equation(s) , 1 poisson-equation(s) , 
+                   1 current-contact-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      3.56e-01                                                     10.37
+    1      3.55e+03   1.00e+00   4.48e-03   9.20e+01    0         3     37.59
+    2      4.75e-02   1.00e+00   8.41e-07   4.16e-02    0         3     65.50
+Finished, because...
+Error smaller than 1 ( 4.1566E-02 ).
+
+Accumulated times:
+Rhs time:       31.19 s
+Jacobian time:   2.07 s
+Solve time:     32.12 s
+Total time:     65.50 s
+
+Device Instance trans:
+Contact              Voltage              Electron      Hole         Conduction 
+                 outer       inner        current       current      current
+ ntype        1.680E-01    1.680E-01      4.001E-08    -1.404E-08    2.597E-08
+ ptype        0.000E+00    2.597E-12      2.390E-09    -2.836E-08   -2.597E-08
+
+Computing step from t=0.14 to t=0.15 (Stepsize: 0.01) :
+Computing Coupled( 3 circuit-equation(s) , 1 poisson-equation(s) , 
+                   1 current-contact-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      3.62e-01                                                     10.60
+    1      3.58e+03   1.00e+00   4.40e-03   8.89e+01    0         3     38.77
+    2      1.91e-02   1.00e+00   8.05e-07   3.92e-02    0         3     70.01
+Finished, because...
+Error smaller than 1 ( 3.9159E-02 ).
+
+Accumulated times:
+Rhs time:       31.68 s
+Jacobian time:   2.24 s
+Solve time:     35.98 s
+Total time:     70.01 s
+
+Device Instance trans:
+Contact              Voltage              Electron      Hole         Conduction 
+                 outer       inner        current       current      current
+ ntype        1.800E-01    1.800E-01      4.016E-08    -1.398E-08    2.618E-08
+ ptype        0.000E+00    2.618E-12      2.390E-09    -2.857E-08   -2.618E-08
+
+Computing step from t=0.15 to t=0.16 (Stepsize: 0.01) :
+Computing Coupled( 3 circuit-equation(s) , 1 poisson-equation(s) , 
+                   1 current-contact-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      3.67e-01                                                     10.29
+    1      3.60e+03   1.00e+00   4.32e-03   8.60e+01    0         3     39.79
+    2      1.64e-03   1.00e+00   7.73e-07   3.73e-02    0         3     68.81
+Finished, because...
+Error smaller than 1 ( 3.7291E-02 ).
+
+Accumulated times:
+Rhs time:       30.83 s
+Jacobian time:   2.09 s
+Solve time:     35.77 s
+Total time:     68.81 s
+
+Device Instance trans:
+Contact              Voltage              Electron      Hole         Conduction 
+                 outer       inner        current       current      current
+ ntype        1.920E-01    1.920E-01      4.030E-08    -1.392E-08    2.639E-08
+ ptype        0.000E+00    2.639E-12      2.390E-09    -2.878E-08   -2.639E-08
+
+Computing step from t=0.16 to t=0.17 (Stepsize: 0.01) :
+Computing Coupled( 3 circuit-equation(s) , 1 poisson-equation(s) , 
+                   1 current-contact-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      3.72e-01                                                     10.29
+    1      3.62e+03   1.00e+00   4.24e-03   8.34e+01    0         3     37.94
+    2      1.32e-03   1.00e+00   7.46e-07   3.59e-02    0         3     65.86
+Finished, because...
+Error smaller than 1 ( 3.5870E-02 ).
+
+Accumulated times:
+Rhs time:       30.83 s
+Jacobian time:   2.18 s
+Solve time:     32.74 s
+Total time:     65.86 s
+
+Device Instance trans:
+Contact              Voltage              Electron      Hole         Conduction 
+                 outer       inner        current       current      current
+ ntype        2.040E-01    2.040E-01      4.045E-08    -1.385E-08    2.659E-08
+ ptype        0.000E+00    2.659E-12      2.390E-09    -2.898E-08   -2.659E-08
+
+Computing step from t=0.17 to t=0.18 (Stepsize: 0.01) :
+Computing Coupled( 3 circuit-equation(s) , 1 poisson-equation(s) , 
+                   1 current-contact-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      3.77e-01                                                     10.20
+    1      3.62e+03   1.00e+00   4.16e-03   8.09e+01    0         3     37.62
+    2      5.81e-02   1.00e+00   7.21e-07   3.48e-02    0         3     65.02
+Finished, because...
+Error smaller than 1 ( 3.4805E-02 ).
+
+Accumulated times:
+Rhs time:       30.74 s
+Jacobian time:   2.12 s
+Solve time:     32.05 s
+Total time:     65.02 s
+
+Device Instance trans:
+Contact              Voltage              Electron      Hole         Conduction 
+                 outer       inner        current       current      current
+ ntype        2.160E-01    2.160E-01      4.059E-08    -1.379E-08    2.680E-08
+ ptype        0.000E+00    2.680E-12      2.390E-09    -2.919E-08   -2.680E-08
+
+Computing step from t=0.18 to t=0.19 (Stepsize: 0.01) :
+Computing Coupled( 3 circuit-equation(s) , 1 poisson-equation(s) , 
+                   1 current-contact-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      3.82e-01                                                     10.25
+    1      3.60e+03   1.00e+00   4.08e-03   7.86e+01    0         3     39.88
+    2      4.45e-02   1.00e+00   7.00e-07   3.40e-02    0         3     69.44
+Finished, because...
+Error smaller than 1 ( 3.4019E-02 ).
+
+Accumulated times:
+Rhs time:       33.12 s
+Jacobian time:   2.11 s
+Solve time:     34.10 s
+Total time:     69.44 s
+
+Device Instance trans:
+Contact              Voltage              Electron      Hole         Conduction 
+                 outer       inner        current       current      current
+ ntype        2.280E-01    2.280E-01      4.073E-08    -1.373E-08    2.700E-08
+ ptype        0.000E+00    2.700E-12      2.390E-09    -2.939E-08   -2.700E-08
+
+Computing step from t=0.19 to t=0.2 (Stepsize: 0.01) :
+Computing Coupled( 3 circuit-equation(s) , 1 poisson-equation(s) , 
+                   1 current-contact-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      3.86e-01                                                     10.23
+    1      3.57e+03   1.00e+00   4.01e-03   7.64e+01    0         3     39.69
+    2      9.40e-03   1.00e+00   6.80e-07   3.34e-02    0         3     67.18
+Finished, because...
+Error smaller than 1 ( 3.3444E-02 ).
+
+Accumulated times:
+Rhs time:       30.82 s
+Jacobian time:   2.05 s
+Solve time:     34.17 s
+Total time:     67.18 s
+
+Device Instance trans:
+Contact              Voltage              Electron      Hole         Conduction 
+                 outer       inner        current       current      current
+ ntype        2.400E-01    2.400E-01      4.086E-08    -1.366E-08    2.720E-08
+ ptype        0.000E+00    2.720E-12      2.390E-09    -2.959E-08   -2.720E-08
+
+Computing step from t=0.2 to t=0.21 (Stepsize: 0.01) :
+Computing Coupled( 3 circuit-equation(s) , 1 poisson-equation(s) , 
+                   1 current-contact-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      3.90e-01                                                     10.14
+    1      3.53e+03   1.00e+00   3.95e-03   7.44e+01    0         3     37.42
+    2      5.32e-03   1.00e+00   6.62e-07   3.30e-02    0         3     65.31
+Finished, because...
+Error smaller than 1 ( 3.3021E-02 ).
+
+Accumulated times:
+Rhs time:       30.58 s
+Jacobian time:   2.10 s
+Solve time:     32.52 s
+Total time:     65.31 s
+
+Device Instance trans:
+Contact              Voltage              Electron      Hole         Conduction 
+                 outer       inner        current       current      current
+ ntype        2.520E-01    2.520E-01      4.100E-08    -1.360E-08    2.740E-08
+ ptype        0.000E+00    2.740E-12      2.389E-09    -2.979E-08   -2.740E-08
+
+Computing step from t=0.21 to t=0.22 (Stepsize: 0.01) :
+Computing Coupled( 3 circuit-equation(s) , 1 poisson-equation(s) , 
+                   1 current-contact-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      3.94e-01                                                     10.22
+    1      3.46e+03   1.00e+00   3.88e-03   7.25e+01    0         3     37.84
+    2      5.91e-02   1.00e+00   6.46e-07   3.27e-02    0         3     65.65
+Finished, because...
+Error smaller than 1 ( 3.2702E-02 ).
+
+Accumulated times:
+Rhs time:       30.51 s
+Jacobian time:   2.10 s
+Solve time:     32.94 s
+Total time:     65.65 s
+
+Device Instance trans:
+Contact              Voltage              Electron      Hole         Conduction 
+                 outer       inner        current       current      current
+ ntype        2.640E-01    2.640E-01      4.113E-08    -1.354E-08    2.760E-08
+ ptype        0.000E+00    2.760E-12      2.389E-09    -2.999E-08   -2.760E-08
+
+Computing step from t=0.22 to t=0.23 (Stepsize: 0.01) :
+Computing Coupled( 3 circuit-equation(s) , 1 poisson-equation(s) , 
+                   1 current-contact-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      3.98e-01                                                     10.30
+    1      3.37e+03   1.00e+00   3.82e-03   7.06e+01    0         3     38.09
+    2      8.76e-02   1.00e+00   6.30e-07   3.24e-02    0         3     65.10
+Finished, because...
+Error smaller than 1 ( 3.2443E-02 ).
+
+Accumulated times:
+Rhs time:       30.94 s
+Jacobian time:   2.10 s
+Solve time:     31.93 s
+Total time:     65.10 s
+
+Device Instance trans:
+Contact              Voltage              Electron      Hole         Conduction 
+                 outer       inner        current       current      current
+ ntype        2.760E-01    2.760E-01      4.127E-08    -1.347E-08    2.780E-08
+ ptype        0.000E+00    2.780E-12      2.389E-09    -3.018E-08   -2.780E-08
+
+Computing step from t=0.23 to t=0.24 (Stepsize: 0.01) :
+Computing Coupled( 3 circuit-equation(s) , 1 poisson-equation(s) , 
+                   1 current-contact-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      4.02e-01                                                     10.42
+    1      3.26e+03   1.00e+00   3.76e-03   6.89e+01    0         3     39.01
+    2      9.25e-02   1.00e+00   6.15e-07   3.22e-02    0         3     67.25
+Finished, because...
+Error smaller than 1 ( 3.2213E-02 ).
+
+Accumulated times:
+Rhs time:       30.86 s
+Jacobian time:   2.08 s
+Solve time:     34.19 s
+Total time:     67.25 s
+
+Device Instance trans:
+Contact              Voltage              Electron      Hole         Conduction 
+                 outer       inner        current       current      current
+ ntype        2.880E-01    2.880E-01      4.140E-08    -1.341E-08    2.799E-08
+ ptype        0.000E+00    2.799E-12      2.389E-09    -3.038E-08   -2.799E-08
+
+Computing step from t=0.24 to t=0.25 (Stepsize: 0.01) :
+Computing Coupled( 3 circuit-equation(s) , 1 poisson-equation(s) , 
+                   1 current-contact-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      4.05e-01                                                     10.26
+    1      3.13e+03   1.00e+00   3.71e-03   6.72e+01    0         3     37.65
+    2      2.88e-02   1.00e+00   6.01e-07   3.20e-02    0         3     65.46
+Finished, because...
+Error smaller than 1 ( 3.1980E-02 ).
+
+Accumulated times:
+Rhs time:       31.34 s
+Jacobian time:   2.12 s
+Solve time:     31.89 s
+Total time:     65.46 s
+
+Device Instance trans:
+Contact              Voltage              Electron      Hole         Conduction 
+                 outer       inner        current       current      current
+ ntype        3.000E-01    3.000E-01      4.153E-08    -1.334E-08    2.819E-08
+ ptype        0.000E+00    2.819E-12      2.389E-09    -3.058E-08   -2.819E-08
+
+Computing step from t=0.25 to t=0.26 (Stepsize: 0.01) :
+Computing Coupled( 3 circuit-equation(s) , 1 poisson-equation(s) , 
+                   1 current-contact-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      4.08e-01                                                     10.02
+    1      2.98e+03   1.00e+00   3.66e-03   6.55e+01    0         3     38.49
+    2      8.95e-02   1.00e+00   5.88e-07   3.17e-02    0         3     66.62
+Finished, because...
+Error smaller than 1 ( 3.1717E-02 ).
+
+Accumulated times:
+Rhs time:       30.16 s
+Jacobian time:   2.10 s
+Solve time:     34.25 s
+Total time:     66.62 s
+
+Device Instance trans:
+Contact              Voltage              Electron      Hole         Conduction 
+                 outer       inner        current       current      current
+ ntype        3.120E-01    3.120E-01      4.166E-08    -1.328E-08    2.838E-08
+ ptype        0.000E+00    2.838E-12      2.389E-09    -3.077E-08   -2.838E-08
+
+Computing step from t=0.26 to t=0.27 (Stepsize: 0.01) :
+Computing Coupled( 3 circuit-equation(s) , 1 poisson-equation(s) , 
+                   1 current-contact-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      4.11e-01                                                     10.20
+    1      2.81e+03   1.00e+00   3.61e-03   6.39e+01    0         3     38.76
+    2      2.32e-02   1.00e+00   5.75e-07   3.14e-02    0         3     67.29
+Finished, because...
+Error smaller than 1 ( 3.1401E-02 ).
+
+Accumulated times:
+Rhs time:       30.61 s
+Jacobian time:   2.10 s
+Solve time:     34.45 s
+Total time:     67.29 s
+
+Device Instance trans:
+Contact              Voltage              Electron      Hole         Conduction 
+                 outer       inner        current       current      current
+ ntype        3.240E-01    3.240E-01      4.179E-08    -1.322E-08    2.858E-08
+ ptype        0.000E+00    2.858E-12      2.389E-09    -3.097E-08   -2.858E-08
+
+Computing step from t=0.27 to t=0.28 (Stepsize: 0.01) :
+Computing Coupled( 3 circuit-equation(s) , 1 poisson-equation(s) , 
+                   1 current-contact-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      4.13e-01                                                     10.27
+    1      2.63e+03   1.00e+00   3.56e-03   6.23e+01    0         3     37.43
+    2      6.72e-02   1.00e+00   5.62e-07   3.10e-02    0         3     64.93
+Finished, because...
+Error smaller than 1 ( 3.1012E-02 ).
+
+Accumulated times:
+Rhs time:       31.33 s
+Jacobian time:   2.11 s
+Solve time:     31.38 s
+Total time:     64.93 s
+
+Device Instance trans:
+Contact              Voltage              Electron      Hole         Conduction 
+                 outer       inner        current       current      current
+ ntype        3.360E-01    3.360E-01      4.192E-08    -1.315E-08    2.877E-08
+ ptype        0.000E+00    2.877E-12      2.389E-09    -3.116E-08   -2.877E-08
+
+Computing step from t=0.28 to t=0.29 (Stepsize: 0.01) :
+Computing Coupled( 3 circuit-equation(s) , 1 poisson-equation(s) , 
+                   1 current-contact-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      4.16e-01                                                     10.57
+    1      2.43e+03   1.00e+00   3.52e-03   6.07e+01    0         3     38.89
+    2      1.92e-02   1.00e+00   5.50e-07   3.05e-02    0         3     66.81
+Finished, because...
+Error smaller than 1 ( 3.0540E-02 ).
+
+Accumulated times:
+Rhs time:       31.97 s
+Jacobian time:   2.10 s
+Solve time:     32.63 s
+Total time:     66.81 s
+
+Device Instance trans:
+Contact              Voltage              Electron      Hole         Conduction 
+                 outer       inner        current       current      current
+ ntype        3.480E-01    3.480E-01      4.205E-08    -1.309E-08    2.897E-08
+ ptype        0.000E+00    2.897E-12      2.389E-09    -3.136E-08   -2.897E-08
+
+Computing step from t=0.29 to t=0.3 (Stepsize: 0.01) :
+Computing Coupled( 3 circuit-equation(s) , 1 poisson-equation(s) , 
+                   1 current-contact-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      4.18e-01                                                     10.56
+    1      2.23e+03   1.00e+00   3.47e-03   5.91e+01    0         3     38.09
+    2      5.81e-02   1.00e+00   5.38e-07   3.00e-02    0         3     66.79
+Finished, because...
+Error smaller than 1 ( 2.9987E-02 ).
+
+Accumulated times:
+Rhs time:       31.67 s
+Jacobian time:   2.17 s
+Solve time:     32.84 s
+Total time:     66.79 s
+
+Device Instance trans:
+Contact              Voltage              Electron      Hole         Conduction 
+                 outer       inner        current       current      current
+ ntype        3.600E-01    3.600E-01      4.218E-08    -1.302E-08    2.916E-08
+ ptype        0.000E+00    2.916E-12      2.389E-09    -3.155E-08   -2.916E-08
+
+Computing step from t=0.3 to t=0.31 (Stepsize: 0.01) :
+Computing Coupled( 3 circuit-equation(s) , 1 poisson-equation(s) , 
+                   1 current-contact-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      4.19e-01                                                     10.53
+    1      2.02e+03   1.00e+00   3.43e-03   5.74e+01    0         3     38.02
+    2      2.20e-02   1.00e+00   5.27e-07   2.94e-02    0         3     65.82
+Finished, because...
+Error smaller than 1 ( 2.9357E-02 ).
+
+Accumulated times:
+Rhs time:       31.30 s
+Jacobian time:   2.13 s
+Solve time:     32.27 s
+Total time:     65.82 s
+
+Device Instance trans:
+Contact              Voltage              Electron      Hole         Conduction 
+                 outer       inner        current       current      current
+ ntype        3.720E-01    3.720E-01      4.231E-08    -1.296E-08    2.935E-08
+ ptype        0.000E+00    2.935E-12      2.389E-09    -3.174E-08   -2.935E-08
+
+Computing step from t=0.31 to t=0.32 (Stepsize: 0.01) :
+Computing Coupled( 3 circuit-equation(s) , 1 poisson-equation(s) , 
+                   1 current-contact-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      4.21e-01                                                     10.29
+    1      2.03e+03   1.00e+00   3.38e-03   5.58e+01    0         3     37.49
+    2      5.54e-02   1.00e+00   5.17e-07   2.87e-02    0         3     64.64
+Finished, because...
+Error smaller than 1 ( 2.8672E-02 ).
+
+Accumulated times:
+Rhs time:       30.97 s
+Jacobian time:   2.12 s
+Solve time:     31.43 s
+Total time:     64.64 s
+
+Device Instance trans:
+Contact              Voltage              Electron      Hole         Conduction 
+                 outer       inner        current       current      current
+ ntype        3.840E-01    3.840E-01      4.244E-08    -1.289E-08    2.955E-08
+ ptype        0.000E+00    2.955E-12      2.389E-09    -3.194E-08   -2.955E-08
+
+Computing step from t=0.32 to t=0.33 (Stepsize: 0.01) :
+Computing Coupled( 3 circuit-equation(s) , 1 poisson-equation(s) , 
+                   1 current-contact-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      4.22e-01                                                     10.32
+    1      2.04e+03   1.00e+00   3.34e-03   5.42e+01    0         3     37.57
+    2      5.42e-02   1.00e+00   5.07e-07   2.80e-02    0         3     64.82
+Finished, because...
+Error smaller than 1 ( 2.7961E-02 ).
+
+Accumulated times:
+Rhs time:       31.02 s
+Jacobian time:   2.14 s
+Solve time:     31.55 s
+Total time:     64.82 s
+
+Device Instance trans:
+Contact              Voltage              Electron      Hole         Conduction 
+                 outer       inner        current       current      current
+ ntype        3.960E-01    3.960E-01      4.257E-08    -1.283E-08    2.974E-08
+ ptype        0.000E+00    2.974E-12      2.389E-09    -3.213E-08   -2.974E-08
+
+Computing step from t=0.33 to t=0.34 (Stepsize: 0.01) :
+Computing Coupled( 3 circuit-equation(s) , 1 poisson-equation(s) , 
+                   1 current-contact-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      4.24e-01                                                     10.29
+    1      2.03e+03   1.00e+00   3.30e-03   5.27e+01    0         3     37.52
+    2      2.87e-03   1.00e+00   5.00e-07   2.73e-02    0         3     64.84
+Finished, because...
+Error smaller than 1 ( 2.7260E-02 ).
+
+Accumulated times:
+Rhs time:       30.95 s
+Jacobian time:   2.12 s
+Solve time:     31.65 s
+Total time:     64.84 s
+
+Device Instance trans:
+Contact              Voltage              Electron      Hole         Conduction 
+                 outer       inner        current       current      current
+ ntype        4.080E-01    4.080E-01      4.270E-08    -1.276E-08    2.993E-08
+ ptype        0.000E+00    2.993E-12      2.389E-09    -3.232E-08   -2.993E-08
+
+Computing step from t=0.34 to t=0.35 (Stepsize: 0.01) :
+Computing Coupled( 3 circuit-equation(s) , 1 poisson-equation(s) , 
+                   1 current-contact-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      4.24e-01                                                     10.33
+    1      2.02e+03   1.00e+00   3.26e-03   5.11e+01    0         3     39.31
+    2      6.50e-04   1.00e+00   4.94e-07   2.66e-02    0         3     70.27
+Finished, because...
+Error smaller than 1 ( 2.6607E-02 ).
+
+Accumulated times:
+Rhs time:       31.45 s
+Jacobian time:   2.75 s
+Solve time:     35.95 s
+Total time:     70.27 s
+
+Device Instance trans:
+Contact              Voltage              Electron      Hole         Conduction 
+                 outer       inner        current       current      current
+ ntype        4.200E-01    4.200E-01      4.283E-08    -1.270E-08    3.013E-08
+ ptype        0.000E+00    3.013E-12      2.389E-09    -3.252E-08   -3.013E-08
+
+Computing step from t=0.35 to t=0.36 (Stepsize: 0.01) :
+Computing Coupled( 3 circuit-equation(s) , 1 poisson-equation(s) , 
+                   1 current-contact-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      4.25e-01                                                     10.35
+    1      1.99e+03   1.00e+00   3.23e-03   4.97e+01    0         3     38.43
+    2      9.04e-02   1.00e+00   4.91e-07   2.60e-02    0         3     66.57
+Finished, because...
+Error smaller than 1 ( 2.6042E-02 ).
+
+Accumulated times:
+Rhs time:       31.23 s
+Jacobian time:   2.15 s
+Solve time:     33.07 s
+Total time:     66.57 s
+
+Device Instance trans:
+Contact              Voltage              Electron      Hole         Conduction 
+                 outer       inner        current       current      current
+ ntype        4.320E-01    4.320E-01      4.295E-08    -1.263E-08    3.032E-08
+ ptype        0.000E+00    3.032E-12      2.389E-09    -3.271E-08   -3.032E-08
+
+Computing step from t=0.36 to t=0.37 (Stepsize: 0.01) :
+Computing Coupled( 3 circuit-equation(s) , 1 poisson-equation(s) , 
+                   1 current-contact-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      4.26e-01                                                     10.36
+    1      1.96e+03   1.00e+00   3.19e-03   4.83e+01    0         3     38.29
+    2      8.91e-02   1.00e+00   4.90e-07   2.56e-02    0         3     66.41
+Finished, because...
+Error smaller than 1 ( 2.5602E-02 ).
+
+Accumulated times:
+Rhs time:       31.07 s
+Jacobian time:   2.16 s
+Solve time:     33.07 s
+Total time:     66.41 s
+
+Device Instance trans:
+Contact              Voltage              Electron      Hole         Conduction 
+                 outer       inner        current       current      current
+ ntype        4.440E-01    4.440E-01      4.308E-08    -1.256E-08    3.052E-08
+ ptype        0.000E+00    3.052E-12      2.389E-09    -3.291E-08   -3.052E-08
+
+Computing step from t=0.37 to t=0.38 (Stepsize: 0.01) :
+Computing Coupled( 3 circuit-equation(s) , 1 poisson-equation(s) , 
+                   1 current-contact-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      4.26e-01                                                     10.35
+    1      1.92e+03   1.00e+00   3.16e-03   4.72e+01    0         3     38.03
+    2      1.27e-01   1.00e+00   4.92e-07   2.53e-02    0         3     65.69
+Finished, because...
+Error smaller than 1 ( 2.5321E-02 ).
+
+Accumulated times:
+Rhs time:       31.04 s
+Jacobian time:   2.12 s
+Solve time:     32.40 s
+Total time:     65.69 s
+
+Device Instance trans:
+Contact              Voltage              Electron      Hole         Conduction 
+                 outer       inner        current       current      current
+ ntype        4.560E-01    4.560E-01      4.321E-08    -1.250E-08    3.071E-08
+ ptype        0.000E+00    3.071E-12      2.389E-09    -3.310E-08   -3.071E-08
+
+Computing step from t=0.38 to t=0.39 (Stepsize: 0.01) :
+Computing Coupled( 3 circuit-equation(s) , 1 poisson-equation(s) , 
+                   1 current-contact-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      4.26e-01                                                     10.25
+    1      1.87e+03   1.00e+00   3.13e-03   4.63e+01    0         3     37.87
+    2      4.26e-03   1.00e+00   4.98e-07   2.52e-02    0         3     64.76
+Finished, because...
+Error smaller than 1 ( 2.5232E-02 ).
+
+Accumulated times:
+Rhs time:       30.69 s
+Jacobian time:   2.11 s
+Solve time:     31.84 s
+Total time:     64.76 s
+
+Device Instance trans:
+Contact              Voltage              Electron      Hole         Conduction 
+                 outer       inner        current       current      current
+ ntype        4.680E-01    4.680E-01      4.334E-08    -1.243E-08    3.091E-08
+ ptype        0.000E+00    3.091E-12      2.389E-09    -3.330E-08   -3.091E-08
+
+Computing step from t=0.39 to t=0.4 (Stepsize: 0.01) :
+Computing Coupled( 3 circuit-equation(s) , 1 poisson-equation(s) , 
+                   1 current-contact-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      4.30e-01                                                     10.30
+    1      1.82e+03   1.00e+00   3.11e-03   4.58e+01    0         3     37.23
+    2      2.95e-01   1.00e+00   5.07e-07   2.54e-02    0         3     64.30
+Finished, because...
+Error smaller than 1 ( 2.5358E-02 ).
+
+Accumulated times:
+Rhs time:       30.98 s
+Jacobian time:   2.11 s
+Solve time:     31.08 s
+Total time:     64.30 s
+
+Device Instance trans:
+Contact              Voltage              Electron      Hole         Conduction 
+                 outer       inner        current       current      current
+ ntype        4.800E-01    4.800E-01      4.346E-08    -1.236E-08    3.110E-08
+ ptype        0.000E+00    3.110E-12      2.389E-09    -3.349E-08   -3.110E-08
+
+Computing step from t=0.4 to t=0.41 (Stepsize: 0.01) :
+Computing Coupled( 3 circuit-equation(s) , 1 poisson-equation(s) , 
+                   1 current-contact-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      5.82e-01                                                     10.31
+    1      1.76e+03   1.00e+00   3.09e-03   4.58e+01    0         3     39.50
+    2      2.76e-03   1.00e+00   5.20e-07   2.57e-02    0         3     66.48
+Finished, because...
+Error smaller than 1 ( 2.5719E-02 ).
+
+Accumulated times:
+Rhs time:       30.90 s
+Jacobian time:   2.12 s
+Solve time:     33.35 s
+Total time:     66.48 s
+
+Device Instance trans:
+Contact              Voltage              Electron      Hole         Conduction 
+                 outer       inner        current       current      current
+ ntype        4.920E-01    4.920E-01      4.359E-08    -1.229E-08    3.130E-08
+ ptype        0.000E+00    3.130E-12      2.388E-09    -3.369E-08   -3.130E-08
+
+Computing step from t=0.41 to t=0.42 (Stepsize: 0.01) :
+Computing Coupled( 3 circuit-equation(s) , 1 poisson-equation(s) , 
+                   1 current-contact-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      4.47e-01                                                     10.29
+    1      1.70e+03   1.00e+00   3.07e-03   4.66e+01    0         3     37.52
+    2      1.08e-01   1.00e+00   5.38e-07   2.63e-02    0         3     64.72
+Finished, because...
+Error smaller than 1 ( 2.6323E-02 ).
+
+Accumulated times:
+Rhs time:       30.92 s
+Jacobian time:   2.13 s
+Solve time:     31.55 s
+Total time:     64.72 s
+
+Device Instance trans:
+Contact              Voltage              Electron      Hole         Conduction 
+                 outer       inner        current       current      current
+ ntype        5.040E-01    5.040E-01      4.372E-08    -1.222E-08    3.149E-08
+ ptype        0.000E+00    3.149E-12      2.388E-09    -3.388E-08   -3.149E-08
+
+Computing step from t=0.42 to t=0.43 (Stepsize: 0.01) :
+Computing Coupled( 3 circuit-equation(s) , 1 poisson-equation(s) , 
+                   1 current-contact-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      4.63e-01                                                     10.31
+    1      1.64e+03   1.00e+00   3.07e-03   4.83e+01    0         3     37.60
+    2      2.82e-02   1.00e+00   5.61e-07   2.72e-02    0         3     65.16
+Finished, because...
+Error smaller than 1 ( 2.7171E-02 ).
+
+Accumulated times:
+Rhs time:       30.83 s
+Jacobian time:   2.11 s
+Solve time:     32.10 s
+Total time:     65.16 s
+
+Device Instance trans:
+Contact              Voltage              Electron      Hole         Conduction 
+                 outer       inner        current       current      current
+ ntype        5.160E-01    5.160E-01      4.384E-08    -1.215E-08    3.169E-08
+ ptype        0.000E+00    3.169E-12      2.388E-09    -3.408E-08   -3.169E-08
+
+Computing step from t=0.43 to t=0.44 (Stepsize: 0.01) :
+Computing Coupled( 3 circuit-equation(s) , 1 poisson-equation(s) , 
+                   1 current-contact-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      4.79e-01                                                     10.28
+    1      1.58e+03   1.00e+00   3.08e-03   5.10e+01    0         3     37.72
+    2      1.06e-01   1.00e+00   5.89e-07   2.83e-02    0         3     64.95
+Finished, because...
+Error smaller than 1 ( 2.8254E-02 ).
+
+Accumulated times:
+Rhs time:       30.91 s
+Jacobian time:   2.10 s
+Solve time:     31.84 s
+Total time:     64.95 s
+
+Device Instance trans:
+Contact              Voltage              Electron      Hole         Conduction 
+                 outer       inner        current       current      current
+ ntype        5.280E-01    5.280E-01      4.396E-08    -1.208E-08    3.189E-08
+ ptype        0.000E+00    3.189E-12      2.388E-09    -3.428E-08   -3.189E-08
+
+Computing step from t=0.44 to t=0.45 (Stepsize: 0.01) :
+Computing Coupled( 3 circuit-equation(s) , 1 poisson-equation(s) , 
+                   1 current-contact-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      4.95e-01                                                     10.24
+    1      1.51e+03   1.00e+00   3.10e-03   5.46e+01    0         3     37.94
+    2      1.48e-01   1.00e+00   6.22e-07   2.95e-02    0         3     66.79
+Finished, because...
+Error smaller than 1 ( 2.9549E-02 ).
+
+Accumulated times:
+Rhs time:       31.04 s
+Jacobian time:   2.10 s
+Solve time:     33.55 s
+Total time:     66.79 s
+
+Device Instance trans:
+Contact              Voltage              Electron      Hole         Conduction 
+                 outer       inner        current       current      current
+ ntype        5.400E-01    5.400E-01      4.409E-08    -1.200E-08    3.209E-08
+ ptype        0.000E+00    3.209E-12      2.388E-09    -3.447E-08   -3.209E-08
+
+Computing step from t=0.45 to t=0.46 (Stepsize: 0.01) :
+Computing Coupled( 3 circuit-equation(s) , 1 poisson-equation(s) , 
+                   1 current-contact-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      5.10e-01                                                     10.40
+    1      1.45e+03   1.00e+00   3.15e-03   5.91e+01    0         3     37.44
+    2      1.52e-01   1.00e+00   6.59e-07   3.10e-02    0         3     64.51
+Finished, because...
+Error smaller than 1 ( 3.1024E-02 ).
+
+Accumulated times:
+Rhs time:       30.89 s
+Jacobian time:   2.11 s
+Solve time:     31.41 s
+Total time:     64.51 s
+
+Device Instance trans:
+Contact              Voltage              Electron      Hole         Conduction 
+                 outer       inner        current       current      current
+ ntype        5.520E-01    5.520E-01      4.421E-08    -1.192E-08    3.229E-08
+ ptype        0.000E+00    3.229E-12      2.388E-09    -3.467E-08   -3.229E-08
+
+Computing step from t=0.46 to t=0.47 (Stepsize: 0.01) :
+Computing Coupled( 3 circuit-equation(s) , 1 poisson-equation(s) , 
+                   1 current-contact-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      5.25e-01                                                     10.25
+    1      1.39e+03   1.00e+00   3.22e-03   6.41e+01    0         3     37.47
+    2      1.84e-01   1.00e+00   6.99e-07   3.26e-02    0         3     64.63
+Finished, because...
+Error smaller than 1 ( 3.2637E-02 ).
+
+Accumulated times:
+Rhs time:       30.68 s
+Jacobian time:   2.10 s
+Solve time:     31.73 s
+Total time:     64.63 s
+
+Device Instance trans:
+Contact              Voltage              Electron      Hole         Conduction 
+                 outer       inner        current       current      current
+ ntype        5.640E-01    5.640E-01      4.433E-08    -1.184E-08    3.249E-08
+ ptype        0.000E+00    3.249E-12      2.388E-09    -3.488E-08   -3.249E-08
+
+Computing step from t=0.47 to t=0.48 (Stepsize: 0.01) :
+Computing Coupled( 3 circuit-equation(s) , 1 poisson-equation(s) , 
+                   1 current-contact-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      5.40e-01                                                     10.30
+    1      1.32e+03   1.00e+00   3.32e-03   6.92e+01    0         3     37.92
+    2      8.33e-02   1.00e+00   7.39e-07   3.43e-02    0         3     65.49
+Finished, because...
+Error smaller than 1 ( 3.4346E-02 ).
+
+Accumulated times:
+Rhs time:       30.81 s
+Jacobian time:   2.09 s
+Solve time:     32.48 s
+Total time:     65.49 s
+
+Device Instance trans:
+Contact              Voltage              Electron      Hole         Conduction 
+                 outer       inner        current       current      current
+ ntype        5.760E-01    5.760E-01      4.445E-08    -1.176E-08    3.269E-08
+ ptype        0.000E+00    3.269E-12      2.388E-09    -3.508E-08   -3.269E-08
+
+Computing step from t=0.48 to t=0.49 (Stepsize: 0.01) :
+Computing Coupled( 3 circuit-equation(s) , 1 poisson-equation(s) , 
+                   1 current-contact-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      5.56e-01                                                     10.19
+    1      1.26e+03   1.00e+00   3.43e-03   7.38e+01    0         3     37.47
+    2      1.30e-01   1.00e+00   7.77e-07   3.61e-02    0         3     64.66
+Finished, because...
+Error smaller than 1 ( 3.6101E-02 ).
+
+Accumulated times:
+Rhs time:       30.63 s
+Jacobian time:   2.08 s
+Solve time:     31.83 s
+Total time:     64.67 s
+
+Device Instance trans:
+Contact              Voltage              Electron      Hole         Conduction 
+                 outer       inner        current       current      current
+ ntype        5.880E-01    5.880E-01      4.457E-08    -1.167E-08    3.290E-08
+ ptype        0.000E+00    3.290E-12      2.388E-09    -3.529E-08   -3.290E-08
+
+Computing step from t=0.49 to t=0.5 (Stepsize: 0.01) :
+Computing Coupled( 3 circuit-equation(s) , 1 poisson-equation(s) , 
+                   1 current-contact-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      6.69e-01                                                     10.26
+    1      1.26e+03   1.00e+00   3.54e-03   7.74e+01    0         3     37.31
+    2      1.30e-01   1.00e+00   8.09e-07   3.79e-02    0         3     65.14
+Finished, because...
+Error smaller than 1 ( 3.7861E-02 ).
+
+Accumulated times:
+Rhs time:       30.76 s
+Jacobian time:   2.05 s
+Solve time:     32.23 s
+Total time:     65.14 s
+
+Device Instance trans:
+Contact              Voltage              Electron      Hole         Conduction 
+                 outer       inner        current       current      current
+ ntype        6.000E-01    6.000E-01      4.470E-08    -1.158E-08    3.311E-08
+ ptype        0.000E+00    3.311E-12      2.388E-09    -3.550E-08   -3.311E-08
+
+Computing step from t=0.5 to t=0.51 (Stepsize: 0.01) :
+Computing Coupled( 3 circuit-equation(s) , 1 poisson-equation(s) , 
+                   1 current-contact-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      8.00e-01                                                     10.18
+    1      1.30e+03   1.00e+00   3.64e-03   7.96e+01    0         3     37.67
+    2      7.70e-02   1.00e+00   8.31e-07   3.96e-02    0         3     65.17
+Finished, because...
+Error smaller than 1 ( 3.9591E-02 ).
+
+Accumulated times:
+Rhs time:       30.66 s
+Jacobian time:   2.10 s
+Solve time:     32.29 s
+Total time:     65.17 s
+
+Device Instance trans:
+Contact              Voltage              Electron      Hole         Conduction 
+                 outer       inner        current       current      current
+ ntype        6.120E-01    6.120E-01      4.482E-08    -1.149E-08    3.333E-08
+ ptype        0.000E+00    3.333E-12      2.388E-09    -3.572E-08   -3.333E-08
+
+Computing step from t=0.51 to t=0.52 (Stepsize: 0.01) :
+Computing Coupled( 3 circuit-equation(s) , 1 poisson-equation(s) , 
+                   1 current-contact-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      9.39e-01                                                     10.32
+    1      1.34e+03   1.00e+00   3.68e-03   8.02e+01    0         3     37.59
+    2      1.71e-01   1.00e+00   8.38e-07   4.12e-02    0         3     66.88
+Finished, because...
+Error smaller than 1 ( 4.1249E-02 ).
+
+Accumulated times:
+Rhs time:       32.36 s
+Jacobian time:   2.11 s
+Solve time:     32.30 s
+Total time:     66.88 s
+
+Device Instance trans:
+Contact              Voltage              Electron      Hole         Conduction 
+                 outer       inner        current       current      current
+ ntype        6.240E-01    6.240E-01      4.494E-08    -1.139E-08    3.356E-08
+ ptype        0.000E+00    3.356E-12      2.388E-09    -3.594E-08   -3.356E-08
+
+Computing step from t=0.52 to t=0.53 (Stepsize: 0.01) :
+Computing Coupled( 3 circuit-equation(s) , 1 poisson-equation(s) , 
+                   1 current-contact-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      1.08e+00                                                     10.31
+    1      1.38e+03   1.00e+00   3.66e-03   7.90e+01    0         3     37.08
+    2      1.55e-01   1.00e+00   8.29e-07   4.28e-02    0         3     63.81
+Finished, because...
+Error smaller than 1 ( 4.2775E-02 ).
+
+Accumulated times:
+Rhs time:       30.72 s
+Jacobian time:   2.10 s
+Solve time:     30.87 s
+Total time:     63.81 s
+
+Device Instance trans:
+Contact              Voltage              Electron      Hole         Conduction 
+                 outer       inner        current       current      current
+ ntype        6.360E-01    6.360E-01      4.507E-08    -1.128E-08    3.379E-08
+ ptype        0.000E+00    3.379E-12      2.388E-09    -3.618E-08   -3.379E-08
+
+Computing step from t=0.53 to t=0.54 (Stepsize: 0.01) :
+Computing Coupled( 3 circuit-equation(s) , 1 poisson-equation(s) , 
+                   1 current-contact-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      1.23e+00                                                     10.43
+    1      1.42e+03   1.00e+00   3.54e-03   7.63e+01    0         3     37.26
+    2      1.07e-01   1.00e+00   8.08e-07   4.41e-02    0         3     64.16
+Finished, because...
+Error smaller than 1 ( 4.4122E-02 ).
+
+Accumulated times:
+Rhs time:       30.74 s
+Jacobian time:   2.09 s
+Solve time:     31.22 s
+Total time:     64.16 s
+
+Device Instance trans:
+Contact              Voltage              Electron      Hole         Conduction 
+                 outer       inner        current       current      current
+ ntype        6.480E-01    6.480E-01      4.519E-08    -1.117E-08    3.403E-08
+ ptype        0.000E+00    3.403E-12      2.388E-09    -3.642E-08   -3.403E-08
+
+Computing step from t=0.54 to t=0.55 (Stepsize: 0.01) :
+Computing Coupled( 3 circuit-equation(s) , 1 poisson-equation(s) , 
+                   1 current-contact-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      1.36e+00                                                     10.06
+    1      1.45e+03   1.00e+00   3.34e-03   7.24e+01    0         3     37.40
+    2      1.06e-01   1.00e+00   7.77e-07   4.52e-02    0         3     64.80
+Finished, because...
+Error smaller than 1 ( 4.5176E-02 ).
+
+Accumulated times:
+Rhs time:       30.62 s
+Jacobian time:   2.07 s
+Solve time:     32.00 s
+Total time:     64.80 s
+
+Device Instance trans:
+Contact              Voltage              Electron      Hole         Conduction 
+                 outer       inner        current       current      current
+ ntype        6.600E-01    6.600E-01      4.532E-08    -1.104E-08    3.427E-08
+ ptype        0.000E+00    3.427E-12      2.388E-09    -3.666E-08   -3.427E-08
+
+Computing step from t=0.55 to t=0.56 (Stepsize: 0.01) :
+Computing Coupled( 3 circuit-equation(s) , 1 poisson-equation(s) , 
+                   1 current-contact-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      1.48e+00                                                     10.27
+    1      1.49e+03   1.00e+00   3.07e-03   6.79e+01    0         3     37.54
+    2      1.65e-01   1.00e+00   7.43e-07   4.58e-02    0         3     65.10
+Finished, because...
+Error smaller than 1 ( 4.5803E-02 ).
+
+Accumulated times:
+Rhs time:       31.13 s
+Jacobian time:   2.07 s
+Solve time:     31.79 s
+Total time:     65.10 s
+
+Device Instance trans:
+Contact              Voltage              Electron      Hole         Conduction 
+                 outer       inner        current       current      current
+ ntype        6.720E-01    6.720E-01      4.544E-08    -1.091E-08    3.453E-08
+ ptype        0.000E+00    3.453E-12      2.388E-09    -3.692E-08   -3.453E-08
+
+Computing step from t=0.56 to t=0.57 (Stepsize: 0.01) :
+Computing Coupled( 3 circuit-equation(s) , 1 poisson-equation(s) , 
+                   1 current-contact-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      1.58e+00                                                     10.26
+    1      1.52e+03   1.00e+00   2.75e-03   6.30e+01    0         3     38.61
+    2      4.44e-02   1.00e+00   7.09e-07   4.59e-02    0         3     66.41
+Finished, because...
+Error smaller than 1 ( 4.5852E-02 ).
+
+Accumulated times:
+Rhs time:       30.74 s
+Jacobian time:   2.10 s
+Solve time:     33.47 s
+Total time:     66.41 s
+
+Device Instance trans:
+Contact              Voltage              Electron      Hole         Conduction 
+                 outer       inner        current       current      current
+ ntype        6.840E-01    6.840E-01      4.555E-08    -1.077E-08    3.479E-08
+ ptype        0.000E+00    3.479E-12      2.388E-09    -3.717E-08   -3.479E-08
+
+Computing step from t=0.57 to t=0.58 (Stepsize: 0.01) :
+Computing Coupled( 3 circuit-equation(s) , 1 poisson-equation(s) , 
+                   1 current-contact-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      1.66e+00                                                     10.28
+    1      1.55e+03   1.00e+00   2.41e-03   5.84e+01    0         3     38.81
+    2      1.46e-01   1.00e+00   6.77e-07   4.52e-02    0         3     66.22
+Finished, because...
+Error smaller than 1 ( 4.5191E-02 ).
+
+Accumulated times:
+Rhs time:       30.91 s
+Jacobian time:   2.12 s
+Solve time:     33.06 s
+Total time:     66.22 s
+
+Device Instance trans:
+Contact              Voltage              Electron      Hole         Conduction 
+                 outer       inner        current       current      current
+ ntype        6.960E-01    6.960E-01      4.566E-08    -1.061E-08    3.505E-08
+ ptype        0.000E+00    3.505E-12      2.388E-09    -3.744E-08   -3.505E-08
+
+Computing step from t=0.58 to t=0.59 (Stepsize: 0.01) :
+Computing Coupled( 3 circuit-equation(s) , 1 poisson-equation(s) , 
+                   1 current-contact-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      1.70e+00                                                     10.52
+    1      1.56e+03   1.00e+00   2.08e-03   5.41e+01    0         3     38.44
+    2      1.50e-01   1.00e+00   6.46e-07   4.37e-02    0         3     66.32
+Finished, because...
+Error smaller than 1 ( 4.3740E-02 ).
+
+Accumulated times:
+Rhs time:       31.25 s
+Jacobian time:   2.19 s
+Solve time:     32.77 s
+Total time:     66.32 s
+
+Device Instance trans:
+Contact              Voltage              Electron      Hole         Conduction 
+                 outer       inner        current       current      current
+ ntype        7.080E-01    7.080E-01      4.577E-08    -1.044E-08    3.533E-08
+ ptype        0.000E+00    3.533E-12      2.388E-09    -3.772E-08   -3.533E-08
+
+Computing step from t=0.59 to t=0.6 (Stepsize: 0.01) :
+Computing Coupled( 3 circuit-equation(s) , 1 poisson-equation(s) , 
+                   1 current-contact-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      1.72e+00                                                     10.27
+    1      1.56e+03   1.00e+00   1.80e-03   5.03e+01    0         3     39.11
+    2      1.09e-01   1.00e+00   6.13e-07   4.15e-02    0         3     68.68
+Finished, because...
+Error smaller than 1 ( 4.1490E-02 ).
+
+Accumulated times:
+Rhs time:       31.01 s
+Jacobian time:   2.11 s
+Solve time:     35.45 s
+Total time:     68.68 s
+
+Device Instance trans:
+Contact              Voltage              Electron      Hole         Conduction 
+                 outer       inner        current       current      current
+ ntype        7.200E-01    7.200E-01      4.587E-08    -1.025E-08    3.562E-08
+ ptype        0.000E+00    3.562E-12      2.388E-09    -3.800E-08   -3.562E-08
+
+Computing step from t=0.6 to t=0.61 (Stepsize: 0.01) :
+Computing Coupled( 3 circuit-equation(s) , 1 poisson-equation(s) , 
+                   1 current-contact-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      1.70e+00                                                     10.37
+    1      1.56e+03   1.00e+00   1.57e-03   4.70e+01    0         3     38.68
+    2      1.20e-01   1.00e+00   5.76e-07   3.85e-02    0         3     65.67
+Finished, because...
+Error smaller than 1 ( 3.8520E-02 ).
+
+Accumulated times:
+Rhs time:       30.82 s
+Jacobian time:   2.10 s
+Solve time:     32.63 s
+Total time:     65.67 s
+
+Device Instance trans:
+Contact              Voltage              Electron      Hole         Conduction 
+                 outer       inner        current       current      current
+ ntype        7.320E-01    7.320E-01      4.596E-08    -1.005E-08    3.592E-08
+ ptype        0.000E+00    3.592E-12      2.388E-09    -3.830E-08   -3.592E-08
+
+Computing step from t=0.61 to t=0.62 (Stepsize: 0.01) :
+Computing Coupled( 3 circuit-equation(s) , 1 poisson-equation(s) , 
+                   1 current-contact-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      1.65e+00                                                     10.22
+    1      1.54e+03   1.00e+00   1.43e-03   4.44e+01    0         3     37.66
+    2      1.65e-01   1.00e+00   5.34e-07   3.50e-02    0         3     65.04
+Finished, because...
+Error smaller than 1 ( 3.4985E-02 ).
+
+Accumulated times:
+Rhs time:       30.75 s
+Jacobian time:   2.07 s
+Solve time:     32.12 s
+Total time:     65.04 s
+
+Device Instance trans:
+Contact              Voltage              Electron      Hole         Conduction 
+                 outer       inner        current       current      current
+ ntype        7.440E-01    7.440E-01      4.605E-08    -9.818E-09    3.623E-08
+ ptype        0.000E+00    3.623E-12      2.388E-09    -3.862E-08   -3.623E-08
+
+Computing step from t=0.62 to t=0.63 (Stepsize: 0.01) :
+Computing Coupled( 3 circuit-equation(s) , 1 poisson-equation(s) , 
+                   1 current-contact-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      1.58e+00                                                     10.25
+    1      1.51e+03   1.00e+00   1.37e-03   4.22e+01    0         3     37.55
+    2      2.26e-02   1.00e+00   4.88e-07   3.11e-02    0         3     65.12
+Finished, because...
+Error smaller than 1 ( 3.1090E-02 ).
+
+Accumulated times:
+Rhs time:       30.73 s
+Jacobian time:   2.11 s
+Solve time:     32.17 s
+Total time:     65.12 s
+
+Device Instance trans:
+Contact              Voltage              Electron      Hole         Conduction 
+                 outer       inner        current       current      current
+ ntype        7.560E-01    7.560E-01      4.614E-08    -9.565E-09    3.657E-08
+ ptype        0.000E+00    3.657E-12      2.388E-09    -3.896E-08   -3.657E-08
+
+Computing step from t=0.63 to t=0.64 (Stepsize: 0.01) :
+Computing Coupled( 3 circuit-equation(s) , 1 poisson-equation(s) , 
+                   1 current-contact-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      1.49e+00                                                     10.28
+    1      1.48e+03   1.00e+00   1.39e-03   4.06e+01    0         3     40.42
+    2      1.91e-02   1.00e+00   4.39e-07   2.71e-02    0         3     69.80
+Finished, because...
+Error smaller than 1 ( 2.7071E-02 ).
+
+Accumulated times:
+Rhs time:       32.70 s
+Jacobian time:   2.34 s
+Solve time:     34.66 s
+Total time:     69.80 s
+
+Device Instance trans:
+Contact              Voltage              Electron      Hole         Conduction 
+                 outer       inner        current       current      current
+ ntype        7.680E-01    7.680E-01      4.623E-08    -9.284E-09    3.694E-08
+ ptype        0.000E+00    3.694E-12      2.388E-09    -3.933E-08   -3.694E-08
+
+Computing step from t=0.64 to t=0.65 (Stepsize: 0.01) :
+Computing Coupled( 3 circuit-equation(s) , 1 poisson-equation(s) , 
+                   1 current-contact-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      1.38e+00                                                     10.26
+    1      1.43e+03   1.00e+00   1.46e-03   3.94e+01    0         3     38.24
+    2      1.16e-01   1.00e+00   3.89e-07   2.31e-02    0         3     65.89
+Finished, because...
+Error smaller than 1 ( 2.3134E-02 ).
+
+Accumulated times:
+Rhs time:       30.80 s
+Jacobian time:   2.14 s
+Solve time:     32.85 s
+Total time:     65.89 s
+
+Device Instance trans:
+Contact              Voltage              Electron      Hole         Conduction 
+                 outer       inner        current       current      current
+ ntype        7.800E-01    7.800E-01      4.631E-08    -8.971E-09    3.734E-08
+ ptype        0.000E+00    3.734E-12      2.388E-09    -3.973E-08   -3.734E-08
+
+Computing step from t=0.65 to t=0.66 (Stepsize: 0.01) :
+Computing Coupled( 3 circuit-equation(s) , 1 poisson-equation(s) , 
+                   1 current-contact-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      1.29e+00                                                     10.30
+    1      1.37e+03   1.00e+00   1.55e-03   3.86e+01    0         3     38.09
+    2      1.02e-01   1.00e+00   3.37e-07   1.90e-02    0         3     65.34
+Finished, because...
+Error smaller than 1 ( 1.9021E-02 ).
+
+Accumulated times:
+Rhs time:       30.80 s
+Jacobian time:   2.15 s
+Solve time:     32.27 s
+Total time:     65.34 s
+
+Device Instance trans:
+Contact              Voltage              Electron      Hole         Conduction 
+                 outer       inner        current       current      current
+ ntype        7.920E-01    7.920E-01      4.640E-08    -8.620E-09    3.778E-08
+ ptype        0.000E+00    3.778E-12      2.388E-09    -4.017E-08   -3.778E-08
+
+Computing step from t=0.66 to t=0.67 (Stepsize: 0.01) :
+Computing Coupled( 3 circuit-equation(s) , 1 poisson-equation(s) , 
+                   1 current-contact-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      1.35e+00                                                     10.21
+    1      1.31e+03   1.00e+00   1.63e-03   3.82e+01    0         3     37.37
+    2      2.22e-02   1.00e+00   2.90e-07   1.58e-02    0         3     67.55
+Finished, because...
+Error smaller than 1 ( 1.5776E-02 ).
+
+Accumulated times:
+Rhs time:       30.78 s
+Jacobian time:   2.12 s
+Solve time:     34.56 s
+Total time:     67.55 s
+
+Device Instance trans:
+Contact              Voltage              Electron      Hole         Conduction 
+                 outer       inner        current       current      current
+ ntype        8.040E-01    8.040E-01      4.649E-08    -8.228E-09    3.827E-08
+ ptype        0.000E+00    3.827E-12      2.388E-09    -4.065E-08   -3.827E-08
+
+Computing step from t=0.67 to t=0.68 (Stepsize: 0.01) :
+Computing Coupled( 3 circuit-equation(s) , 1 poisson-equation(s) , 
+                   1 current-contact-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      1.40e+00                                                     10.28
+    1      1.29e+03   1.00e+00   1.68e-03   3.81e+01    0         3     38.14
+    2      1.60e-01   1.00e+00   2.48e-07   1.31e-02    0         3     65.52
+Finished, because...
+Error smaller than 1 ( 1.3075E-02 ).
+
+Accumulated times:
+Rhs time:       30.87 s
+Jacobian time:   2.11 s
+Solve time:     32.43 s
+Total time:     65.52 s
+
+Device Instance trans:
+Contact              Voltage              Electron      Hole         Conduction 
+                 outer       inner        current       current      current
+ ntype        8.160E-01    8.160E-01      4.659E-08    -7.787E-09    3.880E-08
+ ptype        0.000E+00    3.880E-12      2.388E-09    -4.119E-08   -3.880E-08
+
+Computing step from t=0.68 to t=0.69 (Stepsize: 0.01) :
+Computing Coupled( 3 circuit-equation(s) , 1 poisson-equation(s) , 
+                   1 current-contact-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      1.46e+00                                                     10.25
+    1      1.31e+03   1.00e+00   1.70e-03   3.81e+01    0         3     39.36
+    2      2.34e-01   1.00e+00   2.13e-07   1.09e-02    0         3     69.42
+Finished, because...
+Error smaller than 1 ( 1.0913E-02 ).
+
+Accumulated times:
+Rhs time:       30.81 s
+Jacobian time:   2.07 s
+Solve time:     36.42 s
+Total time:     69.42 s
+
+Device Instance trans:
+Contact              Voltage              Electron      Hole         Conduction 
+                 outer       inner        current       current      current
+ ntype        8.280E-01    8.280E-01      4.669E-08    -7.293E-09    3.940E-08
+ ptype        0.000E+00    3.940E-12      2.388E-09    -4.178E-08   -3.940E-08
+
+Computing step from t=0.69 to t=0.7 (Stepsize: 0.01) :
+Computing Coupled( 3 circuit-equation(s) , 1 poisson-equation(s) , 
+                   1 current-contact-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      1.50e+00                                                     10.28
+    1      1.32e+03   1.00e+00   1.70e-03   3.82e+01    0         3     37.74
+    2      2.77e-01   1.00e+00   1.87e-07   9.27e-03    0         3     65.74
+Finished, because...
+Error smaller than 1 ( 9.2675E-03 ).
+
+Accumulated times:
+Rhs time:       30.96 s
+Jacobian time:   2.09 s
+Solve time:     32.57 s
+Total time:     65.74 s
+
+Device Instance trans:
+Contact              Voltage              Electron      Hole         Conduction 
+                 outer       inner        current       current      current
+ ntype        8.400E-01    8.400E-01      4.679E-08    -6.737E-09    4.005E-08
+ ptype        0.000E+00    4.005E-12      2.388E-09    -4.244E-08   -4.005E-08
+
+Computing step from t=0.7 to t=0.71 (Stepsize: 0.01) :
+Computing Coupled( 3 circuit-equation(s) , 1 poisson-equation(s) , 
+                   1 current-contact-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      1.55e+00                                                     10.32
+    1      1.34e+03   1.00e+00   1.67e-03   3.84e+01    0         3     38.14
+    2      1.21e-01   1.00e+00   1.71e-07   8.08e-03    0         3     66.46
+Finished, because...
+Error smaller than 1 ( 8.0847E-03 ).
+
+Accumulated times:
+Rhs time:       30.96 s
+Jacobian time:   2.16 s
+Solve time:     33.22 s
+Total time:     66.46 s
+
+Device Instance trans:
+Contact              Voltage              Electron      Hole         Conduction 
+                 outer       inner        current       current      current
+ ntype        8.520E-01    8.520E-01      4.690E-08    -6.112E-09    4.079E-08
+ ptype        0.000E+00    4.079E-12      2.387E-09    -4.317E-08   -4.079E-08
+
+Computing step from t=0.71 to t=0.72 (Stepsize: 0.01) :
+Computing Coupled( 3 circuit-equation(s) , 1 poisson-equation(s) , 
+                   1 current-contact-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      1.59e+00                                                     10.30
+    1      1.34e+03   1.00e+00   1.62e-03   3.85e+01    0         3     37.89
+    2      2.49e-01   1.00e+00   1.64e-07   6.59e-03    0         3     65.17
+Finished, because...
+Error smaller than 1 ( 6.5897E-03 ).
+
+Accumulated times:
+Rhs time:       30.96 s
+Jacobian time:   2.09 s
+Solve time:     32.01 s
+Total time:     65.17 s
+
+Device Instance trans:
+Contact              Voltage              Electron      Hole         Conduction 
+                 outer       inner        current       current      current
+ ntype        8.640E-01    8.640E-01      4.700E-08    -5.408E-09    4.160E-08
+ ptype        0.000E+00    4.160E-12      2.387E-09    -4.398E-08   -4.160E-08
+
+Computing step from t=0.72 to t=0.73 (Stepsize: 0.01) :
+Computing Coupled( 3 circuit-equation(s) , 1 poisson-equation(s) , 
+                   1 current-contact-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      1.62e+00                                                     10.32
+    1      1.34e+03   1.00e+00   1.57e-03   3.88e+01    0         3     37.89
+    2      3.70e-01   1.00e+00   1.71e-07   5.95e-03    0         3     65.75
+Finished, because...
+Error smaller than 1 ( 5.9537E-03 ).
+
+Accumulated times:
+Rhs time:       30.97 s
+Jacobian time:   2.09 s
+Solve time:     32.59 s
+Total time:     65.75 s
+
+Device Instance trans:
+Contact              Voltage              Electron      Hole         Conduction 
+                 outer       inner        current       current      current
+ ntype        8.760E-01    8.760E-01      4.711E-08    -4.615E-09    4.250E-08
+ ptype        0.000E+00    4.250E-12      2.387E-09    -4.488E-08   -4.250E-08
+
+Computing step from t=0.73 to t=0.74 (Stepsize: 0.01) :
+Computing Coupled( 3 circuit-equation(s) , 1 poisson-equation(s) , 
+                   1 current-contact-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      1.65e+00                                                     10.34
+    1      1.34e+03   1.00e+00   1.52e-03   3.92e+01    0         3     38.27
+    2      5.39e-01   1.00e+00   1.98e-07   7.06e-03    0         3     66.08
+Finished, because...
+Error smaller than 1 ( 7.0558E-03 ).
+
+Accumulated times:
+Rhs time:       30.88 s
+Jacobian time:   2.11 s
+Solve time:     32.98 s
+Total time:     66.08 s
+
+Device Instance trans:
+Contact              Voltage              Electron      Hole         Conduction 
+                 outer       inner        current       current      current
+ ntype        8.880E-01    8.880E-01      4.721E-08    -3.722E-09    4.349E-08
+ ptype        0.000E+00    4.349E-12      2.387E-09    -4.588E-08   -4.349E-08
+
+Computing step from t=0.74 to t=0.75 (Stepsize: 0.01) :
+Computing Coupled( 3 circuit-equation(s) , 1 poisson-equation(s) , 
+                   1 current-contact-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      1.68e+00                                                     10.32
+    1      1.35e+03   1.00e+00   1.46e-03   3.99e+01    0         3     38.80
+    2      2.83e-01   1.00e+00   2.25e-07   7.27e-03    0         3     65.87
+Finished, because...
+Error smaller than 1 ( 7.2686E-03 ).
+
+Accumulated times:
+Rhs time:       30.81 s
+Jacobian time:   2.11 s
+Solve time:     32.83 s
+Total time:     65.87 s
+
+Device Instance trans:
+Contact              Voltage              Electron      Hole         Conduction 
+                 outer       inner        current       current      current
+ ntype        9.000E-01    9.000E-01      4.731E-08    -2.716E-09    4.459E-08
+ ptype        0.000E+00    4.459E-12      2.387E-09    -4.698E-08   -4.459E-08
+
+Computing step from t=0.75 to t=0.76 (Stepsize: 0.01) :
+Computing Coupled( 3 circuit-equation(s) , 1 poisson-equation(s) , 
+                   1 current-contact-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      1.70e+00                                                     10.22
+    1      1.37e+03   1.00e+00   1.42e-03   4.09e+01    0         3     38.86
+    2      3.03e-01   1.00e+00   2.57e-07   7.85e-03    0         3     66.00
+Finished, because...
+Error smaller than 1 ( 7.8482E-03 ).
+
+Accumulated times:
+Rhs time:       31.21 s
+Jacobian time:   2.14 s
+Solve time:     32.56 s
+Total time:     66.00 s
+
+Device Instance trans:
+Contact              Voltage              Electron      Hole         Conduction 
+                 outer       inner        current       current      current
+ ntype        9.120E-01    9.120E-01      4.740E-08    -1.582E-09    4.582E-08
+ ptype        0.000E+00    4.582E-12      2.387E-09    -4.820E-08   -4.582E-08
+
+Computing step from t=0.76 to t=0.77 (Stepsize: 0.01) :
+Computing Coupled( 3 circuit-equation(s) , 1 poisson-equation(s) , 
+                   1 current-contact-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      1.79e+00                                                     10.22
+    1      1.38e+03   1.00e+00   1.38e-03   4.22e+01    0         3     38.26
+    2      1.44e-01   1.00e+00   2.93e-07   8.13e-03    0         3     65.58
+Finished, because...
+Error smaller than 1 ( 8.1306E-03 ).
+
+Accumulated times:
+Rhs time:       30.77 s
+Jacobian time:   2.10 s
+Solve time:     32.61 s
+Total time:     65.58 s
+
+Device Instance trans:
+Contact              Voltage              Electron      Hole         Conduction 
+                 outer       inner        current       current      current
+ ntype        9.240E-01    9.240E-01      4.748E-08    -3.037E-10    4.717E-08
+ ptype        0.000E+00    4.717E-12      2.387E-09    -4.956E-08   -4.717E-08
+
+Computing step from t=0.77 to t=0.78 (Stepsize: 0.01) :
+Computing Coupled( 3 circuit-equation(s) , 1 poisson-equation(s) , 
+                   1 current-contact-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      1.73e+00                                                     10.23
+    1      1.38e+03   1.00e+00   1.35e-03   4.39e+01    0         3     37.63
+    2      2.72e-01   1.00e+00   3.32e-07   8.43e-03    0         3     64.79
+Finished, because...
+Error smaller than 1 ( 8.4278E-03 ).
+
+Accumulated times:
+Rhs time:       30.65 s
+Jacobian time:   2.12 s
+Solve time:     31.89 s
+Total time:     64.79 s
+
+Device Instance trans:
+Contact              Voltage              Electron      Hole         Conduction 
+                 outer       inner        current       current      current
+ ntype        9.360E-01    9.360E-01      4.755E-08     1.137E-09    4.869E-08
+ ptype        0.000E+00    4.869E-12      2.387E-09    -5.107E-08   -4.869E-08
+
+Computing step from t=0.78 to t=0.79 (Stepsize: 0.01) :
+Computing Coupled( 3 circuit-equation(s) , 1 poisson-equation(s) , 
+                   1 current-contact-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      1.74e+00                                                     10.20
+    1      1.37e+03   1.00e+00   1.34e-03   4.59e+01    0         3     38.25
+    2      5.48e-01   1.00e+00   3.75e-07   8.73e-03    0         3     66.02
+Finished, because...
+Error smaller than 1 ( 8.7337E-03 ).
+
+Accumulated times:
+Rhs time:       30.69 s
+Jacobian time:   2.12 s
+Solve time:     33.09 s
+Total time:     66.02 s
+
+Device Instance trans:
+Contact              Voltage              Electron      Hole         Conduction 
+                 outer       inner        current       current      current
+ ntype        9.480E-01    9.480E-01      4.761E-08     2.761E-09    5.037E-08
+ ptype        0.000E+00    5.037E-12      2.387E-09    -5.276E-08   -5.037E-08
+
+Computing step from t=0.79 to t=0.8 (Stepsize: 0.01) :
+Computing Coupled( 3 circuit-equation(s) , 1 poisson-equation(s) , 
+                   1 current-contact-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      1.74e+00                                                     10.31
+    1      1.35e+03   1.00e+00   1.32e-03   4.81e+01    0         3     38.05
+    2      7.32e-02   1.00e+00   4.21e-07   9.04e-03    0         3     66.01
+Finished, because...
+Error smaller than 1 ( 9.0376E-03 ).
+
+Accumulated times:
+Rhs time:       30.92 s
+Jacobian time:   2.12 s
+Solve time:     32.85 s
+Total time:     66.01 s
+
+Device Instance trans:
+Contact              Voltage              Electron      Hole         Conduction 
+                 outer       inner        current       current      current
+ ntype        9.600E-01    9.600E-01      4.766E-08     4.592E-09    5.226E-08
+ ptype        0.000E+00    5.226E-12      2.387E-09    -5.464E-08   -5.226E-08
+
+Computing step from t=0.8 to t=0.81 (Stepsize: 0.01) :
+Computing Coupled( 3 circuit-equation(s) , 1 poisson-equation(s) , 
+                   1 current-contact-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      1.96e+00                                                     10.27
+    1      1.32e+03   1.00e+00   1.30e-03   5.04e+01    0         3     37.94
+    2      3.87e-01   1.00e+00   4.71e-07   9.34e-03    0         3     65.73
+Finished, because...
+Error smaller than 1 ( 9.3418E-03 ).
+
+Accumulated times:
+Rhs time:       30.75 s
+Jacobian time:   2.11 s
+Solve time:     32.76 s
+Total time:     65.73 s
+
+Device Instance trans:
+Contact              Voltage              Electron      Hole         Conduction 
+                 outer       inner        current       current      current
+ ntype        9.720E-01    9.720E-01      4.771E-08     6.656E-09    5.437E-08
+ ptype        0.000E+00    5.437E-12      2.387E-09    -5.675E-08   -5.437E-08
+
+Computing step from t=0.81 to t=0.82 (Stepsize: 0.01) :
+Computing Coupled( 3 circuit-equation(s) , 1 poisson-equation(s) , 
+                   1 current-contact-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      1.73e+00                                                     10.19
+    1      1.27e+03   1.00e+00   1.28e-03   5.27e+01    0         3     38.13
+    2      3.10e-02   1.00e+00   5.24e-07   9.65e-03    0         3     65.94
+Finished, because...
+Error smaller than 1 ( 9.6492E-03 ).
+
+Accumulated times:
+Rhs time:       30.68 s
+Jacobian time:   2.10 s
+Solve time:     33.05 s
+Total time:     65.94 s
+
+Device Instance trans:
+Contact              Voltage              Electron      Hole         Conduction 
+                 outer       inner        current       current      current
+ ntype        9.840E-01    9.840E-01      4.775E-08     8.982E-09    5.673E-08
+ ptype        0.000E+00    5.673E-12      2.387E-09    -5.912E-08   -5.673E-08
+
+Computing step from t=0.82 to t=0.83 (Stepsize: 0.01) :
+Computing Coupled( 3 circuit-equation(s) , 1 poisson-equation(s) , 
+                   1 current-contact-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      2.47e+00                                                     10.22
+    1      1.22e+03   1.00e+00   1.26e-03   5.49e+01    0         3     37.56
+    2      3.58e-01   1.00e+00   5.80e-07   9.96e-03    0         3     64.78
+Finished, because...
+Error smaller than 1 ( 9.9594E-03 ).
+
+Accumulated times:
+Rhs time:       30.71 s
+Jacobian time:   2.08 s
+Solve time:     31.88 s
+Total time:     64.78 s
+
+Device Instance trans:
+Contact              Voltage              Electron      Hole         Conduction 
+                 outer       inner        current       current      current
+ ntype        9.960E-01    9.960E-01      4.779E-08     1.160E-08    5.939E-08
+ ptype        0.000E+00    5.939E-12      2.387E-09    -6.178E-08   -5.939E-08
+
+Computing step from t=0.83 to t=0.84 (Stepsize: 0.01) :
+Computing Coupled( 3 circuit-equation(s) , 1 poisson-equation(s) , 
+                   1 current-contact-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      1.69e+00                                                     10.27
+    1      1.17e+03   1.00e+00   1.24e-03   5.69e+01    0         3     37.45
+    2      1.59e-01   1.00e+00   6.39e-07   1.03e-02    0         3     64.63
+Finished, because...
+Error smaller than 1 ( 1.0269E-02 ).
+
+Accumulated times:
+Rhs time:       30.84 s
+Jacobian time:   2.12 s
+Solve time:     31.56 s
+Total time:     64.63 s
+
+Device Instance trans:
+Contact              Voltage              Electron      Hole         Conduction 
+                 outer       inner        current       current      current
+ ntype        1.008E+00    1.008E+00      4.783E-08     1.455E-08    6.238E-08
+ ptype        0.000E+00    6.238E-12      2.387E-09    -6.477E-08   -6.238E-08
+
+Computing step from t=0.84 to t=0.85 (Stepsize: 0.01) :
+Computing Coupled( 3 circuit-equation(s) , 1 poisson-equation(s) , 
+                   1 current-contact-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      3.26e+00                                                     10.21
+    1      1.11e+03   1.00e+00   1.22e-03   5.87e+01    0         3     37.97
+    2      2.96e-01   1.00e+00   7.02e-07   1.06e-02    0         3     65.54
+Finished, because...
+Error smaller than 1 ( 1.0580E-02 ).
+
+Accumulated times:
+Rhs time:       30.77 s
+Jacobian time:   2.11 s
+Solve time:     32.55 s
+Total time:     65.54 s
+
+Device Instance trans:
+Contact              Voltage              Electron      Hole         Conduction 
+                 outer       inner        current       current      current
+ ntype        1.020E+00    1.020E+00      4.787E-08     1.787E-08    6.575E-08
+ ptype        0.000E+00    6.575E-12      2.387E-09    -6.813E-08   -6.575E-08
+
+Computing step from t=0.85 to t=0.86 (Stepsize: 0.01) :
+Computing Coupled( 3 circuit-equation(s) , 1 poisson-equation(s) , 
+                   1 current-contact-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      2.17e+00                                                     10.24
+    1      1.04e+03   1.00e+00   1.21e-03   6.03e+01    0         3     38.10
+    2      5.37e-02   1.00e+00   7.66e-07   1.09e-02    0         3     65.62
+Finished, because...
+Error smaller than 1 ( 1.0895E-02 ).
+
+Accumulated times:
+Rhs time:       30.69 s
+Jacobian time:   2.12 s
+Solve time:     32.70 s
+Total time:     65.62 s
+
+Device Instance trans:
+Contact              Voltage              Electron      Hole         Conduction 
+                 outer       inner        current       current      current
+ ntype        1.032E+00    1.032E+00      4.792E-08     2.161E-08    6.953E-08
+ ptype        0.000E+00    6.953E-12      2.387E-09    -7.192E-08   -6.953E-08
+
+Computing step from t=0.86 to t=0.87 (Stepsize: 0.01) :
+Computing Coupled( 3 circuit-equation(s) , 1 poisson-equation(s) , 
+                   1 current-contact-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      3.48e+00                                                     10.20
+    1      9.74e+02   1.00e+00   1.21e-03   6.16e+01    0         3     37.01
+    2      8.34e-02   1.00e+00   8.34e-07   1.12e-02    0         3     64.60
+Finished, because...
+Error smaller than 1 ( 1.1217E-02 ).
+
+Accumulated times:
+Rhs time:       30.73 s
+Jacobian time:   2.08 s
+Solve time:     31.69 s
+Total time:     64.61 s
+
+Device Instance trans:
+Contact              Voltage              Electron      Hole         Conduction 
+                 outer       inner        current       current      current
+ ntype        1.044E+00    1.044E+00      4.798E-08     2.581E-08    7.379E-08
+ ptype        0.000E+00    7.379E-12      2.387E-09    -7.618E-08   -7.379E-08
+
+Computing step from t=0.87 to t=0.88 (Stepsize: 0.01) :
+Computing Coupled( 3 circuit-equation(s) , 1 poisson-equation(s) , 
+                   1 current-contact-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      3.92e+00                                                     10.25
+    1      9.26e+02   1.00e+00   1.21e-03   6.28e+01    0         3     38.82
+    2      1.57e-01   1.00e+00   9.03e-07   1.16e-02    0         3     66.56
+Finished, because...
+Error smaller than 1 ( 1.1557E-02 ).
+
+Accumulated times:
+Rhs time:       31.33 s
+Jacobian time:   2.19 s
+Solve time:     32.92 s
+Total time:     66.56 s
+
+Device Instance trans:
+Contact              Voltage              Electron      Hole         Conduction 
+                 outer       inner        current       current      current
+ ntype        1.056E+00    1.056E+00      4.805E-08     3.054E-08    7.859E-08
+ ptype        0.000E+00    7.859E-12      2.387E-09    -8.098E-08   -7.859E-08
+
+Computing step from t=0.88 to t=0.89 (Stepsize: 0.01) :
+Computing Coupled( 3 circuit-equation(s) , 1 poisson-equation(s) , 
+                   1 current-contact-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      4.39e+00                                                     10.32
+    1      8.73e+02   1.00e+00   1.22e-03   6.37e+01    0         3     37.85
+    2      2.65e-01   1.00e+00   9.74e-07   1.19e-02    0         3     65.22
+Finished, because...
+Error smaller than 1 ( 1.1923E-02 ).
+
+Accumulated times:
+Rhs time:       30.82 s
+Jacobian time:   2.15 s
+Solve time:     32.13 s
+Total time:     65.22 s
+
+Device Instance trans:
+Contact              Voltage              Electron      Hole         Conduction 
+                 outer       inner        current       current      current
+ ntype        1.068E+00    1.068E+00      4.814E-08     3.584E-08    8.399E-08
+ ptype        0.000E+00    8.399E-12      2.387E-09    -8.637E-08   -8.399E-08
+
+Computing step from t=0.89 to t=0.9 (Stepsize: 0.01) :
+Computing Coupled( 3 circuit-equation(s) , 1 poisson-equation(s) , 
+                   1 current-contact-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      3.98e+00                                                     10.28
+    1      8.17e+02   1.00e+00   1.22e-03   6.46e+01    0         3     41.28
+    2      2.87e-01   1.00e+00   1.05e-06   1.23e-02    0         3     69.45
+Finished, because...
+Error smaller than 1 ( 1.2329E-02 ).
+
+Accumulated times:
+Rhs time:       31.20 s
+Jacobian time:   2.12 s
+Solve time:     36.03 s
+Total time:     69.45 s
+
+Device Instance trans:
+Contact              Voltage              Electron      Hole         Conduction 
+                 outer       inner        current       current      current
+ ntype        1.080E+00    1.080E+00      4.825E-08     4.180E-08    9.005E-08
+ ptype        0.000E+00    9.005E-12      2.387E-09    -9.244E-08   -9.005E-08
+
+Computing step from t=0.9 to t=0.91 (Stepsize: 0.01) :
+Computing Coupled( 3 circuit-equation(s) , 1 poisson-equation(s) , 
+                   1 current-contact-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      4.93e+00                                                     11.53
+    1      7.59e+02   1.00e+00   1.22e-03   6.53e+01    0         3     39.38
+    2      2.68e-01   1.00e+00   1.12e-06   1.28e-02    0         3     66.73
+Finished, because...
+Error smaller than 1 ( 1.2781E-02 ).
+
+Accumulated times:
+Rhs time:       32.16 s
+Jacobian time:   2.17 s
+Solve time:     32.29 s
+Total time:     66.73 s
+
+Device Instance trans:
+Contact              Voltage              Electron      Hole         Conduction 
+                 outer       inner        current       current      current
+ ntype        1.092E+00    1.092E+00      4.839E-08     4.849E-08    9.687E-08
+ ptype        0.000E+00    9.687E-12      2.387E-09    -9.926E-08   -9.687E-08
+
+Computing step from t=0.91 to t=0.92 (Stepsize: 0.01) :
+Computing Coupled( 3 circuit-equation(s) , 1 poisson-equation(s) , 
+                   1 current-contact-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      6.69e+00                                                     10.15
+    1      7.03e+02   1.00e+00   1.22e-03   6.57e+01    0         3     37.27
+    2      3.75e-01   1.00e+00   1.19e-06   1.33e-02    0         3     64.60
+Finished, because...
+Error smaller than 1 ( 1.3288E-02 ).
+
+Accumulated times:
+Rhs time:       30.59 s
+Jacobian time:   2.13 s
+Solve time:     31.77 s
+Total time:     64.60 s
+
+Device Instance trans:
+Contact              Voltage              Electron      Hole         Conduction 
+                 outer       inner        current       current      current
+ ntype        1.104E+00    1.104E+00      4.855E-08     5.598E-08    1.045E-07
+ ptype        0.000E+00    1.045E-11      2.387E-09    -1.069E-07   -1.045E-07
+
+Computing step from t=0.92 to t=0.93 (Stepsize: 0.01) :
+Computing Coupled( 3 circuit-equation(s) , 1 poisson-equation(s) , 
+                   1 current-contact-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      7.06e+00                                                     10.18
+    1      6.63e+02   1.00e+00   1.22e-03   6.59e+01    0         3     37.58
+    2      3.14e-01   1.00e+00   1.27e-06   1.39e-02    0         3     64.84
+Finished, because...
+Error smaller than 1 ( 1.3852E-02 ).
+
+Accumulated times:
+Rhs time:       30.75 s
+Jacobian time:   2.08 s
+Solve time:     31.89 s
+Total time:     64.84 s
+
+Device Instance trans:
+Contact              Voltage              Electron      Hole         Conduction 
+                 outer       inner        current       current      current
+ ntype        1.116E+00    1.116E+00      4.874E-08     6.438E-08    1.131E-07
+ ptype        0.000E+00    1.131E-11      2.387E-09    -1.155E-07   -1.131E-07
+
+Computing step from t=0.93 to t=0.94 (Stepsize: 0.01) :
+Computing Coupled( 3 circuit-equation(s) , 1 poisson-equation(s) , 
+                   1 current-contact-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      6.36e+00                                                     10.25
+    1      6.22e+02   1.00e+00   1.22e-03   6.58e+01    0         3     37.59
+    2      3.50e-01   1.00e+00   1.34e-06   1.45e-02    0         3     65.11
+Finished, because...
+Error smaller than 1 ( 1.4470E-02 ).
+
+Accumulated times:
+Rhs time:       30.80 s
+Jacobian time:   2.10 s
+Solve time:     32.10 s
+Total time:     65.11 s
+
+Device Instance trans:
+Contact              Voltage              Electron      Hole         Conduction 
+                 outer       inner        current       current      current
+ ntype        1.128E+00    1.128E+00      4.896E-08     7.379E-08    1.228E-07
+ ptype        0.000E+00    1.228E-11      2.387E-09    -1.251E-07   -1.228E-07
+
+Computing step from t=0.94 to t=0.95 (Stepsize: 0.01) :
+Computing Coupled( 3 circuit-equation(s) , 1 poisson-equation(s) , 
+                   1 current-contact-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      7.85e+00                                                     10.30
+    1      5.81e+02   1.00e+00   1.21e-03   6.53e+01    0         3     37.95
+    2      2.54e-02   1.00e+00   1.41e-06   1.51e-02    0         3     65.91
+Finished, because...
+Error smaller than 1 ( 1.5138E-02 ).
+
+Accumulated times:
+Rhs time:       30.81 s
+Jacobian time:   2.08 s
+Solve time:     32.90 s
+Total time:     65.91 s
+
+Device Instance trans:
+Contact              Voltage              Electron      Hole         Conduction 
+                 outer       inner        current       current      current
+ ntype        1.140E+00    1.140E+00      4.923E-08     8.431E-08    1.335E-07
+ ptype        0.000E+00    1.335E-11      2.387E-09    -1.359E-07   -1.335E-07
+
+Computing step from t=0.95 to t=0.96 (Stepsize: 0.01) :
+Computing Coupled( 3 circuit-equation(s) , 1 poisson-equation(s) , 
+                   1 current-contact-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      9.60e+00                                                     10.28
+    1      5.40e+02   1.00e+00   1.22e-03   6.45e+01    0         3     37.85
+    2      6.29e-02   1.00e+00   1.47e-06   1.58e-02    0         3     65.30
+Finished, because...
+Error smaller than 1 ( 1.5848E-02 ).
+
+Accumulated times:
+Rhs time:       31.01 s
+Jacobian time:   2.11 s
+Solve time:     32.07 s
+Total time:     65.30 s
+
+Device Instance trans:
+Contact              Voltage              Electron      Hole         Conduction 
+                 outer       inner        current       current      current
+ ntype        1.152E+00    1.152E+00      4.954E-08     9.608E-08    1.456E-07
+ ptype        0.000E+00    1.456E-11      2.387E-09    -1.480E-07   -1.456E-07
+
+Computing step from t=0.96 to t=0.97 (Stepsize: 0.01) :
+Computing Coupled( 3 circuit-equation(s) , 1 poisson-equation(s) , 
+                   1 current-contact-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      1.04e+01                                                     10.24
+    1      4.98e+02   1.00e+00   1.22e-03   6.34e+01    0         3     37.73
+    2      2.61e-01   1.00e+00   1.53e-06   1.66e-02    0         3     66.33
+Finished, because...
+Error smaller than 1 ( 1.6589E-02 ).
+
+Accumulated times:
+Rhs time:       30.85 s
+Jacobian time:   2.11 s
+Solve time:     33.27 s
+Total time:     66.33 s
+
+Device Instance trans:
+Contact              Voltage              Electron      Hole         Conduction 
+                 outer       inner        current       current      current
+ ntype        1.164E+00    1.164E+00      4.991E-08     1.092E-07    1.591E-07
+ ptype        0.000E+00    1.591E-11      2.387E-09    -1.615E-07   -1.591E-07
+
+Computing step from t=0.97 to t=0.98 (Stepsize: 0.01) :
+Computing Coupled( 3 circuit-equation(s) , 1 poisson-equation(s) , 
+                   1 current-contact-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      1.09e+01                                                     10.31
+    1      4.57e+02   1.00e+00   1.23e-03   6.22e+01    0         3     37.57
+    2      2.37e-01   1.00e+00   1.59e-06   1.74e-02    0         3     64.99
+Finished, because...
+Error smaller than 1 ( 1.7351E-02 ).
+
+Accumulated times:
+Rhs time:       31.07 s
+Jacobian time:   2.09 s
+Solve time:     31.72 s
+Total time:     64.99 s
+
+Device Instance trans:
+Contact              Voltage              Electron      Hole         Conduction 
+                 outer       inner        current       current      current
+ ntype        1.176E+00    1.176E+00      5.032E-08     1.239E-07    1.742E-07
+ ptype        0.000E+00    1.742E-11      2.387E-09    -1.766E-07   -1.742E-07
+
+Computing step from t=0.98 to t=0.99 (Stepsize: 0.01) :
+Computing Coupled( 3 circuit-equation(s) , 1 poisson-equation(s) , 
+                   1 current-contact-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      1.35e+01                                                     10.37
+    1      4.24e+02   1.00e+00   1.24e-03   6.10e+01    0         3     38.51
+    2      1.30e-01   1.00e+00   1.64e-06   1.81e-02    0         3     65.37
+Finished, because...
+Error smaller than 1 ( 1.8117E-02 ).
+
+Accumulated times:
+Rhs time:       31.05 s
+Jacobian time:   2.13 s
+Solve time:     32.06 s
+Total time:     65.37 s
+
+Device Instance trans:
+Contact              Voltage              Electron      Hole         Conduction 
+                 outer       inner        current       current      current
+ ntype        1.188E+00    1.188E+00      5.081E-08     1.403E-07    1.911E-07
+ ptype        0.000E+00    1.911E-11      2.387E-09    -1.934E-07   -1.911E-07
+
+Computing step from t=0.99 to t=1 (Stepsize: 1.0000e-02) :
+Computing Coupled( 3 circuit-equation(s) , 1 poisson-equation(s) , 
+                   1 current-contact-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      1.37e+01                                                     10.32
+    1      4.01e+02   1.00e+00   1.26e-03   5.99e+01    0         3     37.29
+    2      4.07e-02   1.00e+00   1.68e-06   1.89e-02    0         3     64.61
+Finished, because...
+Error smaller than 1 ( 1.8909E-02 ).
+
+Accumulated times:
+Rhs time:       30.96 s
+Jacobian time:   2.10 s
+Solve time:     31.42 s
+Total time:     64.61 s
+
+Device Instance trans:
+Contact              Voltage              Electron      Hole         Conduction 
+                 outer       inner        current       current      current
+ ntype        1.200E+00    1.200E+00      5.136E-08     1.585E-07    2.098E-07
+ ptype        0.000E+00    2.098E-11      2.387E-09    -2.122E-07   -2.098E-07
+
+
+Finished, because of...
+Curve trace finished.
+
+
+===============================
+Starting solve of next problem:
+Quasistationary ( Digits : 5, Max. #iterations : 20, 
+      Initial step in t : 0.1, 
+      Minimum step in t : 1.0000e-08, Maximum step in t : 0.01, 
+      Increment : 2, Decrement : 2, 
+      Goal values :
+        Circuit element vg.dc : 1.2V
+    )
+  {
+    ACCoupled ( Digits : 5, Max. #iterations : 20, 
+          Solver : blocked decomposition,
+          AC Solver : blocked decomposition,
+          #undamped iterations : 50 ,
+          StartFrequency: 1, EndFrequency: 1.0000e+10, 
+          NumberOfPoints: 40 Mode: Decade, 
+          Node(g, b) 
+          Exclude() 
+          ACCompute (
+           Time (fixed times:
+               0.0000e+00 0.0125 0.025 0.0375 0.05
+               0.0625 0.075 0.0875 0.1 0.1125
+               0.125 0.1375 0.15 0.1625 0.175
+               0.1875 0.2 0.2125 0.225 0.2375
+               0.25 0.2625 0.275 0.2875 0.3
+               0.3125 0.325 0.3375 0.35 0.3625
+               0.375 0.3875 0.4 0.4125 0.425
+               0.4375 0.45 0.4625 0.475 0.4875
+               0.5 0.5125 0.525 0.5375 0.55
+               0.5625 0.575 0.5875 0.6 0.6125
+               0.625 0.6375 0.65 0.6625 0.675
+               0.6875 0.7 0.7125 0.725 0.7375
+               0.75 0.7625 0.775 0.7875 0.8
+               0.8125 0.825 0.8375 0.85 0.8625
+               0.875 0.8875 0.9 0.9125 0.925
+               0.9375 0.95 0.9625 0.975 0.9875
+               1) )
+        )
+      { Poisson Electron Hole }
+  }
+===============================
+
+Computing solution for t=0 :
+Computing Coupled( 3 circuit-equation(s) , 1 poisson-equation(s) , 
+                   1 current-contact-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      4.07e-02                                                     10.38
+    1      4.07e-02   1.00e+00   1.68e-09   1.09e-05    0         3     38.14
+Finished, because...
+Error smaller than 1 ( 1.0922E-05 ).
+
+Accumulated times:
+Rhs time:       20.74 s
+Jacobian time:   1.08 s
+Solve time:     16.24 s
+Total time:     38.14 s
+
+Device Instance trans:
+Contact              Voltage              Electron      Hole         Conduction 
+                 outer       inner        current       current      current
+ ntype        1.200E+00    1.200E+00      5.136E-08     1.585E-07    2.098E-07
+ ptype        0.000E+00    2.098E-11      2.387E-09    -2.122E-07   -2.098E-07
+
+
+AC small signal computation
+---------------------------
+(Using complex mode)
+
+
+Computing frequency 1 OK (time: 67.61 s)
+
+Computing frequency 1.80472 OK (time:134.81 s)
+
+Computing frequency 3.25702 OK (time:202.03 s)
+
+Computing frequency 5.87802 OK (time:269.51 s)
+
+Computing frequency 10.6082 OK (time:336.95 s)
+
+Computing frequency 19.1448 OK (time:404.40 s)
+
+Computing frequency 34.5511 OK (time:471.85 s)
+
+Computing frequency 62.3551 OK (time:539.29 s)
+
+Computing frequency 1.1253e+02 OK (time:606.77 s)
+
+Computing frequency 2.0309e+02 OK (time:674.23 s)
+
+Computing frequency 3.6652e+02 OK (time:741.73 s)
+
+Computing frequency 6.6147e+02 OK (time:809.17 s)
+
+Computing frequency 1.1938e+03 OK (time:876.66 s)
+
+Computing frequency 2.1544e+03 OK (time:944.13 s)
+
+Computing frequency 3.8882e+03 OK (time:1011.64 s)
+
+Computing frequency 7.0170e+03 OK (time:1079.22 s)
+
+Computing frequency 1.2664e+04 OK (time:1149.51 s)
+
+Computing frequency 2.2855e+04 OK (time:1219.24 s)
+
+Computing frequency 4.1246e+04 OK (time:1290.30 s)
+
+Computing frequency 7.4438e+04 OK (time:1358.10 s)
+
+Computing frequency 1.3434e+05 OK (time:1429.51 s)
+
+Computing frequency 2.4245e+05 OK (time:1500.72 s)
+
+Computing frequency 4.3755e+05 OK (time:1570.23 s)
+
+Computing frequency 7.8965e+05 OK (time:1639.97 s)
+
+Computing frequency 1.4251e+06 OK (time:1711.18 s)
+
+Computing frequency 2.5719e+06 OK (time:1786.86 s)
+
+Computing frequency 4.6416e+06 OK (time:1856.74 s)
+
+Computing frequency 8.3768e+06 OK (time:1930.04 s)
+
+Computing frequency 1.5118e+07 OK (time:1999.00 s)
+
+Computing frequency 2.7283e+07 OK (time:2070.97 s)
+
+Computing frequency 4.9239e+07 OK (time:2140.75 s)
+
+Computing frequency 8.8862e+07 OK (time:2208.56 s)
+
+Computing frequency 1.6037e+08 OK (time:2275.98 s)
+
+Computing frequency 2.8943e+08 OK (time:2343.38 s)
+
+Computing frequency 5.2233e+08 OK (time:2413.11 s)
+
+Computing frequency 9.4267e+08 OK (time:2481.15 s)
+
+Computing frequency 1.7013e+09 OK (time:2550.74 s)
+
+Computing frequency 3.0703e+09 OK (time:2622.77 s)
+
+Computing frequency 5.5410e+09 OK (time:2696.01 s)
+
+Computing frequency 1.0000e+10 OK (time:2766.10 s)
+
+Writing plot '../LAE/trans_sde_dvs_des_decade.tdr' (TDR format) ... done.
+
+Wed Jan 28 16:46:03 2015: checked in 1 sdevice-optic license(s)
+Wed Jan 28 16:46:03 2015: checked in 1 Dessis-Optic license(s)
+Wed Jan 28 16:46:03 2015: checked in 1 sdevice-hetero license(s)
+Wed Jan 28 16:46:03 2015: checked in 1 Dessis-Hetero license(s)
+Wed Jan 28 16:46:03 2015: checked in 5 sparallel license(s)
+Wed Jan 28 16:46:03 2015: checked in 5 sdevice-parallel license(s)
+Wed Jan 28 16:46:03 2015: checked in 5 Dessis-Parallel license(s)
+Wed Jan 28 16:46:03 2015: checked in 1 sdevice license(s)
+Wed Jan 28 16:46:03 2015: checked in 1 Dessis license(s)
+
+******************************************************************************
+Sentaurus Device process size: 3493 megabytes
+Sentaurus Device simulation times:
+  wallclock: 6561.30 s (1 h:49 m:21 s)
+  total cpu: 9861.07 s (2 h:44 m:21 s)
+Sentaurus Device simulation finished (Date: Wed Jan 28 16:46:03 2015  (PDT)).
+********************************* Good Bye ! *********************************

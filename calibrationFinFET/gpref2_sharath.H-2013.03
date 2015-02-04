@@ -1,0 +1,3 @@
+sedit*Font.textfont: -family {lucida} -size 14 -weight normal  -slant roman -underline 0 -overstrike 0
+sedit*WB_Miscellaneous.intend: 1
+sedit*WB_Miscellaneous.wrap: none

@@ -1,0 +1,19 @@
+###########################################
+# Sentaurus Visual H-2013.03.
+# Tcl log file.
+#------------------------------------------
+# Date: Jul 01, 2013. 18:19:51.
+# Version: 21.0.5 (1.5)
+# Mode: Interactive (GUI).
+# Mesa: enabled.
+# Hostname: mtlsim2.
+# Machine: Linux, x86_64, amd64.
+# Kernel: 2.6.18-238.12.1.el5.
+###########################################
+
+load_file /homes/parthi/sentaurus_projects/nikhil/STB/APD/apd/APD/sde_msh.tdr
+create_plot -dataset sde_msh
+select_plots {Plot_sde_msh}
+#-> Plot_sde_msh
+#-> Plot_sde_msh
+#-> sde_msh

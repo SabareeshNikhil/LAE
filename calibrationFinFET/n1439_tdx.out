@@ -1,0 +1,54 @@
+ material Vd_1438_des.sav 0 0: Silicon
+ material Vd_1438_des.sav 0 0: Source_Ext
+ material Vd_1438_des.sav 0 1: Silicon
+ material Vd_1438_des.sav 0 1: FIN.0
+ material Vd_1438_des.sav 0 2: Silicide
+ material Vd_1438_des.sav 0 2: Drain_Sili_lump_1
+ material Vd_1438_des.sav 0 3: Si3N4
+ material Vd_1438_des.sav 0 3: Sspacer.0_lump_1
+ material Vd_1438_des.sav 0 4: Silicide
+ material Vd_1438_des.sav 0 4: Drain_Sili_lump_2
+ material Vd_1438_des.sav 0 5: SiO2
+ material Vd_1438_des.sav 0 5: GateOxide.0_lump_1
+ material Vd_1438_des.sav 0 6: Si3N4
+ material Vd_1438_des.sav 0 6: Dspacer.0_lump_1
+ material Vd_1438_des.sav 0 7: Si3N4
+ material Vd_1438_des.sav 0 7: Sspacer.0_lump_2
+ material Vd_1438_des.sav 0 8: Silicon
+ material Vd_1438_des.sav 0 8: SFIN.0
+ material Vd_1438_des.sav 0 9: Silicon
+ material Vd_1438_des.sav 0 9: Drain_Ext
+ material Vd_1438_des.sav 0 10: Silicide
+ material Vd_1438_des.sav 0 10: Source_Sili_lump_1
+ material Vd_1438_des.sav 0 11: SiO2
+ material Vd_1438_des.sav 0 11: GateOxide.0_lump_2
+ material Vd_1438_des.sav 0 12: Si3N4
+ material Vd_1438_des.sav 0 12: Dspacer.0_lump_2
+ material Vd_1438_des.sav 0 13: Silicon
+ material Vd_1438_des.sav 0 13: DFIN.0
+ material Vd_1438_des.sav 0 14: Silicide
+ material Vd_1438_des.sav 0 14: Source_Sili_lump_2
+ material Vd_1438_des.sav 0 15: <contact>
+ material Vd_1438_des.sav 0 15: gate
+ Contact: 0
+ material Vd_1438_des.sav 0 16: <contact>
+ material Vd_1438_des.sav 0 16: source
+ Contact: 1
+ material Vd_1438_des.sav 0 17: <contact>
+ material Vd_1438_des.sav 0 17: drain
+ Contact: 2
+ Drain contact: 2
+ DOE: ndrain 2
+
+****************************************************************************
+***                  Sentaurus Workbench Visualization                   ***
+***                          Version H-2013.03                           ***
+***                            (1.1, RHEL64)                             ***
+***                                                                      ***
+***                Copyright (c) 1994-2013 Synopsys, Inc.                ***
+***                                                                      ***
+***  This software and the associated documentation are confidential     ***
+***  and proprietary to Synopsys, Inc.  Your use or disclosure of this   ***
+***  software is subject to the terms and conditions of a written        ***
+***  license agreement between you, or your company, and Synopsys, Inc.  ***
+****************************************************************************

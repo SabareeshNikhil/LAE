@@ -1,0 +1,32 @@
+****************************************************************************
+***                               Inspect                                ***
+***                          Version H-2013.03                           ***
+***                            (1.3, RHEL64)                             ***
+***                                                                      ***
+***                       Copyright (C) 1994-2013                        ***
+***                            Synopsys, Inc.                            ***
+***                                                                      ***
+***  This software and the associated documentation are confidential     ***
+***  and proprietary to Synopsys, Inc.  Your use or disclosure of this   ***
+***  software is subject to the terms and conditions of a written        ***
+***  license agreement between you, or your company, and Synopsys, Inc.  ***
+****************************************************************************
+
+Loading library 'EXTRACT' from file '/usr/local/Softwares/Sentaurus/Sentaurus_vH_2013.03/bin/../tcad/current/lib/inspectlib/EXTRACT.tcl'
+Loading EXTRACT.tcl V2.2
+ 
+--------------------------------------------------- 
+   INSPECT variable extraction: 
+--------------------------------------------------- 
+ 
+Date      : Thu Sep 11 07:09:58 IST 2014 
+Directory : /home/users/sharath/Desktop/calibrationFinFET 
+ 
+out_file = Cprime_prelims_1079
+proj_load = Cprime_prelims_1079.plt
+------------------------------------------------------------
+Error : not found
+------------------------------------------------------------
+------------------------------------------------------------
+Error : expected floating-point number but got ""
+------------------------------------------------------------

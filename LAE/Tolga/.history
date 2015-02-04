@@ -1,0 +1,4 @@
+15:12:29 Jul 01 2013 <hetero_thz2> submitted to the batch system
+15:12:30 Jul 01 2013     job 5 <sdevice> started on host 'thzlab4.eecs.umich.edu': "sdevice pp5_des.cmd"
+16:26:33 Jul 01 2013 +++ job 5 <sdevice> done: exit(0)
+16:26:36 Jul 01 2013 <hetero_thz2> done (4447 sec)

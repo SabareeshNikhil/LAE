@@ -1,0 +1,2 @@
+set WB_tool(sde,exec_mode) interactive
+set WB_tool(sde,input,boundary,user) 1

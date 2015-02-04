@@ -1,0 +1,9 @@
+load_file /w/ee.00/mjarrahi/snikhil/Research/LAE/sde_dvs_des.tdr
+create_plot -dataset sde_dvs_des
+select_plots {Plot_sde_dvs_des}
+#-> Plot_sde_dvs_des
+#-> Plot_sde_dvs_des
+#-> sde_dvs_des
+set_field_prop Abs(ElectricField-V) -show_bands
+#-> 0
+exit

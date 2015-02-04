@@ -1,0 +1,372 @@
+1600 0 15 0           
+3 SDE 15 ACIS 22.0 Linux 24 Mon Jul  1 15:07:13 2013 
+1 9.9999999999999995e-07 1e-10 
+eye_refinement $15 -1 @5 grid  1 @3 tri 1 @4 surf 0 @3 adj 0 @4 grad 0 @9 postcheck 0 @4 stol 0 @4 ntol 15 @4 dsil 0 @8 flatness 0 @7 pixarea 0 @4 hmax 0 @6 gridar 0 @5 mgrid 512 @5 ugrid 0 @5 vgrid 0 @10 end_fields #
+wcs $16 -1 1 0 0 0 1 0 0 0 1 0 0 0 1 no_rotate no_reflect no_shear #
+wcs $17 -1 0 1 0 0 0 1 1 0 0 0 0 0 1 rotate no_reflect no_shear #
+wcs $18 -1 1 0 0 -0 0 1 0 -1 0 0 0 0 1 rotate no_reflect no_shear #
+body $19 -1 -1 $-1 $20 $-1 $21 T 0 -10 0 100 8 0 #
+body $22 -1 -1 $-1 $23 $-1 $24 T 0 8 0 100 11 0 #
+body $25 -1 -1 $-1 $26 $-1 $27 T 30 14.5 0 40 15 0 #
+body $28 -1 -1 $-1 $29 $-1 $-1 T 28 10.800000000000001 0 42 11.199999999999999 0 #
+body $30 -1 -1 $-1 $31 $-1 $-1 T 28 10.800000000000001 0 42 11.199999999999999 0 #
+body $32 -1 -1 $-1 $33 $-1 $-1 T 30 14.300000000000001 0 40 14.699999999999999 0 #
+body $34 -1 -1 $-1 $35 $-1 $36 T 30 15 0 40 15.1 0 #
+body $37 -1 -1 $-1 $38 $-1 $39 T 50 11 0 60 11.1 0 #
+body $40 -1 -1 $-1 $41 $-1 $-1 T 0 7.7999999999999998 0 100 8.1999999999999993 0 #
+body $42 -1 -1 $-1 $43 $-1 $44 T 30 11 0 40 14.449999999999999 0 #
+body $45 -1 -1 $-1 $46 $-1 $47 T 30 14.449999999999999 0 40 14.5 0 #
+name_attrib-gen-attrib $-1 -1 $-1 $-1 $0 2 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 @7 sde-ref #
+entity_attrib-name_attrib-gen-attrib $-1 -1 $-1 $-1 $1 2 1 1 2 1 1 1 1 1 1 1 1 0 1 0 1 1 1 @4 base $1 #
+entity_attrib-name_attrib-gen-attrib $-1 -1 $-1 $-1 $2 2 1 1 2 1 1 1 1 1 1 1 1 0 1 0 1 1 1 @5 wp_yz $1 #
+entity_attrib-name_attrib-gen-attrib $-1 -1 $-1 $-1 $3 2 1 1 2 1 1 1 1 1 1 1 1 0 1 0 1 1 1 @5 wp_xz $1 #
+string_attrib-name_attrib-gen-attrib $-1 -1 $48 $-1 $4 2 1 2 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 @12 transmission @5 black #
+lump $-1 -1 -1 $-1 $-1 $49 $4 T 0 -10 0 100 8 0 #
+transform $-1 -1 1 0 0 0 1 0 0 0 1 0 0 0 1 no_rotate no_reflect no_shear #
+string_attrib-name_attrib-gen-attrib $-1 -1 $50 $-1 $5 2 1 2 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 @12 transmission @5 black #
+lump $-1 -1 -1 $-1 $-1 $51 $5 T 0 8 0 100 11 0 #
+transform $-1 -1 1 0 0 0 1 0 0 0 1 0 0 0 1 no_rotate no_reflect no_shear #
+string_attrib-name_attrib-gen-attrib $-1 -1 $52 $-1 $6 2 1 2 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 @12 transmission @5 black #
+lump $-1 -1 -1 $-1 $-1 $53 $6 T 30 14.5 0 40 15 0 #
+transform $-1 -1 1 0 0 0 1 0 0 0 1 0 0 0 1 no_rotate no_reflect no_shear #
+string_attrib-name_attrib-gen-attrib $-1 -1 $54 $-1 $7 2 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 @3 DRS @12 RefEvalWin_3 #
+lump $-1 -1 -1 $-1 $-1 $55 $7 T 28 10.800000000000001 0 42 11.199999999999999 0 #
+string_attrib-name_attrib-gen-attrib $-1 -1 $56 $-1 $8 2 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 @3 DRS @8 Refwin_2 #
+lump $-1 -1 -1 $-1 $-1 $57 $8 T 28 10.800000000000001 0 42 11.199999999999999 0 #
+string_attrib-name_attrib-gen-attrib $-1 -1 $58 $-1 $9 2 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 @3 DRS @12 RefEvalWin_4 #
+lump $-1 -1 -1 $-1 $-1 $59 $9 T 30 14.300000000000001 0 40 14.699999999999999 0 #
+string_attrib-name_attrib-gen-attrib $-1 -1 $60 $-1 $10 2 1 2 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 @12 transmission @5 black #
+lump $-1 -1 -1 $-1 $-1 $61 $10 T 30 15 0 40 15.1 0 #
+transform $-1 -1 1 0 0 0 1 0 0 0 1 0 0 0 1 no_rotate no_reflect no_shear #
+string_attrib-name_attrib-gen-attrib $-1 -1 $62 $-1 $11 2 1 2 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 @12 transmission @5 black #
+lump $-1 -1 -1 $-1 $-1 $63 $11 T 50 11 0 60 11.1 0 #
+transform $-1 -1 1 0 0 0 1 0 0 0 1 0 0 0 1 no_rotate no_reflect no_shear #
+string_attrib-name_attrib-gen-attrib $-1 -1 $64 $-1 $12 2 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 @3 DRS @8 Refwin_1 #
+lump $-1 -1 -1 $-1 $-1 $65 $12 T 0 7.7999999999999998 0 100 8.1999999999999993 0 #
+string_attrib-name_attrib-gen-attrib $-1 -1 $66 $-1 $13 2 1 2 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 @12 transmission @5 black #
+lump $-1 -1 -1 $-1 $-1 $67 $13 T 30 11 0 40 14.449999999999999 0 #
+transform $-1 -1 1 0 0 0 1 0 0 0 1 0 0 0 1 no_rotate no_reflect no_shear #
+string_attrib-name_attrib-gen-attrib $-1 -1 $68 $-1 $14 2 1 2 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 @12 transmission @5 black #
+lump $-1 -1 -1 $-1 $-1 $69 $14 T 30 14.449999999999999 0 40 14.5 0 #
+transform $-1 -1 1 0 0 0 1 0 0 0 1 0 0 0 1 no_rotate no_reflect no_shear #
+string_attrib-name_attrib-gen-attrib $-1 -1 $70 $19 $4 2 1 2 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 @6 region @11 Subs_region #
+shell $-1 -1 -1 $-1 $-1 $-1 $71 $-1 $20 T 0 -10 0 100 8 0 #
+string_attrib-name_attrib-gen-attrib $-1 -1 $72 $22 $5 2 1 2 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 @6 region @8 p_region #
+shell $-1 -1 -1 $-1 $-1 $-1 $73 $-1 $23 T 0 8 0 100 11 0 #
+string_attrib-name_attrib-gen-attrib $-1 -1 $74 $25 $6 2 1 2 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 @6 region @8 n_region #
+shell $-1 -1 -1 $-1 $-1 $-1 $75 $-1 $26 T 30 14.5 0 40 15 0 #
+string_attrib-name_attrib-gen-attrib $-1 -1 $76 $28 $7 2 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 @12 transmission @4 gray #
+shell $-1 -1 -1 $-1 $-1 $-1 $77 $-1 $29 T 28 10.800000000000001 0 42 11.199999999999999 0 #
+string_attrib-name_attrib-gen-attrib $-1 -1 $78 $30 $8 2 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 @12 transmission @4 gray #
+shell $-1 -1 -1 $-1 $-1 $-1 $79 $-1 $31 T 28 10.800000000000001 0 42 11.199999999999999 0 #
+string_attrib-name_attrib-gen-attrib $-1 -1 $80 $32 $9 2 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 @12 transmission @4 gray #
+shell $-1 -1 -1 $-1 $-1 $-1 $81 $-1 $33 T 30 14.300000000000001 0 40 14.699999999999999 0 #
+string_attrib-name_attrib-gen-attrib $-1 -1 $82 $34 $10 2 1 2 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 @6 region @11 region_4_b0 #
+shell $-1 -1 -1 $-1 $-1 $-1 $83 $-1 $35 T 30 15 0 40 15.1 0 #
+string_attrib-name_attrib-gen-attrib $-1 -1 $84 $37 $11 2 1 2 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 @6 region @11 region_5_b0 #
+shell $-1 -1 -1 $-1 $-1 $-1 $85 $-1 $38 T 50 11 0 60 11.1 0 #
+string_attrib-name_attrib-gen-attrib $-1 -1 $86 $40 $12 2 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 @3 DRS @0  #
+shell $-1 -1 -1 $-1 $-1 $-1 $87 $-1 $41 T 0 7.7999999999999998 0 100 8.1999999999999993 0 #
+string_attrib-name_attrib-gen-attrib $-1 -1 $88 $42 $13 2 1 2 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 @6 region @8 i_region #
+shell $-1 -1 -1 $-1 $-1 $-1 $89 $-1 $43 T 30 11 0 40 14.449999999999999 0 #
+string_attrib-name_attrib-gen-attrib $-1 -1 $90 $45 $14 2 1 2 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 @6 region @12 block_region #
+shell $-1 -1 -1 $-1 $-1 $-1 $91 $-1 $46 T 30 14.449999999999999 0 40 14.5 0 #
+string_attrib-name_attrib-gen-attrib $-1 -1 $92 $48 $4 2 1 2 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 @8 material @3 InP #
+face $-1 -1 -1 $-1 $-1 $93 $49 $-1 $94 forward double out T 0 -10 0 100 8 0 F #
+string_attrib-name_attrib-gen-attrib $-1 -1 $95 $50 $5 2 1 2 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 @8 material @6 InAlAs #
+face $-1 -1 -1 $-1 $-1 $96 $51 $-1 $97 forward double out T 0 8 0 100 11 0 F #
+string_attrib-name_attrib-gen-attrib $-1 -1 $98 $52 $6 2 1 2 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 @8 material @6 InGaAs #
+face $-1 -1 -1 $-1 $-1 $99 $53 $-1 $100 forward double out T 30 14.5 0 40 15 0 F #
+render-rbase-attrib $-1 -1 $-1 $54 $7 1 1 1 1 1 1 1 1 1 1 1 1 0 1 0 1 1 1 $101 $-1 0 0 #
+face $-1 -1 -1 $-1 $-1 $102 $55 $-1 $103 forward double out F F #
+render-rbase-attrib $-1 -1 $-1 $56 $8 1 1 1 1 1 1 1 1 1 1 1 1 0 1 0 1 1 1 $104 $-1 0 0 #
+face $-1 -1 -1 $-1 $-1 $105 $57 $-1 $106 forward double out F F #
+render-rbase-attrib $-1 -1 $-1 $58 $9 1 1 1 1 1 1 1 1 1 1 1 1 0 1 0 1 1 1 $107 $-1 0 0 #
+face $-1 -1 -1 $-1 $-1 $108 $59 $-1 $109 forward double out F F #
+string_attrib-name_attrib-gen-attrib $-1 -1 $110 $60 $10 2 1 2 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 @8 material @4 Gold #
+face $-1 -1 -1 $-1 $-1 $111 $61 $-1 $112 forward double out T 30 15 0 40 15.1 0 F #
+string_attrib-name_attrib-gen-attrib $-1 -1 $113 $62 $11 2 1 2 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 @8 material @4 Gold #
+face $-1 -1 -1 $-1 $-1 $114 $63 $-1 $115 forward double out T 50 11 0 60 11.1 0 F #
+string_attrib-name_attrib-gen-attrib $-1 -1 $116 $64 $12 2 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 @12 transmission @4 gray #
+face $-1 -1 -1 $-1 $-1 $117 $65 $-1 $118 forward double out F F #
+string_attrib-name_attrib-gen-attrib $-1 -1 $119 $66 $13 2 1 2 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 @8 material @6 AlGaAs #
+face $-1 -1 -1 $-1 $-1 $120 $67 $-1 $121 forward double out T 30 11 0 40 14.449999999999999 0 F #
+string_attrib-name_attrib-gen-attrib $-1 -1 $122 $68 $14 2 1 2 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 @8 material @6 AlGaAs #
+face $-1 -1 -1 $-1 $-1 $123 $69 $-1 $124 forward double out T 30 14.449999999999999 0 40 14.5 0 F #
+rgb_color-st-attrib $-1 -1 $-1 $70 $4 2 1 2 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 0.83921568627450982 0.65098039215686276 0.65098039215686276 #
+loop $-1 -1 -1 $-1 $-1 $125 $71 T 0 -10 0 100 8 0 periphery $94 F #
+plane-surface $-1 -1 -1 $-1 50 -1 0 0 0 1 1 0 0 forward_v I I I I #
+rgb_color-st-attrib $-1 -1 $-1 $72 $5 2 1 2 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 0.44313725490196076 0.46274509803921571 0.59999999999999998 #
+loop $-1 -1 -1 $-1 $-1 $126 $73 T 0 8 0 100 11 0 unknown #
+plane-surface $-1 -1 -1 $-1 50 9.5 0 0 0 1 1 0 0 forward_v I I I I #
+rgb_color-st-attrib $-1 -1 $-1 $74 $6 2 1 2 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 0.83921568627450982 0.65098039215686276 0.83921568627450982 #
+loop $-1 -1 -1 $-1 $-1 $127 $75 T 30 14.5 0 40 15 0 periphery $100 F #
+plane-surface $-1 -1 -1 $-1 34.999999999999993 14.749999999999998 0 0 0 1 1 0 0 forward_v I I I I #
+rh_material-rh_entity $-1 -1 4 0 @5 plain @5 color -4 0 1 0 @5 phong @14 ambient factor -2 1 @14 diffuse factor -2 0.75 @15 specular factor -2 0.5 @8 exponent -2 10 @14 specular color -4 1 1 1 @4 none @4 none #
+loop $-1 -1 -1 $-1 $-1 $128 $77 T 28 10.800000000000001 0 42 11.199999999999999 0 periphery $103 F #
+plane-surface $-1 -1 -1 $-1 35 11 0 0 0 1 1 0 0 forward_v I I I I #
+rh_material-rh_entity $-1 -1 4 0 @5 plain @5 color -4 0 1 0 @5 phong @14 ambient factor -2 1 @14 diffuse factor -2 0.75 @15 specular factor -2 0.5 @8 exponent -2 10 @14 specular color -4 1 1 1 @4 none @4 none #
+loop $-1 -1 -1 $-1 $-1 $129 $79 T 28 10.800000000000001 0 42 11.199999999999999 0 periphery $106 F #
+plane-surface $-1 -1 -1 $-1 35 11 0 0 0 1 1 0 0 forward_v I I I I #
+rh_material-rh_entity $-1 -1 4 0 @5 plain @5 color -4 0 1 0 @5 phong @14 ambient factor -2 1 @14 diffuse factor -2 0.75 @15 specular factor -2 0.5 @8 exponent -2 10 @14 specular color -4 1 1 1 @4 none @4 none #
+loop $-1 -1 -1 $-1 $-1 $130 $81 T 30 14.300000000000001 0 40 14.699999999999999 0 periphery $109 F #
+plane-surface $-1 -1 -1 $-1 35 14.5 0 0 0 1 1 0 0 forward_v I I I I #
+rgb_color-st-attrib $-1 -1 $-1 $82 $10 2 1 2 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 0.84313725490196079 0 #
+loop $-1 -1 -1 $-1 $-1 $131 $83 T 30 15 0 40 15.1 0 periphery $112 F #
+plane-surface $-1 -1 -1 $-1 35 15.049999999999995 0 0 0 1 1 0 0 forward_v I I I I #
+rgb_color-st-attrib $-1 -1 $-1 $84 $11 2 1 2 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 0.84313725490196079 0 #
+loop $-1 -1 -1 $-1 $-1 $132 $85 T 50 11 0 60 11.1 0 periphery $115 F #
+plane-surface $-1 -1 -1 $-1 54.999999999999986 11.049999999999997 0 0 0 1 1 0 0 forward_v I I I I #
+render-rbase-attrib $-1 -1 $-1 $86 $12 1 1 1 1 1 1 1 1 1 1 1 1 0 1 0 1 1 1 $133 $-1 0 0 #
+loop $-1 -1 -1 $-1 $-1 $134 $87 T 0 7.7999999999999998 0 100 8.1999999999999993 0 periphery $118 F #
+plane-surface $-1 -1 -1 $-1 49.999999999999993 7.9999999999999982 0 0 0 1 1 0 0 forward_v I I I I #
+rgb_color-st-attrib $-1 -1 $-1 $88 $13 2 1 2 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 0.65098039215686276 0.83921568627450982 0.83921568627450982 #
+loop $-1 -1 -1 $-1 $-1 $135 $89 T 30 11 0 40 14.449999999999999 0 periphery $121 F #
+plane-surface $-1 -1 -1 $-1 35 12.724999999999998 0 0 0 1 1 0 0 forward_v I I I I #
+rgb_color-st-attrib $-1 -1 $-1 $90 $14 2 1 2 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 0.65098039215686276 0.83921568627450982 0.83921568627450982 #
+loop $-1 -1 -1 $-1 $-1 $136 $91 T 30 14.449999999999999 0 40 14.5 0 periphery $124 F #
+plane-surface $-1 -1 -1 $-1 34.999999999999993 14.475 0 0 0 1 1 0 0 forward_v I I I I #
+coedge $-1 -1 -1 $-1 $137 $138 $-1 $139 reversed $93 $-1 #
+coedge $-1 -1 -1 $-1 $140 $141 $-1 $142 forward $96 $-1 #
+coedge $-1 -1 -1 $-1 $143 $144 $-1 $145 forward $99 $-1 #
+coedge $-1 -1 -1 $-1 $146 $147 $-1 $148 forward $102 $-1 #
+coedge $-1 -1 -1 $-1 $149 $150 $-1 $151 forward $105 $-1 #
+coedge $-1 -1 -1 $-1 $152 $153 $-1 $154 forward $108 $-1 #
+coedge $-1 -1 -1 $-1 $155 $156 $-1 $157 forward $111 $-1 #
+coedge $-1 -1 -1 $-1 $158 $159 $-1 $160 forward $114 $-1 #
+rh_material-rh_entity $-1 -1 4 0 @5 plain @5 color -4 0 1 0 @5 phong @14 ambient factor -2 1 @14 diffuse factor -2 0.75 @15 specular factor -2 0.5 @8 exponent -2 10 @14 specular color -4 1 1 1 @4 none @4 none #
+coedge $-1 -1 -1 $-1 $161 $162 $-1 $163 forward $117 $-1 #
+coedge $-1 -1 -1 $-1 $164 $165 $-1 $166 forward $120 $-1 #
+coedge $-1 -1 -1 $-1 $167 $168 $-1 $169 forward $123 $-1 #
+coedge $-1 -1 -1 $-1 $170 $125 $-1 $171 reversed $93 $-1 #
+coedge $-1 -1 -1 $-1 $125 $170 $-1 $172 reversed $93 $-1 #
+edge $-1 -1 -1 $-1 $173 0 $174 18 $125 $175 forward @7 unknown T 0 -10 0 0 8 0 #
+coedge $-1 -1 -1 $-1 $176 $126 $-1 $177 forward $96 $-1 #
+coedge $-1 -1 -1 $-1 $126 $178 $-1 $179 forward $96 $-1 #
+edge $-1 -1 -1 $-1 $180 0 $181 100 $126 $182 forward @7 unknown T 0 8 0 100 8 0 #
+coedge $-1 -1 -1 $-1 $183 $127 $-1 $184 forward $99 $-1 #
+coedge $-1 -1 -1 $-1 $127 $183 $-1 $185 forward $99 $-1 #
+edge $-1 -1 -1 $-1 $186 0 $187 10 $127 $188 forward @7 unknown T 30 14.5 0 40 14.5 0 #
+coedge $-1 -1 -1 $-1 $189 $128 $-1 $190 forward $102 $-1 #
+coedge $-1 -1 -1 $-1 $128 $189 $-1 $191 forward $102 $-1 #
+edge $-1 -1 -1 $-1 $192 0 $193 14 $128 $194 forward @7 unknown T 28 10.800000000000001 0 42 10.800000000000001 0 #
+coedge $-1 -1 -1 $-1 $195 $129 $-1 $196 forward $105 $-1 #
+coedge $-1 -1 -1 $-1 $129 $195 $-1 $197 forward $105 $-1 #
+edge $-1 -1 -1 $-1 $198 0 $199 14 $129 $200 forward @7 unknown T 28 10.800000000000001 0 42 10.800000000000001 0 #
+coedge $-1 -1 -1 $-1 $201 $130 $-1 $202 forward $108 $-1 #
+coedge $-1 -1 -1 $-1 $130 $201 $-1 $203 forward $108 $-1 #
+edge $-1 -1 -1 $-1 $204 0 $205 10 $130 $206 forward @7 unknown T 30 14.300000000000001 0 40 14.300000000000001 0 #
+coedge $-1 -1 -1 $-1 $207 $131 $-1 $208 forward $111 $-1 #
+coedge $-1 -1 -1 $-1 $131 $207 $-1 $209 forward $111 $-1 #
+edge $-1 -1 -1 $-1 $210 0 $211 10 $131 $212 forward @7 unknown T 30 15 0 40 15 0 #
+coedge $-1 -1 -1 $-1 $213 $132 $-1 $214 forward $114 $-1 #
+coedge $-1 -1 -1 $-1 $132 $213 $-1 $215 forward $114 $-1 #
+edge $216 -1 -1 $-1 $217 0 $218 10 $132 $219 forward @7 unknown T 50 11 0 60 11 0 #
+coedge $-1 -1 -1 $-1 $220 $134 $-1 $221 forward $117 $-1 #
+coedge $-1 -1 -1 $-1 $134 $220 $-1 $222 forward $117 $-1 #
+edge $-1 -1 -1 $-1 $223 0 $224 100 $134 $225 forward @7 unknown T 0 7.7999999999999998 0 100 7.7999999999999998 0 #
+coedge $-1 -1 -1 $-1 $226 $135 $-1 $227 forward $120 $-1 #
+coedge $-1 -1 -1 $-1 $135 $226 $-1 $228 forward $120 $-1 #
+edge $-1 -1 -1 $-1 $229 0 $230 10 $135 $231 forward @7 unknown T 30 11 0 40 11 0 #
+coedge $-1 -1 -1 $-1 $232 $136 $-1 $233 forward $123 $-1 #
+coedge $-1 -1 -1 $-1 $136 $232 $-1 $234 forward $123 $-1 #
+edge $-1 -1 -1 $-1 $235 0 $236 10 $136 $237 forward @7 unknown T 30 14.449999999999999 0 40 14.449999999999999 0 #
+coedge $-1 -1 -1 $-1 $138 $137 $-1 $238 reversed $93 $-1 #
+edge $-1 -1 -1 $-1 $239 0 $173 100 $137 $240 forward @7 unknown T 0 -10 0 100 -10 0 #
+edge $-1 -1 -1 $-1 $174 0 $241 100 $138 $242 forward @7 unknown T 0 8 0 100 8 0 #
+vertex $-1 -1 -1 $-1 $171 $243 #
+vertex $-1 -1 -1 $-1 $172 $244 #
+straight-curve $-1 -1 -1 $-1 0 -10 0 0 1 0 I I #
+coedge $-1 -1 -1 $-1 $245 $140 $-1 $246 forward $96 $-1 #
+edge $-1 -1 -1 $-1 $181 0 $247 3 $140 $248 forward @7 unknown T 100 8 0 100 11 0 #
+coedge $-1 -1 -1 $-1 $141 $249 $-1 $250 forward $96 $-1 #
+edge $-1 -1 -1 $-1 $251 0 $180 3 $141 $252 forward @7 unknown T 0 8 0 0 11 0 #
+vertex $-1 -1 -1 $-1 $142 $253 #
+vertex $-1 -1 -1 $-1 $142 $254 #
+straight-curve $-1 -1 -1 $-1 0 8 0 1 0 0 I I #
+coedge $-1 -1 -1 $-1 $144 $143 $-1 $255 forward $99 $-1 #
+edge $-1 -1 -1 $-1 $187 0 $256 0.5 $143 $257 forward @7 unknown T 40 14.5 0 40 15 0 #
+edge $-1 -1 -1 $-1 $258 0 $186 0.5 $144 $259 forward @7 unknown T 30 14.5 0 30 15 0 #
+vertex $-1 -1 -1 $-1 $145 $260 #
+vertex $-1 -1 -1 $-1 $145 $261 #
+straight-curve $-1 -1 -1 $-1 30 14.5 0 1 0 0 I I #
+coedge $-1 -1 -1 $-1 $147 $146 $-1 $262 forward $102 $-1 #
+edge $-1 -1 -1 $-1 $193 0 $263 0.39999999999999858 $146 $264 forward @7 unknown T 42 10.800000000000001 0 42 11.199999999999999 0 #
+edge $-1 -1 -1 $-1 $265 0 $192 0.39999999999999858 $147 $266 forward @7 unknown T 28 10.800000000000001 0 28 11.199999999999999 0 #
+vertex $-1 -1 -1 $-1 $148 $267 #
+vertex $-1 -1 -1 $-1 $148 $268 #
+straight-curve $-1 -1 -1 $-1 28 10.800000000000001 0 1 0 0 I I #
+coedge $-1 -1 -1 $-1 $150 $149 $-1 $269 forward $105 $-1 #
+edge $-1 -1 -1 $-1 $199 0 $270 0.39999999999999858 $149 $271 forward @7 unknown T 42 10.800000000000001 0 42 11.199999999999999 0 #
+edge $-1 -1 -1 $-1 $272 0 $198 0.39999999999999858 $150 $273 forward @7 unknown T 28 10.800000000000001 0 28 11.199999999999999 0 #
+vertex $-1 -1 -1 $-1 $151 $274 #
+vertex $-1 -1 -1 $-1 $151 $275 #
+straight-curve $-1 -1 -1 $-1 28 10.800000000000001 0 1 0 0 I I #
+coedge $-1 -1 -1 $-1 $153 $152 $-1 $276 forward $108 $-1 #
+edge $-1 -1 -1 $-1 $205 0 $277 0.39999999999999858 $152 $278 forward @7 unknown T 40 14.300000000000001 0 40 14.699999999999999 0 #
+edge $-1 -1 -1 $-1 $279 0 $204 0.39999999999999858 $153 $280 forward @7 unknown T 30 14.300000000000001 0 30 14.699999999999999 0 #
+vertex $-1 -1 -1 $-1 $154 $281 #
+vertex $-1 -1 -1 $-1 $154 $282 #
+straight-curve $-1 -1 -1 $-1 30 14.300000000000001 0 1 0 0 I I #
+coedge $-1 -1 -1 $-1 $156 $155 $-1 $283 forward $111 $-1 #
+edge $-1 -1 -1 $-1 $211 0 $284 0.099999999999999645 $155 $285 forward @7 unknown T 40 15 0 40 15.1 0 #
+edge $-1 -1 -1 $-1 $286 0 $210 0.099999999999999645 $156 $287 forward @7 unknown T 30 15 0 30 15.1 0 #
+vertex $-1 -1 -1 $-1 $157 $288 #
+vertex $-1 -1 -1 $-1 $157 $289 #
+straight-curve $-1 -1 -1 $-1 30 15 0 1 0 0 I I #
+coedge $-1 -1 -1 $-1 $159 $158 $-1 $290 forward $114 $-1 #
+edge $-1 -1 -1 $-1 $218 0 $291 0.099999999999999645 $158 $292 forward @7 unknown T 60 11 0 60 11.1 0 #
+edge $-1 -1 -1 $-1 $293 0 $217 0.099999999999999645 $159 $294 forward @7 unknown T 50 11 0 50 11.1 0 #
+no_merge_attribute-st-attrib $-1 -1 $295 $-1 $160 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 #
+vertex $-1 -1 -1 $-1 $160 $296 #
+vertex $-1 -1 -1 $-1 $160 $297 #
+straight-curve $-1 -1 -1 $-1 50 11 0 1 0 0 I I #
+coedge $-1 -1 -1 $-1 $162 $161 $-1 $298 forward $117 $-1 #
+edge $-1 -1 -1 $-1 $224 0 $299 0.39999999999999947 $161 $300 forward @7 unknown T 100 7.7999999999999998 0 100 8.1999999999999993 0 #
+edge $-1 -1 -1 $-1 $301 0 $223 0.39999999999999947 $162 $302 forward @7 unknown T 0 7.7999999999999998 0 0 8.1999999999999993 0 #
+vertex $-1 -1 -1 $-1 $163 $303 #
+vertex $-1 -1 -1 $-1 $163 $304 #
+straight-curve $-1 -1 -1 $-1 0 7.7999999999999998 0 1 0 0 I I #
+coedge $-1 -1 -1 $-1 $165 $164 $-1 $305 forward $120 $-1 #
+edge $-1 -1 -1 $-1 $230 0 $306 3.4499999999999993 $164 $307 forward @7 unknown T 40 11 0 40 14.449999999999999 0 #
+edge $-1 -1 -1 $-1 $308 0 $229 3.4499999999999993 $165 $309 forward @7 unknown T 30 11 0 30 14.449999999999999 0 #
+vertex $-1 -1 -1 $-1 $166 $310 #
+vertex $-1 -1 -1 $-1 $166 $311 #
+straight-curve $-1 -1 -1 $-1 30 11 0 1 0 0 I I #
+coedge $-1 -1 -1 $-1 $168 $167 $-1 $312 forward $123 $-1 #
+edge $-1 -1 -1 $-1 $236 0 $313 0.050000000000000711 $167 $314 forward @7 unknown T 40 14.449999999999999 0 40 14.5 0 #
+edge $-1 -1 -1 $-1 $315 0 $235 0.050000000000000711 $168 $316 forward @7 unknown T 30 14.449999999999999 0 30 14.5 0 #
+vertex $-1 -1 -1 $-1 $169 $317 #
+vertex $-1 -1 -1 $-1 $169 $318 #
+straight-curve $-1 -1 -1 $-1 30 14.449999999999999 0 1 0 0 I I #
+edge $-1 -1 -1 $-1 $241 0 $239 18 $170 $319 forward @7 unknown T 100 -10 0 100 8 0 #
+vertex $-1 -1 -1 $-1 $238 $320 #
+straight-curve $-1 -1 -1 $-1 100 -10 0 -1 0 0 I I #
+vertex $-1 -1 -1 $-1 $172 $321 #
+straight-curve $-1 -1 -1 $-1 0 8 0 1 0 0 I I #
+point $-1 -1 -1 $-1 0 -10 0 #
+point $-1 -1 -1 $-1 0 8 0 #
+coedge $-1 -1 -1 $-1 $322 $176 $-1 $323 forward $96 $-1 #
+edge $-1 -1 -1 $-1 $247 0 $324 40 $176 $325 forward @7 unknown T 60 11 0 100 11 0 #
+vertex $-1 -1 -1 $-1 $177 $326 #
+straight-curve $-1 -1 -1 $-1 100 8 0 0 1 0 I I #
+coedge $-1 -1 -1 $-1 $178 $322 $-1 $327 forward $96 $-1 #
+edge $-1 -1 -1 $-1 $328 70 $251 100 $178 $325 forward @7 unknown T 0 11 0 30 11 0 #
+vertex $-1 -1 -1 $-1 $250 $329 #
+straight-curve $-1 -1 -1 $-1 0 11 0 0 -1 0 I I #
+point $-1 -1 -1 $-1 0 8 0 #
+point $-1 -1 -1 $-1 100 8 0 #
+edge $330 -1 -1 $-1 $256 0 $258 10 $183 $331 forward @7 unknown T 30 15 0 40 15 0 #
+vertex $-1 -1 -1 $-1 $184 $332 #
+straight-curve $-1 -1 -1 $-1 40 14.5 0 0 1 0 I I #
+vertex $-1 -1 -1 $-1 $255 $333 #
+straight-curve $-1 -1 -1 $-1 30 15 0 0 -1 0 I I #
+point $-1 -1 -1 $-1 30 14.5 0 #
+point $-1 -1 -1 $-1 40 14.5 0 #
+edge $-1 -1 -1 $-1 $263 0 $265 14 $189 $334 forward @7 unknown T 28 11.199999999999999 0 42 11.199999999999999 0 #
+vertex $-1 -1 -1 $-1 $190 $335 #
+straight-curve $-1 -1 -1 $-1 42 10.800000000000001 0 0 1 0 I I #
+vertex $-1 -1 -1 $-1 $262 $336 #
+straight-curve $-1 -1 -1 $-1 28 11.199999999999999 0 0 -1 0 I I #
+point $-1 -1 -1 $-1 28 10.800000000000001 0 #
+point $-1 -1 -1 $-1 42 10.800000000000001 0 #
+edge $-1 -1 -1 $-1 $270 0 $272 14 $195 $337 forward @7 unknown T 28 11.199999999999999 0 42 11.199999999999999 0 #
+vertex $-1 -1 -1 $-1 $196 $338 #
+straight-curve $-1 -1 -1 $-1 42 10.800000000000001 0 0 1 0 I I #
+vertex $-1 -1 -1 $-1 $269 $339 #
+straight-curve $-1 -1 -1 $-1 28 11.199999999999999 0 0 -1 0 I I #
+point $-1 -1 -1 $-1 28 10.800000000000001 0 #
+point $-1 -1 -1 $-1 42 10.800000000000001 0 #
+edge $-1 -1 -1 $-1 $277 0 $279 10 $201 $340 forward @7 unknown T 30 14.699999999999999 0 40 14.699999999999999 0 #
+vertex $-1 -1 -1 $-1 $202 $341 #
+straight-curve $-1 -1 -1 $-1 40 14.300000000000001 0 0 1 0 I I #
+vertex $-1 -1 -1 $-1 $276 $342 #
+straight-curve $-1 -1 -1 $-1 30 14.699999999999999 0 0 -1 0 I I #
+point $-1 -1 -1 $-1 30 14.300000000000001 0 #
+point $-1 -1 -1 $-1 40 14.300000000000001 0 #
+edge $-1 -1 -1 $-1 $284 0 $286 10 $207 $343 forward @7 unknown T 30 15.1 0 40 15.1 0 #
+vertex $-1 -1 -1 $-1 $208 $344 #
+straight-curve $-1 -1 -1 $-1 40 15 0 0 1 0 I I #
+vertex $-1 -1 -1 $-1 $283 $345 #
+straight-curve $-1 -1 -1 $-1 30 15.1 0 0 -1 0 I I #
+point $-1 -1 -1 $-1 30 15 0 #
+point $-1 -1 -1 $-1 40 15 0 #
+edge $-1 -1 -1 $-1 $291 0 $293 10 $213 $346 forward @7 unknown T 50 11.1 0 60 11.1 0 #
+vertex $-1 -1 -1 $-1 $214 $347 #
+straight-curve $-1 -1 -1 $-1 60 11 0 0 1 0 I I #
+vertex $-1 -1 -1 $-1 $290 $348 #
+straight-curve $-1 -1 -1 $-1 50 11.1 0 0 -1 0 I I #
+string_attrib-name_attrib-gen-attrib $-1 -1 $-1 $216 $160 2 3 2 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 @10 2d-contact @5 ptype #
+point $-1 -1 -1 $-1 50 11 0 #
+point $-1 -1 -1 $-1 60 11 0 #
+edge $-1 -1 -1 $-1 $299 0 $301 100 $220 $349 forward @7 unknown T 0 8.1999999999999993 0 100 8.1999999999999993 0 #
+vertex $-1 -1 -1 $-1 $221 $350 #
+straight-curve $-1 -1 -1 $-1 100 7.7999999999999998 0 0 1 0 I I #
+vertex $-1 -1 -1 $-1 $298 $351 #
+straight-curve $-1 -1 -1 $-1 0 8.1999999999999993 0 0 -1 0 I I #
+point $-1 -1 -1 $-1 0 7.7999999999999998 0 #
+point $-1 -1 -1 $-1 100 7.7999999999999998 0 #
+edge $-1 -1 -1 $-1 $306 0 $308 10 $226 $352 forward @7 unknown T 30 14.449999999999999 0 40 14.449999999999999 0 #
+vertex $-1 -1 -1 $-1 $227 $353 #
+straight-curve $-1 -1 -1 $-1 40 11 0 0 1 0 I I #
+vertex $-1 -1 -1 $-1 $305 $354 #
+straight-curve $-1 -1 -1 $-1 30 14.449999999999999 0 0 -1 0 I I #
+point $-1 -1 -1 $-1 30 11 0 #
+point $-1 -1 -1 $-1 40 11 0 #
+edge $-1 -1 -1 $-1 $313 0 $315 10 $232 $355 forward @7 unknown T 30 14.5 0 40 14.5 0 #
+vertex $-1 -1 -1 $-1 $233 $356 #
+straight-curve $-1 -1 -1 $-1 40 14.449999999999999 0 0 1 0 I I #
+vertex $-1 -1 -1 $-1 $312 $357 #
+straight-curve $-1 -1 -1 $-1 30 14.5 0 0 -1 0 I I #
+point $-1 -1 -1 $-1 30 14.449999999999999 0 #
+point $-1 -1 -1 $-1 40 14.449999999999999 0 #
+straight-curve $-1 -1 -1 $-1 100 8 0 0 -1 0 I I #
+point $-1 -1 -1 $-1 100 -10 0 #
+point $-1 -1 -1 $-1 100 8 0 #
+coedge $-1 -1 -1 $-1 $249 $245 $-1 $358 forward $96 $-1 #
+edge $-1 -1 -1 $-1 $324 40 $359 50 $245 $360 forward @7 unknown T 50 11 0 60 11 0 #
+vertex $-1 -1 -1 $-1 $323 $361 #
+straight-curve $-1 -1 -1 $-1 100 11 0 -1 0 0 I I #
+point $-1 -1 -1 $-1 100 11 0 #
+edge $-1 -1 -1 $-1 $362 60 $328 70 $249 $363 forward @7 unknown T 30 11 0 40 11 0 #
+vertex $-1 -1 -1 $-1 $250 $364 #
+point $-1 -1 -1 $-1 0 11 0 #
+no_merge_attribute-st-attrib $-1 -1 $365 $-1 $255 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 #
+straight-curve $-1 -1 -1 $-1 40 15 0 -1 0 0 I I #
+point $-1 -1 -1 $-1 40 15 0 #
+point $-1 -1 -1 $-1 30 15 0 #
+straight-curve $-1 -1 -1 $-1 42 11.199999999999999 0 -1 0 0 I I #
+point $-1 -1 -1 $-1 42 11.199999999999999 0 #
+point $-1 -1 -1 $-1 28 11.199999999999999 0 #
+straight-curve $-1 -1 -1 $-1 42 11.199999999999999 0 -1 0 0 I I #
+point $-1 -1 -1 $-1 42 11.199999999999999 0 #
+point $-1 -1 -1 $-1 28 11.199999999999999 0 #
+straight-curve $-1 -1 -1 $-1 40 14.699999999999999 0 -1 0 0 I I #
+point $-1 -1 -1 $-1 40 14.699999999999999 0 #
+point $-1 -1 -1 $-1 30 14.699999999999999 0 #
+straight-curve $-1 -1 -1 $-1 40 15.1 0 -1 0 0 I I #
+point $-1 -1 -1 $-1 40 15.1 0 #
+point $-1 -1 -1 $-1 30 15.1 0 #
+straight-curve $-1 -1 -1 $-1 60 11.1 0 -1 0 0 I I #
+point $-1 -1 -1 $-1 60 11.1 0 #
+point $-1 -1 -1 $-1 50 11.1 0 #
+straight-curve $-1 -1 -1 $-1 100 8.1999999999999993 0 -1 0 0 I I #
+point $-1 -1 -1 $-1 100 8.1999999999999993 0 #
+point $-1 -1 -1 $-1 0 8.1999999999999993 0 #
+straight-curve $-1 -1 -1 $-1 40 14.449999999999999 0 -1 0 0 I I #
+point $-1 -1 -1 $-1 40 14.449999999999999 0 #
+point $-1 -1 -1 $-1 30 14.449999999999999 0 #
+straight-curve $-1 -1 -1 $-1 40 14.5 0 -1 0 0 I I #
+point $-1 -1 -1 $-1 40 14.5 0 #
+point $-1 -1 -1 $-1 30 14.5 0 #
+edge $-1 -1 -1 $-1 $359 50 $362 60 $322 $325 forward @7 unknown T 40 11 0 50 11 0 #
+vertex $-1 -1 -1 $-1 $358 $366 #
+straight-curve $-1 -1 -1 $-1 100 11 0 -1 0 0 I I #
+point $-1 -1 -1 $-1 60 11 0 #
+vertex $-1 -1 -1 $-1 $327 $367 #
+straight-curve $-1 -1 -1 $-1 100 11 0 -1 0 0 I I #
+point $-1 -1 -1 $-1 30 11 0 #
+string_attrib-name_attrib-gen-attrib $-1 -1 $-1 $330 $255 2 3 2 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 @10 2d-contact @5 ntype #
+point $-1 -1 -1 $-1 50 11 0 #
+point $-1 -1 -1 $-1 40 11 0 #
+End-of-ACIS-data 

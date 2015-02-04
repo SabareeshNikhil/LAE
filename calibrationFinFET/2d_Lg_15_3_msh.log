@@ -1,0 +1,69 @@
+> Compiled Fri Apr 27 16:54:06 PDT 2012 on: tcadprod5
+> Running on: Linux thzlabsv.ee.ucla.edu 2.6.32-504.el6.x86_64 #1 SMP Tue Sep 16 01:56:35 EDT 2014 x86_64
+
+> Process ID: 5950
+> 
+> Flags used: -F tdr
+> 
+> Reading Boundary from 2d_Lg_15_3_bnd.tdr
+> Loaded 36 point(s), 15 region(s), 3 contact(s). done. Time: 0.022997 secs.
+> Statistics from input geometry:
+> 36 vertices, 50 edges, 25 elements (10 segments) (15 polygons)
+> 	10 1D elements
+> 	15 2D elements
+> Average edge length (std): 0.00958667 (0.051637)
+> Min edge length (17): 0.00067
+> 
+> Average area (std): 0.005709 (0.0383528)
+> Min. element area (5): 1.005e-05
+> 
+> Average connectivity: 2.77778
+> Max. connectivity (8): 4
+> 
+> Step sequence to perform: 
+> 	MLRefineGeometry-MLRefineOnSize
+> 
+> Fitting geometry ... Number of elements to check: 1
+> Number of elements to check: 11
+> done. Time: 0.002 secs.
+> Refining on MaxElementSize ... Number of elements to check: 9
+> Number of elements to check: 9115
+> done. Time: 0.549916 secs.
+> Handling green elements ... Number of elements to check: 9086
+> Number of elements to check: 1133
+> Number of elements to check: 172
+> Number of elements to check: 133
+> Number of elements to check: 121
+> Number of elements to check: 85
+> Number of elements to check: 49
+> Number of elements to check: 41
+> Number of elements to check: 30
+> Number of elements to check: 12
+> Number of elements to check: 9
+> done. Time: 0.045993 secs.
+> Building final elements ... Number of elements to check: 10116
+> Number of elements to check: 877
+> done. Time: 0.009998 secs.
+> Testing elements ... Number of elements to check: 10701
+> done. Time: 0.214968 secs.
+> Preparing data for output... Number of final elements 10701
+> Statistics from Qtree/Oc-tree:
+> 10426 vertices, 21126 edges, 10915 elements (214 segments) (877 triangles) (9824 rectangles)
+> 	214 1D elements
+> 	10701 2D elements
+> Average edge length (std): 0.000294061 (0.0569808)
+> Min edge length (2459): 3.125e-05
+> 
+> Average area (std): 1.30748e-05 (0.0122559)
+> Min. element area (1298): 4.88281e-09
+> 
+> Min. element angle (527): 2.06176 degrees.
+> Max. element angle (0): 90 degrees.
+> Average connectivity: 4.05256
+> Max. connectivity (8812): 8
+> 
+> done. Time: 0.094985 secs.
+> 
+> Total time : 0.940857 secs.
+> Saving mesh `2d_Lg_15_3_msh' in TDR format...
+> Interpolating data ... done

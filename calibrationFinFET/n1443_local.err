@@ -1,0 +1,3 @@
+Job failed
+Error: Child process with pid '23584' exists with the code '1'
+gjob exits with status 1

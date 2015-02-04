@@ -1,0 +1,459 @@
+Evaluating file n1305_dvs.cmd
+---> (sde:clear)
+"yx"
+---> (if (string=? nMOS pMOS) (begin (define DSD BoronActiveConcentration) (define DBody PhosphorusActiveConcentration)) (begin (define DSD PhosphorusActiveConcentration) (define DBody BoronActiveConcentration)))
+DBody
+---> (define Nd_high 1e+17)
+Nd_high
+---> (define Nd 1e+17)
+Nd
+---> (define Na_ldd 2e+20)
+Na_ldd
+---> (define Na 2e+20)
+Na
+---> (define Naext 2e+20)
+Naext
+---> (define nm 0.001)
+nm
+---> (define Lbox (* 300 nm))
+Lbox
+---> (define Wbox (* 300 nm))
+Wbox
+---> (define Hbox (* 100 nm))
+Hbox
+---> (define gausdivfac 70)
+gausdivfac
+---> (define nmperdec (* 2 nm))
+nmperdec
+---> (define decades 5)
+decades
+---> (define overlap (* -0.01 nm))
+overlap
+---> (define modoverlap (* 0.01 nm))
+modoverlap
+---> (define EOT (* 0.67 nm))
+EOT
+---> (define Ehighk 3.9)
+Ehighk
+---> (define ESiO2 3.9)
+ESiO2
+---> (define TOX (/ (* Ehighk EOT) ESiO2))
+TOX
+---> (define ESi 11.8)
+ESi
+---> (define Lgate (* 50 nm))
+Lgate
+---> (define over (* 0 nm))
+over
+---> (define Wfin (* 5 nm))
+Wfin
+---> (define Hfin (* 45 nm))
+Hfin
+---> (define pitchfin (* 50 nm))
+pitchfin
+---> (define by10factor (/ 50 15))
+by10factor
+---> (define depth_inversion (/ (* 2 nm) by10factor))
+depth_inversion
+---> (define junction_refine (/ (* 5 nm) by10factor))
+junction_refine
+---> (define debye_length_original (* 0.1 nm))
+debye_length_original
+---> (define debye_length (/ (/ debye_length_original 2) by10factor))
+debye_length
+---> (define nfin 1)
+nfin
+---> (define Gthick (* 20 nm))
+Gthick
+---> (define TOX_twice (* 2 TOX))
+TOX_twice
+---> (define Gthick_twice (* 2 Gthick))
+Gthick_twice
+---> (define Woxide (+ Wfin TOX_twice))
+Woxide
+---> (define Hoxide (+ Hfin TOX))
+Hoxide
+---> (define Wgate (+ Woxide Gthick_twice))
+Wgate
+---> (define Hgate (+ Hoxide Gthick))
+Hgate
+---> (define Loxide Lgate)
+Loxide
+---> (define Lspacer (* 5 nm))
+Lspacer
+---> (define Wspacer (+ Wfin (/ pitchfin 3)))
+Wspacer
+---> (define Hspacer (/ (+ Hgate Hfin) 2))
+Hspacer
+---> (define Lfin (+ Lgate (* 2 Lspacer)))
+Lfin
+---> (define hmask (* 20 nm))
+hmask
+---> (define Lext (* 20 nm))
+Lext
+---> (define Epi (* 13 nm))
+Epi
+---> (define Wext (+ Wfin (* Epi 2)))
+Wext
+---> (define Hext (+ Hfin Epi))
+Hext
+---> (define Silicide (* 6.5 nm))
+Silicide
+---> (define LSilicide Lext)
+LSilicide
+---> (define WSilicide (+ Wext (* 2 Silicide)))
+WSilicide
+---> (define HSilicide (+ Hext Silicide))
+HSilicide
+---> (define xfinlow (- (/ Lbox 2) (/ Lfin 2)))
+xfinlow
+---> (define xfinhigh (+ (/ Lbox 2) (/ Lfin 2)))
+xfinhigh
+---> (define yfinlow (- (/ Wbox 2) (/ Wfin 2)))
+yfinlow
+---> (define yfinhigh (+ (/ Wbox 2) (/ Wfin 2)))
+yfinhigh
+---> (define zfinlow Hbox)
+zfinlow
+---> (define zfinhigh (+ Hbox Hfin))
+zfinhigh
+---> (define xoxidelow (- (/ Lbox 2) (/ Loxide 2)))
+xoxidelow
+---> (define xoxidehigh (+ (/ Lbox 2) (/ Loxide 2)))
+xoxidehigh
+---> (define yoxidelow (- (/ Wbox 2) (/ Woxide 2)))
+yoxidelow
+---> (define yoxidehigh (+ (/ Wbox 2) (/ Woxide 2)))
+yoxidehigh
+---> (define zoxidelow Hbox)
+zoxidelow
+---> (define zoxidehigh (+ Hbox Hoxide))
+zoxidehigh
+---> (define xhmasklow (- (/ Lbox 2) (/ Loxide 2)))
+xhmasklow
+---> (define xhmaskhigh (+ (/ Lbox 2) (/ Loxide 2)))
+xhmaskhigh
+---> (define yhmasklow (- (/ Wbox 2) (/ Woxide 2)))
+yhmasklow
+---> (define yhmaskhigh (+ (/ Wbox 2) (/ Woxide 2)))
+yhmaskhigh
+---> (define zhmasklow Hbox)
+zhmasklow
+---> (define zhmaskhigh (+ zoxidehigh hmask))
+zhmaskhigh
+---> (define xgatelow (- (/ Lbox 2) (/ Lgate 2)))
+xgatelow
+---> (define xgatehigh (+ (/ Lbox 2) (/ Lgate 2)))
+xgatehigh
+---> (define ygatelow (- (/ Wbox 2) (/ Wgate 2)))
+ygatelow
+---> (define ygatehigh (+ (/ Wbox 2) (/ Wgate 2)))
+ygatehigh
+---> (define zgatelow Hbox)
+zgatelow
+---> (define zgatehigh (+ zhmaskhigh Gthick))
+zgatehigh
+---> (define xsrcextlow (- xfinlow Lext))
+xsrcextlow
+---> (define xsrcexthigh xfinlow)
+xsrcexthigh
+---> (define ysrcextlow (- (/ Wbox 2) (/ Wext 2)))
+ysrcextlow
+---> (define ysrcexthigh (+ (+ (/ Wbox 2) (* (- nfin 1) pitchfin)) (/ Wext 2)))
+ysrcexthigh
+---> (define zsrcextlow Hbox)
+zsrcextlow
+---> (define zsrcexthigh (+ Hbox Hext))
+zsrcexthigh
+---> (define xdrnextlow xfinhigh)
+xdrnextlow
+---> (define xdrnexthigh (+ xfinhigh Lext))
+xdrnexthigh
+---> (define ydrnextlow (- (/ Wbox 2) (/ Wext 2)))
+ydrnextlow
+---> (define ydrnexthigh (+ (+ (/ Wbox 2) (* (- nfin 1) pitchfin)) (/ Wext 2)))
+ydrnexthigh
+---> (define zdrnextlow Hbox)
+zdrnextlow
+---> (define zdrnexthigh (+ Hbox Hext))
+zdrnexthigh
+---> (define xsrcSilextlow (- xfinlow LSilicide))
+xsrcSilextlow
+---> (define xsrcSilexthigh xfinlow)
+xsrcSilexthigh
+---> (define ysrcSilextlow (- (/ Wbox 2) (/ WSilicide 2)))
+ysrcSilextlow
+---> (define ysrcSilexthigh (+ (+ (/ Wbox 2) (* (- nfin 1) pitchfin)) (/ WSilicide 2)))
+ysrcSilexthigh
+---> (define zsrcSilextlow Hbox)
+zsrcSilextlow
+---> (define zsrcSilexthigh (+ Hbox HSilicide))
+zsrcSilexthigh
+---> (define xdrnSilextlow xfinhigh)
+xdrnSilextlow
+---> (define xdrnSilexthigh (+ xfinhigh LSilicide))
+xdrnSilexthigh
+---> (define ydrnSilextlow (- (/ Wbox 2) (/ WSilicide 2)))
+ydrnSilextlow
+---> (define ydrnSilexthigh (+ (+ (/ Wbox 2) (* (- nfin 1) pitchfin)) (/ WSilicide 2)))
+ydrnSilexthigh
+---> (define zdrnSilextlow Hbox)
+zdrnSilextlow
+---> (define zdrnSilexthigh (+ Hbox HSilicide))
+zdrnSilexthigh
+---> (define xSspacerlow (- xgatelow Lspacer))
+xSspacerlow
+---> (define xSspacerhigh xgatelow)
+xSspacerhigh
+---> (define ySspacerlow (- (/ Wbox 2) (/ Wspacer 2)))
+ySspacerlow
+---> (define ySspacerhigh (+ (/ Wbox 2) (/ Wspacer 2)))
+ySspacerhigh
+---> (define zSspacerlow Hbox)
+zSspacerlow
+---> (define zSspacerhigh (+ Hbox Hspacer))
+zSspacerhigh
+---> (define xDspacerlow xgatehigh)
+xDspacerlow
+---> (define xDspacerhigh (+ xgatehigh Lspacer))
+xDspacerhigh
+---> (define yDspacerlow (- (/ Wbox 2) (/ Wspacer 2)))
+yDspacerlow
+---> (define yDspacerhigh (+ (/ Wbox 2) (/ Wspacer 2)))
+yDspacerhigh
+---> (define zDspacerlow Hbox)
+zDspacerlow
+---> (define zDspacerhigh (+ Hbox Hspacer))
+zDspacerhigh
+---> (define printfin nfin)
+printfin
+---> (do ((i 0 (+ i 1))) ((= i printfin)) (begin (define SFIN (string-append SFIN. (number->string i))) (define FIN (string-append FIN. (number->string i))) (define DFIN (string-append DFIN. (number->string i))) (define newyfinlow (+ (* i pitchfin) yfinlow)) (define newyfinhigh (+ (* i pitchfin) yfinhigh)) (sdegeo:create-rectangle (position xfinlow newyfinlow 0) (position xoxidelow newyfinhigh 0) Silicon SFIN) (sdegeo:create-rectangle (position xoxidelow newyfinlow 0) (position xoxidehigh newyfinhigh 0) Silicon FIN) (sdegeo:create-rectangle (position xoxidehigh newyfinlow 0) (position xfinhigh newyfinhigh 0) Silicon DFIN) (define GateOxide (string-append GateOxide. (number->string i))) (define newyoxidelow (+ (* i pitchfin) yoxidelow)) (define newyoxidehigh (+ (* i pitchfin) yoxidehigh)) (sdegeo:set-default-boolean BAB) (sdegeo:create-rectangle (position xoxidelow newyoxidelow 0) (position xoxidehigh newyoxidehigh 0) SiO2 GateOxide) (define Sspacer (string-append Sspacer. (number->string i))) (define newySspacerlow (+ (* i pitchfin) ySspacerlow)) (define newySspacerhigh (+ (* i pitchfin) ySspacerhigh)) (sdegeo:set-default-boolean BAB) (sdegeo:create-rectangle (position xSspacerlow newySspacerlow 0) (position xSspacerhigh newySspacerhigh 0) Si3N4 Sspacer) (define Dspacer (string-append Dspacer. (number->string i))) (define newyDspacerlow (+ (* i pitchfin) yDspacerlow)) (define newyDspacerhigh (+ (* i pitchfin) yDspacerhigh)) (sdegeo:set-default-boolean BAB) (sdegeo:create-rectangle (position xDspacerlow newyDspacerlow 0) (position xDspacerhigh newyDspacerhigh 0) Si3N4 Dspacer)))
+()
+---> (define newygatehigh (+ (* (- nfin 1) pitchfin) ygatehigh))
+newygatehigh
+---> (sdegeo:set-default-boolean BAB)
+"BAB"
+---> (sdegeo:set-default-boolean BAB)
+"BAB"
+---> (sdegeo:create-rectangle (position xdrnextlow ydrnextlow 0) (position xdrnexthigh ydrnexthigh 0) Silicon Drain_Ext)
+#[body 15 1]
+---> (sdegeo:create-rectangle (position xsrcextlow ysrcextlow 0) (position xsrcexthigh ysrcexthigh 0) Silicon Source_Ext)
+#[body 16 1]
+---> (sdegeo:set-default-boolean BAB)
+"BAB"
+---> (sdegeo:create-rectangle (position xdrnSilextlow ydrnSilextlow 0) (position xdrnSilexthigh ydrnSilexthigh 0) Silicide Drain_Sili)
+#[body 17 1]
+---> (sdegeo:create-rectangle (position xsrcSilextlow ysrcSilextlow 0) (position xsrcSilexthigh ysrcSilexthigh 0) Silicide Source_Sili)
+#[body 18 1]
+---> (sdegeo:define-contact-set gate 4.0 (color:rgb 1.0 0.0 0.0) ##)
+()
+---> (sdegeo:define-contact-set drain 4.0 (color:rgb 1.0 0.0 0.0) ||)
+()
+---> (sdegeo:define-contact-set source 4.0 (color:rgb 1.0 0.0 0.0) ==)
+()
+---> (sdegeo:set-current-contact-set gate)
+""
+---> (sdegeo:set-contact-edges (find-edge-id (position xgatelow (/ (+ yoxidehigh ySspacerhigh) 2) 0)) gate)
+#t
+---> (sdegeo:set-current-contact-set gate)
+"gate"
+---> (sdegeo:set-contact-edges (find-edge-id (position xgatehigh (/ (+ yoxidehigh ySspacerhigh) 2) 0)) gate)
+#t
+---> (sdegeo:set-current-contact-set gate)
+"gate"
+---> (sdegeo:set-contact-edges (find-edge-id (position xgatelow (/ (+ yoxidelow ySspacerlow) 2) 0)) gate)
+#t
+---> (sdegeo:set-current-contact-set gate)
+"gate"
+---> (sdegeo:set-contact-edges (find-edge-id (position xgatehigh (/ (+ yoxidelow ySspacerlow) 2) 0)) gate)
+#t
+---> (sdegeo:set-current-contact-set gate)
+"gate"
+---> (sdegeo:set-contact-edges (find-edge-id (position (/ (+ xgatehigh xgatelow) 2) yoxidehigh 0)) gate)
+#t
+---> (sdegeo:set-current-contact-set gate)
+"gate"
+---> (sdegeo:set-contact-edges (find-edge-id (position (/ (+ xgatehigh xgatelow) 2) yoxidelow 0)) gate)
+#t
+---> (sdegeo:set-current-contact-set source)
+"gate"
+---> (sdegeo:set-contact-edges (find-edge-id (position (/ (+ xsrcSilextlow xsrcSilexthigh) 2) ysrcSilextlow 0)) source)
+#t
+---> (sdegeo:set-contact-edges (find-edge-id (position (/ (+ xsrcSilextlow xsrcSilexthigh) 2) ysrcSilexthigh 0)) source)
+#t
+---> (sdegeo:set-current-contact-set drain)
+"source"
+---> (sdegeo:set-contact-edges (find-edge-id (position (/ (+ xdrnSilexthigh xdrnSilextlow) 2) ydrnSilextlow 0)) drain)
+#t
+---> (sdegeo:set-contact-edges (find-edge-id (position (/ (+ xdrnSilexthigh xdrnSilextlow) 2) ydrnSilexthigh 0)) drain)
+#t
+---> (define xchannel_N_low xoxidelow)
+xchannel_N_low
+---> (define xchannel_N_high xoxidehigh)
+xchannel_N_high
+---> (define xchannellow (+ xoxidelow overlap))
+xchannellow
+---> (define xchannelhigh (- xoxidehigh overlap))
+xchannelhigh
+---> (define ychannellow (+ yoxidelow TOX))
+ychannellow
+---> (define ychannelhigh (- yoxidehigh TOX))
+ychannelhigh
+---> (define zchannellow Hbox)
+zchannellow
+---> (define zchannelhigh (+ Hbox Hfin))
+zchannelhigh
+---> (define length_highdope (* 5 nm))
+length_highdope
+---> (do ((j 0 (+ j 1))) ((= j printfin)) (begin (define Channel (string-append Channel. (number->string j))) (define ChDef (string-append ChDef. (number->string j))) (define ChannelRegion (string-append ChannelRegion. (number->string j))) (define Channel_1 (string-append Channel_1. (number->string j))) (define ChDef_1 (string-append ChDef_1. (number->string j))) (define ChannelRegion_1 (string-append ChannelRegion_1. (number->string j))) (define Channel_2 (string-append Channel_2. (number->string j))) (define ChDef_2 (string-append ChDef_2. (number->string j))) (define ChannelRegion_2 (string-append ChannelRegion_2. (number->string j))) (define newychannellow (+ (* j pitchfin) ychannellow)) (define newychannelhigh (+ (* j pitchfin) ychannelhigh)) (sdedr:define-constant-profile ChannelRegion_1 DBody Nd) (sdedr:define-refeval-window Channel_1 Rectangle (position xchannel_N_low newychannellow 0) (position xchannel_N_high newychannelhigh 0)) (sdedr:define-constant-profile-placement ChDef_1 ChannelRegion_1 Channel_1)))
+()
+---> (define xsourcelow xfinlow)
+xsourcelow
+---> (define xsourcehigh xchannellow)
+xsourcehigh
+---> (define ysourcelow ychannellow)
+ysourcelow
+---> (define ysourcehigh ychannelhigh)
+ysourcehigh
+---> (define zsourcelow Hbox)
+zsourcelow
+---> (define zsourcehigh (+ Hbox Hfin))
+zsourcehigh
+---> (define xdrainlow xchannelhigh)
+xdrainlow
+---> (define xdrainhigh xfinhigh)
+xdrainhigh
+---> (define ydrainlow ychannellow)
+ydrainlow
+---> (define ydrainhigh ychannelhigh)
+ydrainhigh
+---> (define zdrainlow Hbox)
+zdrainlow
+---> (define zdrainhigh (+ Hbox Hfin))
+zdrainhigh
+---> (define length_ldd (* 0.1 nm))
+length_ldd
+---> (do ((j 0 (+ j 1))) ((= j printfin)) (begin (define Drain_ldd (string-append Drain_ldd. (number->string j))) (define DrainDef_ldd (string-append DrainDef_ldd. (number->string j))) (define DrainRegion_ldd (string-append DrainRegion_ldd. (number->string j))) (define Drain (string-append Drain. (number->string j))) (define DrainDef (string-append DrainDef. (number->string j))) (define DrainRegion (string-append DrainRegion. (number->string j))) (define Source_ldd (string-append Source_ldd. (number->string j))) (define SourceDef_ldd (string-append SourceDef_ldd. (number->string j))) (define SourceRegion_ldd (string-append SourceRegion_ldd. (number->string j))) (define Source (string-append Source. (number->string j))) (define SourceDef (string-append SourceDef. (number->string j))) (define SourceRegion (string-append SourceRegion. (number->string j))) (define newydrainlow (+ (* j pitchfin) ydrainlow)) (define newydrainhigh (+ (* j pitchfin) ydrainhigh)) (define newysourcelow (+ (* j pitchfin) ysourcelow)) (define newysourcehigh (+ (* j pitchfin) ysourcehigh))))
+()
+---> (sdedr:define-refinement-window G2 Line (position 0.1214 0.1525 0) (position 0.1214 0.1475 0))
+#[body 112 1]
+---> (sdedr:define-gaussian-profile G2_Prof DSD PeakPos 0 PeakVal (* 2 Na) ValueAtDepth (* 2 Na) Depth 2.5e-09 Gauss Length 0)
+#t
+---> (sdedr:define-analytical-profile-placement G2_def G2_Prof G2 Negative NoReplace NoEval)
+#t
+---> (sdedr:define-refinement-window G2_1 Line (position 0.1214 0.1525 0) (position 0.1214 0.1475 0))
+#[body 113 1]
+---> (sdedr:define-gaussian-profile G2_Prof_1 DSD PeakPos 0 PeakVal (* 2 Na) ValueAtDepth Nd Depth 0.0036 Gauss Length 0)
+#t
+---> (sdedr:define-analytical-profile-placement G2_def_1 G2_Prof_1 G2_1 Positive NoReplace NoEval)
+#t
+---> (sdedr:define-refinement-window G1 Line (position 0.1786 0.1525 0) (position 0.1786 0.1475 0))
+#[body 114 1]
+---> (sdedr:define-gaussian-profile G1_Prof DSD PeakPos 0 PeakVal (* 2 Na) ValueAtDepth (* 2 Na) Depth 0.0036 Gauss Length 0)
+#t
+---> (sdedr:define-analytical-profile-placement G1_def G1_Prof G1 Positive NoReplace NoEval)
+#t
+---> (sdedr:define-refinement-window G1_1 Line (position 0.1786 0.1525 0) (position 0.1786 0.1475 0))
+#[body 115 1]
+---> (sdedr:define-gaussian-profile G1_Prof_1 DSD PeakPos 0 PeakVal (* 2 Na) ValueAtDepth Nd Depth 0.0036 Gauss Length 0)
+#t
+---> (sdedr:define-analytical-profile-placement G1_def_1 G1_Prof_1 G1_1 Negative NoReplace NoEval)
+#t
+---> (sdedr:define-constant-profile SourceRegion DSD Naext)
+#t
+---> (sdedr:define-refeval-window SourceExtention Rectangle (position xsrcextlow ysrcextlow 0) (position xsrcexthigh ysrcexthigh 0))
+#[body 116 1]
+---> (sdedr:define-constant-profile-placement SourceExtDef SourceRegion SourceExtention)
+#t
+---> (sdedr:define-constant-profile DrainRegion DSD Naext)
+#t
+---> (sdedr:define-refeval-window DrainExtention Rectangle (position xdrnextlow ydrnextlow 0) (position xdrnexthigh ydrnexthigh 0))
+#[body 117 1]
+---> (sdedr:define-constant-profile-placement DrainExtDef DrainRegion DrainExtention)
+#t
+---> (sdedr:define-refeval-window UnivMesh Rectangle (position 0 0 0) (position Lbox Wbox 0))
+#[body 118 1]
+---> (sdedr:define-refinement-size UnivMeshDef 0.001 0.001 0.001 0.001 0.001 0.001)
+#t
+---> (sdedr:define-refinement-placement Ref1 UnivMeshDef UnivMesh)
+#t
+---> (sdedr:define-refeval-window SourceExtMesh Rectangle (position xsrcextlow ysrcextlow 0) (position xsrcexthigh ysrcexthigh 0))
+#[body 119 1]
+---> (sdedr:define-refinement-size SourceExtMeshDef (/ Lext 3) (/ Wext 3) (/ Lext 3) (/ Wext 3))
+#t
+---> (sdedr:define-refinement-placement RefSrcExt SourceExtMeshDef SourceExtMesh)
+#t
+---> (sdedr:define-refeval-window DrainExtMesh Rectangle (position xdrnextlow ydrnextlow 0) (position xdrnexthigh ydrnexthigh 0))
+#[body 120 1]
+---> (sdedr:define-refinement-size DrainExtMeshDef (/ Lext 3) (/ Wext 3) (/ Lext 3) (/ Wext 3))
+#t
+---> (sdedr:define-refinement-placement RefDrnExt DrainExtMeshDef DrainExtMesh)
+#t
+---> (sdedr:define-refeval-window FinMesh Rectangle (position xfinlow yfinlow 0) (position xfinhigh yfinhigh 0))
+#[body 121 1]
+---> (sdedr:define-refinement-size FinMeshDef (/ Lfin 120) (/ Wfin 25) (/ Lfin 120) (/ Wfin 25))
+#t
+---> (sdedr:define-refinement-placement RefFin FinMeshDef FinMesh)
+#t
+---> (sdedr:define-refeval-window CFinMesh Rectangle (position xchannellow ychannellow 0) (position xchannelhigh ychannelhigh 0))
+#[body 122 1]
+---> (sdedr:define-refinement-size CFinMeshDef (/ Lgate 80) (/ Wfin 25) (/ Lgate 80) (/ Wfin 25))
+#t
+---> (sdedr:define-refinement-placement CRefFin CFinMeshDef CFinMesh)
+#t
+---> (sdedr:define-refeval-window Ch0Mesh Rectangle (position xchannel_N_low ychannellow 0) (position xchannel_N_high (+ ychannellow (/ Wfin 3)) 0))
+#[body 123 1]
+---> (sdedr:define-refinement-size Ch0MeshDef (/ Lgate 25) (/ debye_length 0.5) (/ Lgate 25) (/ debye_length 0.5))
+#t
+---> (sdedr:define-refinement-placement RefCh0 Ch0MeshDef Ch0Mesh)
+#t
+---> (sdedr:define-refeval-window Ch1Mesh Rectangle (position xchannel_N_low (- ychannelhigh (/ Wfin 3)) 0) (position xchannel_N_high ychannelhigh 0))
+#[body 124 1]
+---> (sdedr:define-refinement-size Ch1MeshDef (/ Lgate 25) (/ debye_length 0.5) (/ Lgate 25) (/ debye_length 0.5))
+#t
+---> (sdedr:define-refinement-placement RefCh1 Ch1MeshDef Ch1Mesh)
+#t
+---> (sdedr:define-refeval-window BackOxideMesh Rectangle (position xchannellow ychannelhigh 0) (position xchannelhigh (+ ychannelhigh EOT) 0))
+#[body 125 1]
+---> (sdedr:define-refinement-size BackOxideMeshDef (/ Lgate 30) (/ EOT 15) (/ Lgate 30) (/ EOT 15))
+#t
+---> (sdedr:define-refinement-placement RefBackOxide BackOxideMeshDef BackOxideMesh)
+#t
+---> (sdedr:define-refeval-window FntOxideMesh Rectangle (position xchannellow (- ychannellow EOT) 0) (position xchannelhigh ychannellow 0))
+#[body 126 1]
+---> (sdedr:define-refinement-size FntOxideMeshDef (/ Lgate 30) (/ EOT 15) (/ Lgate 30) (/ EOT 15))
+#t
+---> (sdedr:define-refinement-placement RefFntOxide FntOxideMeshDef FntOxideMesh)
+#t
+---> (sdedr:define-refeval-window BackGateChMesh Rectangle (position xchannellow ychannelhigh 0) (position xchannelhigh (+ ychannelhigh (/ junction_refine 14)) 0))
+#[body 127 1]
+---> (sdedr:define-refinement-size BackGateChMeshDef (/ Lgate 30) (/ junction_refine 8) (/ Lgate 30) debye_length)
+#t
+---> (sdedr:define-refinement-placement RefBackGateCh BackGateChMeshDef BackGateChMesh)
+#t
+---> (sdedr:define-refeval-window FntGateChMesh Rectangle (position xchannellow (- ychannellow (/ junction_refine 14)) 0) (position xchannelhigh ychannellow 0))
+#[body 128 1]
+---> (sdedr:define-refinement-size FntGateChMeshDef (/ Lgate 30) (/ junction_refine 8) (/ Lgate 30) debye_length)
+#t
+---> (sdedr:define-refinement-placement RefFntGateCh FntGateChMeshDef FntGateChMesh)
+#t
+---> (sdedr:define-refeval-window GateMesh0 Rectangle (position xgatelow ygatelow 0) (position xdrainlow yoxidelow 0))
+#[body 129 1]
+---> (sdedr:define-refinement-size GateMeshDef0 (/ Lgate 10) (/ Wgate 5) (/ Lgate 13) (/ Wgate 7))
+#t
+---> (sdedr:define-refinement-placement RefGate0 GateMeshDef0 GateMesh0)
+#t
+---> (sdedr:define-refeval-window GateMesh2 Rectangle (position xsourcehigh ysourcehigh 0) (position xgatehigh ygatehigh 0))
+#[body 130 1]
+---> (sdedr:define-refinement-size GateMeshDef2 (/ Lgate 10) (/ Wgate 5) (/ Lgate 13) (/ Wgate 7))
+#t
+---> (sdedr:define-refinement-placement RefGate2 GateMeshDef2 GateMesh2)
+#t
+---> (sde:build-mesh mesh -F tdr  2d_Lg_15_1305)
+#t
+---> #[end-of-file]
+"************************************************************************"
+"Sentaurus Structure Editor "
+"Total Execution Time (sec):    2"
+"Total System calls Time (sec): 0"
+"************************************************************************"

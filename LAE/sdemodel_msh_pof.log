@@ -1,0 +1,55 @@
+> called:
+> noffset3d sdemodel_msh 
+> start time   : Fri Nov 14 14:03:09 2014
+
+> 
+> Logging to file sdemodel_msh_pof.log
+> Loaded sdemodel_msh.cmd
+> Dimension: 2
+> geometry Loaded sdemodel_bnd.tdr
+> DLIB initialised for 2D
+> added -X nojunction
+> added -X noredcon
+> algorithms to run:
+> 	surface2
+> 	layering
+> 	refine
+> 	delaunize
+> 	interpolate
+> 
+> 1D Grid ...
+> boundary: corner refinement ...
+> boundary: partition ...
+> boundary: balancing ...
+> surface2  done 
+> 	Points 45
+> 	Edges 46
+> 	Elements 29
+> offsetting ...
+> 	p_region: 
+> 	n_region: layering  done 
+> 	Points 55
+> 	Edges 114
+> 	Elements 90
+> 
+> applying maxedgelength criterion ...
+> refine  done 
+> 	Points 55
+> 	Edges 114
+> 	Elements 90
+> Delaunize ...
+> delaunize  done 
+> 	Points 55
+> 	Edges 114
+> 	Elements 90
+> interpolate  done 
+> 	Points 55
+> 	Edges 114
+> 	Elements 90
+> Saving Mesh: sdemodel_msh_pof.tdr ... 
+> Average connectivity: 4.14545
+> Max. connectivity (47): 9
+> 	at (6 0)
+> 	in Region(s): p_region n_region 
+> Log file was sdemodel_msh_pof.log
+> cleaning up ...

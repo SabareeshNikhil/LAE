@@ -1,0 +1,1234 @@
+****************************************************************************
+***                           Sentaurus Device                           ***
+***                          Version G-2012.06                           ***
+***                         (1.5, amd64, linux)                          ***
+***                                                                      ***
+***                       Copyright (C) 1994-2012                        ***
+***                            Synopsys, Inc.                            ***
+***                                                                      ***
+***  This software and the associated documentation are confidential     ***
+***  and proprietary to Synopsys, Inc.  Your use or disclosure of this   ***
+***  software is subject to the terms and conditions of a written        ***
+***  license agreement between you, or your company, and Synopsys, Inc.  ***
+****************************************************************************
+
+	Running on machine with the following configuration:
+	Host Name: thzlabsv.ee.ucla.edu
+	Operating System: Linux rel. 2.6.32-504.1.3.el6.x86_64 ver. #1 SMP Fri Oct 31 11:37:10 EDT 2014
+	Machine Type: x86_64
+	Process ID: 132973
+	Number of processors: 56
+	Domain Name: ee.ucla.edu
+	Date: Mon Jan 26 12:03:49 2015  (PDT)
+
+Mon Jan 26 12:03:49 2015: checked out 1 Dessis license(s)
+Mon Jan 26 12:03:49 2015: checked out 1 sdevice license(s)
+Parsing circuit file /w/apps3/Synopsys/TCAD_Sentaurus/vG_2012.06/tcad/current/amd64/lib/sdevice/sd_hb_vsource.ccf
+Parsing circuit file /w/apps3/Synopsys/TCAD_Sentaurus/vG_2012.06/tcad/current/amd64/lib/sdevice/sd_SRL1.ccf
+Parsing circuit file /w/apps3/Synopsys/TCAD_Sentaurus/vG_2012.06/tcad/current/amd64/lib/sdevice/bs_psource.ccf
+Parsing circuit file /w/apps3/Synopsys/TCAD_Sentaurus/vG_2012.06/tcad/current/amd64/lib/sdevice/sd_hb_vsource2.ccf
+Parsing circuit file /w/apps3/Synopsys/TCAD_Sentaurus/vG_2012.06/tcad/current/amd64/lib/sdevice/sd_hb_pGC.ccf
+Parsing circuit file /w/apps3/Synopsys/TCAD_Sentaurus/vG_2012.06/tcad/current/amd64/lib/sdevice/sd_hb_sRL.ccf
+Parsing circuit file /w/apps3/Synopsys/TCAD_Sentaurus/vG_2012.06/tcad/current/amd64/lib/sdevice/sd_hb_isource2.ccf
+Parsing circuit file /w/apps3/Synopsys/TCAD_Sentaurus/vG_2012.06/tcad/current/amd64/lib/sdevice/sd_hb_isource.ccf
+Parsing circuit file /w/apps3/Synopsys/TCAD_Sentaurus/vG_2012.06/tcad/current/amd64/lib/scm/MOS_harness.ccf
+Loading shared object file /w/apps3/Synopsys/TCAD_Sentaurus/vG_2012.06/tcad/current/amd64/lib/scm/MOS_harness.so.amd64
+Loading shared object file /w/apps3/Synopsys/TCAD_Sentaurus/vG_2012.06/tcad/current/amd64/lib/sdevice/sd_hb_isource.so.amd64
+Loading shared object file /w/apps3/Synopsys/TCAD_Sentaurus/vG_2012.06/tcad/current/amd64/lib/sdevice/sd_hb_isource2.so.amd64
+Loading shared object file /w/apps3/Synopsys/TCAD_Sentaurus/vG_2012.06/tcad/current/amd64/lib/sdevice/sd_hb_sRL.so.amd64
+Loading shared object file /w/apps3/Synopsys/TCAD_Sentaurus/vG_2012.06/tcad/current/amd64/lib/sdevice/sd_hb_pGC.so.amd64
+Loading shared object file /w/apps3/Synopsys/TCAD_Sentaurus/vG_2012.06/tcad/current/amd64/lib/sdevice/sd_hb_vsource2.so.amd64
+Loading shared object file /w/apps3/Synopsys/TCAD_Sentaurus/vG_2012.06/tcad/current/amd64/lib/sdevice/bs_psource.so.amd64
+Loading shared object file /w/apps3/Synopsys/TCAD_Sentaurus/vG_2012.06/tcad/current/amd64/lib/sdevice/sd_SRL1.so.amd64
+Loading shared object file /w/apps3/Synopsys/TCAD_Sentaurus/vG_2012.06/tcad/current/amd64/lib/sdevice/sd_hb_vsource.so.amd64
+
+Input source: pp13_des.cmd
+
+===============================
+
+no Output file
+
+
+GlobalParameter {
+}
+no ACExtract file
+
+PMIPath file: /w/apps3/Synopsys/TCAD_Sentaurus/vG_2012.06/tcad/current/amd64/lib/sdevice-20.0.5 /w/apps3/Synopsys/TCAD_Sentaurus/vG_2012.06/tcad/current/amd64/lib/sdevice
+
+CMIPath file: /w/apps3/Synopsys/TCAD_Sentaurus/vG_2012.06/tcad/current/amd64/lib/sdevice /w/apps3/Synopsys/TCAD_Sentaurus/vG_2012.06/tcad/current/amd64/lib/scm
+
+SPICEPath file: /w/apps3/Synopsys/TCAD_Sentaurus/vG_2012.06/tcad/current/lib/sdevice-20.0.5/spice
+
+no DevicePath file
+
+no CIRCUITSAVENAME file
+
+no CIRCUITLOADNAME file
+
+Numerical parameters:
+  Absolute error : 
+    Poisson : 1.0000e-03
+    Electron : 1.0000e-05
+    Hole : 1.0000e-05
+    Photon-Rate-Equation : 1.0000e-07
+    Photon-Phase-Equation : 1.0000e-05
+    Rate-Stabilize-Equation : 1.0000e-07
+    QW-Scattering-Equations : 1.0000e-05
+    QW-eScattering-Equation : 1.0000e-05
+    QW-hScattering-Equation : 1.0000e-05
+    Optical Problem : 1.0000e-03
+    Wavelength : 1.0000e-03
+    Bandstructure : 1.0000e-03
+    EmissionTable : 1.0000e-03
+    DephasingRates : 1.0000e-03
+    Photon Recycling : 1.0000e-03
+    Electron-Temperature : 1.0000e-04
+    Hole-Temperature : 1.0000e-04
+    Lattice-Hole-Electron-Temperature : 1.0000e-03
+    Circuit : 1.0000e-03
+    TCircuit : 1.0000e-03
+    Contact : 1.0000e-03
+    TContact : 1.0000e-03
+    Continuation : 1.0000e-03
+    eLaplace : 1.0000e-03
+    hLaplace : 1.0000e-03
+    tLaplace : 1.0000e-03
+    MonteCarlo : 1.0000e-03
+    MCPoissonPDE : 1.0000e-03
+    eQuantumPotential : 1.0000e-03
+    hQuantumPotential : 1.0000e-03
+    quasi-fermi-potential : 1.0000e-03
+    ConductiveInsulator : 1.0000e-03
+    ContactAndConductiveInsulator : 1.0000e-03
+    SingletExciton : 1.0000e-05
+    eHopping : 1.0000e-03
+    hHopping : 1.0000e-03
+    HydrogenAtom : 1.0000e-03
+    HydrogenMolecule : 1.0000e-03
+    HydrogenIon : 1.0000e-03
+    HydrogenSiliconBondOccupation : 1.0000e-03
+    eSHEDistribution : 1.0000e-03
+    hSHEDistribution : 1.0000e-03
+  RelErrControl (Reference error): 
+    Poisson : 0.025852
+    Electron : 1.0000e+10
+    Hole : 1.0000e+10
+    Photon-Rate-Equation : 1.0000e-07
+    Photon-Phase-Equation : 1
+    Rate-Stabilize-Equation : 1.0000e-07
+    QW-Scattering-Equations : 1.0000e+10
+    QW-eScattering-Equation : 1.0000e+10
+    QW-hScattering-Equation : 1.0000e+10
+    Optical Problem : 1
+    Wavelength : 1
+    Bandstructure : 1
+    EmissionTable : 1
+    DephasingRates : 1
+    Photon Recycling : 1
+    Electron-Temperature : 3.0000e+02
+    Hole-Temperature : 3.0000e+02
+    Lattice-Hole-Electron-Temperature : 3.0000e+02
+    Circuit : 1
+    TCircuit : 1
+    Contact : 0.025852
+    TContact : 1
+    Continuation : 1
+    eLaplace : 1
+    hLaplace : 1
+    tLaplace : 1
+    MonteCarlo : 1
+    MCPoissonPDE : 1
+    eQuantumPotential : 0.025852
+    hQuantumPotential : 0.025852
+    quasi-fermi-potential : 0.025852
+    ConductiveInsulator : 1
+    ContactAndConductiveInsulator : 1
+    SingletExciton : 1.0000e+10
+    eHopping : 0.025852
+    hHopping : 0.025852
+    HydrogenAtom : 1.0000e+10
+    HydrogenMolecule : 1.0000e+10
+    HydrogenIon : 1.0000e+10
+    HydrogenSiliconBondOccupation : 1
+    eSHEDistribution : 0.025852
+    hSHEDistribution : 0.025852
+  Relative error : 5 digits
+  Without checked transient error
+  Max. #iterations : 20
+  LineSearchDamping=1
+  #undamped iterations : 50
+  No incomplete Newton
+  transient method : TR-BDF
+  Linear solver : blocked decomposition
+  Linear solver for AC analysis : blocked decomposition
+  Linear solver for SHEDistribution Model : Super
+  use linear extrapolation in transient/quasistationary computations
+  use complex supernodal in ac-analysis (if possible)
+  do not use smoothed PDE's in transient/quasistationary computations
+  Harmonic balance (HB) specifications:
+    Do not use MDFT mode in HB (i.e. one-tone and time domain assembly).
+    Do not use in HB the logarithm of densities.
+    No SolveSpectrum entries are specified.
+    Plot HB results for time domain interval (0.0000e+00 , 0.0000e+00) using 0 intervals.
+    HB Newton scaling parameters for rhs and update:
+      Equation                         :  RhsScale  : UpdateScale
+      Poisson                          :   1.00E+00 :   1.00E+00 
+      Electron                         :   1.00E-05 :   1.00E+00 
+      Hole                             :   1.00E-05 :   1.00E+00 
+      Photon-Rate-Equation             :   1.00E-05 :   1.00E+00 
+      Photon-Phase-Equation            :   1.00E+00 :   1.00E+00 
+      Rate-Stabilize-Equation          :   1.00E+00 :   1.00E+00 
+      QW-Scattering-Equations          :   1.00E-05 :   1.00E+00 
+      QW-eScattering-Equation          :   1.00E-05 :   1.00E+00 
+      QW-hScattering-Equation          :   1.00E-05 :   1.00E+00 
+      Optical Problem                  :   1.00E+00 :   1.00E+00 
+      Wavelength                       :   1.00E+00 :   1.00E+00 
+      Bandstructure                    :   1.00E+00 :   1.00E+00 
+      EmissionTable                    :   1.00E+00 :   1.00E+00 
+      DephasingRates                   :   1.00E+00 :   1.00E+00 
+      Photon Recycling                 :   1.00E+00 :   1.00E+00 
+      Electron-Temperature             :   1.00E+00 :   1.00E+00 
+      Hole-Temperature                 :   1.00E+00 :   1.00E+00 
+      Lattice-Hole-Electron-Temperature:   1.00E+00 :   1.00E+00 
+      Circuit                          :   1.00E-05 :   1.00E+00 
+      TCircuit                         :   1.00E+00 :   1.00E+00 
+      Contact                          :   1.00E-05 :   1.00E+00 
+      TContact                         :   1.00E+00 :   1.00E+00 
+      Continuation                     :   1.00E+00 :   1.00E+00 
+      eLaplace                         :   1.00E+00 :   1.00E+00 
+      hLaplace                         :   1.00E+00 :   1.00E+00 
+      tLaplace                         :   1.00E+00 :   1.00E+00 
+      MonteCarlo                       :   1.00E+00 :   1.00E+00 
+      MCPoissonPDE                     :   1.00E+00 :   1.00E+00 
+      eQuantumPotential                :   1.00E+00 :   1.00E+00 
+      hQuantumPotential                :   1.00E+00 :   1.00E+00 
+      quasi-fermi-potential            :   1.00E+00 :   1.00E+00 
+      ConductiveInsulator              :   1.00E+00 :   1.00E+00 
+      ContactAndConductiveInsulator    :   1.00E+00 :   1.00E+00 
+      SingletExciton                   :   1.00E+00 :   1.00E+00 
+      eHopping                         :   1.00E+00 :   1.00E+00 
+      hHopping                         :   1.00E+00 :   1.00E+00 
+      HydrogenAtom                     :   1.00E+00 :   1.00E+00 
+      HydrogenMolecule                 :   1.00E+00 :   1.00E+00 
+      HydrogenIon                      :   1.00E+00 :   1.00E+00 
+      HydrogenSiliconBondOccupation    :   1.00E+00 :   1.00E+00 
+      eSHEDistribution                 :   1.00E+00 :   1.00E+00 
+      hSHEDistribution                 :   1.00E+00 :   1.00E+00 
+    HB Newton correction parameters for values:
+      Equation                         :     Min    :  Variation 
+      Electron                         :   1.00E-20 :   1.00E+18 
+      Hole                             :   1.00E-20 :   1.00E+18 
+      Photon-Rate-Equation             :   0.00E+00 :   1.00E+18 
+      QW-eScattering-Equation          :   1.00E-20 :   1.00E+18 
+      QW-hScattering-Equation          :   1.00E-20 :   1.00E+18 
+      Electron-Temperature             :   1.00E+02 :   1.00E+18 
+      Hole-Temperature                 :   1.00E+02 :   1.00E+18 
+      Lattice-Hole-Electron-Temperature:   1.00E+02 :   1.00E+18 
+    
+    Traps are solved by decoupled mode.
+  use automatic coupling of contact/circuit stuff
+  Spice temperature: 3.0015e+02
+  Spice nominal temperature of parameter measurements: 3.0015e+02
+  Spice minimum conductance gmin: 1.0000e-12
+  Mininum |rhs| : 1.0000e-05
+  Maximum |rhs| : 1.0000e+15
+  Maximum |rhs| factor : 1.0000e+10
+  Lattice Temperature Range : (50,5.0000e+03)
+  Carrier Temperature Range : (10,8.0000e+04)
+  Simplified first order SHE of BTE will be solved
+  SHERefinementCutoff : 20
+  No user dependencies.
+  Number of assembly threads: 1 (default)
+  Number of solver threads: 1 (OMP_NUM_THREADS)
+  Thread stacksize: 1000000 bytes (default)
+  Go serial if not enough parallel licenses are available.
+
+Default device parameters:
+  Files:
+    no Boundary file
+    no Grid file
+    no Doping file
+    no MobilityDoping file
+    no Load file
+    no Save file
+    no Plot file
+    no DevFieldsName file
+    no Path file
+    no optical-Generation file
+    no Lifetime file
+    no Temperature file
+    no Current file
+    no PMIUserFields file
+    no Extraction file
+    no ModelParameters file
+    no Piezo file
+    no ModeGain file
+    no Optical emission table for stimulated emission file
+    no Optical emission table for spontaneous emission file
+    no Optical emission table for photon phase change coefficient file
+    no EmissionTable file
+    no DephasingRates file
+    no ASESpectrum file
+    no OpticalFarField file
+    no OpticalIntensityPattern file
+    no SaveOpticalIntensityPattern file
+    no OpticalXYAnglePattern file
+    no SaveOpticalXYAnglePattern file
+    no MonteCarloInput file
+    no MonteCarloOutput file
+    no ACPlot file
+-----------------------------------------------
+  Numerical parameters:
+    With exact derivatives
+    With avalanche derivatives
+    Using old wavelength search algorithm
+    Do not reinitialize quasi Fermi potentials in quasi-stationary simulations
+    Ignore ionization integral constraints
+    Without SRH per potential 
+    Without CDL per potential 
+    Without diagonal preconditioning
+    With Scharfetter-Gummel Discretization
+    Relative error : 5 digits
+    Delta for numerical tunnelling derivatives : 1.0000e-03
+    Do not compute breakdown paths and ionization integrals
+    QuasiFermiPotential is used for Contact Equation
+-----------------------------------------------
+-----------------------------------------------
+  Physical models:
+    Without incomplete ionization
+    Use Si parameters
+    TATNonlocalPathNC = 0.0000e+00
+    Without SRH-Recombination
+    Without CDL-Recombination
+    With optical generation computation 
+    Without Band-to-Band-Tunneling
+    Without Auger-Recombination
+    Without Radiative Recombination
+    Without Surface-Recombination
+    Without Trap-Assisted-Auger-Recombination
+    PMI recombination models: none
+  Without thermal resistance interfaces
+  Without Piezo
+  Without Anisotropic Material Properties
+  Without Avalanche-Generation 
+  Without Alpha Particle
+  Without Heavy Ion
+  Without polarization
+  Volume charge density: 0.0000e+00 cm^-3
+  Device Temperature = 3.0000e+02 K
+  Electron Quasi Fermi Potential: 0.0000e+00 V
+  Hole Quasi Fermi Potential: 0.0000e+00 V
+  Without MagneticField
+  With SingletExciton Barrier Type
+  Intrinsic density models:
+    default bandgap model
+    Bandgap narrowing model: Bennett/Wilson with bandgap narrowing (no Fermi)
+  default affinity model
+  default effective mass model
+  Electron mobility:
+    no Doping dependence (using constant mobility)
+    no Carrier-Carrier scattering
+    no E_normal dependence
+    Without ThinLayer mobility model
+    no high-field saturation
+    Einstein relation for diffusivity-mobility ratio.
+  Hole mobility:
+    no Doping dependence (using constant mobility)
+    no Carrier-Carrier scattering
+    no E_normal dependence
+    Without ThinLayer mobility model
+    no high-field saturation
+    Einstein relation for diffusivity-mobility ratio.
+  Energy relaxation time model: according to formula in parameter file
+  Lattice thermal conductivity model: according to formula in parameter file
+  Metal Resistivity model: according to formula in parameter file
+  Thermo Electric Power model: extraploted Si data
+  Metal Thermo Electric Power model: MetalThermoElectricPower model not defined
+  Lattice heat capacity model: temperature dependent
+  no piezoelectric polarization model
+  Without default parameters from file (use built-in default parameters)
+-----------------------------------------------
+Process information for extraction purposes:
+  none
+Plot variables:
+  eDensity
+  hDensity
+  eCurrentDensity
+  hCurrentDensity
+  TotalCurrentDensity/Vector
+  eLifetime
+  hLifetime
+  EffectiveIntrinsicDensity
+  IntrinsicDensity
+  eEquilibriumDensity
+  hEquilibriumDensity
+  ElectrostaticPotential
+  SpaceCharge
+  ElectricField/Vector
+  eMobility
+  hMobility
+  eVelocity
+  hVelocity
+  DopingConcentration
+  DonorConcentration
+  AcceptorConcentration
+  ConductionBandEnergy
+  ValenceBandEnergy
+  BandGap
+  eQuasiFermiPotential
+  hQuasiFermiPotential
+  SRHRecombination
+  AugerRecombination
+  TotalRecombination
+  SurfaceRecombination
+  Band2BandGeneration
+  OpticalIntensity
+  OpticalGeneration
+
+------------------------------------------------
+NoisePlot variables:
+  none
+Plot groups:
+  none
+
+------------------------------------------------
+CurrentPlot variables:
+  none
+Devices:
+Device hetero:
+Parameters
+Electrodes:
+  "ntype" : 0.0000e+00 V (Ohmic), area factor : 1
+  "ptype" : 0.0000e+00 V (Ohmic), area factor : 1
+Files:
+  Grid file: ../LAE/sdemodel_msh.tdr
+  Plot file: ../LAE/sde_dvs_des.tdr
+  Current file: ../LAE/sde_des_opt1.plt
+  ModelParameters file: ../LAE/models.par
+-----------------------------------------------
+Numerical parameters:
+  With Hydrodynamic Discretization for Electron and Hole temperatures
+        -----------------------------------------------
+-----------------------------------------------
+Physical models:
+  With SRH-Recombination
+    With Schenk field dependent lifetimes (trap assisted tunneling model)
+    With Schenk local density modification in SRH
+    With doping dependent lifetimes
+    With temperature dependent lifetimes (power law)
+  With Band-to-Band-Tunneling
+    Schenk model
+      Local density correction
+  With Auger-Recombination (without Generation)
+  With Surface-Recombination
+  Without thermal resistance interfaces
+  With HeteroInterfaces
+  With Thermionic Emission at heterointerfaces for electrons and holes
+
+  With Avalanche-Generation: 
+  For electrons:
+    driving force is Parallel (to current) Electric Field,
+    model according to van Overstraeten / de Man
+  For holes:
+    driving force is Parallel (to current) Electric Field,
+    model according to van Overstraeten / de Man
+
+  Intrinsic density models:
+    default bandgap model
+    Bandgap narrowing model: OldSlotboom with bandgap narrowing (no Fermi)
+  Electron mobility:
+    Doping dependence:
+      Default
+    E_normal dependence:
+      Lombardi
+    Diffusivity: Caughey-Thomas saturation model, carrier temperature saturation
+  Hole mobility:
+    Doping dependence:
+      Default
+    E_normal dependence:
+      Lombardi
+    Diffusivity: Caughey-Thomas saturation model, carrier temperature saturation
+  DeviceAreaFactor = 10
+-----------------------------------------------
+- - - - - - - - - - - - - - - - - - - - - - - - 
+The following Physical models have been changed
+              for Region = 'n_region_9'
+
+  Internal Mole Fraction Specification:
+    xMoleFractionConst = 0.47
+
+  Without thermal resistance interfaces
+  Model: Optics  Switched on
+    Model: OpticalGeneration  Switched on
+      Model: SetConstant  Switched on
+        Model: TimeDependence  Switched on
+          Parameter: WaveTime = [ 1.4e-10 1.402e-10 ] s
+          Parameter: WaveTSigma = 1e-14 s
+        Parameter: Value = 9.5e+21 cm^-3*s^-1
+      Model: QuantumYield  Switched on
+        Parameter: Unity = on
+        Model: StepFunction  Switched off
+          Parameter: Energy = -1 eV
+          Parameter: Wavelength = -1 um
+    Model: ComplexRefractiveIndex  Switched on
+      Model: WavelengthDep  Switched on
+        Parameter: Real = on
+        Parameter: Imag = on
+- - - - - - - - - - - - - - - - - - - - - - - -
+- - - - - - - - - - - - - - - - - - - - - - - - 
+The following Physical models have been changed
+              for Region = 'n_region_8'
+
+  Internal Mole Fraction Specification:
+    xMoleFractionConst = 0.47
+
+  Without thermal resistance interfaces
+  Model: Optics  Switched on
+    Model: OpticalGeneration  Switched on
+      Model: SetConstant  Switched on
+        Model: TimeDependence  Switched on
+          Parameter: WaveTime = [ 1.4e-10 1.402e-10 ] s
+          Parameter: WaveTSigma = 1e-14 s
+        Parameter: Value = 8.5e+21 cm^-3*s^-1
+      Model: QuantumYield  Switched on
+        Parameter: Unity = on
+        Model: StepFunction  Switched off
+          Parameter: Energy = -1 eV
+          Parameter: Wavelength = -1 um
+    Model: ComplexRefractiveIndex  Switched on
+      Model: WavelengthDep  Switched on
+        Parameter: Real = on
+        Parameter: Imag = on
+- - - - - - - - - - - - - - - - - - - - - - - -
+- - - - - - - - - - - - - - - - - - - - - - - - 
+The following Physical models have been changed
+              for Region = 'n_region_7'
+
+  Internal Mole Fraction Specification:
+    xMoleFractionConst = 0.47
+
+  Without thermal resistance interfaces
+  Model: Optics  Switched on
+    Model: OpticalGeneration  Switched on
+      Model: SetConstant  Switched on
+        Model: TimeDependence  Switched on
+          Parameter: WaveTime = [ 1.4e-10 1.402e-10 ] s
+          Parameter: WaveTSigma = 1e-14 s
+        Parameter: Value = 7.5e+21 cm^-3*s^-1
+      Model: QuantumYield  Switched on
+        Parameter: Unity = on
+        Model: StepFunction  Switched off
+          Parameter: Energy = -1 eV
+          Parameter: Wavelength = -1 um
+    Model: ComplexRefractiveIndex  Switched on
+      Model: WavelengthDep  Switched on
+        Parameter: Real = on
+        Parameter: Imag = on
+- - - - - - - - - - - - - - - - - - - - - - - -
+- - - - - - - - - - - - - - - - - - - - - - - - 
+The following Physical models have been changed
+              for Region = 'n_region_6'
+
+  Internal Mole Fraction Specification:
+    xMoleFractionConst = 0.47
+
+  Without thermal resistance interfaces
+  Model: Optics  Switched on
+    Model: OpticalGeneration  Switched on
+      Model: SetConstant  Switched on
+        Model: TimeDependence  Switched on
+          Parameter: WaveTime = [ 1.4e-10 1.402e-10 ] s
+          Parameter: WaveTSigma = 1e-14 s
+        Parameter: Value = 6.5e+21 cm^-3*s^-1
+      Model: QuantumYield  Switched on
+        Parameter: Unity = on
+        Model: StepFunction  Switched off
+          Parameter: Energy = -1 eV
+          Parameter: Wavelength = -1 um
+    Model: ComplexRefractiveIndex  Switched on
+      Model: WavelengthDep  Switched on
+        Parameter: Real = on
+        Parameter: Imag = on
+- - - - - - - - - - - - - - - - - - - - - - - -
+- - - - - - - - - - - - - - - - - - - - - - - - 
+The following Physical models have been changed
+              for Region = 'n_region_5'
+
+  Internal Mole Fraction Specification:
+    xMoleFractionConst = 0.47
+
+  Without thermal resistance interfaces
+  Model: Optics  Switched on
+    Model: OpticalGeneration  Switched on
+      Model: SetConstant  Switched on
+        Model: TimeDependence  Switched on
+          Parameter: WaveTime = [ 1.4e-10 1.402e-10 ] s
+          Parameter: WaveTSigma = 1e-14 s
+        Parameter: Value = 5.5e+21 cm^-3*s^-1
+      Model: QuantumYield  Switched on
+        Parameter: Unity = on
+        Model: StepFunction  Switched off
+          Parameter: Energy = -1 eV
+          Parameter: Wavelength = -1 um
+    Model: ComplexRefractiveIndex  Switched on
+      Model: WavelengthDep  Switched on
+        Parameter: Real = on
+        Parameter: Imag = on
+- - - - - - - - - - - - - - - - - - - - - - - -
+- - - - - - - - - - - - - - - - - - - - - - - - 
+The following Physical models have been changed
+              for Region = 'n_region_4'
+
+  Internal Mole Fraction Specification:
+    xMoleFractionConst = 0.47
+
+  Without thermal resistance interfaces
+  Model: Optics  Switched on
+    Model: OpticalGeneration  Switched on
+      Model: SetConstant  Switched on
+        Model: TimeDependence  Switched on
+          Parameter: WaveTime = [ 1.4e-10 1.402e-10 ] s
+          Parameter: WaveTSigma = 1e-14 s
+        Parameter: Value = 4.5e+21 cm^-3*s^-1
+      Model: QuantumYield  Switched on
+        Parameter: Unity = on
+        Model: StepFunction  Switched off
+          Parameter: Energy = -1 eV
+          Parameter: Wavelength = -1 um
+    Model: ComplexRefractiveIndex  Switched on
+      Model: WavelengthDep  Switched on
+        Parameter: Real = on
+        Parameter: Imag = on
+- - - - - - - - - - - - - - - - - - - - - - - -
+- - - - - - - - - - - - - - - - - - - - - - - - 
+The following Physical models have been changed
+              for Region = 'n_region_3'
+
+  Internal Mole Fraction Specification:
+    xMoleFractionConst = 0.47
+
+  Without thermal resistance interfaces
+  Model: Optics  Switched on
+    Model: OpticalGeneration  Switched on
+      Model: SetConstant  Switched on
+        Model: TimeDependence  Switched on
+          Parameter: WaveTime = [ 1.4e-10 1.402e-10 ] s
+          Parameter: WaveTSigma = 1e-14 s
+        Parameter: Value = 3.5e+21 cm^-3*s^-1
+      Model: QuantumYield  Switched on
+        Parameter: Unity = on
+        Model: StepFunction  Switched off
+          Parameter: Energy = -1 eV
+          Parameter: Wavelength = -1 um
+    Model: ComplexRefractiveIndex  Switched on
+      Model: WavelengthDep  Switched on
+        Parameter: Real = on
+        Parameter: Imag = on
+- - - - - - - - - - - - - - - - - - - - - - - -
+- - - - - - - - - - - - - - - - - - - - - - - - 
+The following Physical models have been changed
+              for Region = 'n_region_2'
+
+  Internal Mole Fraction Specification:
+    xMoleFractionConst = 0.47
+
+  Without thermal resistance interfaces
+  Model: Optics  Switched on
+    Model: OpticalGeneration  Switched on
+      Model: SetConstant  Switched on
+        Model: TimeDependence  Switched on
+          Parameter: WaveTime = [ 1.4e-10 1.402e-10 ] s
+          Parameter: WaveTSigma = 1e-14 s
+        Parameter: Value = 2.5e+21 cm^-3*s^-1
+      Model: QuantumYield  Switched on
+        Parameter: Unity = on
+        Model: StepFunction  Switched off
+          Parameter: Energy = -1 eV
+          Parameter: Wavelength = -1 um
+    Model: ComplexRefractiveIndex  Switched on
+      Model: WavelengthDep  Switched on
+        Parameter: Real = on
+        Parameter: Imag = on
+- - - - - - - - - - - - - - - - - - - - - - - -
+- - - - - - - - - - - - - - - - - - - - - - - - 
+The following Physical models have been changed
+              for Region = 'p_region_1'
+
+  Internal Mole Fraction Specification:
+    xMoleFractionConst = 0.47
+
+  Without thermal resistance interfaces
+  Model: Optics  Switched on
+    Model: OpticalGeneration  Switched on
+      Model: SetConstant  Switched on
+        Model: TimeDependence  Switched on
+          Parameter: WaveTime = [ 1.4e-10 1.402e-10 ] s
+          Parameter: WaveTSigma = 1e-14 s
+        Parameter: Value = 1.5e+21 cm^-3*s^-1
+      Model: QuantumYield  Switched on
+        Parameter: Unity = on
+        Model: StepFunction  Switched off
+          Parameter: Energy = -1 eV
+          Parameter: Wavelength = -1 um
+    Model: ComplexRefractiveIndex  Switched on
+      Model: WavelengthDep  Switched on
+        Parameter: Real = on
+        Parameter: Imag = on
+- - - - - - - - - - - - - - - - - - - - - - - -
+- - - - - - - - - - - - - - - - - - - - - - - - 
+The following Physical models have been changed
+              for Region = 'p_region_0'
+
+  Internal Mole Fraction Specification:
+    xMoleFractionConst = 0.47
+
+  Without thermal resistance interfaces
+  Model: Optics  Switched on
+    Model: OpticalGeneration  Switched on
+      Model: SetConstant  Switched on
+        Model: TimeDependence  Switched on
+          Parameter: WaveTime = [ 1.4e-10 1.402e-10 ] s
+          Parameter: WaveTSigma = 1e-14 s
+        Parameter: Value = 5e+20 cm^-3*s^-1
+      Model: QuantumYield  Switched on
+        Parameter: Unity = on
+        Model: StepFunction  Switched off
+          Parameter: Energy = -1 eV
+          Parameter: Wavelength = -1 um
+    Model: ComplexRefractiveIndex  Switched on
+      Model: WavelengthDep  Switched on
+        Parameter: Real = on
+        Parameter: Imag = on
+- - - - - - - - - - - - - - - - - - - - - - - -
+- - - - - - - - - - - - - - - - - - - - - - - - 
+The following Physical models have been changed
+              for Region = 'substrate'
+  Without thermal resistance interfaces
+  Model: Optics  Switched on
+    Model: OpticalGeneration  Switched off
+- - - - - - - - - - - - - - - - - - - - - - - -
+- - - - - - - - - - - - - - - - - - - - - - - - 
+The following Physical models were changed
+              for Material = 'InP'
+  Without thermal resistance interfaces
+  Model: Optics  Switched on
+    Model: OpticalGeneration  Switched off
+- - - - - - - - - - - - - - - - - - - - - - - -
+- - - - - - - - - - - - - - - - - - - - - - - - 
+The following Physical models were changed
+              for Material = 'Gold'
+  Without thermal resistance interfaces
+  Model: Optics  Switched on
+    Model: OpticalGeneration  Switched off
+- - - - - - - - - - - - - - - - - - - - - - - -
+
+------------------------------------------------
+
+------------------------------------------------
+Systems:
+System :
+DEVICE MOS_harness
+  PARAMETERS 
+END DEVICE
+PSET MOS_harness_pset
+  PARAMETERS 
+END PSET
+hetero d1 ( ntype=1 ptype=0 ){
+-----------------------------------------------
+Physical models:
+  Without thermal resistance interfaces
+-----------------------------------------------
+
+------------------------------------------------
+
+------------------------------------------------
+    }
+Resistor_pset R1 ( 2 1 ){
+	resistance	= 70
+}
+Vsource_pset vdc ( 2 0 ){
+	dc	= 15
+}
+
+
+Solve :
+ Poisson
+Coupled ( Digits : 5, Max. #iterations : 20, 
+    Solver : blocked decomposition,
+    #undamped iterations : 50 
+)
+    { Poisson Electron Hole } 
+Transient (
+      Max. #iterations : 20, 
+      Initial step : 1.0000e-15 s, Minimum #intervals : 0, 
+      Minimum step : 1.0000e-15 s, Maximum step : 5.0000e-14 s, 
+      Initial time : 0.0000e+00 s, Final time : 2.0000e-10 s, 
+    )
+  {
+    Coupled ( Digits : 5, Max. #iterations : 20, 
+        Solver : blocked decomposition,
+        #undamped iterations : 50 
+)
+        { Poisson Electron Hole } 
+  }
+
+===============================
+
+Reading device instance 'd1'
+Reading grid '../LAE/sdemodel_msh.tdr' ... 
+  coordinate system: DFISE, 2d_dfise (y is device down direction, 3d extension right-handed)
+  use coordinate system as is (no transformation)
+  TDR format
+  Number of grid points is 94568.
+done.
+
+Adding interfaces and contacts .... done.
+Computing edges ...
+  Number of edges: 320563
+done.
+Computing boxes ...
+
+  CVPL_AverageBoxMethod = TRUE 
+   
+  ElementWithMinVolume(172156) Vertex0(96697)( 1.000000e+01,-0.000000e+00) Volume = 5.626678e-07 um3 (3.51e-08 from TotalVolume)
+    ElementWithMinEdge(159943) Vertex0(96331)( 2.734375e-02,-0.000000e+00) Length = 1.440430e-04 um
+        MaxFlatElement(172163) Vertex0(92501)( 1.300000e+01,-0.000000e+00)  Angle = 6.414999e+01 degrees
+   ElementWithMinAngle(164323) Vertex0(96487)( 4.292969e+00,-0.000000e+00)  Angle = 3.018232e-01 degrees
+                   tan(MinAngle) = 5.267857e-03 
+
+   NumberOfEdges              = 320563 
+   NumberOfGeometricalEdges   = 282497 
+   NumberOfDoubleEdges        =   4313 
+   MaxNumberOfElementsPerEdge =      2 
+   MaxNumberOfEdgesPerVertex  =      7 
+ MaxNumberElemEdgesPerVertex  =      9 
+
+  Computing coefficient and measure ...   done.
+  Old Parameters time:   0.01 s
+
+  Computing Voronoi faces, coefficients, and measures ... 
+  CVPL_Algorithm = TRUE 
+
+    Computing Obtuse Elements ... 
+     Obtuse Elements time:   0.00 s
+      New Parameters time:   0.00 s
+
+                       NumberOfVertices =  99262 
+                       NumberOfElements = 187930 
+                      NumberOfTriangles = 187930  (100.00 %)
+                     NumberOfRectangles =      0  ( 0.00 %)
+                 NumberOfObtuseElements =      1  ( 0.00 %)
+            NumberOfNonDelaunayElements =      0  ( 0.00 %)
+    done.
+  done.
+  (times: wc = 0.22 s, tcpu = 0.23 s)
+
+
+/-------- Region non Delaunay elements ---------------------------------------------
+ Region            Volume      BoxMethodVolume  DeltaVolume  Elements  non Delaunay 
+  name              [um2]          [um2]           [%]                   Elements   
+ -----------------------------------------------------------------------------------
+ n_region_8     1.4720000e-01  1.4720000e-01       0.000       731       0 ( 0.00 %) 
+ n_region_9     1.3170000e-01  1.3170000e-01       0.000       732       0 ( 0.00 %) 
+ n_region_2     4.9500000e-01  4.9500000e-01       0.000     62220       0 ( 0.00 %) 
+ p_region_0     5.7705200e+00  5.7705200e+00       0.000     91136       0 ( 0.00 %) 
+ n_region_3     3.5960000e-01  3.5960000e-01       0.000      5124       0 ( 0.00 %) 
+ p_region_1     1.2294800e+00  1.2294800e+00       0.000     12378       0 ( 0.00 %) 
+ ntype_contact  8.0000000e-03  8.0000000e-03       0.000       586       0 ( 0.00 %) 
+ n_region_4     2.7900000e-01  2.7900000e-01       0.000      1463       0 ( 0.00 %) 
+ substrate      7.0000000e+00  7.0000000e+00       0.000     10496       0 ( 0.00 %) 
+ n_region_5     2.2790000e-01  2.2790000e-01       0.000      1460       0 ( 0.00 %) 
+ ptype_contact  2.0000000e-03  2.0000000e-03       0.000       144       0 ( 0.00 %) 
+ n_region_6     1.9270000e-01  1.9270000e-01       0.000       730       0 ( 0.00 %) 
+ n_region_7     1.6690000e-01  1.6690000e-01       0.000       730       0 ( 0.00 %) 
+ Total          1.6010000e+01  1.6010000e+01       0.000    187930       0 ( 0.00 %) 
+\-----------------------------------------------------------------------------------
+
+
+/-------- Interface non Delaunay elements ------------------------------------------
+ Region1           Volume      BoxMethodVolume  DeltaVolume  Elements  non Delaunay 
+ Region2            [um2]          [um2]           [%]                   Elements   
+ -----------------------------------------------------------------------------------
+ n_region_8     7.4807500e-02  7.4807500e-02       0.000       372       0 ( 0.00 %) 
+ n_region_9     6.5850000e-02  6.5850000e-02       0.000       366       0 ( 0.00 %) 
+ ...................................................................................
+ n_region_8     7.4807500e-02  7.4807500e-02       0.000       371       0 ( 0.00 %) 
+ n_region_7     8.3450000e-02  8.3450000e-02       0.000       365       0 ( 0.00 %) 
+ ...................................................................................
+ n_region_9     5.2680000e-02  5.2680000e-02       0.000       293       0 ( 0.00 %) 
+ ntype_contact  4.0000000e-03  4.0000000e-03       0.000       293       0 ( 0.00 %) 
+ ...................................................................................
+ n_region_2     1.9213867e-03  1.9213867e-03       0.000       366       0 ( 0.00 %) 
+ n_region_3     1.0107422e-03  1.0107422e-03       0.000       366       0 ( 0.00 %) 
+ ...................................................................................
+ n_region_2     2.2119141e-03  2.2119141e-03       0.000       366       0 ( 0.00 %) 
+ p_region_1     7.2021484e-04  7.2021484e-04       0.000       366       0 ( 0.00 %) 
+ ...................................................................................
+ p_region_0     1.4330312e-02  1.4330312e-02       0.000       512       0 ( 0.00 %) 
+ p_region_1     1.8509531e-02  1.8509531e-02       0.000       512       0 ( 0.00 %) 
+ ...................................................................................
+ p_region_0     1.3863281e-02  1.3863281e-02       0.000       512       0 ( 0.00 %) 
+ substrate      1.8976563e-02  1.8976563e-02       0.000       512       0 ( 0.00 %) 
+ ...................................................................................
+ n_region_3     7.9096875e-02  7.9096875e-02       0.000       366       0 ( 0.00 %) 
+ n_region_4     1.4731250e-02  1.4731250e-02       0.000       366       0 ( 0.00 %) 
+ ...................................................................................
+ p_region_1     2.4187500e-02  2.4187500e-02       0.000        72       0 ( 0.00 %) 
+ ptype_contact  1.0000000e-03  1.0000000e-03       0.000        72       0 ( 0.00 %) 
+ ...................................................................................
+ n_region_4     1.2476875e-01  1.2476875e-01       0.000       365       0 ( 0.00 %) 
+ n_region_5     6.2887500e-02  6.2887500e-02       0.000       365       0 ( 0.00 %) 
+ ...................................................................................
+ n_region_5     5.1062500e-02  5.1062500e-02       0.000       365       0 ( 0.00 %) 
+ n_region_6     9.6350000e-02  9.6350000e-02       0.000       365       0 ( 0.00 %) 
+ ...................................................................................
+ n_region_6     9.6350000e-02  9.6350000e-02       0.000       365       0 ( 0.00 %) 
+ n_region_7     8.3450000e-02  8.3450000e-02       0.000       365       0 ( 0.00 %) 
+ ...................................................................................
+ Total          1.0610233e+00  1.0610233e+00       0.000      8638       0 ( 0.00 %) 
+\-----------------------------------------------------------------------------------
+done.
+Reading doping '../LAE/sdemodel_msh.tdr' (TDR format) ...
+done.
+done.
+Reading parameter file '../LAE/models.par' ...
+---------------------------------------------------
+ Reading parameters for material "InP"
+---------------------------------------------------
+
+
+=======
+Region: "n_region_2"
+  (material is "InGaAs")
+=======
+  Constants are not modified and equal to default ones
+
+=======
+Region: "n_region_3"
+  (material is "InGaAs")
+=======
+  Constants are not modified and equal to default ones
+
+=======
+Region: "n_region_4"
+  (material is "InGaAs")
+=======
+  Constants are not modified and equal to default ones
+
+=======
+Region: "n_region_5"
+  (material is "InGaAs")
+=======
+  Constants are not modified and equal to default ones
+
+=======
+Region: "n_region_6"
+  (material is "InGaAs")
+=======
+  Constants are not modified and equal to default ones
+
+=======
+Region: "n_region_7"
+  (material is "InGaAs")
+=======
+  Constants are not modified and equal to default ones
+
+=======
+Region: "n_region_8"
+  (material is "InGaAs")
+=======
+  Constants are not modified and equal to default ones
+
+=======
+Region: "n_region_9"
+  (material is "InGaAs")
+=======
+  Constants are not modified and equal to default ones
+
+=======
+Region: "ntype_contact"
+  (material is "InGaAs")
+=======
+  Constants are not modified and equal to default ones
+
+=======
+Region: "p_region_0"
+  (material is "InGaAs")
+=======
+  Constants are not modified and equal to default ones
+
+=======
+Region: "p_region_1"
+  (material is "InGaAs")
+=======
+  Constants are not modified and equal to default ones
+
+=======
+Region: "ptype_contact"
+  (material is "InGaAs")
+=======
+  Constants are not modified and equal to default ones
+
+=======
+Region: "substrate"
+  (material is "InP")
+=======
+  Constants are not modified and equal to default ones
+
+================
+RegionInterface: "n_region_2/n_region_3"
+  (material interface is "InGaAs/InGaAs")
+================
+  Constants are not modified and equal to default ones
+
+================
+RegionInterface: "n_region_2/p_region_1"
+  (material interface is "InGaAs/InGaAs")
+================
+  Constants are not modified and equal to default ones
+
+================
+RegionInterface: "n_region_3/n_region_4"
+  (material interface is "InGaAs/InGaAs")
+================
+  Constants are not modified and equal to default ones
+
+================
+RegionInterface: "n_region_4/n_region_5"
+  (material interface is "InGaAs/InGaAs")
+================
+  Constants are not modified and equal to default ones
+
+================
+RegionInterface: "n_region_5/n_region_6"
+  (material interface is "InGaAs/InGaAs")
+================
+  Constants are not modified and equal to default ones
+
+================
+RegionInterface: "n_region_6/n_region_7"
+  (material interface is "InGaAs/InGaAs")
+================
+  Constants are not modified and equal to default ones
+
+================
+RegionInterface: "n_region_8/n_region_7"
+  (material interface is "InGaAs/InGaAs")
+================
+  Constants are not modified and equal to default ones
+
+================
+RegionInterface: "n_region_8/n_region_9"
+  (material interface is "InGaAs/InGaAs")
+================
+  Constants are not modified and equal to default ones
+
+================
+RegionInterface: "n_region_9/ntype_contact"
+  (material interface is "InGaAs/InGaAs")
+================
+  Constants are not modified and equal to default ones
+
+================
+RegionInterface: "p_region_0/p_region_1"
+  (material interface is "InGaAs/InGaAs")
+================
+  Constants are not modified and equal to default ones
+
+================
+RegionInterface: "p_region_0/substrate"
+  (material interface is "InGaAs/InP")
+================
+  Constants are not modified and equal to default ones
+
+================
+RegionInterface: "p_region_1/ptype_contact"
+  (material interface is "InGaAs/InGaAs")
+================
+  Constants are not modified and equal to default ones
+
+==========
+Electrode: "ntype"
+==========
+  Constants are not modified and equal to default ones
+
+==========
+Electrode: "ptype"
+==========
+  Constants are not modified and equal to default ones
+
+
+Use doping species (B, P) concentrations from file (Species => Na,Nd)!
+Use doping concentration (Nnet) from file.
+No total doping concentration in doping file (Species => Ntot)!
+
+
+ Region "n_region_8" (Material "InGaAs"): "DopingDependence(electrons)" computed by side materials "InAs,GaAs"
+ Region "n_region_8" (Material "InGaAs"): "DopingDependence(holes)" computed by side materials "InAs,GaAs"
+ Region "n_region_9" (Material "InGaAs"): "DopingDependence(electrons)" computed by side materials "InAs,GaAs"
+ Region "n_region_9" (Material "InGaAs"): "DopingDependence(holes)" computed by side materials "InAs,GaAs"
+ Region "n_region_2" (Material "InGaAs"): "DopingDependence(electrons)" computed by side materials "InAs,GaAs"
+ Region "n_region_2" (Material "InGaAs"): "DopingDependence(holes)" computed by side materials "InAs,GaAs"
+ Region "p_region_0" (Material "InGaAs"): "DopingDependence(electrons)" computed by side materials "InAs,GaAs"
+ Region "p_region_0" (Material "InGaAs"): "DopingDependence(holes)" computed by side materials "InAs,GaAs"
+ Region "n_region_3" (Material "InGaAs"): "DopingDependence(electrons)" computed by side materials "InAs,GaAs"
+ Region "n_region_3" (Material "InGaAs"): "DopingDependence(holes)" computed by side materials "InAs,GaAs"
+ Region "p_region_1" (Material "InGaAs"): "DopingDependence(electrons)" computed by side materials "InAs,GaAs"
+ Region "p_region_1" (Material "InGaAs"): "DopingDependence(holes)" computed by side materials "InAs,GaAs"
+ Region "ntype_contact" (Material "InGaAs"): "DopingDependence(electrons)" computed by side materials "InAs,GaAs"
+ Region "ntype_contact" (Material "InGaAs"): "DopingDependence(holes)" computed by side materials "InAs,GaAs"
+ Region "n_region_4" (Material "InGaAs"): "DopingDependence(electrons)" computed by side materials "InAs,GaAs"
+ Region "n_region_4" (Material "InGaAs"): "DopingDependence(holes)" computed by side materials "InAs,GaAs"
+ Region "n_region_5" (Material "InGaAs"): "DopingDependence(electrons)" computed by side materials "InAs,GaAs"
+ Region "n_region_5" (Material "InGaAs"): "DopingDependence(holes)" computed by side materials "InAs,GaAs"
+ Region "ptype_contact" (Material "InGaAs"): "DopingDependence(electrons)" computed by side materials "InAs,GaAs"
+ Region "ptype_contact" (Material "InGaAs"): "DopingDependence(holes)" computed by side materials "InAs,GaAs"
+ Region "n_region_6" (Material "InGaAs"): "DopingDependence(electrons)" computed by side materials "InAs,GaAs"
+ Region "n_region_6" (Material "InGaAs"): "DopingDependence(holes)" computed by side materials "InAs,GaAs"
+ Region "n_region_7" (Material "InGaAs"): "DopingDependence(electrons)" computed by side materials "InAs,GaAs"
+ Region "n_region_7" (Material "InGaAs"): "DopingDependence(holes)" computed by side materials "InAs,GaAs"
+Done reading device instance 'd1'
+Mon Jan 26 12:03:55 2015: checked out 1 Dessis-MixedMode license(s)
+Mon Jan 26 12:03:55 2015: checked out 1 sdevice-mixedmode license(s)
+Mon Jan 26 12:03:55 2015: checked out 1 Dessis-Hetero license(s)
+Mon Jan 26 12:03:55 2015: checked out 1 sdevice-hetero license(s)
+
+With Constant Reference Potential:
+  Parameters of Reference Semiconductor:
+    The Electron Affinity: 4.92751
+    The Band Gap: 0.355482
+    The Electron DOS: 8.7200e+16
+    The Hole DOS: 6.6600e+18
+  The Constant Reference Potential: 5.04921
+Mon Jan 26 12:03:55 2015: checked out 1 Dessis-Optic license(s)
+Mon Jan 26 12:03:55 2015: checked out 1 sdevice-optic license(s)
+
+===============================
+Starting solve of next problem:
+ Poisson
+===============================
+
+Computing poisson-equation 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      5.51e+03                                                      0.10
+    1      1.45e+01   1.00e+00   4.54e+00   1.77e+05    0         1      1.24
+    2      1.77e+00   1.00e+00   3.29e+00   8.89e+04    0         1      2.12
+    3      3.47e-01   1.00e+00   1.03e+00   1.68e+04    0         1      2.89
+    4      2.52e-02   1.00e+00   1.58e-01   2.12e+03    0         1      3.64
+    5      3.16e-04   1.00e+00   9.61e-03   1.31e+02    0         1      4.39
+    6      2.84e-08   1.00e+00   6.81e-05   9.00e-01    0         1      5.25
+Finished, because...
+Error smaller than 1 ( 8.9980E-01 ).
+
+Accumulated times:
+Rhs time:        0.10 s
+Jacobian time:   0.09 s
+Solve time:      4.43 s
+Total time:      5.25 s
+
+Device Instance d1:
+Contact              Voltage              Electron      Hole         Conduction 
+                 outer       inner        current       current      current
+ ntype        0.000E+00    0.000E+00      1.604E-08    -1.604E-08    3.543E-22
+ ptype        0.000E+00    0.000E+00      2.756E-24    -1.238E-18   -1.238E-18
+
+
+===============================
+Starting solve of next problem:
+Coupled ( Digits : 5, Max. #iterations : 20, 
+    Solver : blocked decomposition,
+    #undamped iterations : 50 
+)
+    { Poisson Electron Hole } 
+===============================
+
+Computing Coupled( 3 circuit-equation(s) , 1 poisson-equation(s) , 
+                   1 current-contact-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      1.86e+12                                                      4.24
+    1      1.71e+11   1.00e+00   1.01e+02   6.32e+08    0         2     30.17
+    2      8.19e+13   1.00e+00   8.70e+02   9.27e+10    0         2     52.72
+    3      2.56e+32   1.00e+00   4.04e+06   5.86e+17    0         2     76.03
+Finished, because...
+|RHS| increased by more than factor 1.0000E+10.
+
+Accumulated times:
+Rhs time:       17.94 s
+Jacobian time:   4.22 s
+Solve time:     53.80 s
+Total time:     76.03 s
+
+Device Instance d1:
+Contact              Voltage              Electron      Hole         Conduction 
+                 outer       inner        current       current      current
+ ntype       -7.037E+04   -7.037E+04     -3.544E+20     3.544E+20   -1.412E+06
+ ptype        0.000E+00    1.006E-01      1.040E+08    -1.040E+08   -1.006E+03
+
+
+===============================
+Starting solve of next problem:
+Transient (
+      Max. #iterations : 20, 
+      Initial step : 1.0000e-15 s, Minimum #intervals : 0, 
+      Minimum step : 1.0000e-15 s, Maximum step : 5.0000e-14 s, 
+      Initial time : 0.0000e+00 s, Final time : 2.0000e-10 s, 
+    )
+  {
+    Coupled ( Digits : 5, Max. #iterations : 20, 
+        Solver : blocked decomposition,
+        #undamped iterations : 50 
+)
+        { Poisson Electron Hole } 
+  }
+===============================
+
+Computing TR-step from 0.0000e+00 s to 5.8579e-16 s (Stepsize: 5.8579e-16 s)
+Computing Coupled( 3 circuit-equation(s) , 1 poisson-equation(s) , 
+                   1 current-contact-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      5.11e+32                                                      0.06
+    1      6.19e+80   1.00e+00   1.24e+20   3.72e+29    0         2     22.08
+Finished, because...
+|RHS| is greater than maximum allowed 1.0000E+15.
+
+Accumulated times:
+Rhs time:        4.85 s
+Jacobian time:   0.46 s
+Solve time:     16.73 s
+Total time:     22.08 s
+
+Newton didn't converge, trying again with smaller timestep...
+
+
+Finished, because of...
+Step is too small.
+
+Writing plot '../LAE/d1_sde_dvs_des.tdr' (TDR format) ... done.
+
+Mon Jan 26 12:06:02 2015: checked in 1 sdevice-optic license(s)
+Mon Jan 26 12:06:02 2015: checked in 1 Dessis-Optic license(s)
+Mon Jan 26 12:06:02 2015: checked in 1 sdevice-hetero license(s)
+Mon Jan 26 12:06:02 2015: checked in 1 Dessis-Hetero license(s)
+Mon Jan 26 12:06:02 2015: checked in 1 sdevice-mixedmode license(s)
+Mon Jan 26 12:06:02 2015: checked in 1 Dessis-MixedMode license(s)
+Mon Jan 26 12:06:02 2015: checked in 1 sdevice license(s)
+Mon Jan 26 12:06:02 2015: checked in 1 Dessis license(s)
+
+******************************************************************************
+Sentaurus Device process size: 1610 megabytes
+Sentaurus Device simulation times:
+  wallclock: 133.23 s (0 h:02 m:13 s)
+  total cpu: 132.33 s (0 h:02 m:12 s)
+Sentaurus Device simulation finished (Date: Mon Jan 26 12:06:02 2015  (PDT)).
+********************************* Good Bye ! *********************************

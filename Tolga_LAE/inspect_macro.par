@@ -1,0 +1,11 @@
+@InspectMacro@
+
+ADD {<c 1> + <c 2>}
+VT {vecvalx(tangent(<c 1>,veczero(diff(<c 1>) - vecmax(diff(<c 1>)))),0.0)}
+VT1 {vecvalx(<c 1>, 1.0e-7)}
+gm {vecmax(diff(<c 1>))}
+Rout {1.0e-3 / vecmin( diff(<c 1>))}
+Ron {1.0e-3 / vecmax( diff(<c 1>) )}
+IDSS {1.0e-6 * vecvaly(tangent( <c 1>, veczero( diff(<c 1>) - vecmin(diff(<c 1>)))),0.0)}
+test1 {<c 1> + <c 2> + ( <s 3> * <c 4>)}
+testt2 {<c 1> + <c 1>}

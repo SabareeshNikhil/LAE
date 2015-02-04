@@ -1,0 +1,202 @@
+
+Material = "HgCdTe" {
+
+*************************************************
+* Material parameter file for Hg(1-x)Cd(x)Te 
+*
+* Input parameters:
+*	<x> is the Cd mole fraction composition,
+*	<T> is the device operating temperature,
+*
+* References:
+* [1] "2D analysis of double layer heterojunction HgCdTe photodiodes",
+*     J. Wenus, J. Rutkowski and A. Rogalski, IEEE Trans. Elec. Dev., vol.48, no. 7,
+*     pp.1326-1332, 2001
+* [2] "Model for infrared absorption and transmission of liquid-phase epitaxy HgCdTe",
+*	  C. A. Hougen, J. Appl. Phys., vol. 66, no. 8, pp. 3763-3766, 1989.
+*************************************************
+
+Epsilon {
+  * Ratio of the permittivities of material and vacuum
+  * epsilon() = epsilon 
+  * Implementation using ref [1] below:
+  * Es = 20.5-15.5x+5.7x^2				
+	!( 
+	set perm_HgTe 20.5
+	set perm_HgCdTe [expr $perm_HgTe-15.5*$x+5.7*$x*$x]
+	)!
+	epsilon = !(puts -nonewline "$perm_HgCdTe")! # [1]
+}
+
+Bandgap {
+  * Eg = Eg0 + dEg0 + alpha Tpar^2 / (beta + Tpar) - alpha T^2 / (beta + T)
+  * dEg0(<bgn_model_name>) is a band gap correction term.  It is used together with
+  * an appropriate BGN model, if this BGN model is chosen in Physics section
+  * Parameter 'Tpar' specifies the value of lattice
+  * temperature, at which parameters below are defined
+  * Chi0 is electron affinity.
+  * Implementation using ref [1] below:
+  * Eg(x,T) = -0.302+1.93x-0.810x^2+0.832x^+5.35e-4(1-2x)((-1822+T^3)/(255.2+T^2))	
+	!(
+	set Eg [expr -0.302+1.93*$x-0.810*$x*$x+0.832*$x*$x*$x+5.35e-4*(1-2*$x)*$T ]  
+	set Eg0 [expr -0.302+1.93*$x-0.810*$x*$x+0.832*$x*$x*$x]
+	set chi0_HgCdTe [expr 4.23-0.813*($Eg-0.083)]
+	set alpha [expr -5.35e-4*(1-2*$x)]
+	puts -nonewline "* Eg(T=$T K)= $Eg eV"
+	)!
+	Eg0	=!(puts -nonewline "$Eg0")!	# [eV]
+	Chi0 = !(puts -nonewline "$chi0_HgCdTe")!		# [eV]
+	alpha	= !(puts -nonewline "$alpha")!		# [eV K^-1]
+	beta	= 0.0			# [K]
+	Tpar	= 0.0			# [K]
+}
+
+ComplexRefractiveIndex {
+* Implementation using ref [2]:
+  *  Complex refractive index model: n_complex = n + i*k (unitless)
+  * Wavelength dependence (real and imag): 
+  *    Formula 1: Read tabulated values 
+  !(
+  global env
+  source $env(STROOT_LIB)/inspectlib/PhysicalConstants.tcl
+  source @pwd@/lib/helper_vis.tcl
+  # ::const::printVarNames
+  set kB $::const::BoltzmannConstant
+  set h  $::const::PlanckConstant
+  set pi $::const::Pi
+  set m0 $::const::ElectronMass
+  set q  $::const::ElementaryCharge
+  set wlist [linspace 1 20 200]
+  set n [expr pow($perm_HgCdTe,0.5) ]	  
+  set nlist {}
+  foreach w $wlist { lappend nlist $n }
+  set alpha0 [expr exp(-18.88+53.61*$x)]
+  set alphaT [expr 100+5000*$x]
+  set sigma [expr 3.267e4*(1+$x)]
+  set E0 [expr -0.3424+1.838*$x]
+  set lambda0 [expr 1.24/$E0]
+  set T0 81
+  set ET [expr $E0 + (($T+$T0)/$sigma)*log($alphaT/$alpha0)]
+  set lambdaT [expr 1.24/$ET]
+  set alist {}
+  set klist {}	
+  foreach w $wlist {
+    set Eph [expr 1.24/$w]
+    if {$w > $lambdaT} {		
+      set a [expr $alpha0*exp($sigma*($Eph-$E0)/($T+$T0))]	
+    } else {
+      set a [expr $alphaT*(pow((2*$sigma/($T+$T0))*($Eph-$E0-(($T+$T0)/$sigma)*(log($alphaT/$alpha0)-0.5)),0.5))]
+    }
+    set umtocm 1e-4
+    set k [expr $a*$w*$umtocm/(4*$pi)]
+    lappend alist $a
+    lappend klist $k
+  }
+  )!
+  Formula = 1
+  NumericalTable(
+    * wavelength [um] n [1] k [1]
+    !(foreach w $wlist n $nlist k $klist { puts "$w $n $k;" })!
+  )
+}
+
+ConstantMobility {
+  * mu_const = mumax (T/T0)^(-Exponent)								
+  * Implementation using ref [1] below:
+  * mu_e=9e4(0.2/x)^7.5T^(-2(0.2/x)^0.6) = aT^-b = a1(T/T0)^-b		
+	!(
+	set a	[expr 9e4*pow((0.2/$x),7.5)]
+	set b [expr 2*pow(0.2/$x,0.6)]
+	set T0 300
+	set a_e [expr 1e4*pow($T0,-$b)*$a]
+	set a_h [expr $a_e*0.01]
+	)!
+	mumax		= !(puts -nonewline "$a_e")!, !(puts -nonewline "$a_h")!	# [cm^2/(Vs)]
+	Exponent	= !(puts -nonewline "$b")! , !(puts -nonewline "$b")!	# [1]
+}
+
+eDOSMass {
+  * For effective mass specificatition Formula1 (me approximation):
+  * or Formula2 (Nc300) can be used :
+  Formula = 1     # [1]
+  * Formula1:
+  * me/m0 = [ (6 * mt)^2 *  ml ]^(1/3) + mm
+  * mt = a[Eg(0)/Eg(T)]
+  * Nc(T) = 2(2pi*kB/h_Planck^2*me*T)^3/2 = 2.540e19 ((me/m0)*(T/300))^3/2
+  * Implementation using ref [1] below:
+  * me=1/(-0.6+6.333*(2/Eg+1/(Eg+1))		
+	!(
+	set me [expr pow(-0.6+6.333*(2/$Eg+1/($Eg+1)),-1)]
+	set mh 0.55
+	)!
+	Formula = 1		# [1]
+	a       = 0		# [1]
+	mm      = !(puts -nonewline "$me")!	# [1]
+}
+
+hDOSMass {
+  * For effective mass specificatition Formula1 (mh approximation):
+  * or Formula2 (Nv300) can be used :
+  * Formula1:
+  * mh =  m0*{[(a+bT+cT^2+dT^3+eT^4)/(1+fT+gT^2+hT^3+iT^4)]^(2/3) + mm}
+  * Nv(T) = 2(2pi*kB/h_Planck^2*mh*T)^3/2 = 2.540e19 ((mh/m0)*(T/300))^3/2
+	Formula = 1
+	a = 0
+	b = 0
+	c = 0
+	d = 0
+	e = 0
+	f = 0
+	g = 0
+ 	h = 0
+	i = 0
+	mm = !(puts -nonewline "$mh")!	# [1]
+}
+
+Scharfetter { 
+  * tau = taumin + ( taumax - taumin ) / ( 1 + ( N/Nref )^gamma)
+  * tau(T) = tau * ( (T/300)^Talpha )          (TempDep)
+  * tau(T) = tau * exp( Tcoeff * ((T/300)-1) ) (ExpTempDep)
+  taumin  = 0.0000e+00 ,  0.0000e+00      # [s]
+  taumax  = 1e-6  , 1e-6     # [s]
+  Nref    = 1.0000e+16 ,  1.0000e+16      # [cm^(-3)]
+  gamma   = 1 ,   1       # [1]
+  Talpha  = 0 , 0    # [1]
+  Tcoeff  = 0 , 0    # [1]
+  Etrap   = 0.0000e+00    # [eV]
+}
+
+Auger {
+  * R_Auger = ( C_n n + C_p p ) ( n p - ni_eff^2)
+  * with C_n,p = (A + B (T/T0) + C (T/T0)^2) (1 + H exp(-{n,p}/N0))
+  * Implementation using ref [1] below:
+	!(
+	set me_mh [expr $me/$mh]
+	set EgkBT [expr $Eg*$q/$kB/$T]
+	set kBT   [expr $kB*$T]
+	set Nc [expr 2*pow((2*$pi*$me*$m0*$kBT/$h/$h),1.5)]
+	set Nv [expr 2*pow((2*$pi*$mh*$m0*$kBT/$h/$h),1.5)]
+	set ni [expr pow($Nc*$Nv,0.5)*exp(-$EgkBT/2)]
+	set d1 [expr 3.8e-18*$perm_HgCdTe*$perm_HgCdTe*pow((1+$me_mh),0.5)*(1+2*$me_mh)]
+	set d2 [expr $me*0.04*pow($EgkBT,-1.5)]
+	set d3 [expr (1+2*$me_mh)*$EgkBT/(1+$me_mh)]
+	set A_e [expr 1e12/(2*$ni*$ni*($d1/$d2)*exp($d3))]
+	set A_h [expr $A_e*(1-1.5*$EgkBT)/(6*(1-5*$EgkBT/4))]
+	)!
+	A 	= !(puts -nonewline "$A_e")!,	!(puts -nonewline "$A_h")!	# [cm^6/s]
+	B	= 0.0000e+00 ,	0.0000e+00	# [cm^6/s]
+	C	= 0.0000e+00 ,	0.0000e+00	# [cm^6/s]
+	H	= 0.0000e+00 ,	0.0000e+00	# [1]
+	N0	= 1.0000e+18 ,	1.0000e+18	# [cm^(-3)]
+}
+
+
+
+Band2BandTunneling { 
+  * Traditional models for the following keywords in input file:
+  * Band2Band(E1)  : A1*E*exp(-B1/E)				# (this one selected)
+  A1      = 2.0000e+27    # [1/cm/sec/V]
+  B1      = 4.6000e+05    # [V/cm]
+}
+
+}

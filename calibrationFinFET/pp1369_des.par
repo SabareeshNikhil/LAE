@@ -1,0 +1,168 @@
+Material = "Silicon" {
+
+Bandgap
+{ * Eg = Eg0 + dEg0 + alpha Tpar^2 / (beta + Tpar) - alpha T^2 / (beta + T)
+        Chi0    = 4.05  # [eV]
+        Eg0     = 1.12       # [eV]
+        dEg0(Slotboom)  = 0.0e+00   # [eV]
+        alpha   = 0.00e+00    # [eV K^-1]
+        beta    = 0.00e+00    # [K]
+        Tpar    = 300.0000e+00    # [K]
+}       
+
+eDOSMass
+{   
+        Formula = 2     # [1]
+        Nc300   = 2.97101e+19    # [cm-3]
+}   
+
+hDOSMass 
+{   
+        Formula = 2     # [1]
+        Nv300   = 2.2400e+19    # [cm-3]
+}
+
+ConstantMobility:
+{ * mu_const = mumax (T/T0)^(-Exponent)
+        mumax   = 1.423e+03 ,  476.070      # [cm^2/(Vs)]
+}   
+
+HighFieldDependence:
+{ * Caughey-Thomas model:
+  * mu_highfield = mu_lowfield / ( 1 + (mu_lowfield E / vsat)^beta )^1/beta
+  * beta = beta0 (T/T0)^betaexp.
+        beta0   = 1.13417 ,       1.213   # [1]
+    
+ * Formula1 for saturation velocity:
+ *            vsat = vsat0 (T/T0)^(-Vsatexp)
+ * (Parameter Vsat_Formula has to be not equal to 2):
+        vsat0   = 1.0200e+07 ,  8.3700e+06      # [1]
+}
+
+
+PhuMob: 
+{ * Philips Unified Mobility Model:
+        mumax_As        = 1.423e+03    # [cm^2/Vs]
+        mumin_As        = 55.9  # [cm^2/Vs]
+        mumax_P         = 1.423e+03    # [cm^2/Vs]
+        mumax_B         = 476.070    # [cm^2/Vs]
+}
+
+
+ENormalMob
+{ * mu_Enorm^(-1) = mu_ac^(-1) + mu_sr^(-1)  with:
+  * mu_ac = B / Enorm + C (T/T0)^(-1) (N/N0)^lambda / Enorm^(1/3) )
+  * mu_sr^-1 = Enorm^(A+alpha*n/N^nu) / delta + Enorm3 / eta
+  * EnormalDependence is added with factor exp(-l/l_crit), where l is
+  * the distance to the nearest point of DES_c_Si/DES_c_SiO2 interface. Factor is
+  * equal to 1 if l_crit > 100.
+        B       = 1.805e+07  ,  3.02e+07        # [cm/s]
+        C       = 5.1e+03    ,  1.672e+04       # [cm^(5/3)/(V^(2/3)s)]
+        N0      = 1          ,  1               # [cm^(-3)]
+        lambda  = 0.0233     ,  0.0119          # [1]
+        k       = 1          ,  1               # [1]
+        delta   = 1.79e+18   ,  1.23e+16        # [V/s]
+        A       = 2.688      ,  2.18            # [1]
+        alpha   = 2.74e-20   ,  3.13e-20        # [1]
+        aother  = 0.0000e+00 ,  0.0000e+00      # [1]
+        N1      = 1          ,  1               # [cm^(-3)]
+        nu      = 0.0767     ,  0.123           # [1]
+        eta     = 1.0e+300   ,  1.0e+300        # [V^2/cm*s]
+        l_crit  = 1.0000e-06 ,  1.0000e-06      # [cm]
+}
+
+Lombardi_highk:
+{
+                B_e = 1.805e+07  # [cm/s]
+                B_h = 3.02e+07  # [cm/s]
+                C_e = 5.1e+03  # [cm5/3/(sV2/3)]
+                C_h = 1.672e+04  # [cm5/3/(sV2/3)]
+                lambda_e = 0.0233 # [1]
+                lambda_h = 0.0119 # [1]
+                k_e = 1           # [1]
+                k_h = 1           # [1]
+                delta_e = 1.79e+18   # [V/s]
+                delta_h = 1.23e+16   # [V/s]
+                A_e = 2.688   # [1]
+                A_h = 2.18   # [1]
+                alpha_e = 2.7400e-20   # [1]
+                alpha_h = 3.1300e-20   # [1]
+                nu_e = 0.0767    # [1]
+                nu_h = 0.123     # [1]
+                eta_e = 1.0e+300  # [V2/cm*s]
+                eta_h = 1.0e+300  # [V2/cm*s]
+                l_crit_e = 1.0000e-06  # [cm]
+                l_crit_h = 1.0000e-06  # [cm]
+                alpha_rcs_e = 0.0
+                alpha_rcs_h = 0.0
+                alpha_rps_e = 0.0
+                alpha_rps_h = 0.0
+}
+
+
+LatticeParameters
+{ * Crystal system, elasticity, and deformation potential are defined.
+  * X and Y vectors define the simulation coordinate system relative to the
+  * crystal orientation system. Also there is an option to represent the crystal
+  * system relative to the simulation one. In this case a keyword CrystalAxis
+  * has to be in this section and X and Y vectors will represent [100] and [010]
+  * axis of the crystal system in the simulation one.
+  * Additional notes: 1 Pa = 10 dyn/cm^2; tensile stress/strain is positive.
+  *
+  * S[i][j] - elasticity modulus; i,j = 1,2,...6 and j>=i.
+  * CrystalSystem is symmetry, used ONLY to define the elasticity matrics.
+  *   Cubic (CrystalSystem=0): S[1][1],S[1][2],S[4][4]
+  *   Hexagonal (CrystalSystem=1): S[1][1],S[1][2],S[1][3],S[3][3],S[4][4]
+  * NC is a number of conduction band levels taken into account
+  * NV is a number of valence band levels taken into account
+  * DC2(l) defines deformation potentials for conduction subband = l
+  * DV2(l) defines deformation potentials for valence subband = l
+  * The subband energy shift due to strain (E) is equal to the following sum:
+  * D2[1]*E11 + D2[2]*E22 + D2[3]*E33 +
+  * D2[4]*(0.5*D2[5]^2*((E11-E22)^2+(E22-E33)^2+(E33-E11)^2)+D2[6]^2*(E23^2+E13^2+E12^2))
+  *
+    X = (1,0,1)
+    Y = (-1,0,1)
+}
+
+QuantumPotentialParameters
+{ * gamma:  weighting factor for quantum potential
+  * theta:  weight for quadratic term
+  * xi:     weight for quasi Fermi potential
+  * eta:    weight for electrostatic potential
+  * nu :    weight for DOS mass change from stress
+        gamma   = 10.2, 2.9     # [1]
+        theta   = 0.5 , 0.5     # [1]
+        xi      = 1 ,   1       # [1]
+        eta     = 1 ,   1       # [1]
+        nu      = 0.0000e+00 ,  0.0000e+00      # [1]
+}
+
+}
+
+
+Material  = "InterfacialOxide" {
+
+Epsilon
+{ *  Ratio of the permittivities of material and vacuum
+
+  * epsilon() = epsilon
+         epsilon = 2.830
+
+}
+
+}
+
+
+Material  = "HfO2" {
+
+Epsilon
+{ *  Ratio of the permittivities of material and vacuum
+
+         epsilon = 22.0
+
+}
+
+}
+
+

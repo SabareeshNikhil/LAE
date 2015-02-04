@@ -1,0 +1,7 @@
+
+ Region "n_region" (Material "InGaAs"): "DopingDependence(electrons)" computed by side materials "InAs,GaAs"
+ Region "n_region" (Material "InGaAs"): "DopingDependence(holes)" computed by side materials "InAs,GaAs"
+ Region "p_region" (Material "InGaAs"): "DopingDependence(electrons)" computed by side materials "InAs,GaAs"
+ Region "p_region" (Material "InGaAs"): "DopingDependence(holes)" computed by side materials "InAs,GaAs"
+ Region "ntype_contact" (Material "InGaAs"): "DopingDependence(electrons)" computed by side materials "InAs,GaAs"
+ Region "ntype_contact" (Material "InGaAs"): "DopingDependence(holes)" computed by side materials "InAs,GaAs"

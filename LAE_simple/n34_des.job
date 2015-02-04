@@ -1,0 +1,64 @@
+
+****************************************************************************
+***                       Sentaurus Workbench gjob                       ***
+***                          Version G-2012.06                           ***
+***                         (1.7, amd64, linux)                          ***
+***                                                                      ***
+***                       Copyright (C) 1994-2012                        ***
+***                            Synopsys, Inc.                            ***
+***                                                                      ***
+***  This software and the associated documentation are confidential     ***
+***  and proprietary to Synopsys, Inc.  Your use or disclosure of this   ***
+***  software is subject to the terms and conditions of a written        ***
+***  license agreement between you, or your company, and Synopsys, Inc.  ***
+****************************************************************************
+
+gjob is running on host 'thzlabsv.ee.ucla.edu' by user 'snikhil'
+Binary 'gjob'
+Command line options '-verbose -nice 19 -job 34 -swb_pid 25177 -gsub_pid 28612 -gsub_host thzlabsv.ee.ucla.edu -gsub_port 47273 @STDB@/LAE_simple'
+Current directory '/w/ee.00/mjarrahi/snikhil/Research/LAE_simple'
+Some relevant environment variables:
+	STROOT=/w/apps3/Synopsys/TCAD_Sentaurus/vG_2012.06
+	STRELEASE=current
+	STROOT_LIB=/w/apps3/Synopsys/TCAD_Sentaurus/vG_2012.06/tcad/current/lib
+	STDB=/u1/ee/snikhil/Research
+	DATEX=/w/apps3/Synopsys/TCAD_Sentaurus/vG_2012.06/tcad/current/lib/datexcodes.txt
+	DISPLAY=localhost:10.0
+
+relativizing paths:
+project path: /u1/ee/snikhil/Research/LAE_simple
+STDB path: @STDB@
+normalized STDB path: /w/ee.00/mjarrahi/snikhil/Research
+Project '@STDB@/LAE_simple'
+Loading global tool database '/w/apps3/Synopsys/TCAD_Sentaurus/vG_2012.06/tcad/current/lib/glib2/tooldb.tcl'
+Loading preferences '/u1/ee/snikhil/Research/gpref2_snikhil.G-2012.06'...
+INITIALIZING PREPROCESSOR:
+Loading project tree '/u1/ee/snikhil/Research/LAE_simple/gtree.dat'
+Loading jobs and dependence graph '"/u1/ee/snikhil/Research/LAE_simple/gexec.cmd"'
+Loading project variables '/u1/ee/snikhil/Research/LAE_simple/gvars.dat'
+--Get files to preprocess...
+--Create file handlers...
+--Read the toolflow...
+--Analyze tool-file dependencies...
+--Read all nodes to preprocess...
+--Group nodes into experiments...
+--Get all variables...
+--Get all parameters...
+PREPROCESSOR SUCCESSFULLY INITIALIZED.
+PREPROCESSING STEP 1:
+Reading file /u1/ee/snikhil/Research/LAE_simple/sdevice_des.cmd
+Reading file /u1/ee/snikhil/Research/LAE_simple/sdevice.par
+PREPROCESSING STEP 2:
+Preprocessing file /u1/ee/snikhil/Research/LAE_simple/sdevice_des.cmd fornode 34
++++Preprocessing results written to /u1/ee/snikhil/Research/LAE_simple/pp34_des.cmd
+Preprocessing file /u1/ee/snikhil/Research/LAE_simple/sdevice.par fornode 34
++++Preprocessing results written to /u1/ee/snikhil/Research/LAE_simple/pp34_des.par
+Start Simulation section
+15:15:12 Jan 28 2015     job 34 <sdevice> started on host 'thzlabsv.ee.ucla.edu': "sdevice pp34_des.cmd"
+15:22:23 Jan 28 2015 +++ job 34 <sdevice> done: exit(0)
+End Simulation section
+Start Epilogue section
+15:22:23 Jan 28 2015 *** job 34 pre/post execution: eval " gjob::find_extracted_vars "/u1/ee/snikhil/Research/LAE_simple" n34_des.out 34 "
+End Epilogue section
+Job succeeded
+gjob exits with status 0

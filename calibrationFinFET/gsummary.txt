@@ -1,0 +1,56 @@
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Project Summary for /u1/ee/snikhil/Research/calibrationFinFET
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Project Details :
+		current status		: running
+		was last modified	: 11/12/14 13:02:38
+		was modified by		: snikhil
+		was run on host		: thzlabsv.ee.ucla.edu
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Total Number of Nodes			: 293
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 
+ 
+		Active Nodes		: 189
+		Virtual Nodes		: 104
+ 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 
+Nodes by status				: 
+		none			: 102
+		pending			: 4
+		failed			: 37
+		done			: 46
+
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Hosts and Execution Information 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 
+ 
+Host "mcl13" 
+		Number of nodes		: 16
+		Host Time		: 7448 sec
+Host "mcl18" 
+		Number of nodes		: 29
+		Host Time		: 3362 sec
+Host "thzlabsv.ee.ucla.edu" 
+		Number of nodes		: 1
+		Host Time		: 5 sec
+Host "mcl14.ee.iitb.ac.in" 
+		Number of nodes		: 1
+		Host Time		: 536 sec
+Host "mcl16" 
+		Number of nodes		: 44
+		Host Time		: 1785 sec
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+		Total RunTime		: 13136 sec
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Project Summary generated on		: 11/12/14 13:02:47
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++

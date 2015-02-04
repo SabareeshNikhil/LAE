@@ -1,0 +1,3 @@
+Job failed
+Error: Child process with pid '6547' got the signal 'SIGKILL' (kill signal)
+gjob exits with status 1

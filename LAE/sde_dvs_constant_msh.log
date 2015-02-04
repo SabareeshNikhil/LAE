@@ -1,0 +1,33 @@
+****************************************************************************
+***                            Sentaurus Mesh                            ***
+***                          Version G-2012.06                           ***
+***                         (1.5, amd64, linux)                          ***
+***                                                                      ***
+***                       Copyright (C) 2005-2012                        ***
+***                            Synopsys, Inc.                          ***
+***                                                                      ***
+***  This software and the associated documentation are confidential     ***
+***  and proprietary to Synopsys, Inc.  Your use or disclosure of this   ***
+***  software is subject to the terms and conditions of a written        ***
+***  license agreement between you, or your company, and Synopsys, Inc.  ***
+****************************************************************************
+
+Compiled Fri Apr 13 01:01:31 PDT 2012 on: tcadprod5
+Running on: thzlabsv.ee.ucla.edu
+Process ID: 10185
+
+Flags used:
+
+
+----------------------  Warning ----------------------------
+parse error
+parse error in line 1
+
+------------------------------------------------------------
+
+
+----------------------  ERROR ----------------------------
+Couldn't locate boundary file sde_dvs_constant.bnd
+
+------------------------------------------------------------
+

@@ -1,0 +1,107 @@
+Evaluating file sde_dvs.cmd
+---> (sdegeo:create-rectangle (position 0 0.3 0) (position 14 1 0) InP substrate)
+#[body 5 1]
+---> (sdegeo:create-rectangle (position 0 0 0) (position 14 0.3 0) InGaAs p_region)
+#[body 6 1]
+---> (sdedr:define-constant-profile p_doping_definition BoronActiveConcentration 1e+18)
+#t
+---> (sdedr:define-constant-profile n_doping_definition PhosphorusActiveConcentration 1e+17)
+#t
+---> (sdegeo:create-rectangle (position 0 -0.18683 0) (position 10 -0.2 0) InGaAs n_region_9)
+#[body 7 1]
+---> (sdedr:define-constant-profile-region n_doping_placement_9 n_doping_definition n_region_9)
+#t
+---> (sdegeo:create-rectangle (position 0 -0.17211 0) (position 10 -0.18683 0) InGaAs n_region_8)
+#[body 8 1]
+---> (sdedr:define-constant-profile-region n_doping_placement_8 n_doping_definition n_region_8)
+#t
+---> (sdegeo:create-rectangle (position 0 -0.15542 0) (position 10 -0.17211 0) InGaAs n_region_7)
+#[body 9 1]
+---> (sdedr:define-constant-profile-region n_doping_placement_7 n_doping_definition n_region_7)
+#t
+---> (sdegeo:create-rectangle (position 0 -0.13615 0) (position 10 -0.15542 0) InGaAs n_region_6)
+#[body 10 1]
+---> (sdedr:define-constant-profile-region n_doping_placement_6 n_doping_definition n_region_6)
+#t
+---> (sdegeo:create-rectangle (position 0 -0.11336 0) (position 10 -0.13615 0) InGaAs n_region_5)
+#[body 11 1]
+---> (sdedr:define-constant-profile-region n_doping_placement_5 n_doping_definition n_region_5)
+#t
+---> (sdegeo:create-rectangle (position 0 -0.08546 0) (position 10 -0.11336 0) InGaAs n_region_4)
+#[body 12 1]
+---> (sdedr:define-constant-profile-region n_doping_placement_4 n_doping_definition n_region_4)
+#t
+---> (sdegeo:create-rectangle (position 0 -0.0495 0) (position 10 -0.08546 0) InGaAs n_region_3)
+#[body 13 1]
+---> (sdedr:define-constant-profile-region n_doping_placement_3 n_doping_definition n_region_3)
+#t
+---> (sdegeo:create-rectangle (position 0 0 0) (position 10 -0.0495 0) InGaAs n_region_2)
+#[body 14 1]
+---> (sdedr:define-constant-profile-region n_doping_placement_2 n_doping_definition n_region_2)
+#t
+---> (sdegeo:create-rectangle (position 0 0.08782 0) (position 14 0 0) InGaAs p_region_1)
+#[body 15 1]
+---> (sdedr:define-constant-profile-region p_doping_placement_1 p_doping_definition p_region_1)
+#t
+---> (sdegeo:create-rectangle (position 0 0.5 0) (position 14 0.08782 0) InGaAs p_region_0)
+#[body 16 1]
+---> (sdedr:define-constant-profile-region p_doping_placement_0 p_doping_definition p_region_0)
+#t
+---> (sdegeo:create-rectangle (position 1 -0.2 0) (position 9 -0.201 0) InGaAs ntype_contact)
+#[body 17 1]
+---> (sdegeo:create-rectangle (position 11 0 0) (position 13 -0.001 0) InGaAs ptype_contact)
+#[body 18 1]
+---> (sdegeo:define-contact-set ntype 4 (color:rgb 1 0 0) ##)
+()
+---> (sdegeo:set-current-contact-set ntype)
+""
+---> (sdegeo:set-contact-edges (find-edge-id (position 1.5 -0.201 0)) ntype)
+#t
+---> (sdegeo:define-contact-set ptype 4 (color:rgb 1 0 0) ##)
+()
+---> (sdegeo:set-current-contact-set ptype)
+"ntype"
+---> (sdegeo:set-contact-edges (find-edge-id (position 12.5 -0.001 0)) ptype)
+#t
+---> (sdedr:define-refinement-size RefinementDefinition_sub 0.5 0.05 0.5 0.5 0.05 0.1)
+#t
+---> (sdedr:define-refinement-region RefinementPlacement_sub RefinementDefinition_sub substrate)
+#t
+---> (sdedr:define-refinement-size RefinementDefinition_p 0.05 0.005 0.5 0.05 0.001 0.1)
+#t
+---> (sdedr:define-refinement-size RefinementDefinition_n 0.05 0.001 0.5 0.05 0.0002 0.1)
+#t
+---> (sdedr:define-refinement-region RefinementPlacement_n RefinementDefinition_n n_region_9)
+#t
+---> (sdedr:define-refinement-region RefinementPlacement_n RefinementDefinition_n n_region_8)
+#t
+---> (sdedr:define-refinement-region RefinementPlacement_n RefinementDefinition_n n_region_7)
+#t
+---> (sdedr:define-refinement-region RefinementPlacement_n RefinementDefinition_n n_region_6)
+#t
+---> (sdedr:define-refinement-region RefinementPlacement_n RefinementDefinition_n n_region_5)
+#t
+---> (sdedr:define-refinement-region RefinementPlacement_n RefinementDefinition_n n_region_4)
+#t
+---> (sdedr:define-refinement-region RefinementPlacement_n RefinementDefinition_n n_region_3)
+#t
+---> (sdedr:define-refinement-region RefinementPlacement_n RefinementDefinition_n n_region_2)
+#t
+---> (sdedr:define-refinement-region RefinementPlacement_p RefinementDefinition_n p_region_1)
+#t
+---> (sdedr:define-refinement-region RefinementPlacement_p RefinementDefinition_p p_region_0)
+#t
+---> (sde:set-meshing-command snmesh -a -c boxmethod)
+#t
+---> (sdedr:append-cmd-file )
+#t
+---> (sde:build-mesh snmesh -a -c boxmethod sdemodel)
+#t
+---> #[end-of-file]
+"************************************************************************"
+"Sentaurus Structure Editor "
+"Start Time:    Tue Jan 27 11:52:12 2015"
+"End   Time:    Tue Jan 27 11:52:29 2015"
+"Total Execution Time (sec):    0"
+"Total System calls Time (sec): 0"
+"************************************************************************"

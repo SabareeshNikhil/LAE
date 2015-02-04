@@ -1,0 +1,182 @@
+load_file /w/ee.00/mjarrahi/snikhil/Research/Tolga_LAE_2/hetero_des_0_half.tdr
+create_plot -dataset hetero_des_0_half
+select_plots {Plot_hetero_des_0_half}
+#-> Plot_hetero_des_0_half
+#-> Plot_hetero_des_0_half
+#-> hetero_des_0_half
+load_file /w/ee.00/mjarrahi/snikhil/Research/Tolga_LAE_2/hetero_des_1_half.tdr
+create_plot -dataset hetero_des_1_half
+select_plots {Plot_hetero_des_1_half}
+#-> Plot_hetero_des_1_half
+#-> Plot_hetero_des_1_half
+#-> hetero_des_1_half
+select_plots {Plot_hetero_des_0_half}
+#-> Plot_hetero_des_0_half
+zoom_plot -plot Plot_hetero_des_0_half -reset
+set_field_prop eDensity -show_bands
+#-> 0
+select_plots {Plot_hetero_des_1_half}
+#-> Plot_hetero_des_1_half
+set_field_prop eDensity -show_bands
+#-> 0
+set_field_prop hDensity -show_bands
+#-> 0
+select_plots {Plot_hetero_des_0_half}
+#-> Plot_hetero_des_0_half
+set_field_prop hDensity -show_bands
+#-> 0
+probe_field -plot Plot_hetero_des_0_half -coord {5.64364 -0.104696 }
+#-> 1.99938e+13
+select_plots {Plot_hetero_des_1_half}
+#-> Plot_hetero_des_1_half
+probe_field -plot Plot_hetero_des_1_half -coord {5.47321 -0.0904933 }
+#-> 1.67491e+13
+select_plots {Plot_hetero_des_0_half}
+#-> Plot_hetero_des_0_half
+probe_field -plot Plot_hetero_des_0_half -coord {5.65784 -0.118899 }
+#-> 2.46844e+13
+select_plots {Plot_hetero_des_1_half}
+#-> Plot_hetero_des_1_half
+probe_field -plot Plot_hetero_des_1_half -coord {5.51582 -0.133101 }
+#-> 3.20128e+13
+select_plots {Plot_hetero_des_0_half}
+#-> Plot_hetero_des_0_half
+create_cutline -plot Plot_hetero_des_0_half -type y -at 0.962469
+select_plots {Plot_1}
+#-> Plot_1
+#-> C1(hetero_des_0_half)
+remove_plots {Plot_1}
+select_plots {Plot_hetero_des_0_half}
+#-> Plot_hetero_des_0_half
+#-> Plot_1
+create_cutline -plot Plot_hetero_des_0_half -type x -at 5.00452
+select_plots {Plot_2}
+#-> Plot_2
+#-> C2(hetero_des_0_half)
+set_axis_prop -plot Plot_2 -axis y -type log
+#-> 0
+select_plots {Plot_hetero_des_1_half}
+#-> Plot_hetero_des_1_half
+create_cutline -plot Plot_hetero_des_1_half -type x -at 4.9193
+#-> C3(hetero_des_1_half)
+set_field_prop eDensity -show_bands
+#-> 0
+select_plots {Plot_2}
+#-> Plot_2
+create_curve -plot Plot_2 -dataset {C3(hetero_des_1_half)} -axisX "Y" -axisY "eDensity"
+#-> Curve_3
+remove_curves {Curve_1 Curve_2} -plot Plot_2
+#-> Curve_1 Curve_2
+select_plots {Plot_hetero_des_1_half}
+#-> Plot_hetero_des_1_half
+select_plots {Plot_2}
+#-> Plot_2
+select_plots {Plot_hetero_des_0_half}
+#-> Plot_hetero_des_0_half
+set_field_prop eDensity -show_bands
+select_plots {Plot_3}
+#-> Plot_3
+#-> 0
+remove_plots {Plot_3}
+select_plots {Plot_hetero_des_0_half}
+#-> Plot_hetero_des_0_half
+#-> Plot_3
+select_plots {Plot_2}
+#-> Plot_2
+remove_curves {Curve_4} -plot Plot_2
+#-> Curve_4
+select_plots {Plot_hetero_des_0_half}
+#-> Plot_hetero_des_0_half
+set_field_prop eDensity -hide_bands
+select_plots {Plot_4}
+#-> Plot_4
+#-> 0
+select_plots {Plot_hetero_des_0_half}
+#-> Plot_hetero_des_0_half
+set_field_prop eDensity -show_bands
+#-> 0
+select_plots {Plot_4}
+#-> Plot_4
+remove_plots {Plot_4}
+select_plots {Plot_hetero_des_0_half}
+#-> Plot_hetero_des_0_half
+#-> Plot_4
+remove_cutlines {C2} -plot Plot_hetero_des_0_half
+#-> C2
+select_plots {Plot_5}
+#-> Plot_5
+create_curve -plot Plot_5 -dataset {C3(hetero_des_1_half)} -axisX "X" -axisY "eDensity"
+#-> Curve_2
+create_curve -plot Plot_5 -dataset {C3(hetero_des_1_half)} -axisX "X" -axisY "eDensity"
+#-> Curve_3
+remove_plots {Plot_5}
+select_plots {Plot_hetero_des_0_half}
+#-> Plot_hetero_des_0_half
+#-> Plot_5
+select_plots {Plot_2}
+#-> Plot_2
+remove_curves {Curve_4} -plot Plot_2
+#-> Curve_4
+create_curve -plot Plot_2 -dataset {C2(hetero_des_0_half)} -axisX "Y" -axisY "eDensity"
+#-> Curve_4
+set_axis_prop -plot Plot_2 -axis x -type log
+#-> 0
+set_axis_prop -plot Plot_2 -axis x -type linear
+#-> 0
+remove_plots {Plot_2}
+select_plots {Plot_hetero_des_0_half}
+#-> Plot_hetero_des_0_half
+#-> Plot_2
+select_plots {Plot_hetero_des_1_half}
+#-> Plot_hetero_des_1_half
+select_plots {Plot_hetero_des_0_half}
+#-> Plot_hetero_des_0_half
+select_plots {Plot_6}
+#-> Plot_6
+select_plots {Plot_hetero_des_1_half}
+#-> Plot_hetero_des_1_half
+select_plots {Plot_7}
+#-> Plot_7
+remove_cutlines {C3} -plot Plot_hetero_des_1_half
+#-> C3
+select_plots {Plot_hetero_des_0_half}
+#-> Plot_hetero_des_0_half
+remove_cutlines {C1} -plot Plot_hetero_des_0_half
+#-> C1
+select_plots {Plot_6}
+#-> Plot_6
+remove_plots {Plot_6}
+select_plots {Plot_hetero_des_0_half}
+#-> Plot_hetero_des_0_half
+#-> Plot_6
+select_plots {Plot_7}
+#-> Plot_7
+remove_plots {Plot_7}
+select_plots {Plot_hetero_des_0_half}
+#-> Plot_hetero_des_0_half
+#-> Plot_7
+set_field_prop Abs(ElectricField-V) -show_bands
+#-> 0
+set_field_prop Abs(ElectricField-V) -geom hetero_des_0_half -scale log
+#-> 0
+select_plots {Plot_hetero_des_1_half}
+#-> Plot_hetero_des_1_half
+set_field_prop Abs(ElectricField-V) -show_bands
+#-> 0
+set_field_prop Abs(ElectricField-V) -geom hetero_des_1_half -scale log
+#-> 0
+set_field_prop Abs(TotalCurrentDensity-V) -show_bands
+#-> 0
+select_plots {Plot_hetero_des_0_half}
+#-> Plot_hetero_des_0_half
+set_field_prop Abs(TotalCurrentDensity-V) -show_bands
+#-> 0
+set_field_prop SpaceCharge -show_bands
+#-> 0
+set_field_prop Abs(ElectricField-V) -show_bands
+#-> 0
+select_plots {Plot_hetero_des_1_half}
+#-> Plot_hetero_des_1_half
+set_field_prop OpticalGeneration -show_bands
+#-> 0
+exit

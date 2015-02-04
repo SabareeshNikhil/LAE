@@ -1,0 +1,40 @@
+
+****************************************************************************
+***                       Sentaurus Workbench gjob                       ***
+***                          Version H-2013.03                           ***
+***                            (1.5, RHEL64)                             ***
+***                                                                      ***
+***                Copyright (c) 1994-2013 Synopsys, Inc.                ***
+***                                                                      ***
+***  This software and the associated documentation are confidential     ***
+***  and proprietary to Synopsys, Inc.  Your use or disclosure of this   ***
+***  software is subject to the terms and conditions of a written        ***
+***  license agreement between you, or your company, and Synopsys, Inc.  ***
+****************************************************************************
+
+gjob is running on host 'mcl18' by user 'sabareeshn'
+Binary 'gjob'
+Command line options '-verbose -nice 19 -nopp -job 1434 -swb_pid 18954 -gsub_pid 19147 -gsub_host mcl18 -gsub_port 40503 /home/users/sabareeshn/Desktop/calibrationFinFET'
+Current directory '/home/users/sabareeshn/Desktop/calibrationFinFET'
+Some relevant environment variables:
+	STROOT=/usr/local/Softwares/Sentaurus/Sentaurus_vH_2013.03/bin/..
+	STRELEASE=current
+	STROOT_LIB=/usr/local/Softwares/Sentaurus/Sentaurus_vH_2013.03/bin/../tcad/current/lib
+	STDB=/home/users/sabareeshn/Desktop/calibrationFinFET
+	DATEX=/usr/local/Softwares/Sentaurus/Sentaurus_vH_2013.03/bin/../tcad/current/lib/datexcodes.txt
+	DISPLAY=localhost:10.0
+
+Project '/home/users/sabareeshn/Desktop/calibrationFinFET'
+Loading global tool database '/usr/local/Softwares/Sentaurus/Sentaurus_vH_2013.03/bin/../tcad/current/lib/glib2/tooldb.tcl'
+Loading preferences '/home/users/sabareeshn/Desktop/calibrationFinFET/gpref2_sabareeshn.H-2013.03'...
+Loading project tree '/home/users/sabareeshn/Desktop/calibrationFinFET/gtree.dat'
+Loading jobs and dependence graph '"/home/users/sabareeshn/Desktop/calibrationFinFET/gexec.cmd"'
+Start Simulation section
+15:22:46 Oct 27 2013     job 1434 <inspect> started on host 'mcl18': "inspect -batch -f pp1434_ins.cmd"
+15:22:47 Oct 27 2013 +++ job 1434 <inspect> done: exit(0)
+End Simulation section
+Start Epilogue section
+15:22:47 Oct 27 2013 *** job 1434 pre/post execution: eval " gjob::find_extracted_vars "/home/users/sabareeshn/Desktop/calibrationFinFET" n1434_ins.out 1434 "
+End Epilogue section
+Job succeeded
+gjob exits with status 0

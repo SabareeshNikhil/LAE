@@ -1,0 +1,15 @@
+*Material = "InAlAs" { Insert = "InP.par" }
+Material = "InAlAs" { Insert = "models.par" }
+Material = "InGaAs" { Insert = "models.par" 
+Scharfetter * relation and trap level for SRH recombination:
+  {
+    taumax = 06 , 06   # [s]
+  }
+}
+Material = "InP" { Insert = "models.par" }
+Material = "AlGaAs" { Insert = "models.par" }
+*Material = "InP" { Insert = "InP.par" }
+*Material = "AlGaAs" { Insert = "InAlGaAs.par" }
+
+
+

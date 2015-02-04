@@ -1,0 +1,7 @@
+load_file /w/ee.00/mjarrahi/snikhil/Research/LAE/sde_dvs_msh.tdr
+create_plot -dataset sde_dvs_msh
+select_plots {Plot_sde_dvs_msh}
+#-> Plot_sde_dvs_msh
+#-> Plot_sde_dvs_msh
+#-> sde_dvs_msh
+exit

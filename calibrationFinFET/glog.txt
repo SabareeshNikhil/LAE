@@ -1,0 +1,36 @@
+
+****************************************************************************
+***                       Sentaurus Workbench gsub                       ***
+***                          Version G-2012.06                           ***
+***                         (1.7, amd64, linux)                          ***
+***                                                                      ***
+***                       Copyright (C) 1994-2012                        ***
+***                            Synopsys, Inc.                            ***
+***                                                                      ***
+***  This software and the associated documentation are confidential     ***
+***  and proprietary to Synopsys, Inc.  Your use or disclosure of this   ***
+***  software is subject to the terms and conditions of a written        ***
+***  license agreement between you, or your company, and Synopsys, Inc.  ***
+****************************************************************************
+
+gsub is running on host 'thzlabsv.ee.ucla.edu' by user 'snikhil'
+Binary 'gsub'
+Command line options '-verbose -swb_pid 5265 -q local:default -e 3 @STDB@'
+Current directory '/u1/ee/snikhil/Research'
+Some relevant environment variables:
+	STROOT=/w/apps3/Synopsys/TCAD_Sentaurus/vG_2012.06
+	STRELEASE=current
+	STROOT_LIB=/w/apps3/Synopsys/TCAD_Sentaurus/vG_2012.06/tcad/current/lib
+	STDB=/u1/ee/snikhil/Research/calibrationFinFET
+	DATEX=/w/apps3/Synopsys/TCAD_Sentaurus/vG_2012.06/tcad/current/lib/datexcodes.txt
+	DISPLAY=localhost:10.0
+
+Starting swblm daemon...OK
+relativizing paths:
+project path: /u1/ee/snikhil/Research/calibrationFinFET
+STDB path: @STDB@
+normalized STDB path: /w/ee.00/mjarrahi/snikhil/Research/calibrationFinFET
+Project '@STDB@'
+Loading global tool database '/w/apps3/Synopsys/TCAD_Sentaurus/vG_2012.06/tcad/current/lib/glib2/tooldb.tcl'
+Loading preferences '/u1/ee/snikhil/Research/calibrationFinFET/gpref2_snikhil.G-2012.06'...
+Loading preferences '/u1/ee/snikhil/Research/calibrationFinFET/gpref2_snikhil.G-2012.06'...

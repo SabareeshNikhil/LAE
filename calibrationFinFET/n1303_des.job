@@ -1,0 +1,75 @@
+
+****************************************************************************
+***                       Sentaurus Workbench gjob                       ***
+***                          Version G-2012.06                           ***
+***                         (1.7, amd64, linux)                          ***
+***                                                                      ***
+***                       Copyright (C) 1994-2012                        ***
+***                            Synopsys, Inc.                            ***
+***                                                                      ***
+***  This software and the associated documentation are confidential     ***
+***  and proprietary to Synopsys, Inc.  Your use or disclosure of this   ***
+***  software is subject to the terms and conditions of a written        ***
+***  license agreement between you, or your company, and Synopsys, Inc.  ***
+****************************************************************************
+
+gjob is running on host 'mcl14.ee.iitb.ac.in' by user 'sharath'
+Binary 'gjob'
+Command line options '-verbose -nice 19 -job 1303 -swb_pid 32568 -gsub_pid 32596 -gsub_host mcl14.ee.iitb.ac.in -gsub_port 41855 @STDB@'
+Current directory '/home/users/sharath/Desktop/calibrationFinFET'
+Some relevant environment variables:
+	STROOT=/usr/local/Softwares/Sentaurus/Sentaurus_vG_2012.06/bin/..
+	STRELEASE=current
+	STROOT_LIB=/usr/local/Softwares/Sentaurus/Sentaurus_vG_2012.06/bin/../tcad/current/lib
+	STDB=/home/users/sharath/Desktop/calibrationFinFET
+	DATEX=/usr/local/Softwares/Sentaurus/Sentaurus_vG_2012.06/bin/../tcad/current/lib/datexcodes.txt
+	DISPLAY=localhost:12.0
+
+relativizing paths:
+project path: /home/users/sharath/Desktop/calibrationFinFET
+STDB path: @STDB@
+Project '@STDB@'
+Loading global tool database '/usr/local/Softwares/Sentaurus/Sentaurus_vG_2012.06/bin/../tcad/current/lib/glib2/tooldb.tcl'
+Loading preferences '/home/users/sharath/Desktop/calibrationFinFET/gpref2_sharath.G-2012.06'...
+INITIALIZING PREPROCESSOR:
+Loading project tree '/home/users/sharath/Desktop/calibrationFinFET/gtree.dat'
+Loading jobs and dependence graph '"/home/users/sharath/Desktop/calibrationFinFET/gexec.cmd"'
+Loading project variables '/home/users/sharath/Desktop/calibrationFinFET/gvars.dat'
+--Get files to preprocess...
+--Create file handlers...
+--Read the toolflow...
+--Analyze tool-file dependencies...
+--Read all nodes to preprocess...
+--Group nodes into experiments...
+--Get all variables...
+--Get all parameters...
+PREPROCESSOR SUCCESSFULLY INITIALIZED.
+PREPROCESSING STEP 1:
+Reading file /home/users/sharath/Desktop/calibrationFinFET/sdevice_des.cmd
+Reading file /home/users/sharath/Desktop/calibrationFinFET/sdevice.par
+PREPROCESSING STEP 2:
+Preprocessing file /home/users/sharath/Desktop/calibrationFinFET/sdevice_des.cmd fornode 1303
++++Preprocessing results written to /home/users/sharath/Desktop/calibrationFinFET/pp1303_des.cmd
+Preprocessing file /home/users/sharath/Desktop/calibrationFinFET/sdevice.par fornode 1303
+ERROR:@node|-1@: '|-1' out of range [0..11]
+WARNING: Undefined value for reference node|-1
+Occured in line:
+	Grid      = "2d_Lg_15_@node|-1@_msh.tdr"
+ERROR:@node|-1@: '|-1' out of range [0..11]
+WARNING: Undefined value for reference node|-1
+Occured in line:
+	Grid      = "2d_Lg_15_@node|-1@_msh.tdr"
+ERROR:@node|-1@: '|-1' out of range [0..11]
+WARNING: Undefined value for reference node|-1
+Occured in line:
+	Grid      = "2d_Lg_15_@node|-1@_msh.tdr"
++++Preprocessing results written to /home/users/sharath/Desktop/calibrationFinFET/pp1303_des.par
+Start Simulation section
+16:13:26 Mar 25 2014     job 1303 <sdevice> started on host 'mcl14.ee.iitb.ac.in': "sdevice pp1303_des.cmd"
+16:22:21 Mar 25 2014 +++ job 1303 <sdevice> done: exit(0)
+End Simulation section
+Start Epilogue section
+16:22:21 Mar 25 2014 *** job 1303 pre/post execution: eval " gjob::find_extracted_vars "/home/users/sharath/Desktop/calibrationFinFET" n1303_des.out 1303 "
+End Epilogue section
+Job succeeded
+gjob exits with status 0

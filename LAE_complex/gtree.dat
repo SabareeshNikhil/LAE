@@ -1,0 +1,129 @@
+# Copyright (C) 1994-2011 Synopsys Inc.
+# swbtree vcurrent, Tue Feb  3 16:51:20 2015
+
+# --- simulation flow
+sde sde "" {}
+sde p_width "300" {300}
+sde n_width "200" {200 300}
+sde p_doping "1E18" {1E18}
+sde n_doping "1E17" {1E17 1E16}
+sde decay_length "0.0005" {50}
+sdevice sdevice "" {}
+sdevice max_bias "15" {15 2}
+sdevice light "0" {0 1}
+sdevice OptGen "200e22" {10e22 1e22 1E24}
+sdevice2 sdevice "" {}
+sdevice1 sdevice "" {}
+# --- variables
+# --- scenarios and parameter specs
+scenario default p_width ""
+scenario default n_width ""
+scenario default p_doping ""
+scenario default n_doping ""
+scenario default decay_length ""
+scenario default max_bias ""
+scenario default light ""
+scenario default OptGen ""
+# --- simulation tree
+0 10 0 {} {default}
+1 9 10 {300} {default}
+2 8 9 {200} {default}
+3 7 8 {1E18} {default}
+4 83 7 {1E17} {default}
+5 6 83 {50} {default}
+6 11 6 {} {default}
+7 1 11 {15} {default}
+8 2 1 {0} {default}
+9 4 2 {10e22} {default}
+10 111 4 {} {default}
+11 87 111 {} {default}
+8 3 1 {1} {default}
+9 5 3 {1e22} {default}
+10 112 5 {} {default}
+11 88 112 {} {default}
+9 103 3 {1E24} {default}
+10 127 103 {} {default}
+11 104 127 {} {default}
+7 14 11 {2} {default}
+8 15 14 {0} {default}
+9 16 15 {1e22} {default}
+10 113 16 {} {default}
+11 89 113 {} {default}
+8 18 14 {1} {default}
+9 19 18 {1e22} {default}
+10 114 19 {} {default}
+11 90 114 {} {default}
+4 84 7 {1E16} {default}
+5 39 84 {50} {default}
+6 40 39 {} {default}
+7 41 40 {15} {default}
+8 42 41 {0} {default}
+9 43 42 {10e22} {default}
+10 115 43 {} {default}
+11 91 115 {} {default}
+8 45 41 {1} {default}
+9 46 45 {1e22} {default}
+10 116 46 {} {default}
+11 92 116 {} {default}
+9 105 45 {1E24} {default}
+10 128 105 {} {default}
+11 106 128 {} {default}
+7 48 40 {2} {default}
+8 49 48 {0} {default}
+9 50 49 {10e22} {default}
+10 117 50 {} {default}
+11 93 117 {} {default}
+8 52 48 {1} {default}
+9 53 52 {10e22} {default}
+10 118 53 {} {default}
+11 94 118 {} {default}
+2 21 9 {300} {default}
+3 22 21 {1E18} {default}
+4 85 22 {1E17} {default}
+5 23 85 {50} {default}
+6 24 23 {} {default}
+7 25 24 {15} {default}
+8 26 25 {0} {default}
+9 27 26 {10e22} {default}
+10 119 27 {} {default}
+11 95 119 {} {default}
+8 29 25 {1} {default}
+9 30 29 {1e22} {default}
+10 120 30 {} {default}
+11 96 120 {} {default}
+9 107 29 {1E24} {default}
+10 129 107 {} {default}
+11 108 129 {} {default}
+7 32 24 {2} {default}
+8 33 32 {0} {default}
+9 34 33 {10e22} {default}
+10 121 34 {} {default}
+11 97 121 {} {default}
+8 36 32 {1} {default}
+9 37 36 {10e22} {default}
+10 122 37 {} {default}
+11 98 122 {} {default}
+4 86 22 {1E16} {default}
+5 55 86 {50} {default}
+6 56 55 {} {default}
+7 57 56 {15} {default}
+8 58 57 {0} {default}
+9 59 58 {10e22} {default}
+10 123 59 {} {default}
+11 99 123 {} {default}
+8 61 57 {1} {default}
+9 62 61 {1e22} {default}
+10 124 62 {} {default}
+11 100 124 {} {default}
+9 109 61 {1E24} {default}
+10 130 109 {} {default}
+11 110 130 {} {default}
+7 64 56 {2} {default}
+8 65 64 {0} {default}
+9 66 65 {10e22} {default}
+10 125 66 {} {default}
+11 101 125 {} {default}
+8 68 64 {1} {default}
+9 69 68 {10e22} {default}
+10 126 69 {} {default}
+11 102 126 {} {default}

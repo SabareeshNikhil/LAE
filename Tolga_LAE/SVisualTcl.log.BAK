@@ -1,0 +1,15 @@
+load_file /w/ee.00/mjarrahi/snikhil/Research/LAE/sde_dvs_des.tdr
+create_plot -dataset sde_dvs_des
+select_plots {Plot_sde_dvs_des}
+#-> Plot_sde_dvs_des
+#-> Plot_sde_dvs_des
+#-> sde_dvs_des
+set_material_prop {Contact} -geom sde_dvs_des -show_mesh
+#-> 0
+set_material_prop {InGaAs} -geom sde_dvs_des -show_mesh
+#-> 0
+set_material_prop {DepletionRegion} -geom sde_dvs_des -show_mesh
+#-> 0
+set_material_prop {JunctionLine} -geom sde_dvs_des -show_mesh
+#-> 0
+zoom_plot -window {0.985083 -0.33452 2.18955 0.78073}

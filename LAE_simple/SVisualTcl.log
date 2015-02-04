@@ -1,0 +1,19 @@
+load_file /w/ee.00/mjarrahi/snikhil/Research/LAE_simple/hetero_des_block_0.tdr
+create_plot -dataset hetero_des_block_0
+select_plots {Plot_hetero_des_block_0}
+#-> Plot_hetero_des_block_0
+#-> Plot_hetero_des_block_0
+#-> hetero_des_block_0
+load_file /w/ee.00/mjarrahi/snikhil/Research/LAE_simple/hetero_des_block.tdr
+create_plot -dataset hetero_des_block
+select_plots {Plot_hetero_des_block}
+#-> Plot_hetero_des_block
+set_field_prop OpticalGeneration -show_bands
+#-> 0
+#-> Plot_hetero_des_block
+#-> hetero_des_block
+select_plots {Plot_hetero_des_block_0}
+#-> Plot_hetero_des_block_0
+set_field_prop OpticalGeneration -show_bands
+#-> 0
+exit

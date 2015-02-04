@@ -1,0 +1,109 @@
+Evaluating file sde_dvs.cmd
+---> (sde:clear)
+()
+---> (sdegeo:create-cylinder (position 0 0 0.0) (position 0 3 0.0) 3 Silicon p_substrate)
+#[body 9 1]
+---> (sdedr:define-refinement-size RefinementDefinition_p_substrate 1 0.2 1 0.5 0.1 0.5)
+#t
+---> (sdedr:define-refinement-region RefinementPlacement_p_substrate RefinementDefinition_p_substrate p_substrate)
+#t
+---> (sdedr:define-constant-profile ConstantProfileDefinition_p_substrate PhosphorusActiveConcentration 1e+17)
+#t
+---> (sdedr:define-constant-profile-region ConstantProfilePlacement_p_substrate ConstantProfileDefinition_p_substrate p_substrate)
+#t
+---> (sdegeo:create-cylinder (position 0 0 0.0) (position 0 1.6 0.0) 2.5 Silicon n_well)
+#[body 10 1]
+---> (sdedr:define-refinement-size RefinementDefinition_n_well 0.5 0.1 0.5 0.1 0.05 0.1)
+#t
+---> (sdedr:define-refinement-region RefinementPlacement_n_well RefinementDefinition_n_well n_well)
+#t
+---> (sdedr:define-constant-profile ConstantProfileDefinition_n_well BoronActiveConcentration 1e+15)
+#t
+---> (sdedr:define-constant-profile-region ConstantProfilePlacement_n_well ConstantProfileDefinition_n_well n_well)
+#t
+---> (sdegeo:create-cylinder (position 0 -0.14 0.0) (position 0 0 0.0) 2.5 Gold cathode_contact)
+#[body 11 1]
+---> (define contact_extra (sdegeo:create-cylinder (position 0 -0.14 0.0) (position 0 0 0.0) 1.8 Gold cathode_contact_extra))
+contact_extra
+---> (entity:delete contact_extra)
+()
+---> (sdegeo:define-contact-set cathode 4 (color:rgb 1 0 0) ##)
+()
+---> (sdegeo:set-current-contact-set cathode)
+""
+---> (sdegeo:define-3d-contact (find-face-id (position 2.025 -0.14 0)) (sdegeo:get-current-contact-set))
+()
+---> (sdegeo:create-cylinder (position 0 -0.14 0.0) (position 0 0 0.0) 0.14 Gold anode_contact)
+#[body 26 1]
+---> (sdegeo:define-contact-set anode 4 (color:rgb 1 0 0) ##)
+()
+---> (sdegeo:set-current-contact-set anode)
+"cathode"
+---> (sdegeo:define-3d-contact (find-face-id (position 0 -0.14 0)) (sdegeo:get-current-contact-set))
+()
+---> (sdegeo:create-cylinder (position 0 0 0.0) (position 0 0.43 0.0) 3.0 Oxide STI_right)
+#[body 31 1]
+---> (define STI_right_extra (sdegeo:create-cylinder (position 0 0 0.0) (position 0 0.43 0.0) 2.45 Oxide STI_right_extra))
+STI_right_extra
+---> (entity:delete STI_right_extra)
+()
+---> (sdegeo:create-cylinder (position 0 0 0.0) (position 0 3 0.0) 2.45 Silicon p_substrate_1)
+#[body 33 1]
+---> (sdedr:define-refinement-size RefinementDefinition_p_substrate_1 1 0.2 1 0.5 0.1 0.5)
+#t
+---> (sdedr:define-refinement-region RefinementPlacement_p_substrate_1 RefinementDefinition_p_substrate_1 p_substrate_1)
+#t
+---> (sdedr:define-constant-profile ConstantProfileDefinition_p_substrate_1 PhosphorusActiveConcentration 1e+17)
+#t
+---> (sdedr:define-constant-profile-region ConstantProfilePlacement_p_substrate_1 ConstantProfileDefinition_p_substrate_1 p_substrate_1)
+#t
+---> (sdegeo:create-cylinder (position 0 0 0.0) (position 0 0.43 0.0) 2.45 Silicon n+)
+#[body 34 1]
+---> (sdedr:define-refinement-size RefinementDefinition_n+ 0.1 0.05 0.1 0.01 0.01 0.01)
+#t
+---> (sdedr:define-refinement-region RefinementPlacement_n+ RefinementDefinition_n+ n+)
+#t
+---> (define n+_extra (sdegeo:create-cylinder (position 0 0 0.0) (position 0 0.15 0.0) 1.6 Silicon n+_extra))
+n+_extra
+---> (entity:delete n+_extra)
+()
+---> (sdedr:define-constant-profile ConstantProfileDefinition_n+ BoronActiveConcentration 1e+19)
+#t
+---> (sdedr:define-constant-profile-region ConstantProfilePlacement_n+ ConstantProfileDefinition_n+ n+)
+#t
+---> (sdegeo:create-cylinder (position 0 0 0.0) (position 0 0.43 0.0) 1.6 Oxide STI)
+#[body 36 1]
+---> (define STI_extra (sdegeo:create-cylinder (position 0 0 0.0) (position 0 0.43 0.0) 1 Oxide STI_extra))
+STI_extra
+---> (entity:delete STI_extra)
+()
+---> (sdegeo:create-cylinder (position 0 0 0.0) (position 0 3 0.0) 1 Silicon p_substrate_2)
+#[body 38 1]
+---> (sdedr:define-refinement-size RefinementDefinition_p_substrate_2 1 0.2 1 0.5 0.1 0.5)
+#t
+---> (sdedr:define-refinement-region RefinementPlacement_p_substrate_2 RefinementDefinition_p_substrate_2 p_substrate_2)
+#t
+---> (sdedr:define-constant-profile ConstantProfileDefinition_p_substrate_2 PhosphorusActiveConcentration 1e+17)
+#t
+---> (sdedr:define-constant-profile-region ConstantProfilePlacement_p_substrate_2 ConstantProfileDefinition_p_substrate_2 p_substrate_2)
+#t
+---> (sdegeo:create-cylinder (position 0 0 0.0) (position 0 0.2 0.0) 1 Silicon p+)
+#[body 39 1]
+---> (sdedr:define-refinement-size RefinementDefinition_p+ 0.1 0.05 0.1 0.01 0.01 0.01)
+#t
+---> (sdedr:define-refinement-region RefinementPlacement_p+ RefinementDefinition_p+ p+)
+#t
+---> (sdedr:define-constant-profile ConstantProfileDefinition_p+ PhosphorusActiveConcentration 1e+19)
+#t
+---> (sdedr:define-constant-profile-region ConstantProfilePlacement_p+ ConstantProfileDefinition_p+ p+)
+#t
+---> (sde:build-mesh snmesh   sde_msh)
+#t
+---> #[end-of-file]
+"************************************************************************"
+"Sentaurus Structure Editor "
+"Start Time:    Tue Jul  9 11:44:44 2013"
+"End   Time:    Tue Jul  9 12:05:39 2013"
+"Total Execution Time (sec):    0"
+"Total System calls Time (sec): 0"
+"************************************************************************"

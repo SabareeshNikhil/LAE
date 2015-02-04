@@ -1,0 +1,63 @@
+> Compiled Sun May 22 15:24:44 PDT 2011 on: tcadprod5
+> Running on: Linux mcl16 2.6.32-71.el6.x86_64 #1 SMP Tue Nov 23 06:49:13 CST 2010 x86_64
+
+> Process ID: 24614
+> 
+> Flags used: -F tdr
+> 
+> Reading Boundary from 2d_Lg_15_1321_bnd.tdr
+> Loaded 36 point(s), 15 region(s), 3 contact(s). done. Time: 0.022997 secs.
+> Statistics from input geometry:
+> 36 vertices, 50 edges, 25 elements (10 segments) (15 polygons)
+> 	10 1D elements
+> 	15 2D elements
+> Average edge length (std): 0.0257867 (0.287423)
+> Min edge length (17): 0.0013
+> 
+> Average area (std): 0.01681 (0.199486)
+> Min. element area (3): 4.16667e-05
+> 
+> Average connectivity: 2.77778
+> Max. connectivity (8): 4
+> 
+> Step sequence to perform: 
+> 	MLRefineGeometry-MLRefineOnSize
+> 
+> Fitting geometry ... Number of elements to check: 1
+> Number of elements to check: 9
+> done. Time: 0.003999 secs.
+> Refining on MaxElementSize ... Number of elements to check: 8
+> Number of elements to check: 93880
+> done. Time: 6.92495 secs.
+> Handling green elements ... Number of elements to check: 93812
+> Number of elements to check: 1279
+> Number of elements to check: 207
+> Number of elements to check: 117
+> Number of elements to check: 69
+> done. Time: 0.172974 secs.
+> Building final elements ... Number of elements to check: 95172
+> Number of elements to check: 4098
+> done. Time: 0.059991 secs.
+> Testing elements ... Number of elements to check: 97904
+> done. Time: 1.74973 secs.
+> Preparing data for output... Number of final elements 97904
+> Statistics from Qtree/Oc-tree:
+> 96107 vertices, 194010 edges, 98242 elements (338 segments) (4098 triangles) (93806 rectangles)
+> 	338 1D elements
+> 	97904 2D elements
+> Average edge length (std): 0.00064797 (0.251253)
+> Min edge length (2144): 4.88281e-05
+> 
+> Average area (std): 4.27757e-06 (0.0223164)
+> Min. element area (1087): 3.05176e-08
+> 
+> Min. element angle (1087): 2.23698 degrees.
+> Max. element angle (0): 90 degrees.
+> Average connectivity: 4.03738
+> Max. connectivity (403): 7
+> 
+> done. Time: 0.889865 secs.
+> 
+> Total time : 9.82451 secs.
+> Saving mesh `2d_Lg_15_1321_msh' in TDR format...
+> Interpolating data ... done

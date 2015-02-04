@@ -1,0 +1,59 @@
+
+****************************************************************************
+***                       Sentaurus Workbench gjob                       ***
+***                          Version F-2011.09                           ***
+***                         (1.5, amd64, linux)                          ***
+***                                                                      ***
+***                       Copyright (C) 1994-2011                        ***
+***                            Synopsys, Inc.                            ***
+***                                                                      ***
+***  This software and the associated documentation are confidential     ***
+***  and proprietary to Synopsys, Inc.  Your use or disclosure of this   ***
+***  software is subject to the terms and conditions of a written        ***
+***  license agreement between you, or your company, and Synopsys, Inc.  ***
+****************************************************************************
+
+gjob is running on host 'mcl16' by user 'sabareeshn'
+Binary 'gjob'
+Command line options '-verbose -nice 19 -job 1335 -swb_pid 24498 -gsub_pid 10587 -gsub_host mcl16 -gsub_port 58877 @STDB@'
+Current directory '/home/users/sabareeshn/Desktop/calibrationFinFET'
+Some relevant environment variables:
+	STROOT=/usr/local/tcadtaurus/Sentaurus_vF_2011.09/bin/..
+	STRELEASE=current
+	STROOT_LIB=/usr/local/tcadtaurus/Sentaurus_vF_2011.09/bin/../tcad/current/lib
+	STDB=/home/users/sabareeshn/Desktop/calibrationFinFET
+	DATEX=/usr/local/tcadtaurus/Sentaurus_vF_2011.09/bin/../tcad/current/lib/datexcodes.txt
+	DISPLAY=:1.0
+
+relativizing paths:
+project path: /home/users/sabareeshn/Desktop/calibrationFinFET
+STDB path: @STDB@
+Project '@STDB@'
+Loading global tool database '/usr/local/tcadtaurus/Sentaurus_vF_2011.09/bin/../tcad/current/lib/glib2/tooldb.tcl'
+Loading preferences '/home/users/sabareeshn/Desktop/calibrationFinFET/gpref2_sabareeshn.F-2011.09'...
+INITIALIZING PREPROCESSOR:
+Loading project tree '/home/users/sabareeshn/Desktop/calibrationFinFET/gtree.dat'
+Loading jobs and dependence graph '"/home/users/sabareeshn/Desktop/calibrationFinFET/gexec.cmd"'
+Loading project variables '/home/users/sabareeshn/Desktop/calibrationFinFET/gvars.dat'
+--Get files to preprocess...
+--Create file handlers...
+--Read the toolflow...
+--Analyze tool-file dependencies...
+--Read all nodes to preprocess...
+--Group nodes into experiments...
+--Assign for each experiment a TCL interpreter...
+--Get all variables...
+--Get all parameters...
+PREPROCESSOR SUCCESSFULLY INITIALIZED.
+PREPROCESSING STEP 1:
+Reading file /home/users/sabareeshn/Desktop/calibrationFinFET/inspect2_ins.cmd
+PREPROCESSING STEP 2:
+Preprocessing file /home/users/sabareeshn/Desktop/calibrationFinFET/inspect2_ins.cmd for node 1335
++++Preprocessing results written to /home/users/sabareeshn/Desktop/calibrationFinFET/pp1335_ins.cmd
+12:31:13 Oct 07 2013     job 1335 <inspect> started on host 'mcl16': "inspect -batch -f pp1335_ins.cmd"
+12:31:14 Oct 07 2013 +++ job 1335 <inspect> done: exit(0)
+End Simulation section
+Start Epilogue section
+12:31:14 Oct 07 2013 *** job 1335 pre/post execution: eval " extract_vars "/home/users/sabareeshn/Desktop/calibrationFinFET" n1335_ins.out 1335 "
+End Epilogue section
+gjob exits with status 0

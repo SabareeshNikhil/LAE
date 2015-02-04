@@ -1,0 +1,28 @@
+****************************************************************************
+***                               Inspect                                ***
+***                          Version F-2011.09                           ***
+***                         (1.3, amd64, linux)                          ***
+***                                                                      ***
+***                       Copyright (C) 1994-2011                        ***
+***                            Synopsys, Inc.                            ***
+***                                                                      ***
+***  This software and the associated documentation are confidential     ***
+***  and proprietary to Synopsys, Inc.  Your use or disclosure of this   ***
+***  software is subject to the terms and conditions of a written        ***
+***  license agreement between you, or your company, and Synopsys, Inc.  ***
+****************************************************************************
+
+Loading library 'EXTRACT' from file '/usr/local/tcadtaurus/Sentaurus_vF_2011.09/bin/../tcad/current/lib/inspectlib/EXTRACT.tcl'
+Loading EXTRACT.tcl V2.2
+ 
+--------------------------------------------------- 
+   INSPECT variable extraction: 
+--------------------------------------------------- 
+ 
+Date      : Mon Sep  2 10:26:25 IST 2013 
+Directory : /home/users/sabareeshn/Desktop/calibrationFinFET 
+ 
+out_file = Cprime_prelims_1100
+
+!!! Fatal error: could not load data set from file "Cprime_prelims_1100.plt" !!!
+

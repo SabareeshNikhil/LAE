@@ -1,0 +1,1513 @@
+****************************************************************************
+***                           Sentaurus Device                           ***
+***                          Version H-2013.03                           ***
+***                            (1.5, RHEL64)                             ***
+***                                                                      ***
+***                       Copyright (C) 1994-2013                        ***
+***                            Synopsys, Inc.                            ***
+***                                                                      ***
+***  This software and the associated documentation are confidential     ***
+***  and proprietary to Synopsys, Inc.  Your use or disclosure of this   ***
+***  software is subject to the terms and conditions of a written        ***
+***  license agreement between you, or your company, and Synopsys, Inc.  ***
+****************************************************************************
+
+	Running on machine with the following configuration:
+	Host Name: mcl18
+	Operating System: Linux rel. 2.6.18-348.1.1.el5 ver. #1 SMP Tue Jan 22 16:19:19 EST 2013
+	Machine Type: x86_64
+	Process ID: 24873
+	Number of processors: 16
+	Domain Name: MCL-LAB
+	Date: Sun Oct 27 19:50:51 2013  (IST)
+
+Parsing "/usr/local/Softwares/Sentaurus/Sentaurus_vH_2013.03/bin/../tcad/current/lib/sdevice-21.0.5/MaterialDB/Molefraction.txt"
+Sun Oct 27 19:50:51 2013: checked out 1 Dessis license(s)
+Sun Oct 27 19:50:51 2013: checked out 1 sdevice license(s)
+Parsing circuit file /usr/local/Softwares/Sentaurus/Sentaurus_vH_2013.03/bin/../tcad/current/amd64/lib/sdevice/sd_hb_sRL.ccf
+Parsing circuit file /usr/local/Softwares/Sentaurus/Sentaurus_vH_2013.03/bin/../tcad/current/amd64/lib/sdevice/sd_hb_isource.ccf
+Parsing circuit file /usr/local/Softwares/Sentaurus/Sentaurus_vH_2013.03/bin/../tcad/current/amd64/lib/sdevice/sd_SRL1.ccf
+Parsing circuit file /usr/local/Softwares/Sentaurus/Sentaurus_vH_2013.03/bin/../tcad/current/amd64/lib/sdevice/sd_hb_isource2.ccf
+Parsing circuit file /usr/local/Softwares/Sentaurus/Sentaurus_vH_2013.03/bin/../tcad/current/amd64/lib/sdevice/sd_hb_vsource.ccf
+Parsing circuit file /usr/local/Softwares/Sentaurus/Sentaurus_vH_2013.03/bin/../tcad/current/amd64/lib/sdevice/sd_hb_pGC.ccf
+Parsing circuit file /usr/local/Softwares/Sentaurus/Sentaurus_vH_2013.03/bin/../tcad/current/amd64/lib/sdevice/sd_hb_vsource2.ccf
+Parsing circuit file /usr/local/Softwares/Sentaurus/Sentaurus_vH_2013.03/bin/../tcad/current/amd64/lib/sdevice/bs_psource.ccf
+Parsing circuit file /usr/local/Softwares/Sentaurus/Sentaurus_vH_2013.03/bin/../tcad/current/amd64/lib/scm/MOS_harness.ccf
+Loading shared object file /usr/local/Softwares/Sentaurus/Sentaurus_vH_2013.03/bin/../tcad/current/amd64/lib/scm/MOS_harness.so.amd64
+Loading shared object file /usr/local/Softwares/Sentaurus/Sentaurus_vH_2013.03/bin/../tcad/current/amd64/lib/sdevice/bs_psource.so.amd64
+Loading shared object file /usr/local/Softwares/Sentaurus/Sentaurus_vH_2013.03/bin/../tcad/current/amd64/lib/sdevice/sd_hb_vsource2.so.amd64
+Loading shared object file /usr/local/Softwares/Sentaurus/Sentaurus_vH_2013.03/bin/../tcad/current/amd64/lib/sdevice/sd_hb_pGC.so.amd64
+Loading shared object file /usr/local/Softwares/Sentaurus/Sentaurus_vH_2013.03/bin/../tcad/current/amd64/lib/sdevice/sd_hb_vsource.so.amd64
+Loading shared object file /usr/local/Softwares/Sentaurus/Sentaurus_vH_2013.03/bin/../tcad/current/amd64/lib/sdevice/sd_hb_isource2.so.amd64
+Loading shared object file /usr/local/Softwares/Sentaurus/Sentaurus_vH_2013.03/bin/../tcad/current/amd64/lib/sdevice/sd_SRL1.so.amd64
+Loading shared object file /usr/local/Softwares/Sentaurus/Sentaurus_vH_2013.03/bin/../tcad/current/amd64/lib/sdevice/sd_hb_isource.so.amd64
+Loading shared object file /usr/local/Softwares/Sentaurus/Sentaurus_vH_2013.03/bin/../tcad/current/amd64/lib/sdevice/sd_hb_sRL.so.amd64
+Sun Oct 27 19:50:52 2013: checked out 1 Dessis-Parallel license(s)
+Sun Oct 27 19:50:52 2013: checked out 1 sdevice-parallel license(s)
+Sun Oct 27 19:50:52 2013: checked out 1 sparallel license(s)
+
+Input source: pp1440_des.cmd
+
+===============================
+
+Output file: 2d_Lg_15_1440.log_des.log
+
+
+GlobalParameter {
+}
+no ACExtract file
+
+PMIPath file: /usr/local/Softwares/Sentaurus/Sentaurus_vH_2013.03/bin/../tcad/current/amd64/lib/sdevice-21.0.5 /usr/local/Softwares/Sentaurus/Sentaurus_vH_2013.03/bin/../tcad/current/amd64/lib/sdevice
+
+CMIPath file: /usr/local/Softwares/Sentaurus/Sentaurus_vH_2013.03/bin/../tcad/current/amd64/lib/sdevice /usr/local/Softwares/Sentaurus/Sentaurus_vH_2013.03/bin/../tcad/current/amd64/lib/scm
+
+SPICEPath file: /usr/local/Softwares/Sentaurus/Sentaurus_vH_2013.03/bin/../tcad/current/lib/sdevice-21.0.5/spice
+
+no DevicePath file
+
+no CIRCUITSAVENAME file
+
+no CIRCUITLOADNAME file
+
+Numerical parameters:
+  Absolute error : 
+    Poisson : 1.0000e-03
+    Electron : 1.0000e-05
+    Hole : 1.0000e-05
+    Photon-Rate-Equation : 1.0000e-07
+    Photon-Phase-Equation : 1.0000e-05
+    Rate-Stabilize-Equation : 1.0000e-07
+    QW-Scattering-Equations : 1.0000e-05
+    QW-eScattering-Equation : 1.0000e-05
+    QW-hScattering-Equation : 1.0000e-05
+    Optical Problem : 1.0000e-03
+    Wavelength : 1.0000e-03
+    Bandstructure : 1.0000e-03
+    EmissionTable : 1.0000e-03
+    DephasingRates : 1.0000e-03
+    Photon Recycling : 1.0000e-03
+    Electron-Temperature : 1.0000e-04
+    Hole-Temperature : 1.0000e-04
+    Lattice-Hole-Electron-Temperature : 1.0000e-03
+    Circuit : 1.0000e-03
+    TCircuit : 1.0000e-03
+    Contact : 1.0000e-03
+    TContact : 1.0000e-03
+    Continuation : 1.0000e-03
+    eLaplace : 1.0000e-03
+    hLaplace : 1.0000e-03
+    tLaplace : 1.0000e-03
+    MonteCarlo : 1.0000e-03
+    MCPoissonPDE : 1.0000e-03
+    eQuantumPotential : 1.0000e-03
+    hQuantumPotential : 1.0000e-03
+    quasi-fermi-potential : 1.0000e-03
+    ConductiveInsulator : 1.0000e-03
+    ContactAndConductiveInsulator : 1.0000e-03
+    SingletExciton : 1.0000e-05
+    eHopping : 1.0000e-03
+    hHopping : 1.0000e-03
+    HydrogenAtom : 1.0000e-03
+    HydrogenMolecule : 1.0000e-03
+    HydrogenIon : 1.0000e-03
+    HydrogenSiliconBondOccupation : 1.0000e-03
+    eSHEDistribution : 1.0000e-03
+    hSHEDistribution : 1.0000e-03
+    Landau-Lifshitz-Gilbert[theta] : 1.0000e-03
+    Landau-Lifshitz-Gilbert[phi] : 1.0000e-03
+  RelErrControl (Reference error): 
+    Poisson : 0.025852
+    Electron : 1.0000e+10
+    Hole : 1.0000e+10
+    Photon-Rate-Equation : 1.0000e-07
+    Photon-Phase-Equation : 1
+    Rate-Stabilize-Equation : 1.0000e-07
+    QW-Scattering-Equations : 1.0000e+10
+    QW-eScattering-Equation : 1.0000e+10
+    QW-hScattering-Equation : 1.0000e+10
+    Optical Problem : 1
+    Wavelength : 1
+    Bandstructure : 1
+    EmissionTable : 1
+    DephasingRates : 1
+    Photon Recycling : 1
+    Electron-Temperature : 3.0000e+02
+    Hole-Temperature : 3.0000e+02
+    Lattice-Hole-Electron-Temperature : 3.0000e+02
+    Circuit : 1
+    TCircuit : 1
+    Contact : 0.025852
+    TContact : 1
+    Continuation : 1
+    eLaplace : 1
+    hLaplace : 1
+    tLaplace : 1
+    MonteCarlo : 1
+    MCPoissonPDE : 1
+    eQuantumPotential : 0.025852
+    hQuantumPotential : 0.025852
+    quasi-fermi-potential : 0.025852
+    ConductiveInsulator : 1
+    ContactAndConductiveInsulator : 1
+    SingletExciton : 1.0000e+10
+    eHopping : 0.025852
+    hHopping : 0.025852
+    HydrogenAtom : 1.0000e+10
+    HydrogenMolecule : 1.0000e+10
+    HydrogenIon : 1.0000e+10
+    HydrogenSiliconBondOccupation : 1
+    eSHEDistribution : 0.025852
+    hSHEDistribution : 0.025852
+    Landau-Lifshitz-Gilbert[theta] : 1
+    Landau-Lifshitz-Gilbert[phi] : 1
+  Relative error : 6 digits
+  Without checked transient error
+  Max. #iterations : 20
+  LineSearchDamping=1
+  #undamped iterations : 50
+  No incomplete Newton
+  transient method : TR-BDF
+  Linear solver : blocked decomposition
+  Linear solver for AC analysis : blocked decomposition
+  Linear solver for SHEDistribution Model : Super
+  use linear extrapolation in transient/quasistationary computations
+  use complex supernodal in ac-analysis (if possible)
+  do not use smoothed PDE's in transient/quasistationary computations
+  Harmonic balance (HB) specifications:
+    Do not use MDFT mode in HB (i.e. one-tone and time domain assembly).
+    Do not use in HB the logarithm of densities.
+    No SolveSpectrum entries are specified.
+    Plot HB results for time domain interval (0.0000e+00 , 0.0000e+00) using 0 intervals.
+    HB Newton scaling parameters for rhs and update:
+      Equation                         :  RhsScale  : UpdateScale
+      Poisson                          :   1.00E+00 :   1.00E+00 
+      Electron                         :   1.00E-05 :   1.00E+00 
+      Hole                             :   1.00E-05 :   1.00E+00 
+      Photon-Rate-Equation             :   1.00E-05 :   1.00E+00 
+      Photon-Phase-Equation            :   1.00E+00 :   1.00E+00 
+      Rate-Stabilize-Equation          :   1.00E+00 :   1.00E+00 
+      QW-Scattering-Equations          :   1.00E-05 :   1.00E+00 
+      QW-eScattering-Equation          :   1.00E-05 :   1.00E+00 
+      QW-hScattering-Equation          :   1.00E-05 :   1.00E+00 
+      Optical Problem                  :   1.00E+00 :   1.00E+00 
+      Wavelength                       :   1.00E+00 :   1.00E+00 
+      Bandstructure                    :   1.00E+00 :   1.00E+00 
+      EmissionTable                    :   1.00E+00 :   1.00E+00 
+      DephasingRates                   :   1.00E+00 :   1.00E+00 
+      Photon Recycling                 :   1.00E+00 :   1.00E+00 
+      Electron-Temperature             :   1.00E+00 :   1.00E+00 
+      Hole-Temperature                 :   1.00E+00 :   1.00E+00 
+      Lattice-Hole-Electron-Temperature:   1.00E+00 :   1.00E+00 
+      Circuit                          :   1.00E-05 :   1.00E+00 
+      TCircuit                         :   1.00E+00 :   1.00E+00 
+      Contact                          :   1.00E-05 :   1.00E+00 
+      TContact                         :   1.00E+00 :   1.00E+00 
+      Continuation                     :   1.00E+00 :   1.00E+00 
+      eLaplace                         :   1.00E+00 :   1.00E+00 
+      hLaplace                         :   1.00E+00 :   1.00E+00 
+      tLaplace                         :   1.00E+00 :   1.00E+00 
+      MonteCarlo                       :   1.00E+00 :   1.00E+00 
+      MCPoissonPDE                     :   1.00E+00 :   1.00E+00 
+      eQuantumPotential                :   1.00E+00 :   1.00E+00 
+      hQuantumPotential                :   1.00E+00 :   1.00E+00 
+      quasi-fermi-potential            :   1.00E+00 :   1.00E+00 
+      ConductiveInsulator              :   1.00E+00 :   1.00E+00 
+      ContactAndConductiveInsulator    :   1.00E+00 :   1.00E+00 
+      SingletExciton                   :   1.00E+00 :   1.00E+00 
+      eHopping                         :   1.00E+00 :   1.00E+00 
+      hHopping                         :   1.00E+00 :   1.00E+00 
+      HydrogenAtom                     :   1.00E+00 :   1.00E+00 
+      HydrogenMolecule                 :   1.00E+00 :   1.00E+00 
+      HydrogenIon                      :   1.00E+00 :   1.00E+00 
+      HydrogenSiliconBondOccupation    :   1.00E+00 :   1.00E+00 
+      eSHEDistribution                 :   1.00E+00 :   1.00E+00 
+      hSHEDistribution                 :   1.00E+00 :   1.00E+00 
+      Landau-Lifshitz-Gilbert[theta]   :   1.00E+00 :   1.00E+00 
+      Landau-Lifshitz-Gilbert[phi]     :   1.00E+00 :   1.00E+00 
+    HB Newton correction parameters for values:
+      Equation                         :     Min    :  Variation 
+      Electron                         :   1.00E-20 :   1.00E+18 
+      Hole                             :   1.00E-20 :   1.00E+18 
+      Photon-Rate-Equation             :   0.00E+00 :   1.00E+18 
+      QW-eScattering-Equation          :   1.00E-20 :   1.00E+18 
+      QW-hScattering-Equation          :   1.00E-20 :   1.00E+18 
+      Electron-Temperature             :   1.00E+02 :   1.00E+18 
+      Hole-Temperature                 :   1.00E+02 :   1.00E+18 
+      Lattice-Hole-Electron-Temperature:   1.00E+02 :   1.00E+18 
+    
+    Traps are solved by decoupled mode.
+  use automatic coupling of contact/circuit stuff
+  Spice temperature: 3.0015e+02
+  Spice nominal temperature of parameter measurements: 3.0015e+02
+  Spice minimum conductance gmin: 1.0000e-12
+  Use 64 bit (double) normal precision floating point arithmetic.
+  Mininum |rhs| : 1.0000e-05
+  Maximum |rhs| : 1.0000e+15
+  Maximum |rhs| factor : 1.0000e+10
+  Lattice Temperature Range : (50,5.0000e+03)
+  Carrier Temperature Range : (10,8.0000e+04)
+  Simplified first order SHE of BTE will be solved
+  SHERefinementCutoff : 20
+  No user dependencies.
+  Number of assembly threads: 1 (default)
+  Number of solver threads: 4 (Sentaurus Device command file)
+  Thread stacksize: 1000000 bytes (default)
+  Go serial if not enough parallel licenses are available.
+
+Default device parameters:
+  Electrodes:
+    "source" : 0.0000e+00 V (Ohmic), area factor : 1
+    "drain" : 0.0000e+00 V (Ohmic), area factor : 1
+    "gate" : 0.0000e+00 V (Ohmic, WorkFunction = 3.95837 eV), area factor : 1
+  RayTrace Boundaries:
+  Files:
+    no Boundary file
+    Grid file: 2d_Lg_15_1422_msh.tdr
+    no Doping file
+    no MobilityDoping file
+    Load file: Vd_1438_des.sav
+    no Save file
+    Plot file: 2d_Lg_15_1440.dat
+    no DevFieldsName file
+    no Path file
+    no Lifetime file
+    no Temperature file
+    Current file: 2d_Lg_15_1440.plt
+    no PMIUserFields file
+    no Extraction file
+    ModelParameters file: pp1440_des.par
+    ParameterPath directories: 
+    no Piezo file
+    no ModeGain file
+    no Optical emission table for stimulated emission file
+    no Optical emission table for spontaneous emission file
+    no Optical emission table for photon phase change coefficient file
+    no EmissionTable file
+    no DephasingRates file
+    no ASESpectrum file
+    no OpticalFarField file
+    no OpticalIntensityPattern file
+    no SaveOpticalIntensityPattern file
+    no OpticalXYAnglePattern file
+    no SaveOpticalXYAnglePattern file
+    no MonteCarloInput file
+    MonteCarloOutput file: n1440_mc.mcf
+    no ACPlot file
+-----------------------------------------------
+  Numerical parameters:
+    With exact derivatives
+    With avalanche derivatives
+    Using old wavelength search algorithm
+    Do not reinitialize quasi Fermi potentials in quasi-stationary simulations
+    Ignore ionization integral constraints
+    Without diagonal preconditioning
+    With Scharfetter-Gummel Discretization
+    Relative error : 6 digits
+    Delta for numerical tunnelling derivatives : 1.0000e-03
+    Linear solver (submethod) : Pardiso
+    Do not compute breakdown paths and ionization integrals
+    QuasiFermiPotential is used for Contact Equation
+-----------------------------------------------
+-----------------------------------------------
+  Physical models:
+    Without incomplete ionization
+    Use Si parameters
+    TATNonlocalPathNC = 0.0000e+00
+    With SRH-Recombination
+      With Hurkx field dependent lifetimes (trap assisted tunneling model)
+      With doping dependent lifetimes
+      Without temperature dependent lifetimes
+    Without CDL-Recombination
+    With optical generation computation 
+    Without Band-to-Band-Tunneling
+    Without Auger-Recombination
+    Without Radiative Recombination
+    Without Surface-Recombination
+    Without Trap-Assisted-Auger-Recombination
+    PMI recombination models: none
+  Without thermal resistance interfaces
+  Without Piezo
+  Without Anisotropic Material Properties
+  Without Avalanche-Generation 
+  Without Alpha Particle
+  Without Heavy Ion
+  Without polarization
+  Volume charge density: 0.0000e+00 cm^-3
+  Device Temperature = 3.0000e+02 K
+  Electron Quasi Fermi Potential: 0.0000e+00 V
+  Hole Quasi Fermi Potential: 0.0000e+00 V
+  Without MagneticField
+  With SingletExciton Barrier Type
+  Intrinsic density models:
+    default bandgap model
+    Bandgap narrowing model: OldSlotboom with bandgap narrowing (no Fermi)
+  default affinity model
+  default effective mass model
+  Electron mobility:
+    Doping dependence:
+      Default
+    no Carrier-Carrier scattering
+    E_normal dependence:
+      Lombardi
+    Without ThinLayer mobility model
+    Diffusivity: Caughey-Thomas saturation model, using gradient quasi-Fermi potential.
+    Einstein relation for diffusivity-mobility ratio.
+  Hole mobility:
+    Doping dependence:
+      Default
+    no Carrier-Carrier scattering
+    E_normal dependence:
+      Lombardi
+    Without ThinLayer mobility model
+    Diffusivity: Caughey-Thomas saturation model, using gradient quasi-Fermi potential.
+    Einstein relation for diffusivity-mobility ratio.
+  Energy relaxation time model: according to formula in parameter file
+  Lattice thermal conductivity model: according to formula in parameter file
+  Metal Resistivity model: according to formula in parameter file
+  Thermo Electric Power model: extraploted Si data
+  Metal Thermo Electric Power model: MetalThermoElectricPower model not defined
+  Lattice heat capacity model: temperature dependent
+  no piezoelectric polarization model
+  Without default parameters from file (use built-in default parameters)
+-----------------------------------------------
+Monte Carlo parameters:
+  With self-consistent Monte Carlo
+        Compute Poisson equation with frozen quasi Fermis.
+  Monte Carlo window:
+    Rectangle[ ( 0.125, 0.119, 0.000 ) ( 0.175, 0.181, 0.000 ) um ]
+  Prefactor of alloy scattering rate = 1
+  Prefactor of impurity scattering rate = 1
+  Prefactor of impact ionization scattering rate = 1
+  HighK modus = 0
+  No. of drain contact = 2
+  Name of drain contact = ""
+  internal current plot = "1"
+  Name of substrate contact = ""
+  Error bar for drain current = 2.5%
+  Germanium content in active material = 0.0000e+00
+  Strain-defining substrate Germanium content = 0.0000e+00
+  Uniaxial tensile stress along 110 in MPa = 0.0000e+00
+  Channel direction vector: (   1,   1,   0 ) 
+  Normal-2-Oxide direction vector: (  -1,   1,   0 ) 
+  Strain tensor XX YY ZZ YZ XZ XY: ( 0.000, 0.000, 0.000, 0.000, 0.000, 0.000 ) 
+  Start wave vector for plotting energy dispersion ( 0.000, 0.000, 0.000 ) 
+  End wave vector for plotting energy dispersion ( 1.000, 0.000, 0.000 ) 
+  Minimal number of current computations = 8
+  Number of electrons = 1
+  Number of holes = 1
+  Surface scattering ratio = 0.85
+  Surface scattering ratio in ballistic window = 1
+  Crystal Rotation = 0.0000e+00 degrees 
+  Coupling with Lattice Heat Equation = 0.0000e+00
+  Without carrier-carrier scattering
+  Impurity scattering with Fermi-Dirac screening 
+  Crystallographic nanowire surface orientation fixed 
+  Nondegenerate statictics employed
+    With Brooks-Herring impurity scattering
+  With Sparta simulation
+  Stationary simulation
+  Initial time = 0.0000e+00s
+  Final time = 3.6000e-07s
+  Plot at [ 0.0000e+00 s, 1.2000e-08 s, 2.4000e-08 s, 3.6000e-08 s, 4.8000e-08 s
+  , 6.0000e-08 s, 7.2000e-08 s, 8.4000e-08 s, 9.6000e-08 s, 1.0800e-07 s
+  , 1.2000e-07 s, 1.3200e-07 s, 1.4400e-07 s, 1.5600e-07 s, 1.6800e-07 s
+  , 1.8000e-07 s, 1.9200e-07 s, 2.0400e-07 s, 2.1600e-07 s, 2.2800e-07 s
+  , 2.4000e-07 s, 2.5200e-07 s, 2.6400e-07 s, 2.7600e-07 s, 2.8800e-07 s
+  , 3.0000e-07 s, 3.1200e-07 s, 3.2400e-07 s, 3.3600e-07 s, 3.4800e-07 s
+  , 3.6000e-07 s, 3.7200e-07 s, 3.8400e-07 s, 3.9600e-07 s, 4.0800e-07 s
+  , 4.2000e-07 s, 4.3200e-07 s, 4.4400e-07 s, 4.5600e-07 s, 4.6800e-07 s
+  , 4.8000e-07 s, 4.9200e-07 s, 5.0400e-07 s, 5.1600e-07 s, 5.2800e-07 s
+  , 5.4000e-07 s, 5.5200e-07 s, 5.6400e-07 s, 5.7600e-07 s, 5.8800e-07 s
+  , 6.0000e-07 s, 6.1200e-07 s, 6.2400e-07 s, 6.3600e-07 s, 6.4800e-07 s
+  , 6.6000e-07 s, 6.7200e-07 s, 6.8400e-07 s, 6.9600e-07 s, 7.0800e-07 s
+  , 7.2000e-07 s, 7.3200e-07 s, 7.4400e-07 s, 7.5600e-07 s, 7.6800e-07 s
+  , 7.8000e-07 s, 7.9200e-07 s, 8.0400e-07 s, 8.1600e-07 s, 8.2800e-07 s
+  , 8.4000e-07 s, 8.5200e-07 s, 8.6400e-07 s, 8.7600e-07 s, 8.8800e-07 s
+  , 9.0000e-07 s, 9.1200e-07 s, 9.2400e-07 s, 9.3600e-07 s, 9.4800e-07 s
+  , 9.6000e-07 s, 9.7200e-07 s, 9.8400e-07 s, 9.9600e-07 s, 1.0080e-06 s
+  , 1.0200e-06 s, 1.0320e-06 s, 1.0440e-06 s, 1.0560e-06 s, 1.0680e-06 s
+  , 1.0800e-06 s, 1.0920e-06 s, 1.1040e-06 s, 1.1160e-06 s, 1.1280e-06 s
+  , 1.1400e-06 s, 1.1520e-06 s, 1.1640e-06 s, 1.1760e-06 s, 1.1880e-06 s
+  , 1.2000e-06 s ]
+Process information for extraction purposes:
+  none
+Plot variables:
+  MCField/Vector
+  eMCDensity
+  hMCDensity
+  eMCEnergy
+  hMCEnergy
+  eMCVelocity/Vector
+  hMCVelocity/Vector
+  eMCAvalanche
+  hMCAvalanche
+  eMCCurrent/Vector
+  hMCCurrent/Vector
+  ElectricField/Vector
+  eDensity
+  hDensity
+  TotalCurrentDensity/Vector
+  eCurrentDensity/Vector
+  hCurrentDensity/Vector
+  eMobility
+  hMobility
+  eQuasiFermiPotential
+  hQuasiFermiPotential
+  ElectrostaticPotential
+  SpaceCharge
+  DopingConcentration
+  DonorConcentration
+  AcceptorConcentration
+  SRHRecombination
+  Band2BandGeneration
+  ConductionBandEnergy
+  ValenceBandEnergy
+
+------------------------------------------------
+NoisePlot variables:
+  none
+Plot groups:
+  none
+
+------------------------------------------------
+CurrentPlot variables:
+  none
+Devices:
+Systems:
+Solve :
+Coupled ( Digits : 6, Max. #iterations : 20, 
+    Solver : blocked decomposition,
+    #undamped iterations : 50 
+)
+    { Poisson Hole } 
+MonteCarlo
+Plot( FilePrefix = "n1440_mc" overwrite )
+  { }
+
+===============================
+
+Reading grid '2d_Lg_15_1422_msh.tdr' ... 
+  coordinate system: DFISE, 2d_dfise (y is device down direction, 3d extension right-handed)
+  use coordinate system as is (no transformation)
+  TDR format
+  Number of grid points is 13653.
+done.
+
+Adding interfaces and contacts .... done.
+Computing edges ...
+  Number of edges: 52334
+done.
+Computing boxes ...
+
+  CVPL_AverageBoxMethod = TRUE 
+   
+  ElementWithMinVolume( 12354) Vertex0(  900)( 7.500000e-02, 1.324707e-01) Volume = 1.220703e-07 um3 (1.01e-05 from TotalVolume)
+    ElementWithMinEdge(  1011) Vertex0(  899)( 7.500000e-02, 1.324219e-01) Length = 4.882812e-05 um
+        MaxFlatElement( 13764) Vertex0(13236)( 2.400000e-01, 1.244500e-01)  Angle = 8.685190e+01 degrees
+   ElementWithMinAngle( 13306) Vertex0(12886)( 2.300000e-01, 1.336914e-01)  Angle = 2.797623e-01 degrees
+                   tan(MinAngle) = 4.882812e-03 
+
+   NumberOfEdges              =  52334 
+   NumberOfGeometricalEdges   =  28884 
+   NumberOfDoubleEdges        =      0 
+   MaxNumberOfElementsPerEdge =      2 
+   MaxNumberOfEdgesPerVertex  =      7 
+
+  Boxmethod Parallel Computing: nbThreads = 1 
+
+  Parallel Computing Delaunay coefficients ...   done.
+  Delaunay coefficients time: (wallclock = 0.0000e+00 s, tcpu = 0.0000e+00 s)
+
+  Parallel Computing Voronoi faces, coefficients, and measures ... 
+  CVPL_Algorithm = TRUE 
+
+    Computing Obtuse Elements ... 
+     Obtuse Elements time:  tcpu = 0.0000e+00 s
+      New Parameters time: (wallclock = 0.0000e+00 s, tcpu = 0.0000e+00 s)
+
+                       NumberOfVertices =  13719 
+                       NumberOfElements =  15232 
+                      NumberOfTriangles =   3540  (23.24 %)
+                     NumberOfRectangles =  11692  (76.76 %)
+                 NumberOfObtuseElements =      0  ( 0.00 %)
+    done.
+  done.
+  (times: wallclock = 0.06 s, tcpu = 0.06 s)
+
+
+/-------- Region non Delaunay elements --------------------------------------------------
+ Region                 Volume      BoxMethodVolume  DeltaVolume  Elements  non Delaunay 
+  name                   [um2]          [um2]           [%]                   Elements   
+ ----------------------------------------------------------------------------------------
+ Source_Ext          1.5200000e-03  1.5200000e-03       0.000       856       0 ( 0.00 %) 
+ FIN.0               7.5000000e-03  7.5000000e-03       0.000     11156       0 ( 0.00 %) 
+ Drain_Sili_lump_1   1.3000000e-04  1.3000000e-04       0.000         8       0 ( 0.00 %) 
+ Sspacer.0_lump_1    4.1650000e-05  4.1650000e-05       0.000        11       0 ( 0.00 %) 
+ Drain_Sili_lump_2   1.3000000e-04  1.3000000e-04       0.000         8       0 ( 0.00 %) 
+ GateOxide.0_lump_1  1.6500000e-04  1.6500000e-04       0.000        67       0 ( 0.00 %) 
+ Dspacer.0_lump_1    4.1650000e-05  4.1650000e-05       0.000         8       0 ( 0.00 %) 
+ Sspacer.0_lump_2    4.1650000e-05  4.1650000e-05       0.000        11       0 ( 0.00 %) 
+ SFIN.0              2.5000000e-04  2.5000000e-04       0.000      1040       0 ( 0.00 %) 
+ Drain_Ext           1.5200000e-03  1.5200000e-03       0.000      1013       0 ( 0.00 %) 
+ Source_Sili_lump_1  1.3000000e-04  1.3000000e-04       0.000         8       0 ( 0.00 %) 
+ GateOxide.0_lump_2  1.6500000e-04  1.6500000e-04       0.000        67       0 ( 0.00 %) 
+ Dspacer.0_lump_2    4.1650000e-05  4.1650000e-05       0.000         8       0 ( 0.00 %) 
+ DFIN.0              2.5000000e-04  2.5000000e-04       0.000       963       0 ( 0.00 %) 
+ Source_Sili_lump_2  1.3000000e-04  1.3000000e-04       0.000         8       0 ( 0.00 %) 
+ Total               1.2056600e-02  1.2056600e-02       0.000     15232       0 ( 0.00 %) 
+\----------------------------------------------------------------------------------------
+
+
+/-------- Interface non Delaunay elements -----------------------------------------------
+ Region1                Volume      BoxMethodVolume  DeltaVolume  Elements  non Delaunay 
+ Region2                 [um2]          [um2]           [%]                   Elements   
+ ----------------------------------------------------------------------------------------
+ Source_Ext          8.7775000e-05  8.7775000e-05       0.000        15       0 ( 0.00 %) 
+ Sspacer.0_lump_1    4.1650000e-05  4.1650000e-05       0.000        11       0 ( 0.00 %) 
+ ........................................................................................
+ Source_Ext          9.0525000e-05  9.0525000e-05       0.000        15       0 ( 0.00 %) 
+ Sspacer.0_lump_2    4.1650000e-05  4.1650000e-05       0.000        11       0 ( 0.00 %) 
+ ........................................................................................
+ Source_Ext          3.4565625e-04  3.4565625e-04       0.000       360       0 ( 0.00 %) 
+ SFIN.0              1.6650391e-04  1.6650391e-04       0.000       356       0 ( 0.00 %) 
+ ........................................................................................
+ Source_Ext          3.6625000e-05  3.6625000e-05       0.000         4       0 ( 0.00 %) 
+ Source_Sili_lump_1  3.2500000e-05  3.2500000e-05       0.000         2       0 ( 0.00 %) 
+ ........................................................................................
+ Source_Ext          4.6125000e-05  4.6125000e-05       0.000         6       0 ( 0.00 %) 
+ Source_Sili_lump_2  3.2500000e-05  3.2500000e-05       0.000         2       0 ( 0.00 %) 
+ ........................................................................................
+ FIN.0               7.3242187e-06  7.3242187e-06       0.000        16       0 ( 0.00 %) 
+ GateOxide.0_lump_1  2.0625000e-05  2.0625000e-05       0.000        16       0 ( 0.00 %) 
+ ........................................................................................
+ FIN.0               4.6875000e-04  4.6875000e-04       0.000       698       0 ( 0.00 %) 
+ SFIN.0              1.6650391e-04  1.6650391e-04       0.000       698       0 ( 0.00 %) 
+ ........................................................................................
+ FIN.0               7.3242188e-06  7.3242188e-06       0.000        16       0 ( 0.00 %) 
+ GateOxide.0_lump_2  2.0625000e-05  2.0625000e-05       0.000        16       0 ( 0.00 %) 
+ ........................................................................................
+ FIN.0               4.6875000e-04  4.6875000e-04       0.000       697       0 ( 0.00 %) 
+ DFIN.0              1.8395996e-04  1.8395996e-04       0.000       697       0 ( 0.00 %) 
+ ........................................................................................
+ Drain_Sili_lump_1   3.2500000e-05  3.2500000e-05       0.000         2       0 ( 0.00 %) 
+ Drain_Ext           2.3350000e-05  2.3350000e-05       0.000         2       0 ( 0.00 %) 
+ ........................................................................................
+ Sspacer.0_lump_1    5.5000000e-06  5.5000000e-06       0.000         5       0 ( 0.00 %) 
+ GateOxide.0_lump_1  1.0312500e-05  1.0312500e-05       0.000         5       0 ( 0.00 %) 
+ ........................................................................................
+ Sspacer.0_lump_1    6.8750000e-07  6.8750000e-07       0.000         1       0 ( 0.00 %) 
+ SFIN.0              1.2207031e-07  1.2207031e-07       0.000         1       0 ( 0.00 %) 
+ ........................................................................................
+ Drain_Sili_lump_2   3.2500000e-05  3.2500000e-05       0.000         2       0 ( 0.00 %) 
+ Drain_Ext           2.3350000e-05  2.3350000e-05       0.000         2       0 ( 0.00 %) 
+ ........................................................................................
+ GateOxide.0_lump_1  1.0312500e-05  1.0312500e-05       0.000         4       0 ( 0.00 %) 
+ Dspacer.0_lump_2    5.5000000e-06  5.5000000e-06       0.000         4       0 ( 0.00 %) 
+ ........................................................................................
+ Dspacer.0_lump_1    4.1650000e-05  4.1650000e-05       0.000         8       0 ( 0.00 %) 
+ Drain_Ext           7.7800000e-05  7.7800000e-05       0.000         8       0 ( 0.00 %) 
+ ........................................................................................
+ Dspacer.0_lump_1    5.5000000e-06  5.5000000e-06       0.000         4       0 ( 0.00 %) 
+ GateOxide.0_lump_2  1.0312500e-05  1.0312500e-05       0.000         4       0 ( 0.00 %) 
+ ........................................................................................
+ Dspacer.0_lump_1    6.8750000e-07  6.8750000e-07       0.000         1       0 ( 0.00 %) 
+ DFIN.0              1.2207031e-07  1.2207031e-07       0.000         1       0 ( 0.00 %) 
+ ........................................................................................
+ Sspacer.0_lump_2    6.8750000e-07  6.8750000e-07       0.000         1       0 ( 0.00 %) 
+ SFIN.0              1.2207031e-07  1.2207031e-07       0.000         1       0 ( 0.00 %) 
+ ........................................................................................
+ Sspacer.0_lump_2    5.5000000e-06  5.5000000e-06       0.000         5       0 ( 0.00 %) 
+ GateOxide.0_lump_2  1.0312500e-05  1.0312500e-05       0.000         5       0 ( 0.00 %) 
+ ........................................................................................
+ Drain_Ext           7.7800000e-05  7.7800000e-05       0.000         8       0 ( 0.00 %) 
+ Dspacer.0_lump_2    4.1650000e-05  4.1650000e-05       0.000         8       0 ( 0.00 %) 
+ ........................................................................................
+ Drain_Ext           3.4741211e-04  3.4741211e-04       0.000       431       0 ( 0.00 %) 
+ DFIN.0              1.8395996e-04  1.8395996e-04       0.000       431       0 ( 0.00 %) 
+ ........................................................................................
+ Dspacer.0_lump_2    6.8750000e-07  6.8750000e-07       0.000         1       0 ( 0.00 %) 
+ DFIN.0              1.2207031e-07  1.2207031e-07       0.000         1       0 ( 0.00 %) 
+ ........................................................................................
+ Total               3.2138328e-03  3.2138328e-03       0.000      4582       0 ( 0.00 %) 
+\----------------------------------------------------------------------------------------
+done.
+Reading doping '2d_Lg_15_1422_msh.tdr' (TDR format) ...
+done.
+done.
+Reading parameter file 'pp1440_des.par' ...
+---------------------------------------------------
+ Reading parameters for material "HfO2"
+---------------------------------------------------
+
+---------------------------------------------------
+ Reading parameters for material "InterfacialOxide"
+---------------------------------------------------
+
+	Differences compared with default parameters:
+	epsilon: epsilon = 2.584, instead of: 3.9 [1]
+
+---------------------------------------------------
+ Reading parameters for material "Silicon"
+---------------------------------------------------
+
+	Differences compared with default parameters:
+	Bandgap: Eg0 = 1.12, instead of: 1.16964 [eV]
+	Bandgap: dEg0(Slotboom) = 0.0000e+00, instead of: -4.7950e-03 [eV]
+	Bandgap: alpha = 0.0000e+00, instead of: 4.7300e-04 [eV/K]
+	Bandgap: beta = 0.0000e+00, instead of: 6.3600e+02 [K]
+	Bandgap: Tpar = 3.0000e+02, instead of: 0.0000e+00 [K]
+	DOSeMass: Formula = 2, instead of: 1 [1]
+	DOSeMass: Nc300 = 2.9710e+19, instead of: 2.8900e+19 [1]
+	DOShMass: Formula = 2, instead of: 1 [1]
+	DOShMass: Nv300 = 2.2400e+19, instead of: 3.1400e+19 [cm-3]
+	ConstMob(elec): mumax = 1.4230e+03, instead of: 1.4170e+03 [cm^2/(Vs)]
+	ConstMob(hole): mumax = 4.7607e+02, instead of: 4.7050e+02 [cm^2/(Vs)]
+	HighFieldMob(elec): beta0 = 1.13417, instead of: 1.109 [1]
+	HighFieldMob(elec): vsat0 = 1.0200e+07, instead of: 1.0700e+07 [cm/s]
+	PhuMob(As): mumax = 1.4230e+03, instead of: 1.4170e+03 [cm^2/Vs]
+	PhuMob(As): mumin = 55.9, instead of: 52.2 [cm^2/Vs]
+	PhuMob(Ph): mumax = 1.4230e+03, instead of: 1.4140e+03 [cm^2/Vs]
+	PhuMob(B): mumax = 4.7607e+02, instead of: 4.7050e+02 [cm^2/Vs]
+	EnormalMob(elec): B = 1.8050e+07, instead of: 4.7500e+07 [cm/s]
+	EnormalMob(elec): C = 5.1000e+03, instead of: 5.8000e+02 [cm^(5/3)/(V^(2/3)s)]
+	EnormalMob(elec): lambda = 0.0233, instead of: 0.125 [1]
+	EnormalMob(elec): delta = 1.7900e+18, instead of: 5.8200e+14 [cm^2/(Vs)]
+	EnormalMob(elec): A = 2.688, instead of: 2 [1]
+	EnormalMob(elec): alpha = 2.7400e-20, instead of: 0.0000e+00 [cm^3]
+	EnormalMob(elec): nu = 0.0767, instead of: 1 [1]
+	EnormalMob(elec): eta = 1.0000e+300, instead of: 5.8200e+30 [V^2/(cms)]
+	EnormalMob(hole): B = 3.0200e+07, instead of: 9.9250e+06 [cm/s]
+	EnormalMob(hole): C = 1.6720e+04, instead of: 2.9470e+03 [cm^(5/3)/(V^(2/3)s)]
+	EnormalMob(hole): lambda = 0.0119, instead of: 0.0317 [1]
+	EnormalMob(hole): delta = 1.2300e+16, instead of: 2.0546e+14 [cm^2/(Vs)]
+	EnormalMob(hole): A = 2.18, instead of: 2 [1]
+	EnormalMob(hole): alpha = 3.1300e-20, instead of: 0.0000e+00 [cm^3]
+	EnormalMob(hole): nu = 0.123, instead of: 1 [1]
+	EnormalMob(hole): eta = 1.0000e+300, instead of: 2.0546e+30 [V^2/(cms)]
+	Lombardi_highk: B_e = 1.805e+07
+	Lombardi_highk: B_h = 3.02e+07
+	Lombardi_highk: C_e = 5100
+	Lombardi_highk: C_h = 16720
+	Lombardi_highk: lambda_e = 0.0233
+	Lombardi_highk: lambda_h = 0.0119
+	Lombardi_highk: k_e = 1
+	Lombardi_highk: k_h = 1
+	Lombardi_highk: delta_e = 1.79e+18
+	Lombardi_highk: delta_h = 1.23e+16
+	Lombardi_highk: A_e = 2.688
+	Lombardi_highk: A_h = 2.18
+	Lombardi_highk: alpha_e = 2.74e-20
+	Lombardi_highk: alpha_h = 3.13e-20
+	Lombardi_highk: nu_e = 0.0767
+	Lombardi_highk: nu_h = 0.123
+	Lombardi_highk: eta_e = 1e+300
+	Lombardi_highk: eta_h = 1e+300
+	Lombardi_highk: l_crit_e = 1e-06
+	Lombardi_highk: l_crit_h = 1e-06
+	Lombardi_highk: alpha_rcs_e = 0
+	Lombardi_highk: alpha_rcs_h = 0
+	Lombardi_highk: alpha_rps_e = 0
+	Lombardi_highk: alpha_rps_h = 0
+	LatticeParam: X = (1, 0.0000e+00, 1) [1],
+		instead of: X = (1, 0.0000e+00, 0.0000e+00) [1]
+	LatticeParam: Y = (-1.0000e+00, 0.0000e+00, 1) [1],
+		instead of: Y = (0.0000e+00, 1, 0.0000e+00) [1]
+	QuantumPotentialParameters(elec): gamma = 10.2, instead of: 3.6 [1]
+	QuantumPotentialParameters(hole): gamma = 2.9, instead of: 5.6 [1]
+
+
+=======
+Region: "DFIN.0"
+  (material is "Silicon")
+=======
+  Model: "Bandgap"
+    Parameter "Chi0_300" is modified from 4.07274 to 4.05
+    Parameter "Eg0" is modified from 1.16964 to 1.12
+    Parameter "Eg0_300" is modified from 1.12416 to 1.12
+    Parameter "Tpar" is modified from 0 to 300
+    Parameter "alpha" is modified from 0.000473 to 0
+    Parameter "beta" is modified from 636 to 0
+    Parameter "dEg0(Slotboom)" is modified from -0.004795 to 0
+  Model: "ConstantMobility_electron"
+    Parameter "mumax" is modified from 1417 to 1423
+  Model: "ConstantMobility_hole"
+    Parameter "mumax" is modified from 470.5 to 476.07
+  Model: "DOSMass_electron"
+    Parameter "Nc300" is modified from 2.89e+19 to 2.97101e+19
+  Model: "DOSMass_hole"
+    Parameter "Nv300" is modified from 3.14e+19 to 2.24e+19
+  Model: "EnormalDependence_electron"
+    Parameter "A" is modified from 2 to 2.688
+    Parameter "B" is modified from 4.75e+07 to 1.805e+07
+    Parameter "C" is modified from 580 to 5100
+    Parameter "alpha" is modified from 0 to 2.74e-20
+    Parameter "delta" is modified from 5.82e+14 to 1.79e+18
+    Parameter "eta" is modified from 5.82e+30 to 1e+300
+    Parameter "lambda" is modified from 0.125 to 0.0233
+    Parameter "nu" is modified from 1 to 0.0767
+  Model: "EnormalDependence_hole"
+    Parameter "A" is modified from 2 to 2.18
+    Parameter "B" is modified from 9.925e+06 to 3.02e+07
+    Parameter "C" is modified from 2947 to 16720
+    Parameter "alpha" is modified from 0 to 3.13e-20
+    Parameter "delta" is modified from 2.0546e+14 to 1.23e+16
+    Parameter "eta" is modified from 2.0546e+30 to 1e+300
+    Parameter "lambda" is modified from 0.0317 to 0.0119
+    Parameter "nu" is modified from 1 to 0.123
+  Model: "HighFieldDependence_electron"
+    Parameter "beta0" is modified from 1.109 to 1.13417
+    Parameter "vsat0" is modified from 1.07e+07 to 1.02e+07
+  Model: "Lombardi_highk"
+    Parameter "A_e" is new with value equal to 2.688
+    Parameter "A_h" is new with value equal to 2.18
+    Parameter "B_e" is new with value equal to 1.805e+07
+    Parameter "B_h" is new with value equal to 3.02e+07
+    Parameter "C_e" is new with value equal to 5100
+    Parameter "C_h" is new with value equal to 16720
+    Parameter "alpha_e" is new with value equal to 2.74e-20
+    Parameter "alpha_h" is new with value equal to 3.13e-20
+    Parameter "alpha_rcs_e" is new with value equal to 0
+    Parameter "alpha_rcs_h" is new with value equal to 0
+    Parameter "alpha_rps_e" is new with value equal to 0
+    Parameter "alpha_rps_h" is new with value equal to 0
+    Parameter "delta_e" is new with value equal to 1.79e+18
+    Parameter "delta_h" is new with value equal to 1.23e+16
+    Parameter "eta_e" is new with value equal to 1e+300
+    Parameter "eta_h" is new with value equal to 1e+300
+    Parameter "k_e" is new with value equal to 1
+    Parameter "k_h" is new with value equal to 1
+    Parameter "l_crit_e" is new with value equal to 1e-06
+    Parameter "l_crit_h" is new with value equal to 1e-06
+    Parameter "lambda_e" is new with value equal to 0.0233
+    Parameter "lambda_h" is new with value equal to 0.0119
+    Parameter "nu_e" is new with value equal to 0.0767
+    Parameter "nu_h" is new with value equal to 0.123
+  Model: "PhuMob_Arsenic"
+    Parameter "mumax_As" is modified from 1417 to 1423
+    Parameter "mumin_As" is modified from 52.2 to 55.9
+  Model: "PhuMob_Boron"
+    Parameter "mumax_B" is modified from 470.5 to 476.07
+  Model: "PhuMob_Phosphorus"
+    Parameter "mumax_P" is modified from 1414 to 1423
+  Model: "QuantumPotentialParam_electron"
+    Parameter "gamma" is modified from 3.6 to 10.2
+  Model: "QuantumPotentialParam_hole"
+    Parameter "gamma" is modified from 5.6 to 2.9
+
+=======
+Region: "Drain_Ext"
+  (material is "Silicon")
+=======
+  Model: "Bandgap"
+    Parameter "Chi0_300" is modified from 4.07274 to 4.05
+    Parameter "Eg0" is modified from 1.16964 to 1.12
+    Parameter "Eg0_300" is modified from 1.12416 to 1.12
+    Parameter "Tpar" is modified from 0 to 300
+    Parameter "alpha" is modified from 0.000473 to 0
+    Parameter "beta" is modified from 636 to 0
+    Parameter "dEg0(Slotboom)" is modified from -0.004795 to 0
+  Model: "ConstantMobility_electron"
+    Parameter "mumax" is modified from 1417 to 1423
+  Model: "ConstantMobility_hole"
+    Parameter "mumax" is modified from 470.5 to 476.07
+  Model: "DOSMass_electron"
+    Parameter "Nc300" is modified from 2.89e+19 to 2.97101e+19
+  Model: "DOSMass_hole"
+    Parameter "Nv300" is modified from 3.14e+19 to 2.24e+19
+  Model: "EnormalDependence_electron"
+    Parameter "A" is modified from 2 to 2.688
+    Parameter "B" is modified from 4.75e+07 to 1.805e+07
+    Parameter "C" is modified from 580 to 5100
+    Parameter "alpha" is modified from 0 to 2.74e-20
+    Parameter "delta" is modified from 5.82e+14 to 1.79e+18
+    Parameter "eta" is modified from 5.82e+30 to 1e+300
+    Parameter "lambda" is modified from 0.125 to 0.0233
+    Parameter "nu" is modified from 1 to 0.0767
+  Model: "EnormalDependence_hole"
+    Parameter "A" is modified from 2 to 2.18
+    Parameter "B" is modified from 9.925e+06 to 3.02e+07
+    Parameter "C" is modified from 2947 to 16720
+    Parameter "alpha" is modified from 0 to 3.13e-20
+    Parameter "delta" is modified from 2.0546e+14 to 1.23e+16
+    Parameter "eta" is modified from 2.0546e+30 to 1e+300
+    Parameter "lambda" is modified from 0.0317 to 0.0119
+    Parameter "nu" is modified from 1 to 0.123
+  Model: "HighFieldDependence_electron"
+    Parameter "beta0" is modified from 1.109 to 1.13417
+    Parameter "vsat0" is modified from 1.07e+07 to 1.02e+07
+  Model: "Lombardi_highk"
+    Parameter "A_e" is new with value equal to 2.688
+    Parameter "A_h" is new with value equal to 2.18
+    Parameter "B_e" is new with value equal to 1.805e+07
+    Parameter "B_h" is new with value equal to 3.02e+07
+    Parameter "C_e" is new with value equal to 5100
+    Parameter "C_h" is new with value equal to 16720
+    Parameter "alpha_e" is new with value equal to 2.74e-20
+    Parameter "alpha_h" is new with value equal to 3.13e-20
+    Parameter "alpha_rcs_e" is new with value equal to 0
+    Parameter "alpha_rcs_h" is new with value equal to 0
+    Parameter "alpha_rps_e" is new with value equal to 0
+    Parameter "alpha_rps_h" is new with value equal to 0
+    Parameter "delta_e" is new with value equal to 1.79e+18
+    Parameter "delta_h" is new with value equal to 1.23e+16
+    Parameter "eta_e" is new with value equal to 1e+300
+    Parameter "eta_h" is new with value equal to 1e+300
+    Parameter "k_e" is new with value equal to 1
+    Parameter "k_h" is new with value equal to 1
+    Parameter "l_crit_e" is new with value equal to 1e-06
+    Parameter "l_crit_h" is new with value equal to 1e-06
+    Parameter "lambda_e" is new with value equal to 0.0233
+    Parameter "lambda_h" is new with value equal to 0.0119
+    Parameter "nu_e" is new with value equal to 0.0767
+    Parameter "nu_h" is new with value equal to 0.123
+  Model: "PhuMob_Arsenic"
+    Parameter "mumax_As" is modified from 1417 to 1423
+    Parameter "mumin_As" is modified from 52.2 to 55.9
+  Model: "PhuMob_Boron"
+    Parameter "mumax_B" is modified from 470.5 to 476.07
+  Model: "PhuMob_Phosphorus"
+    Parameter "mumax_P" is modified from 1414 to 1423
+  Model: "QuantumPotentialParam_electron"
+    Parameter "gamma" is modified from 3.6 to 10.2
+  Model: "QuantumPotentialParam_hole"
+    Parameter "gamma" is modified from 5.6 to 2.9
+
+=======
+Region: "Drain_Sili_lump_1"
+  (material is "Silicide")
+=======
+  Constants are not modified and equal to default ones
+
+=======
+Region: "Drain_Sili_lump_2"
+  (material is "Silicide")
+=======
+  Constants are not modified and equal to default ones
+
+=======
+Region: "Dspacer.0_lump_1"
+  (material is "Nitride")
+=======
+  Constants are not modified and equal to default ones
+
+=======
+Region: "Dspacer.0_lump_2"
+  (material is "Nitride")
+=======
+  Constants are not modified and equal to default ones
+
+=======
+Region: "FIN.0"
+  (material is "Silicon")
+=======
+  Model: "Bandgap"
+    Parameter "Chi0_300" is modified from 4.07274 to 4.05
+    Parameter "Eg0" is modified from 1.16964 to 1.12
+    Parameter "Eg0_300" is modified from 1.12416 to 1.12
+    Parameter "Tpar" is modified from 0 to 300
+    Parameter "alpha" is modified from 0.000473 to 0
+    Parameter "beta" is modified from 636 to 0
+    Parameter "dEg0(Slotboom)" is modified from -0.004795 to 0
+  Model: "ConstantMobility_electron"
+    Parameter "mumax" is modified from 1417 to 1423
+  Model: "ConstantMobility_hole"
+    Parameter "mumax" is modified from 470.5 to 476.07
+  Model: "DOSMass_electron"
+    Parameter "Nc300" is modified from 2.89e+19 to 2.97101e+19
+  Model: "DOSMass_hole"
+    Parameter "Nv300" is modified from 3.14e+19 to 2.24e+19
+  Model: "EnormalDependence_electron"
+    Parameter "A" is modified from 2 to 2.688
+    Parameter "B" is modified from 4.75e+07 to 1.805e+07
+    Parameter "C" is modified from 580 to 5100
+    Parameter "alpha" is modified from 0 to 2.74e-20
+    Parameter "delta" is modified from 5.82e+14 to 1.79e+18
+    Parameter "eta" is modified from 5.82e+30 to 1e+300
+    Parameter "lambda" is modified from 0.125 to 0.0233
+    Parameter "nu" is modified from 1 to 0.0767
+  Model: "EnormalDependence_hole"
+    Parameter "A" is modified from 2 to 2.18
+    Parameter "B" is modified from 9.925e+06 to 3.02e+07
+    Parameter "C" is modified from 2947 to 16720
+    Parameter "alpha" is modified from 0 to 3.13e-20
+    Parameter "delta" is modified from 2.0546e+14 to 1.23e+16
+    Parameter "eta" is modified from 2.0546e+30 to 1e+300
+    Parameter "lambda" is modified from 0.0317 to 0.0119
+    Parameter "nu" is modified from 1 to 0.123
+  Model: "HighFieldDependence_electron"
+    Parameter "beta0" is modified from 1.109 to 1.13417
+    Parameter "vsat0" is modified from 1.07e+07 to 1.02e+07
+  Model: "Lombardi_highk"
+    Parameter "A_e" is new with value equal to 2.688
+    Parameter "A_h" is new with value equal to 2.18
+    Parameter "B_e" is new with value equal to 1.805e+07
+    Parameter "B_h" is new with value equal to 3.02e+07
+    Parameter "C_e" is new with value equal to 5100
+    Parameter "C_h" is new with value equal to 16720
+    Parameter "alpha_e" is new with value equal to 2.74e-20
+    Parameter "alpha_h" is new with value equal to 3.13e-20
+    Parameter "alpha_rcs_e" is new with value equal to 0
+    Parameter "alpha_rcs_h" is new with value equal to 0
+    Parameter "alpha_rps_e" is new with value equal to 0
+    Parameter "alpha_rps_h" is new with value equal to 0
+    Parameter "delta_e" is new with value equal to 1.79e+18
+    Parameter "delta_h" is new with value equal to 1.23e+16
+    Parameter "eta_e" is new with value equal to 1e+300
+    Parameter "eta_h" is new with value equal to 1e+300
+    Parameter "k_e" is new with value equal to 1
+    Parameter "k_h" is new with value equal to 1
+    Parameter "l_crit_e" is new with value equal to 1e-06
+    Parameter "l_crit_h" is new with value equal to 1e-06
+    Parameter "lambda_e" is new with value equal to 0.0233
+    Parameter "lambda_h" is new with value equal to 0.0119
+    Parameter "nu_e" is new with value equal to 0.0767
+    Parameter "nu_h" is new with value equal to 0.123
+  Model: "PhuMob_Arsenic"
+    Parameter "mumax_As" is modified from 1417 to 1423
+    Parameter "mumin_As" is modified from 52.2 to 55.9
+  Model: "PhuMob_Boron"
+    Parameter "mumax_B" is modified from 470.5 to 476.07
+  Model: "PhuMob_Phosphorus"
+    Parameter "mumax_P" is modified from 1414 to 1423
+  Model: "QuantumPotentialParam_electron"
+    Parameter "gamma" is modified from 3.6 to 10.2
+  Model: "QuantumPotentialParam_hole"
+    Parameter "gamma" is modified from 5.6 to 2.9
+
+=======
+Region: "GateOxide.0_lump_1"
+  (material is "Oxide")
+=======
+  Constants are not modified and equal to default ones
+
+=======
+Region: "GateOxide.0_lump_2"
+  (material is "Oxide")
+=======
+  Constants are not modified and equal to default ones
+
+=======
+Region: "SFIN.0"
+  (material is "Silicon")
+=======
+  Model: "Bandgap"
+    Parameter "Chi0_300" is modified from 4.07274 to 4.05
+    Parameter "Eg0" is modified from 1.16964 to 1.12
+    Parameter "Eg0_300" is modified from 1.12416 to 1.12
+    Parameter "Tpar" is modified from 0 to 300
+    Parameter "alpha" is modified from 0.000473 to 0
+    Parameter "beta" is modified from 636 to 0
+    Parameter "dEg0(Slotboom)" is modified from -0.004795 to 0
+  Model: "ConstantMobility_electron"
+    Parameter "mumax" is modified from 1417 to 1423
+  Model: "ConstantMobility_hole"
+    Parameter "mumax" is modified from 470.5 to 476.07
+  Model: "DOSMass_electron"
+    Parameter "Nc300" is modified from 2.89e+19 to 2.97101e+19
+  Model: "DOSMass_hole"
+    Parameter "Nv300" is modified from 3.14e+19 to 2.24e+19
+  Model: "EnormalDependence_electron"
+    Parameter "A" is modified from 2 to 2.688
+    Parameter "B" is modified from 4.75e+07 to 1.805e+07
+    Parameter "C" is modified from 580 to 5100
+    Parameter "alpha" is modified from 0 to 2.74e-20
+    Parameter "delta" is modified from 5.82e+14 to 1.79e+18
+    Parameter "eta" is modified from 5.82e+30 to 1e+300
+    Parameter "lambda" is modified from 0.125 to 0.0233
+    Parameter "nu" is modified from 1 to 0.0767
+  Model: "EnormalDependence_hole"
+    Parameter "A" is modified from 2 to 2.18
+    Parameter "B" is modified from 9.925e+06 to 3.02e+07
+    Parameter "C" is modified from 2947 to 16720
+    Parameter "alpha" is modified from 0 to 3.13e-20
+    Parameter "delta" is modified from 2.0546e+14 to 1.23e+16
+    Parameter "eta" is modified from 2.0546e+30 to 1e+300
+    Parameter "lambda" is modified from 0.0317 to 0.0119
+    Parameter "nu" is modified from 1 to 0.123
+  Model: "HighFieldDependence_electron"
+    Parameter "beta0" is modified from 1.109 to 1.13417
+    Parameter "vsat0" is modified from 1.07e+07 to 1.02e+07
+  Model: "Lombardi_highk"
+    Parameter "A_e" is new with value equal to 2.688
+    Parameter "A_h" is new with value equal to 2.18
+    Parameter "B_e" is new with value equal to 1.805e+07
+    Parameter "B_h" is new with value equal to 3.02e+07
+    Parameter "C_e" is new with value equal to 5100
+    Parameter "C_h" is new with value equal to 16720
+    Parameter "alpha_e" is new with value equal to 2.74e-20
+    Parameter "alpha_h" is new with value equal to 3.13e-20
+    Parameter "alpha_rcs_e" is new with value equal to 0
+    Parameter "alpha_rcs_h" is new with value equal to 0
+    Parameter "alpha_rps_e" is new with value equal to 0
+    Parameter "alpha_rps_h" is new with value equal to 0
+    Parameter "delta_e" is new with value equal to 1.79e+18
+    Parameter "delta_h" is new with value equal to 1.23e+16
+    Parameter "eta_e" is new with value equal to 1e+300
+    Parameter "eta_h" is new with value equal to 1e+300
+    Parameter "k_e" is new with value equal to 1
+    Parameter "k_h" is new with value equal to 1
+    Parameter "l_crit_e" is new with value equal to 1e-06
+    Parameter "l_crit_h" is new with value equal to 1e-06
+    Parameter "lambda_e" is new with value equal to 0.0233
+    Parameter "lambda_h" is new with value equal to 0.0119
+    Parameter "nu_e" is new with value equal to 0.0767
+    Parameter "nu_h" is new with value equal to 0.123
+  Model: "PhuMob_Arsenic"
+    Parameter "mumax_As" is modified from 1417 to 1423
+    Parameter "mumin_As" is modified from 52.2 to 55.9
+  Model: "PhuMob_Boron"
+    Parameter "mumax_B" is modified from 470.5 to 476.07
+  Model: "PhuMob_Phosphorus"
+    Parameter "mumax_P" is modified from 1414 to 1423
+  Model: "QuantumPotentialParam_electron"
+    Parameter "gamma" is modified from 3.6 to 10.2
+  Model: "QuantumPotentialParam_hole"
+    Parameter "gamma" is modified from 5.6 to 2.9
+
+=======
+Region: "Source_Ext"
+  (material is "Silicon")
+=======
+  Model: "Bandgap"
+    Parameter "Chi0_300" is modified from 4.07274 to 4.05
+    Parameter "Eg0" is modified from 1.16964 to 1.12
+    Parameter "Eg0_300" is modified from 1.12416 to 1.12
+    Parameter "Tpar" is modified from 0 to 300
+    Parameter "alpha" is modified from 0.000473 to 0
+    Parameter "beta" is modified from 636 to 0
+    Parameter "dEg0(Slotboom)" is modified from -0.004795 to 0
+  Model: "ConstantMobility_electron"
+    Parameter "mumax" is modified from 1417 to 1423
+  Model: "ConstantMobility_hole"
+    Parameter "mumax" is modified from 470.5 to 476.07
+  Model: "DOSMass_electron"
+    Parameter "Nc300" is modified from 2.89e+19 to 2.97101e+19
+  Model: "DOSMass_hole"
+    Parameter "Nv300" is modified from 3.14e+19 to 2.24e+19
+  Model: "EnormalDependence_electron"
+    Parameter "A" is modified from 2 to 2.688
+    Parameter "B" is modified from 4.75e+07 to 1.805e+07
+    Parameter "C" is modified from 580 to 5100
+    Parameter "alpha" is modified from 0 to 2.74e-20
+    Parameter "delta" is modified from 5.82e+14 to 1.79e+18
+    Parameter "eta" is modified from 5.82e+30 to 1e+300
+    Parameter "lambda" is modified from 0.125 to 0.0233
+    Parameter "nu" is modified from 1 to 0.0767
+  Model: "EnormalDependence_hole"
+    Parameter "A" is modified from 2 to 2.18
+    Parameter "B" is modified from 9.925e+06 to 3.02e+07
+    Parameter "C" is modified from 2947 to 16720
+    Parameter "alpha" is modified from 0 to 3.13e-20
+    Parameter "delta" is modified from 2.0546e+14 to 1.23e+16
+    Parameter "eta" is modified from 2.0546e+30 to 1e+300
+    Parameter "lambda" is modified from 0.0317 to 0.0119
+    Parameter "nu" is modified from 1 to 0.123
+  Model: "HighFieldDependence_electron"
+    Parameter "beta0" is modified from 1.109 to 1.13417
+    Parameter "vsat0" is modified from 1.07e+07 to 1.02e+07
+  Model: "Lombardi_highk"
+    Parameter "A_e" is new with value equal to 2.688
+    Parameter "A_h" is new with value equal to 2.18
+    Parameter "B_e" is new with value equal to 1.805e+07
+    Parameter "B_h" is new with value equal to 3.02e+07
+    Parameter "C_e" is new with value equal to 5100
+    Parameter "C_h" is new with value equal to 16720
+    Parameter "alpha_e" is new with value equal to 2.74e-20
+    Parameter "alpha_h" is new with value equal to 3.13e-20
+    Parameter "alpha_rcs_e" is new with value equal to 0
+    Parameter "alpha_rcs_h" is new with value equal to 0
+    Parameter "alpha_rps_e" is new with value equal to 0
+    Parameter "alpha_rps_h" is new with value equal to 0
+    Parameter "delta_e" is new with value equal to 1.79e+18
+    Parameter "delta_h" is new with value equal to 1.23e+16
+    Parameter "eta_e" is new with value equal to 1e+300
+    Parameter "eta_h" is new with value equal to 1e+300
+    Parameter "k_e" is new with value equal to 1
+    Parameter "k_h" is new with value equal to 1
+    Parameter "l_crit_e" is new with value equal to 1e-06
+    Parameter "l_crit_h" is new with value equal to 1e-06
+    Parameter "lambda_e" is new with value equal to 0.0233
+    Parameter "lambda_h" is new with value equal to 0.0119
+    Parameter "nu_e" is new with value equal to 0.0767
+    Parameter "nu_h" is new with value equal to 0.123
+  Model: "PhuMob_Arsenic"
+    Parameter "mumax_As" is modified from 1417 to 1423
+    Parameter "mumin_As" is modified from 52.2 to 55.9
+  Model: "PhuMob_Boron"
+    Parameter "mumax_B" is modified from 470.5 to 476.07
+  Model: "PhuMob_Phosphorus"
+    Parameter "mumax_P" is modified from 1414 to 1423
+  Model: "QuantumPotentialParam_electron"
+    Parameter "gamma" is modified from 3.6 to 10.2
+  Model: "QuantumPotentialParam_hole"
+    Parameter "gamma" is modified from 5.6 to 2.9
+
+=======
+Region: "Source_Sili_lump_1"
+  (material is "Silicide")
+=======
+  Constants are not modified and equal to default ones
+
+=======
+Region: "Source_Sili_lump_2"
+  (material is "Silicide")
+=======
+  Constants are not modified and equal to default ones
+
+=======
+Region: "Sspacer.0_lump_1"
+  (material is "Nitride")
+=======
+  Constants are not modified and equal to default ones
+
+=======
+Region: "Sspacer.0_lump_2"
+  (material is "Nitride")
+=======
+  Constants are not modified and equal to default ones
+
+================
+RegionInterface: "Drain_Ext/DFIN.0"
+  (material interface is "Silicon/Silicon")
+================
+  Constants are not modified and equal to default ones
+
+================
+RegionInterface: "Dspacer.0_lump_1/DFIN.0"
+  (material interface is "Nitride/Silicon")
+================
+  Constants are not modified and equal to default ones
+
+================
+RegionInterface: "Dspacer.0_lump_2/DFIN.0"
+  (material interface is "Nitride/Silicon")
+================
+  Constants are not modified and equal to default ones
+
+================
+RegionInterface: "FIN.0/DFIN.0"
+  (material interface is "Silicon/Silicon")
+================
+  Constants are not modified and equal to default ones
+
+================
+RegionInterface: "Drain_Sili_lump_1/Drain_Ext"
+  (material interface is "Silicide/Silicon")
+================
+  Constants are not modified and equal to default ones
+
+================
+RegionInterface: "Drain_Sili_lump_2/Drain_Ext"
+  (material interface is "Silicide/Silicon")
+================
+  Constants are not modified and equal to default ones
+
+================
+RegionInterface: "Dspacer.0_lump_1/Drain_Ext"
+  (material interface is "Nitride/Silicon")
+================
+  Constants are not modified and equal to default ones
+
+================
+RegionInterface: "Drain_Ext/Dspacer.0_lump_2"
+  (material interface is "Silicon/Nitride")
+================
+  Constants are not modified and equal to default ones
+
+================
+RegionInterface: "Dspacer.0_lump_1/GateOxide.0_lump_2"
+  (material interface is "Nitride/Oxide")
+================
+  Constants are not modified and equal to default ones
+
+================
+RegionInterface: "GateOxide.0_lump_1/Dspacer.0_lump_2"
+  (material interface is "Oxide/Nitride")
+================
+  Constants are not modified and equal to default ones
+
+================
+RegionInterface: "FIN.0/GateOxide.0_lump_1"
+  (material interface is "Silicon/Oxide")
+================
+  Constants are not modified and equal to default ones
+
+================
+RegionInterface: "FIN.0/GateOxide.0_lump_2"
+  (material interface is "Silicon/Oxide")
+================
+  Constants are not modified and equal to default ones
+
+================
+RegionInterface: "FIN.0/SFIN.0"
+  (material interface is "Silicon/Silicon")
+================
+  Constants are not modified and equal to default ones
+
+================
+RegionInterface: "Sspacer.0_lump_1/GateOxide.0_lump_1"
+  (material interface is "Nitride/Oxide")
+================
+  Constants are not modified and equal to default ones
+
+================
+RegionInterface: "Sspacer.0_lump_2/GateOxide.0_lump_2"
+  (material interface is "Nitride/Oxide")
+================
+  Constants are not modified and equal to default ones
+
+================
+RegionInterface: "Source_Ext/SFIN.0"
+  (material interface is "Silicon/Silicon")
+================
+  Constants are not modified and equal to default ones
+
+================
+RegionInterface: "Sspacer.0_lump_1/SFIN.0"
+  (material interface is "Nitride/Silicon")
+================
+  Constants are not modified and equal to default ones
+
+================
+RegionInterface: "Sspacer.0_lump_2/SFIN.0"
+  (material interface is "Nitride/Silicon")
+================
+  Constants are not modified and equal to default ones
+
+================
+RegionInterface: "Source_Ext/Source_Sili_lump_1"
+  (material interface is "Silicon/Silicide")
+================
+  Constants are not modified and equal to default ones
+
+================
+RegionInterface: "Source_Ext/Source_Sili_lump_2"
+  (material interface is "Silicon/Silicide")
+================
+  Constants are not modified and equal to default ones
+
+================
+RegionInterface: "Source_Ext/Sspacer.0_lump_1"
+  (material interface is "Silicon/Nitride")
+================
+  Constants are not modified and equal to default ones
+
+================
+RegionInterface: "Source_Ext/Sspacer.0_lump_2"
+  (material interface is "Silicon/Nitride")
+================
+  Constants are not modified and equal to default ones
+
+==========
+Electrode: "drain"
+==========
+  Constants are not modified and equal to default ones
+
+==========
+Electrode: "gate"
+==========
+  Constants are not modified and equal to default ones
+
+==========
+Electrode: "source"
+==========
+  Constants are not modified and equal to default ones
+
+
+Acceptor and donor concentrations (AcceptorConcentration, DonorConcentration):
+    computed based on the following species from the doping file:
+        PhosphorusActiveConcentration (donor)
+        BoronActiveConcentration (acceptor)
+Net doping concentration (DopingConcentration):
+    obtained from doping file
+Total doping concentration (TotalConcentration):
+    recomputed from acceptor and donor concentrations
+
+
+
+With Constant Reference Potential:
+  Parameters of Reference Semiconductor:
+    The Electron Affinity: 4.05
+    The Band Gap: 1.10405
+    The Electron DOS: 2.9710e+19
+    The Hole DOS: 2.2400e+19
+  The Constant Reference Potential: 4.60568
+Reading save 'Vd_1438_des.sav' (TDR format) ...
+  coordinate system: DFISE, 2d_dfise (y is device down direction, 3d extension right-handed)
+  use coordinate system as is (no transformation)
+done.
+Sun Oct 27 19:50:54 2013: checked out 1 Dessis-MonteCarlo license(s)
+Sun Oct 27 19:50:54 2013: checked out 1 sdevice-montecarlo license(s)
+
+===============================
+Starting solve of next problem:
+Coupled ( Digits : 6, Max. #iterations : 20, 
+    Solver : blocked decomposition,
+    #undamped iterations : 50 
+)
+    { Poisson Hole } 
+===============================
+
+Computing Coupled( 1 poisson-equation(s) , 1 current-contact-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      7.24e-03                                                      0.90
+    1      7.96e-03   1.00e+00   2.11e-01   8.74e-03    0         1      2.66
+Finished, because...
+Error smaller than 1 ( 8.7428E-03 ).
+
+Accumulated times:
+Rhs time:        1.77 s
+Jacobian time:   0.09 s
+Solve time:      0.78 s
+Total time:      2.66 s
+
+contact        voltage     electron current    hole current  conduction current
+ gate         7.800E-01       0.000E+00         0.000E+00        0.000E+00
+ source       0.000E+00      -1.011E-04         1.107E-25       -1.011E-04
+ drain        5.000E-02       1.011E-04        -8.943E-23        1.011E-04
+
+
+===============================
+Starting solve of next problem:
+MonteCarlo
+===============================
+
+Computing Monte Carlo interface information ...
+Contact number 2 corresponds to contact region "drain".
+done.
+  Number of window   elements : 2820
+  Number of boundary elements : 1394
+ Direct current evaluation at contacts enabled.
+ Autodetecting carrier type for propagation.
+******************************************************************************
+ Number of threads =            4
+Temp is 300.000000
+Path is /usr/local/Softwares/Sentaurus/Sentaurus_vH_2013.03/bin/../tcad/current/lib/sparta/
+Entering readina
+First: reading /usr/local/Softwares/Sentaurus/Sentaurus_vH_2013.03/bin/../tcad/current/lib/sparta/a1.dat.gz ... 
+Not present: Orthorhombic or higher symmetry assumed
+reading /usr/local/Softwares/Sentaurus/Sentaurus_vH_2013.03/bin/../tcad/current/lib/sparta/cirate_taki.dat ... done
+Entering setdosb
+finished with the map.
+Entering readinb
+reading /usr/local/Softwares/Sentaurus/Sentaurus_vH_2013.03/bin/../tcad/current/lib/sparta/xi.dat ... done
+reading /usr/local/Softwares/Sentaurus/Sentaurus_vH_2013.03/bin/../tcad/current/lib/sparta/rotmat.dat ... done
+reading /usr/local/Softwares/Sentaurus/Sentaurus_vH_2013.03/bin/../tcad/current/lib/sparta/rot.dat ... done
+reading /usr/local/Softwares/Sentaurus/Sentaurus_vH_2013.03/bin/../tcad/current/lib/sparta/a.dat.gz ... reading /usr/local/Softwares/Sentaurus/Sentaurus_vH_2013.03/bin/../tcad/current/lib/sparta/b.dat.gz ... done
+done
+Entering make_doslistb
+Entering read_defpot_listb
+done.
+ Calculating scattering rates...  done.
+ Initializing variables... 
+  
+ done.
+ Analyzing grid information... 
+  
+ done.
+  
+lattice constants (conv. coordinates): ax ay az  5.430  5.430  5.430
+  
+lattice temp. electron temp. hole temp.  300.00  323.18  383.67
+  
+Effective DOS: electron hole   2.872067088E+19  2.061158131E+19
+  
+Band-gap electronegativity (unstrained Si:   1.120 4.05)    1.120   4.050
+  
+  
+electron: m_quant m_dos gamma   0.322   1.096  10.215
+  
+hole: m_quant m_dos gamma   0.904   0.878   2.914
+  
+  
+eminx, eminy, eminz   0.000   0.000   0.000
+emqx,   emqy,   emqz     0.316   0.322   0.210
+  
+  
+hmin0, hmin1, hmin2   0.043   0.000   0.000
+hmq0,   hmq1,   hmq2     0.148   0.201   0.904
+  
+ Generating initial particle distribution ...
+  
+  
+ Now: Number of electrons =            4
+ Now: Number of holes =            0
+  
+ Particle multiplication factor =            1
+  
+ done.
+ Simulation time per frozen-field iteration =   1.19999999999999999E-008
+ Simulation time until stationary state=   3.59999999999999994E-007
+ Maximum total simulation time =   1.19999999999999995E-006
+  
+ gamma (impurity scattering) =  4.95349945E+13
+ gamma (soft-optical phonon scattering) =   0.0000000    
+ gamma (remote Coulomb scattering) =   0.0000000    
+ gamma (remote dipole scattering) =   0.0000000    
+ gamma (phonons+impact ionization) =  5.88787134E+14
+ total gamma =  6.38322133E+14
+  
+ Reanalyzing grid
+  
+ NumberOfBoundaryElements =        1394
+  
+  
+ ... done
+  
+ Checking list of real-space elements
+ End of checking real-space elements
+ Checking list of real-space element boundaries
+ End of checking list of real-space element boundaries
+ Completion status:   0.0000 %
+ Writing Monte Carlo output files.
+ Preparing data sets for visualization.
+contact        voltage     electron current    hole current  conduction current
+ gate         7.800E-01       0.000E+00         0.000E+00        0.000E+00
+ source       0.000E+00      -1.011E-04         1.107E-25       -1.011E-04
+ drain        5.000E-02       1.011E-04        -8.943E-23        1.011E-04
+
+ done.
+ Done.
+
+No contact vertex found near particle position (1.687500e-01,1.749167e-01,0.000000e+00)] !
+
+
+No contact vertex found near particle position (1.312503e-01,1.744107e-01,0.000000e+00)] !
+
+
+No contact vertex found near particle position (1.687500e-01,1.744118e-01,0.000000e+00)] !
+
+
+No contact vertex found near particle position (1.687266e-01,1.749517e-01,0.000000e+00)] !
+
+
+Suppressing further "No contact vertex" warnings !
+
+
+No contact vertex found near particle position (1.312500e-01,1.749914e-01,0.000000e+00)] !
+
+
+Suppressing further "No contact vertex" warnings !
+
+
+No contact vertex found near particle position (1.312969e-01,1.748443e-01,0.000000e+00)] !
+
+
+A larger fraction than 1/100 of the propagated particles crossed the border of the Monte Carlo window at a non-contact locations.
+This may be indicative of bad placement of the Monte Carlo window: current evaluation by particle counting ("-useTestFunction") requires current carrying contacts to be included in the Monte Carlo window.
+If you don't want the Monte Carlo window to extend all the way to the contacts, please specify "useTestFunction" in the MonteCarlo section to disable particle counting.
+
+Note:
+As a safe-guard against incorrect autodetection of the Monte Caro carrier type it is suggested to add "particleType=electrons|holes" to the MonteCarlo section of the command file when extending the Monte Carlo window !
+
+Sun Oct 27 19:52:22 2013: checked in 1 sdevice-montecarlo license(s)
+Sun Oct 27 19:52:22 2013: checked in 1 Dessis-MonteCarlo license(s)
+Sun Oct 27 19:52:22 2013: checked in 1 sparallel license(s)
+Sun Oct 27 19:52:22 2013: checked in 1 sdevice-parallel license(s)
+Sun Oct 27 19:52:22 2013: checked in 1 Dessis-Parallel license(s)
+Sun Oct 27 19:52:22 2013: checked in 1 sdevice license(s)
+Sun Oct 27 19:52:22 2013: checked in 1 Dessis license(s)

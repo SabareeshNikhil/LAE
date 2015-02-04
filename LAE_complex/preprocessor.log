@@ -1,0 +1,1252 @@
+
+****************************************************************************
+***                       Sentaurus Workbench spp                        ***
+***                          Version G-2012.06                           ***
+***                         (1.7, amd64, linux)                          ***
+***                                                                      ***
+***                       Copyright (C) 1994-2012                        ***
+***                            Synopsys, Inc.                            ***
+***                                                                      ***
+***  This software and the associated documentation are confidential     ***
+***  and proprietary to Synopsys, Inc.  Your use or disclosure of this   ***
+***  software is subject to the terms and conditions of a written        ***
+***  license agreement between you, or your company, and Synopsys, Inc.  ***
+****************************************************************************
+
+spp is running on host 'thzlabsv.ee.ucla.edu' by user 'snikhil'
+Binary: 'spp'
+Command line options: '-verbose -i -verbose /u1/ee/snikhil/Research/LAE_complex'
+Some relevant environment variables:
+	STROOT=/w/apps3/Synopsys/TCAD_Sentaurus/vG_2012.06
+	STRELEASE=current
+	STROOT_LIB=/w/apps3/Synopsys/TCAD_Sentaurus/vG_2012.06/tcad/current/lib
+	STDB=/u1/ee/snikhil/Research
+	DATEX=/w/apps3/Synopsys/TCAD_Sentaurus/vG_2012.06/tcad/current/lib/datexcodes.txt
+	DISPLAY=localhost:10.0
+
+relativizing paths:
+project path: /u1/ee/snikhil/Research/LAE_complex
+STDB path: @STDB@
+normalized STDB path: /w/ee.00/mjarrahi/snikhil/Research
+Preprocessing project '@STDB@/LAE_complex'
+Loading global tool database '/w/apps3/Synopsys/TCAD_Sentaurus/vG_2012.06/tcad/current/lib/glib2/tooldb.tcl'
+Loading preferences '/u1/ee/snikhil/Research/gpref2_snikhil.G-2012.06'...
+spp will run in Global mode
+INITIALIZING PREPROCESSOR:
+Loading project tree '/u1/ee/snikhil/Research/LAE_complex/gtree.dat'
+Loading project variables '/u1/ee/snikhil/Research/LAE_complex/gvars.dat'
+--Get files to preprocess...
+  -->/u1/ee/snikhil/Research/LAE_complex/sde_dvs.cmd
+  -->/u1/ee/snikhil/Research/LAE_complex/sdevice_des.cmd
+  -->/u1/ee/snikhil/Research/LAE_complex/sdevice.par
+--Create file handlers...
+--Read the toolflow...
+--Analyze tool-file dependencies...
+--Read all nodes to preprocess...
+--Group nodes into experiments...
+--Get all variables...
+--Get all parameters...
+PREPROCESSOR SUCCESSFULLY INITIALIZED.
+PREPROCESSING STEP 1:
+Reading file /u1/ee/snikhil/Research/LAE_complex/sde_dvs.cmd
+Reading file /u1/ee/snikhil/Research/LAE_complex/sdevice_des.cmd
+Reading file /u1/ee/snikhil/Research/LAE_complex/sdevice.par
+PREPROCESSING STEP 2:
+Preprocessing file /u1/ee/snikhil/Research/LAE_complex/sde_dvs.cmd for node 6
+  -Parameter substitution: 'n_width' has been replaced by '200'
+
+  -Parameter substitution: 'p_width' has been replaced by '300'
+
+  -Expression evaluation: '@<0.001*(200 + 300)>@' has been replaced by '0.5'
+
+  -Parameter substitution: '@p_doping@' has been replaced by '1E18'
+
+  -Parameter substitution: '@n_doping@' has been replaced by '1E17'
+
+  -Parameter substitution: 'n_width' has been replaced by '200'
+
+  -Expression evaluation: '@<0.001*200>@' has been replaced by '0.2'
+
+  -Parameter substitution: 'n_width' has been replaced by '200'
+
+  -Parameter substitution: 'p_width' has been replaced by '300'
+
+  -Expression evaluation: '@<0.001*(200 + 300)>@' has been replaced by '0.5'
+
+  -Parameter substitution: '@decay_length@' has been replaced by '0.05'
+
+  -Parameter substitution: 'n_width' has been replaced by '200'
+
+  -Expression evaluation: '@<0.001*200>@' has been replaced by '0.2'
+
+  -Parameter substitution: '@decay_length@' has been replaced by '0.05'
+
+  -Parameter substitution: 'n_width' has been replaced by '200'
+
+  -Expression evaluation: '@<0.001*200 - 0.001>@' has been replaced by '0.199'
+
+  -Parameter substitution: 'n_width' has been replaced by '200'
+
+  -Expression evaluation: '@<0.001*200>@' has been replaced by '0.2'
+
+  -Parameter substitution: 'n_width' has been replaced by '200'
+
+  -Expression evaluation: '@<0.001*200 - 0.001>@' has been replaced by '0.199'
+
+  -Parameter substitution: '@n_width@' has been replaced by '200'
+
+  -Parameter substitution: '@n_doping@' has been replaced by '1E17'
+
+  -Parameter substitution: '@p_width@' has been replaced by '300'
+
+  -Parameter substitution: '@p_doping@' has been replaced by '1E18'
+
+  -Parameter substitution: '@decay_length@' has been replaced by '0.05'
+
++++Preprocessed file written to /u1/ee/snikhil/Research/LAE_complex/pp6_dvs.cmd
+  -Parameter substitution: '@commands@' has been replaced by 'pp6_dvs.cmd'
+
+  -Parameter substitution: '@node@' has been replaced by '6'
+
+  -Parameter substitution: '@pwd@' has been replaced by '/u1/ee/snikhil/Research/LAE_complex'
+
+  -Parameter substitution: '@node@' has been replaced by '6'
+
+cmd_line:-e -l n6_dvs.cmd
+  -Parameter substitution: '@stdout@' has been replaced by 'n6_dvs.out'
+
+  -Parameter substitution: '@node@' has been replaced by '6'
+
+post_tcl_cmd: extract_vars "$wdir" n6_dvs.out 6 
+Preprocessing file /u1/ee/snikhil/Research/LAE_complex/sdevice_des.cmd for node 4
+  -Parameter substitution: '@n_width@' has been replaced by '200'
+
+  -Parameter substitution: '@n_doping@' has been replaced by '1E17'
+
+  -Parameter substitution: '@p_width@' has been replaced by '300'
+
+  -Parameter substitution: '@p_doping@' has been replaced by '1E18'
+
+  -Parameter substitution: '@light@' has been replaced by '0'
+
+  -Parameter substitution: '@max_bias@' has been replaced by '15'
+
+  -Parameter substitution: '@n_width@' has been replaced by '200'
+
+  -Parameter substitution: '@n_doping@' has been replaced by '1E17'
+
+  -Parameter substitution: '@p_width@' has been replaced by '300'
+
+  -Parameter substitution: '@p_doping@' has been replaced by '1E18'
+
+  -Parameter substitution: '@light@' has been replaced by '0'
+
+  -Parameter substitution: '@max_bias@' has been replaced by '15'
+
+  -Parameter substitution: '@n_width@' has been replaced by '200'
+
+  -Parameter substitution: '@n_doping@' has been replaced by '1E17'
+
+  -Parameter substitution: '@p_width@' has been replaced by '300'
+
+  -Parameter substitution: '@p_doping@' has been replaced by '1E18'
+
+  -Parameter substitution: '@OptGen@' has been replaced by '10e22'
+
+  -Parameter substitution: '@light@' has been replaced by '0'
+
+Expression: 	#if @light@==1	 has been evaluated to false
+  -Parameter substitution: '@light@' has been replaced by '0'
+
+Expression: 	#if @light@==1	 has been evaluated to false
+  -Parameter substitution: '@light@' has been replaced by '0'
+
+Expression: #if @light@==1	 has been evaluated to false
+  -Parameter substitution: '@node@' has been replaced by '4'
+
+  -Parameter substitution: '@max_bias@' has been replaced by '15'
+
+Preprocessing file /u1/ee/snikhil/Research/LAE_complex/sdevice.par for node 4
++++Preprocessed file written to /u1/ee/snikhil/Research/LAE_complex/pp4_des.par
+  -Parameter substitution: '@commands@' has been replaced by 'pp4_des.cmd'
+
+cmd_line:pp4_des.cmd
+  -Parameter substitution: '@stdout@' has been replaced by 'n4_des.out'
+
+  -Parameter substitution: '@node@' has been replaced by '4'
+
+post_tcl_cmd: extract_vars "$wdir" n4_des.out 4 
+Preprocessing file /u1/ee/snikhil/Research/LAE_complex/sdevice_des.cmd for node 5
+  -Parameter substitution: '@n_width@' has been replaced by '200'
+
+  -Parameter substitution: '@n_doping@' has been replaced by '1E17'
+
+  -Parameter substitution: '@p_width@' has been replaced by '300'
+
+  -Parameter substitution: '@p_doping@' has been replaced by '1E18'
+
+  -Parameter substitution: '@light@' has been replaced by '1'
+
+  -Parameter substitution: '@max_bias@' has been replaced by '15'
+
+  -Parameter substitution: '@n_width@' has been replaced by '200'
+
+  -Parameter substitution: '@n_doping@' has been replaced by '1E17'
+
+  -Parameter substitution: '@p_width@' has been replaced by '300'
+
+  -Parameter substitution: '@p_doping@' has been replaced by '1E18'
+
+  -Parameter substitution: '@light@' has been replaced by '1'
+
+  -Parameter substitution: '@max_bias@' has been replaced by '15'
+
+  -Parameter substitution: '@n_width@' has been replaced by '200'
+
+  -Parameter substitution: '@n_doping@' has been replaced by '1E17'
+
+  -Parameter substitution: '@p_width@' has been replaced by '300'
+
+  -Parameter substitution: '@p_doping@' has been replaced by '1E18'
+
+  -Parameter substitution: '@OptGen@' has been replaced by '1e22'
+
+  -Parameter substitution: '@light@' has been replaced by '1'
+
+Expression:	#if @light@==1	 has been evaluated to true
+  -Parameter substitution: '@light@' has been replaced by '1'
+
+Expression:	#if @light@==1	 has been evaluated to true
+  -Parameter substitution: '@light@' has been replaced by '1'
+
+Expression:#if @light@==1	 has been evaluated to true
+  -Parameter substitution: '@node@' has been replaced by '5'
+
+  -Parameter substitution: '@max_bias@' has been replaced by '15'
+
+Preprocessing file /u1/ee/snikhil/Research/LAE_complex/sdevice.par for node 5
++++Preprocessed file written to /u1/ee/snikhil/Research/LAE_complex/pp5_des.par
+  -Parameter substitution: '@commands@' has been replaced by 'pp5_des.cmd'
+
+cmd_line:pp5_des.cmd
+  -Parameter substitution: '@stdout@' has been replaced by 'n5_des.out'
+
+  -Parameter substitution: '@node@' has been replaced by '5'
+
+post_tcl_cmd: extract_vars "$wdir" n5_des.out 5 
+Preprocessing file /u1/ee/snikhil/Research/LAE_complex/sdevice_des.cmd for node 16
+  -Parameter substitution: '@n_width@' has been replaced by '200'
+
+  -Parameter substitution: '@n_doping@' has been replaced by '1E17'
+
+  -Parameter substitution: '@p_width@' has been replaced by '300'
+
+  -Parameter substitution: '@p_doping@' has been replaced by '1E18'
+
+  -Parameter substitution: '@light@' has been replaced by '0'
+
+  -Parameter substitution: '@max_bias@' has been replaced by '2'
+
+  -Parameter substitution: '@n_width@' has been replaced by '200'
+
+  -Parameter substitution: '@n_doping@' has been replaced by '1E17'
+
+  -Parameter substitution: '@p_width@' has been replaced by '300'
+
+  -Parameter substitution: '@p_doping@' has been replaced by '1E18'
+
+  -Parameter substitution: '@light@' has been replaced by '0'
+
+  -Parameter substitution: '@max_bias@' has been replaced by '2'
+
+  -Parameter substitution: '@n_width@' has been replaced by '200'
+
+  -Parameter substitution: '@n_doping@' has been replaced by '1E17'
+
+  -Parameter substitution: '@p_width@' has been replaced by '300'
+
+  -Parameter substitution: '@p_doping@' has been replaced by '1E18'
+
+  -Parameter substitution: '@OptGen@' has been replaced by '1e22'
+
+  -Parameter substitution: '@light@' has been replaced by '0'
+
+Expression: 	#if @light@==1	 has been evaluated to false
+  -Parameter substitution: '@light@' has been replaced by '0'
+
+Expression: 	#if @light@==1	 has been evaluated to false
+  -Parameter substitution: '@light@' has been replaced by '0'
+
+Expression: #if @light@==1	 has been evaluated to false
+  -Parameter substitution: '@node@' has been replaced by '16'
+
+  -Parameter substitution: '@max_bias@' has been replaced by '2'
+
+Preprocessing file /u1/ee/snikhil/Research/LAE_complex/sdevice.par for node 16
++++Preprocessed file written to /u1/ee/snikhil/Research/LAE_complex/pp16_des.par
+  -Parameter substitution: '@commands@' has been replaced by 'pp16_des.cmd'
+
+cmd_line:pp16_des.cmd
+  -Parameter substitution: '@stdout@' has been replaced by 'n16_des.out'
+
+  -Parameter substitution: '@node@' has been replaced by '16'
+
+post_tcl_cmd: extract_vars "$wdir" n16_des.out 16 
+Preprocessing file /u1/ee/snikhil/Research/LAE_complex/sdevice_des.cmd for node 19
+  -Parameter substitution: '@n_width@' has been replaced by '200'
+
+  -Parameter substitution: '@n_doping@' has been replaced by '1E17'
+
+  -Parameter substitution: '@p_width@' has been replaced by '300'
+
+  -Parameter substitution: '@p_doping@' has been replaced by '1E18'
+
+  -Parameter substitution: '@light@' has been replaced by '1'
+
+  -Parameter substitution: '@max_bias@' has been replaced by '2'
+
+  -Parameter substitution: '@n_width@' has been replaced by '200'
+
+  -Parameter substitution: '@n_doping@' has been replaced by '1E17'
+
+  -Parameter substitution: '@p_width@' has been replaced by '300'
+
+  -Parameter substitution: '@p_doping@' has been replaced by '1E18'
+
+  -Parameter substitution: '@light@' has been replaced by '1'
+
+  -Parameter substitution: '@max_bias@' has been replaced by '2'
+
+  -Parameter substitution: '@n_width@' has been replaced by '200'
+
+  -Parameter substitution: '@n_doping@' has been replaced by '1E17'
+
+  -Parameter substitution: '@p_width@' has been replaced by '300'
+
+  -Parameter substitution: '@p_doping@' has been replaced by '1E18'
+
+  -Parameter substitution: '@OptGen@' has been replaced by '1e22'
+
+  -Parameter substitution: '@light@' has been replaced by '1'
+
+Expression:	#if @light@==1	 has been evaluated to true
+  -Parameter substitution: '@light@' has been replaced by '1'
+
+Expression:	#if @light@==1	 has been evaluated to true
+  -Parameter substitution: '@light@' has been replaced by '1'
+
+Expression:#if @light@==1	 has been evaluated to true
+  -Parameter substitution: '@node@' has been replaced by '19'
+
+  -Parameter substitution: '@max_bias@' has been replaced by '2'
+
+Preprocessing file /u1/ee/snikhil/Research/LAE_complex/sdevice.par for node 19
++++Preprocessed file written to /u1/ee/snikhil/Research/LAE_complex/pp19_des.par
+  -Parameter substitution: '@commands@' has been replaced by 'pp19_des.cmd'
+
+cmd_line:pp19_des.cmd
+  -Parameter substitution: '@stdout@' has been replaced by 'n19_des.out'
+
+  -Parameter substitution: '@node@' has been replaced by '19'
+
+post_tcl_cmd: extract_vars "$wdir" n19_des.out 19 
+Preprocessing file /u1/ee/snikhil/Research/LAE_complex/sde_dvs.cmd for node 39
+  -Parameter substitution: 'n_width' has been replaced by '200'
+
+  -Parameter substitution: 'p_width' has been replaced by '300'
+
+  -Expression evaluation: '@<0.001*(200 + 300)>@' has been replaced by '0.5'
+
+  -Parameter substitution: '@p_doping@' has been replaced by '1E18'
+
+  -Parameter substitution: '@n_doping@' has been replaced by '1E16'
+
+  -Parameter substitution: 'n_width' has been replaced by '200'
+
+  -Expression evaluation: '@<0.001*200>@' has been replaced by '0.2'
+
+  -Parameter substitution: 'n_width' has been replaced by '200'
+
+  -Parameter substitution: 'p_width' has been replaced by '300'
+
+  -Expression evaluation: '@<0.001*(200 + 300)>@' has been replaced by '0.5'
+
+  -Parameter substitution: '@decay_length@' has been replaced by '0.05'
+
+  -Parameter substitution: 'n_width' has been replaced by '200'
+
+  -Expression evaluation: '@<0.001*200>@' has been replaced by '0.2'
+
+  -Parameter substitution: '@decay_length@' has been replaced by '0.05'
+
+  -Parameter substitution: 'n_width' has been replaced by '200'
+
+  -Expression evaluation: '@<0.001*200 - 0.001>@' has been replaced by '0.199'
+
+  -Parameter substitution: 'n_width' has been replaced by '200'
+
+  -Expression evaluation: '@<0.001*200>@' has been replaced by '0.2'
+
+  -Parameter substitution: 'n_width' has been replaced by '200'
+
+  -Expression evaluation: '@<0.001*200 - 0.001>@' has been replaced by '0.199'
+
+  -Parameter substitution: '@n_width@' has been replaced by '200'
+
+  -Parameter substitution: '@n_doping@' has been replaced by '1E16'
+
+  -Parameter substitution: '@p_width@' has been replaced by '300'
+
+  -Parameter substitution: '@p_doping@' has been replaced by '1E18'
+
+  -Parameter substitution: '@decay_length@' has been replaced by '0.05'
+
++++Preprocessed file written to /u1/ee/snikhil/Research/LAE_complex/pp39_dvs.cmd
+  -Parameter substitution: '@commands@' has been replaced by 'pp39_dvs.cmd'
+
+  -Parameter substitution: '@node@' has been replaced by '39'
+
+  -Parameter substitution: '@pwd@' has been replaced by '/u1/ee/snikhil/Research/LAE_complex'
+
+  -Parameter substitution: '@node@' has been replaced by '39'
+
+cmd_line:-e -l n39_dvs.cmd
+  -Parameter substitution: '@stdout@' has been replaced by 'n39_dvs.out'
+
+  -Parameter substitution: '@node@' has been replaced by '39'
+
+post_tcl_cmd: extract_vars "$wdir" n39_dvs.out 39 
+Preprocessing file /u1/ee/snikhil/Research/LAE_complex/sdevice_des.cmd for node 43
+  -Parameter substitution: '@n_width@' has been replaced by '200'
+
+  -Parameter substitution: '@n_doping@' has been replaced by '1E16'
+
+  -Parameter substitution: '@p_width@' has been replaced by '300'
+
+  -Parameter substitution: '@p_doping@' has been replaced by '1E18'
+
+  -Parameter substitution: '@light@' has been replaced by '0'
+
+  -Parameter substitution: '@max_bias@' has been replaced by '15'
+
+  -Parameter substitution: '@n_width@' has been replaced by '200'
+
+  -Parameter substitution: '@n_doping@' has been replaced by '1E16'
+
+  -Parameter substitution: '@p_width@' has been replaced by '300'
+
+  -Parameter substitution: '@p_doping@' has been replaced by '1E18'
+
+  -Parameter substitution: '@light@' has been replaced by '0'
+
+  -Parameter substitution: '@max_bias@' has been replaced by '15'
+
+  -Parameter substitution: '@n_width@' has been replaced by '200'
+
+  -Parameter substitution: '@n_doping@' has been replaced by '1E16'
+
+  -Parameter substitution: '@p_width@' has been replaced by '300'
+
+  -Parameter substitution: '@p_doping@' has been replaced by '1E18'
+
+  -Parameter substitution: '@OptGen@' has been replaced by '10e22'
+
+  -Parameter substitution: '@light@' has been replaced by '0'
+
+Expression: 	#if @light@==1	 has been evaluated to false
+  -Parameter substitution: '@light@' has been replaced by '0'
+
+Expression: 	#if @light@==1	 has been evaluated to false
+  -Parameter substitution: '@light@' has been replaced by '0'
+
+Expression: #if @light@==1	 has been evaluated to false
+  -Parameter substitution: '@node@' has been replaced by '43'
+
+  -Parameter substitution: '@max_bias@' has been replaced by '15'
+
+Preprocessing file /u1/ee/snikhil/Research/LAE_complex/sdevice.par for node 43
++++Preprocessed file written to /u1/ee/snikhil/Research/LAE_complex/pp43_des.par
+  -Parameter substitution: '@commands@' has been replaced by 'pp43_des.cmd'
+
+cmd_line:pp43_des.cmd
+  -Parameter substitution: '@stdout@' has been replaced by 'n43_des.out'
+
+  -Parameter substitution: '@node@' has been replaced by '43'
+
+post_tcl_cmd: extract_vars "$wdir" n43_des.out 43 
+Preprocessing file /u1/ee/snikhil/Research/LAE_complex/sdevice_des.cmd for node 46
+  -Parameter substitution: '@n_width@' has been replaced by '200'
+
+  -Parameter substitution: '@n_doping@' has been replaced by '1E16'
+
+  -Parameter substitution: '@p_width@' has been replaced by '300'
+
+  -Parameter substitution: '@p_doping@' has been replaced by '1E18'
+
+  -Parameter substitution: '@light@' has been replaced by '1'
+
+  -Parameter substitution: '@max_bias@' has been replaced by '15'
+
+  -Parameter substitution: '@n_width@' has been replaced by '200'
+
+  -Parameter substitution: '@n_doping@' has been replaced by '1E16'
+
+  -Parameter substitution: '@p_width@' has been replaced by '300'
+
+  -Parameter substitution: '@p_doping@' has been replaced by '1E18'
+
+  -Parameter substitution: '@light@' has been replaced by '1'
+
+  -Parameter substitution: '@max_bias@' has been replaced by '15'
+
+  -Parameter substitution: '@n_width@' has been replaced by '200'
+
+  -Parameter substitution: '@n_doping@' has been replaced by '1E16'
+
+  -Parameter substitution: '@p_width@' has been replaced by '300'
+
+  -Parameter substitution: '@p_doping@' has been replaced by '1E18'
+
+  -Parameter substitution: '@OptGen@' has been replaced by '1e22'
+
+  -Parameter substitution: '@light@' has been replaced by '1'
+
+Expression:	#if @light@==1	 has been evaluated to true
+  -Parameter substitution: '@light@' has been replaced by '1'
+
+Expression:	#if @light@==1	 has been evaluated to true
+  -Parameter substitution: '@light@' has been replaced by '1'
+
+Expression:#if @light@==1	 has been evaluated to true
+  -Parameter substitution: '@node@' has been replaced by '46'
+
+  -Parameter substitution: '@max_bias@' has been replaced by '15'
+
+Preprocessing file /u1/ee/snikhil/Research/LAE_complex/sdevice.par for node 46
++++Preprocessed file written to /u1/ee/snikhil/Research/LAE_complex/pp46_des.par
+  -Parameter substitution: '@commands@' has been replaced by 'pp46_des.cmd'
+
+cmd_line:pp46_des.cmd
+  -Parameter substitution: '@stdout@' has been replaced by 'n46_des.out'
+
+  -Parameter substitution: '@node@' has been replaced by '46'
+
+post_tcl_cmd: extract_vars "$wdir" n46_des.out 46 
+Preprocessing file /u1/ee/snikhil/Research/LAE_complex/sdevice_des.cmd for node 50
+  -Parameter substitution: '@n_width@' has been replaced by '200'
+
+  -Parameter substitution: '@n_doping@' has been replaced by '1E16'
+
+  -Parameter substitution: '@p_width@' has been replaced by '300'
+
+  -Parameter substitution: '@p_doping@' has been replaced by '1E18'
+
+  -Parameter substitution: '@light@' has been replaced by '0'
+
+  -Parameter substitution: '@max_bias@' has been replaced by '2'
+
+  -Parameter substitution: '@n_width@' has been replaced by '200'
+
+  -Parameter substitution: '@n_doping@' has been replaced by '1E16'
+
+  -Parameter substitution: '@p_width@' has been replaced by '300'
+
+  -Parameter substitution: '@p_doping@' has been replaced by '1E18'
+
+  -Parameter substitution: '@light@' has been replaced by '0'
+
+  -Parameter substitution: '@max_bias@' has been replaced by '2'
+
+  -Parameter substitution: '@n_width@' has been replaced by '200'
+
+  -Parameter substitution: '@n_doping@' has been replaced by '1E16'
+
+  -Parameter substitution: '@p_width@' has been replaced by '300'
+
+  -Parameter substitution: '@p_doping@' has been replaced by '1E18'
+
+  -Parameter substitution: '@OptGen@' has been replaced by '10e22'
+
+  -Parameter substitution: '@light@' has been replaced by '0'
+
+Expression: 	#if @light@==1	 has been evaluated to false
+  -Parameter substitution: '@light@' has been replaced by '0'
+
+Expression: 	#if @light@==1	 has been evaluated to false
+  -Parameter substitution: '@light@' has been replaced by '0'
+
+Expression: #if @light@==1	 has been evaluated to false
+  -Parameter substitution: '@node@' has been replaced by '50'
+
+  -Parameter substitution: '@max_bias@' has been replaced by '2'
+
+Preprocessing file /u1/ee/snikhil/Research/LAE_complex/sdevice.par for node 50
++++Preprocessed file written to /u1/ee/snikhil/Research/LAE_complex/pp50_des.par
+  -Parameter substitution: '@commands@' has been replaced by 'pp50_des.cmd'
+
+cmd_line:pp50_des.cmd
+  -Parameter substitution: '@stdout@' has been replaced by 'n50_des.out'
+
+  -Parameter substitution: '@node@' has been replaced by '50'
+
+post_tcl_cmd: extract_vars "$wdir" n50_des.out 50 
+Preprocessing file /u1/ee/snikhil/Research/LAE_complex/sdevice_des.cmd for node 53
+  -Parameter substitution: '@n_width@' has been replaced by '200'
+
+  -Parameter substitution: '@n_doping@' has been replaced by '1E16'
+
+  -Parameter substitution: '@p_width@' has been replaced by '300'
+
+  -Parameter substitution: '@p_doping@' has been replaced by '1E18'
+
+  -Parameter substitution: '@light@' has been replaced by '1'
+
+  -Parameter substitution: '@max_bias@' has been replaced by '2'
+
+  -Parameter substitution: '@n_width@' has been replaced by '200'
+
+  -Parameter substitution: '@n_doping@' has been replaced by '1E16'
+
+  -Parameter substitution: '@p_width@' has been replaced by '300'
+
+  -Parameter substitution: '@p_doping@' has been replaced by '1E18'
+
+  -Parameter substitution: '@light@' has been replaced by '1'
+
+  -Parameter substitution: '@max_bias@' has been replaced by '2'
+
+  -Parameter substitution: '@n_width@' has been replaced by '200'
+
+  -Parameter substitution: '@n_doping@' has been replaced by '1E16'
+
+  -Parameter substitution: '@p_width@' has been replaced by '300'
+
+  -Parameter substitution: '@p_doping@' has been replaced by '1E18'
+
+  -Parameter substitution: '@OptGen@' has been replaced by '10e22'
+
+  -Parameter substitution: '@light@' has been replaced by '1'
+
+Expression:	#if @light@==1	 has been evaluated to true
+  -Parameter substitution: '@light@' has been replaced by '1'
+
+Expression:	#if @light@==1	 has been evaluated to true
+  -Parameter substitution: '@light@' has been replaced by '1'
+
+Expression:#if @light@==1	 has been evaluated to true
+  -Parameter substitution: '@node@' has been replaced by '53'
+
+  -Parameter substitution: '@max_bias@' has been replaced by '2'
+
+Preprocessing file /u1/ee/snikhil/Research/LAE_complex/sdevice.par for node 53
++++Preprocessed file written to /u1/ee/snikhil/Research/LAE_complex/pp53_des.par
+  -Parameter substitution: '@commands@' has been replaced by 'pp53_des.cmd'
+
+cmd_line:pp53_des.cmd
+  -Parameter substitution: '@stdout@' has been replaced by 'n53_des.out'
+
+  -Parameter substitution: '@node@' has been replaced by '53'
+
+post_tcl_cmd: extract_vars "$wdir" n53_des.out 53 
+Preprocessing file /u1/ee/snikhil/Research/LAE_complex/sde_dvs.cmd for node 23
+  -Parameter substitution: 'n_width' has been replaced by '300'
+
+  -Parameter substitution: 'p_width' has been replaced by '300'
+
+  -Expression evaluation: '@<0.001*(300 + 300)>@' has been replaced by '0.6'
+
+  -Parameter substitution: '@p_doping@' has been replaced by '1E18'
+
+  -Parameter substitution: '@n_doping@' has been replaced by '1E17'
+
+  -Parameter substitution: 'n_width' has been replaced by '300'
+
+  -Expression evaluation: '@<0.001*300>@' has been replaced by '0.3'
+
+  -Parameter substitution: 'n_width' has been replaced by '300'
+
+  -Parameter substitution: 'p_width' has been replaced by '300'
+
+  -Expression evaluation: '@<0.001*(300 + 300)>@' has been replaced by '0.6'
+
+  -Parameter substitution: '@decay_length@' has been replaced by '0.05'
+
+  -Parameter substitution: 'n_width' has been replaced by '300'
+
+  -Expression evaluation: '@<0.001*300>@' has been replaced by '0.3'
+
+  -Parameter substitution: '@decay_length@' has been replaced by '0.05'
+
+  -Parameter substitution: 'n_width' has been replaced by '300'
+
+  -Expression evaluation: '@<0.001*300 - 0.001>@' has been replaced by '0.299'
+
+  -Parameter substitution: 'n_width' has been replaced by '300'
+
+  -Expression evaluation: '@<0.001*300>@' has been replaced by '0.3'
+
+  -Parameter substitution: 'n_width' has been replaced by '300'
+
+  -Expression evaluation: '@<0.001*300 - 0.001>@' has been replaced by '0.299'
+
+  -Parameter substitution: '@n_width@' has been replaced by '300'
+
+  -Parameter substitution: '@n_doping@' has been replaced by '1E17'
+
+  -Parameter substitution: '@p_width@' has been replaced by '300'
+
+  -Parameter substitution: '@p_doping@' has been replaced by '1E18'
+
+  -Parameter substitution: '@decay_length@' has been replaced by '0.05'
+
++++Preprocessed file written to /u1/ee/snikhil/Research/LAE_complex/pp23_dvs.cmd
+  -Parameter substitution: '@commands@' has been replaced by 'pp23_dvs.cmd'
+
+  -Parameter substitution: '@node@' has been replaced by '23'
+
+  -Parameter substitution: '@pwd@' has been replaced by '/u1/ee/snikhil/Research/LAE_complex'
+
+  -Parameter substitution: '@node@' has been replaced by '23'
+
+cmd_line:-e -l n23_dvs.cmd
+  -Parameter substitution: '@stdout@' has been replaced by 'n23_dvs.out'
+
+  -Parameter substitution: '@node@' has been replaced by '23'
+
+post_tcl_cmd: extract_vars "$wdir" n23_dvs.out 23 
+Preprocessing file /u1/ee/snikhil/Research/LAE_complex/sdevice_des.cmd for node 27
+  -Parameter substitution: '@n_width@' has been replaced by '300'
+
+  -Parameter substitution: '@n_doping@' has been replaced by '1E17'
+
+  -Parameter substitution: '@p_width@' has been replaced by '300'
+
+  -Parameter substitution: '@p_doping@' has been replaced by '1E18'
+
+  -Parameter substitution: '@light@' has been replaced by '0'
+
+  -Parameter substitution: '@max_bias@' has been replaced by '15'
+
+  -Parameter substitution: '@n_width@' has been replaced by '300'
+
+  -Parameter substitution: '@n_doping@' has been replaced by '1E17'
+
+  -Parameter substitution: '@p_width@' has been replaced by '300'
+
+  -Parameter substitution: '@p_doping@' has been replaced by '1E18'
+
+  -Parameter substitution: '@light@' has been replaced by '0'
+
+  -Parameter substitution: '@max_bias@' has been replaced by '15'
+
+  -Parameter substitution: '@n_width@' has been replaced by '300'
+
+  -Parameter substitution: '@n_doping@' has been replaced by '1E17'
+
+  -Parameter substitution: '@p_width@' has been replaced by '300'
+
+  -Parameter substitution: '@p_doping@' has been replaced by '1E18'
+
+  -Parameter substitution: '@OptGen@' has been replaced by '10e22'
+
+  -Parameter substitution: '@light@' has been replaced by '0'
+
+Expression: 	#if @light@==1	 has been evaluated to false
+  -Parameter substitution: '@light@' has been replaced by '0'
+
+Expression: 	#if @light@==1	 has been evaluated to false
+  -Parameter substitution: '@light@' has been replaced by '0'
+
+Expression: #if @light@==1	 has been evaluated to false
+  -Parameter substitution: '@node@' has been replaced by '27'
+
+  -Parameter substitution: '@max_bias@' has been replaced by '15'
+
+Preprocessing file /u1/ee/snikhil/Research/LAE_complex/sdevice.par for node 27
++++Preprocessed file written to /u1/ee/snikhil/Research/LAE_complex/pp27_des.par
+  -Parameter substitution: '@commands@' has been replaced by 'pp27_des.cmd'
+
+cmd_line:pp27_des.cmd
+  -Parameter substitution: '@stdout@' has been replaced by 'n27_des.out'
+
+  -Parameter substitution: '@node@' has been replaced by '27'
+
+post_tcl_cmd: extract_vars "$wdir" n27_des.out 27 
+Preprocessing file /u1/ee/snikhil/Research/LAE_complex/sdevice_des.cmd for node 30
+  -Parameter substitution: '@n_width@' has been replaced by '300'
+
+  -Parameter substitution: '@n_doping@' has been replaced by '1E17'
+
+  -Parameter substitution: '@p_width@' has been replaced by '300'
+
+  -Parameter substitution: '@p_doping@' has been replaced by '1E18'
+
+  -Parameter substitution: '@light@' has been replaced by '1'
+
+  -Parameter substitution: '@max_bias@' has been replaced by '15'
+
+  -Parameter substitution: '@n_width@' has been replaced by '300'
+
+  -Parameter substitution: '@n_doping@' has been replaced by '1E17'
+
+  -Parameter substitution: '@p_width@' has been replaced by '300'
+
+  -Parameter substitution: '@p_doping@' has been replaced by '1E18'
+
+  -Parameter substitution: '@light@' has been replaced by '1'
+
+  -Parameter substitution: '@max_bias@' has been replaced by '15'
+
+  -Parameter substitution: '@n_width@' has been replaced by '300'
+
+  -Parameter substitution: '@n_doping@' has been replaced by '1E17'
+
+  -Parameter substitution: '@p_width@' has been replaced by '300'
+
+  -Parameter substitution: '@p_doping@' has been replaced by '1E18'
+
+  -Parameter substitution: '@OptGen@' has been replaced by '1e22'
+
+  -Parameter substitution: '@light@' has been replaced by '1'
+
+Expression:	#if @light@==1	 has been evaluated to true
+  -Parameter substitution: '@light@' has been replaced by '1'
+
+Expression:	#if @light@==1	 has been evaluated to true
+  -Parameter substitution: '@light@' has been replaced by '1'
+
+Expression:#if @light@==1	 has been evaluated to true
+  -Parameter substitution: '@node@' has been replaced by '30'
+
+  -Parameter substitution: '@max_bias@' has been replaced by '15'
+
+Preprocessing file /u1/ee/snikhil/Research/LAE_complex/sdevice.par for node 30
++++Preprocessed file written to /u1/ee/snikhil/Research/LAE_complex/pp30_des.par
+  -Parameter substitution: '@commands@' has been replaced by 'pp30_des.cmd'
+
+cmd_line:pp30_des.cmd
+  -Parameter substitution: '@stdout@' has been replaced by 'n30_des.out'
+
+  -Parameter substitution: '@node@' has been replaced by '30'
+
+post_tcl_cmd: extract_vars "$wdir" n30_des.out 30 
+Preprocessing file /u1/ee/snikhil/Research/LAE_complex/sdevice_des.cmd for node 34
+  -Parameter substitution: '@n_width@' has been replaced by '300'
+
+  -Parameter substitution: '@n_doping@' has been replaced by '1E17'
+
+  -Parameter substitution: '@p_width@' has been replaced by '300'
+
+  -Parameter substitution: '@p_doping@' has been replaced by '1E18'
+
+  -Parameter substitution: '@light@' has been replaced by '0'
+
+  -Parameter substitution: '@max_bias@' has been replaced by '2'
+
+  -Parameter substitution: '@n_width@' has been replaced by '300'
+
+  -Parameter substitution: '@n_doping@' has been replaced by '1E17'
+
+  -Parameter substitution: '@p_width@' has been replaced by '300'
+
+  -Parameter substitution: '@p_doping@' has been replaced by '1E18'
+
+  -Parameter substitution: '@light@' has been replaced by '0'
+
+  -Parameter substitution: '@max_bias@' has been replaced by '2'
+
+  -Parameter substitution: '@n_width@' has been replaced by '300'
+
+  -Parameter substitution: '@n_doping@' has been replaced by '1E17'
+
+  -Parameter substitution: '@p_width@' has been replaced by '300'
+
+  -Parameter substitution: '@p_doping@' has been replaced by '1E18'
+
+  -Parameter substitution: '@OptGen@' has been replaced by '10e22'
+
+  -Parameter substitution: '@light@' has been replaced by '0'
+
+Expression: 	#if @light@==1	 has been evaluated to false
+  -Parameter substitution: '@light@' has been replaced by '0'
+
+Expression: 	#if @light@==1	 has been evaluated to false
+  -Parameter substitution: '@light@' has been replaced by '0'
+
+Expression: #if @light@==1	 has been evaluated to false
+  -Parameter substitution: '@node@' has been replaced by '34'
+
+  -Parameter substitution: '@max_bias@' has been replaced by '2'
+
+Preprocessing file /u1/ee/snikhil/Research/LAE_complex/sdevice.par for node 34
++++Preprocessed file written to /u1/ee/snikhil/Research/LAE_complex/pp34_des.par
+  -Parameter substitution: '@commands@' has been replaced by 'pp34_des.cmd'
+
+cmd_line:pp34_des.cmd
+  -Parameter substitution: '@stdout@' has been replaced by 'n34_des.out'
+
+  -Parameter substitution: '@node@' has been replaced by '34'
+
+post_tcl_cmd: extract_vars "$wdir" n34_des.out 34 
+Preprocessing file /u1/ee/snikhil/Research/LAE_complex/sdevice_des.cmd for node 37
+  -Parameter substitution: '@n_width@' has been replaced by '300'
+
+  -Parameter substitution: '@n_doping@' has been replaced by '1E17'
+
+  -Parameter substitution: '@p_width@' has been replaced by '300'
+
+  -Parameter substitution: '@p_doping@' has been replaced by '1E18'
+
+  -Parameter substitution: '@light@' has been replaced by '1'
+
+  -Parameter substitution: '@max_bias@' has been replaced by '2'
+
+  -Parameter substitution: '@n_width@' has been replaced by '300'
+
+  -Parameter substitution: '@n_doping@' has been replaced by '1E17'
+
+  -Parameter substitution: '@p_width@' has been replaced by '300'
+
+  -Parameter substitution: '@p_doping@' has been replaced by '1E18'
+
+  -Parameter substitution: '@light@' has been replaced by '1'
+
+  -Parameter substitution: '@max_bias@' has been replaced by '2'
+
+  -Parameter substitution: '@n_width@' has been replaced by '300'
+
+  -Parameter substitution: '@n_doping@' has been replaced by '1E17'
+
+  -Parameter substitution: '@p_width@' has been replaced by '300'
+
+  -Parameter substitution: '@p_doping@' has been replaced by '1E18'
+
+  -Parameter substitution: '@OptGen@' has been replaced by '10e22'
+
+  -Parameter substitution: '@light@' has been replaced by '1'
+
+Expression:	#if @light@==1	 has been evaluated to true
+  -Parameter substitution: '@light@' has been replaced by '1'
+
+Expression:	#if @light@==1	 has been evaluated to true
+  -Parameter substitution: '@light@' has been replaced by '1'
+
+Expression:#if @light@==1	 has been evaluated to true
+  -Parameter substitution: '@node@' has been replaced by '37'
+
+  -Parameter substitution: '@max_bias@' has been replaced by '2'
+
+Preprocessing file /u1/ee/snikhil/Research/LAE_complex/sdevice.par for node 37
++++Preprocessed file written to /u1/ee/snikhil/Research/LAE_complex/pp37_des.par
+  -Parameter substitution: '@commands@' has been replaced by 'pp37_des.cmd'
+
+cmd_line:pp37_des.cmd
+  -Parameter substitution: '@stdout@' has been replaced by 'n37_des.out'
+
+  -Parameter substitution: '@node@' has been replaced by '37'
+
+post_tcl_cmd: extract_vars "$wdir" n37_des.out 37 
+Preprocessing file /u1/ee/snikhil/Research/LAE_complex/sde_dvs.cmd for node 55
+  -Parameter substitution: 'n_width' has been replaced by '300'
+
+  -Parameter substitution: 'p_width' has been replaced by '300'
+
+  -Expression evaluation: '@<0.001*(300 + 300)>@' has been replaced by '0.6'
+
+  -Parameter substitution: '@p_doping@' has been replaced by '1E18'
+
+  -Parameter substitution: '@n_doping@' has been replaced by '1E16'
+
+  -Parameter substitution: 'n_width' has been replaced by '300'
+
+  -Expression evaluation: '@<0.001*300>@' has been replaced by '0.3'
+
+  -Parameter substitution: 'n_width' has been replaced by '300'
+
+  -Parameter substitution: 'p_width' has been replaced by '300'
+
+  -Expression evaluation: '@<0.001*(300 + 300)>@' has been replaced by '0.6'
+
+  -Parameter substitution: '@decay_length@' has been replaced by '0.05'
+
+  -Parameter substitution: 'n_width' has been replaced by '300'
+
+  -Expression evaluation: '@<0.001*300>@' has been replaced by '0.3'
+
+  -Parameter substitution: '@decay_length@' has been replaced by '0.05'
+
+  -Parameter substitution: 'n_width' has been replaced by '300'
+
+  -Expression evaluation: '@<0.001*300 - 0.001>@' has been replaced by '0.299'
+
+  -Parameter substitution: 'n_width' has been replaced by '300'
+
+  -Expression evaluation: '@<0.001*300>@' has been replaced by '0.3'
+
+  -Parameter substitution: 'n_width' has been replaced by '300'
+
+  -Expression evaluation: '@<0.001*300 - 0.001>@' has been replaced by '0.299'
+
+  -Parameter substitution: '@n_width@' has been replaced by '300'
+
+  -Parameter substitution: '@n_doping@' has been replaced by '1E16'
+
+  -Parameter substitution: '@p_width@' has been replaced by '300'
+
+  -Parameter substitution: '@p_doping@' has been replaced by '1E18'
+
+  -Parameter substitution: '@decay_length@' has been replaced by '0.05'
+
++++Preprocessed file written to /u1/ee/snikhil/Research/LAE_complex/pp55_dvs.cmd
+  -Parameter substitution: '@commands@' has been replaced by 'pp55_dvs.cmd'
+
+  -Parameter substitution: '@node@' has been replaced by '55'
+
+  -Parameter substitution: '@pwd@' has been replaced by '/u1/ee/snikhil/Research/LAE_complex'
+
+  -Parameter substitution: '@node@' has been replaced by '55'
+
+cmd_line:-e -l n55_dvs.cmd
+  -Parameter substitution: '@stdout@' has been replaced by 'n55_dvs.out'
+
+  -Parameter substitution: '@node@' has been replaced by '55'
+
+post_tcl_cmd: extract_vars "$wdir" n55_dvs.out 55 
+Preprocessing file /u1/ee/snikhil/Research/LAE_complex/sdevice_des.cmd for node 59
+  -Parameter substitution: '@n_width@' has been replaced by '300'
+
+  -Parameter substitution: '@n_doping@' has been replaced by '1E16'
+
+  -Parameter substitution: '@p_width@' has been replaced by '300'
+
+  -Parameter substitution: '@p_doping@' has been replaced by '1E18'
+
+  -Parameter substitution: '@light@' has been replaced by '0'
+
+  -Parameter substitution: '@max_bias@' has been replaced by '15'
+
+  -Parameter substitution: '@n_width@' has been replaced by '300'
+
+  -Parameter substitution: '@n_doping@' has been replaced by '1E16'
+
+  -Parameter substitution: '@p_width@' has been replaced by '300'
+
+  -Parameter substitution: '@p_doping@' has been replaced by '1E18'
+
+  -Parameter substitution: '@light@' has been replaced by '0'
+
+  -Parameter substitution: '@max_bias@' has been replaced by '15'
+
+  -Parameter substitution: '@n_width@' has been replaced by '300'
+
+  -Parameter substitution: '@n_doping@' has been replaced by '1E16'
+
+  -Parameter substitution: '@p_width@' has been replaced by '300'
+
+  -Parameter substitution: '@p_doping@' has been replaced by '1E18'
+
+  -Parameter substitution: '@OptGen@' has been replaced by '10e22'
+
+  -Parameter substitution: '@light@' has been replaced by '0'
+
+Expression: 	#if @light@==1	 has been evaluated to false
+  -Parameter substitution: '@light@' has been replaced by '0'
+
+Expression: 	#if @light@==1	 has been evaluated to false
+  -Parameter substitution: '@light@' has been replaced by '0'
+
+Expression: #if @light@==1	 has been evaluated to false
+  -Parameter substitution: '@node@' has been replaced by '59'
+
+  -Parameter substitution: '@max_bias@' has been replaced by '15'
+
+Preprocessing file /u1/ee/snikhil/Research/LAE_complex/sdevice.par for node 59
++++Preprocessed file written to /u1/ee/snikhil/Research/LAE_complex/pp59_des.par
+  -Parameter substitution: '@commands@' has been replaced by 'pp59_des.cmd'
+
+cmd_line:pp59_des.cmd
+  -Parameter substitution: '@stdout@' has been replaced by 'n59_des.out'
+
+  -Parameter substitution: '@node@' has been replaced by '59'
+
+post_tcl_cmd: extract_vars "$wdir" n59_des.out 59 
+Preprocessing file /u1/ee/snikhil/Research/LAE_complex/sdevice_des.cmd for node 62
+  -Parameter substitution: '@n_width@' has been replaced by '300'
+
+  -Parameter substitution: '@n_doping@' has been replaced by '1E16'
+
+  -Parameter substitution: '@p_width@' has been replaced by '300'
+
+  -Parameter substitution: '@p_doping@' has been replaced by '1E18'
+
+  -Parameter substitution: '@light@' has been replaced by '1'
+
+  -Parameter substitution: '@max_bias@' has been replaced by '15'
+
+  -Parameter substitution: '@n_width@' has been replaced by '300'
+
+  -Parameter substitution: '@n_doping@' has been replaced by '1E16'
+
+  -Parameter substitution: '@p_width@' has been replaced by '300'
+
+  -Parameter substitution: '@p_doping@' has been replaced by '1E18'
+
+  -Parameter substitution: '@light@' has been replaced by '1'
+
+  -Parameter substitution: '@max_bias@' has been replaced by '15'
+
+  -Parameter substitution: '@n_width@' has been replaced by '300'
+
+  -Parameter substitution: '@n_doping@' has been replaced by '1E16'
+
+  -Parameter substitution: '@p_width@' has been replaced by '300'
+
+  -Parameter substitution: '@p_doping@' has been replaced by '1E18'
+
+  -Parameter substitution: '@OptGen@' has been replaced by '1e22'
+
+  -Parameter substitution: '@light@' has been replaced by '1'
+
+Expression:	#if @light@==1	 has been evaluated to true
+  -Parameter substitution: '@light@' has been replaced by '1'
+
+Expression:	#if @light@==1	 has been evaluated to true
+  -Parameter substitution: '@light@' has been replaced by '1'
+
+Expression:#if @light@==1	 has been evaluated to true
+  -Parameter substitution: '@node@' has been replaced by '62'
+
+  -Parameter substitution: '@max_bias@' has been replaced by '15'
+
+Preprocessing file /u1/ee/snikhil/Research/LAE_complex/sdevice.par for node 62
++++Preprocessed file written to /u1/ee/snikhil/Research/LAE_complex/pp62_des.par
+  -Parameter substitution: '@commands@' has been replaced by 'pp62_des.cmd'
+
+cmd_line:pp62_des.cmd
+  -Parameter substitution: '@stdout@' has been replaced by 'n62_des.out'
+
+  -Parameter substitution: '@node@' has been replaced by '62'
+
+post_tcl_cmd: extract_vars "$wdir" n62_des.out 62 
+Preprocessing file /u1/ee/snikhil/Research/LAE_complex/sdevice_des.cmd for node 66
+  -Parameter substitution: '@n_width@' has been replaced by '300'
+
+  -Parameter substitution: '@n_doping@' has been replaced by '1E16'
+
+  -Parameter substitution: '@p_width@' has been replaced by '300'
+
+  -Parameter substitution: '@p_doping@' has been replaced by '1E18'
+
+  -Parameter substitution: '@light@' has been replaced by '0'
+
+  -Parameter substitution: '@max_bias@' has been replaced by '2'
+
+  -Parameter substitution: '@n_width@' has been replaced by '300'
+
+  -Parameter substitution: '@n_doping@' has been replaced by '1E16'
+
+  -Parameter substitution: '@p_width@' has been replaced by '300'
+
+  -Parameter substitution: '@p_doping@' has been replaced by '1E18'
+
+  -Parameter substitution: '@light@' has been replaced by '0'
+
+  -Parameter substitution: '@max_bias@' has been replaced by '2'
+
+  -Parameter substitution: '@n_width@' has been replaced by '300'
+
+  -Parameter substitution: '@n_doping@' has been replaced by '1E16'
+
+  -Parameter substitution: '@p_width@' has been replaced by '300'
+
+  -Parameter substitution: '@p_doping@' has been replaced by '1E18'
+
+  -Parameter substitution: '@OptGen@' has been replaced by '10e22'
+
+  -Parameter substitution: '@light@' has been replaced by '0'
+
+Expression: 	#if @light@==1	 has been evaluated to false
+  -Parameter substitution: '@light@' has been replaced by '0'
+
+Expression: 	#if @light@==1	 has been evaluated to false
+  -Parameter substitution: '@light@' has been replaced by '0'
+
+Expression: #if @light@==1	 has been evaluated to false
+  -Parameter substitution: '@node@' has been replaced by '66'
+
+  -Parameter substitution: '@max_bias@' has been replaced by '2'
+
+Preprocessing file /u1/ee/snikhil/Research/LAE_complex/sdevice.par for node 66
++++Preprocessed file written to /u1/ee/snikhil/Research/LAE_complex/pp66_des.par
+  -Parameter substitution: '@commands@' has been replaced by 'pp66_des.cmd'
+
+cmd_line:pp66_des.cmd
+  -Parameter substitution: '@stdout@' has been replaced by 'n66_des.out'
+
+  -Parameter substitution: '@node@' has been replaced by '66'
+
+post_tcl_cmd: extract_vars "$wdir" n66_des.out 66 
+Preprocessing file /u1/ee/snikhil/Research/LAE_complex/sdevice_des.cmd for node 69
+  -Parameter substitution: '@n_width@' has been replaced by '300'
+
+  -Parameter substitution: '@n_doping@' has been replaced by '1E16'
+
+  -Parameter substitution: '@p_width@' has been replaced by '300'
+
+  -Parameter substitution: '@p_doping@' has been replaced by '1E18'
+
+  -Parameter substitution: '@light@' has been replaced by '1'
+
+  -Parameter substitution: '@max_bias@' has been replaced by '2'
+
+  -Parameter substitution: '@n_width@' has been replaced by '300'
+
+  -Parameter substitution: '@n_doping@' has been replaced by '1E16'
+
+  -Parameter substitution: '@p_width@' has been replaced by '300'
+
+  -Parameter substitution: '@p_doping@' has been replaced by '1E18'
+
+  -Parameter substitution: '@light@' has been replaced by '1'
+
+  -Parameter substitution: '@max_bias@' has been replaced by '2'
+
+  -Parameter substitution: '@n_width@' has been replaced by '300'
+
+  -Parameter substitution: '@n_doping@' has been replaced by '1E16'
+
+  -Parameter substitution: '@p_width@' has been replaced by '300'
+
+  -Parameter substitution: '@p_doping@' has been replaced by '1E18'
+
+  -Parameter substitution: '@OptGen@' has been replaced by '10e22'
+
+  -Parameter substitution: '@light@' has been replaced by '1'
+
+Expression:	#if @light@==1	 has been evaluated to true
+  -Parameter substitution: '@light@' has been replaced by '1'
+
+Expression:	#if @light@==1	 has been evaluated to true
+  -Parameter substitution: '@light@' has been replaced by '1'
+
+Expression:#if @light@==1	 has been evaluated to true
+  -Parameter substitution: '@node@' has been replaced by '69'
+
+  -Parameter substitution: '@max_bias@' has been replaced by '2'
+
+Preprocessing file /u1/ee/snikhil/Research/LAE_complex/sdevice.par for node 69
++++Preprocessed file written to /u1/ee/snikhil/Research/LAE_complex/pp69_des.par
+  -Parameter substitution: '@commands@' has been replaced by 'pp69_des.cmd'
+
+cmd_line:pp69_des.cmd
+  -Parameter substitution: '@stdout@' has been replaced by 'n69_des.out'
+
+  -Parameter substitution: '@node@' has been replaced by '69'
+
+post_tcl_cmd: extract_vars "$wdir" n69_des.out 69 
+Writing 'gexec.cmd'
+saving variables
+PREPROCESSING FINISHED, Sun Feb  1 20:37:49 2015
+STATUS: Ok
+Processing time = 0 s
+

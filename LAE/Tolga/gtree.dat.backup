@@ -1,0 +1,17 @@
+# Copyright (C) 1994-2011 Synopsys Inc.
+# swbtree vcurrent, Mon Jul  1 15:12:17 2013
+
+# --- simulation flow
+sdevice sdevice "" {}
+sdevice light "0" {0 1}
+sdevice OptGen "200e22" {20e22}
+# --- variables
+# --- scenarios and parameter specs
+scenario default light ""
+scenario default OptGen ""
+# --- simulation tree
+0 1 0 {} {default}
+1 2 1 {0} {default}
+2 4 2 {20e22} {default}
+1 3 1 {1} {default}
+2 5 3 {20e22} {default}

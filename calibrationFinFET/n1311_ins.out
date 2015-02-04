@@ -1,0 +1,39 @@
+****************************************************************************
+***                               Inspect                                ***
+***                          Version F-2011.09                           ***
+***                         (1.3, amd64, linux)                          ***
+***                                                                      ***
+***                       Copyright (C) 1994-2011                        ***
+***                            Synopsys, Inc.                            ***
+***                                                                      ***
+***  This software and the associated documentation are confidential     ***
+***  and proprietary to Synopsys, Inc.  Your use or disclosure of this   ***
+***  software is subject to the terms and conditions of a written        ***
+***  license agreement between you, or your company, and Synopsys, Inc.  ***
+****************************************************************************
+
+Loading library 'EXTRACT' from file '/usr/local/tcadtaurus/Sentaurus_vF_2011.09/bin/../tcad/current/lib/inspectlib/EXTRACT.tcl'
+Loading EXTRACT.tcl V2.2
+ 
+--------------------------------------------------- 
+   INSPECT variable extraction: 
+--------------------------------------------------- 
+ 
+Date      : Tue Oct  1 10:57:40 IST 2013 
+Directory : /home/users/sabareeshn/Desktop/calibrationFinFET 
+ 
+out_file = Cprime_prelims_1309
+proj_load = Cprime_prelims_1309.plt
+DOE: Vti -0.228
+Vti (Vg at Io=1.000e-05): -0.228 V
+
+------------------------------------------------------------
+Error : not found
+------------------------------------------------------------
+DOE: VTS 0.22777517999999999
+DOE: IOFF 9.6662436e-10
+DOE: IDSAT 
+
+ formula_vecvaly -> val not in range 
+
+ val, xmin, xmax -> -0.89991   0  0.9

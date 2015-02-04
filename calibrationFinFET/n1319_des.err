@@ -1,0 +1,29 @@
+
+No contact vertex found near particle position (1.750000e-01,1.482362e-01,0.000000e+00)] !
+
+
+No contact vertex found near particle position (1.250000e-01,1.475589e-01,0.000000e+00)] !
+
+
+No contact vertex found near particle position (1.250039e-01,1.477843e-01,0.000000e+00)] !
+
+
+No contact vertex found near particle position (1.250039e-01,1.481849e-01,0.000000e+00)] !
+
+
+No contact vertex found near particle position (1.250002e-01,1.481367e-01,0.000000e+00)] !
+
+
+Suppressing further "No contact vertex" warnings !
+
+
+No contact vertex found near particle position (1.250000e-01,1.475443e-01,0.000000e+00)] !
+
+
+A larger fraction than 1/100 of the propagated particles crossed the border of the Monte Carlo window at a non-contact locations.
+This may be indicative of bad placement of the Monte Carlo window: current evaluation by particle counting ("-useTestFunction") requires current carrying contacts to be included in the Monte Carlo window.
+If you don't want the Monte Carlo window to extend all the way to the contacts, please specify "useTestFunction" in the MonteCarlo section to disable particle counting.
+
+Note:
+As a safe-guard against incorrect autodetection of the Monte Caro carrier type it is suggested to add "particleType=electrons|holes" to the MonteCarlo section of the command file when extending the Monte Carlo window !
+

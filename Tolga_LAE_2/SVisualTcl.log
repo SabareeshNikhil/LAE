@@ -1,0 +1,43 @@
+load_file /w/ee.00/mjarrahi/snikhil/Research/Tolga_LAE_2/hetero_des_0_tenth.tdr
+create_plot -dataset hetero_des_0_tenth
+select_plots {Plot_hetero_des_0_tenth}
+#-> Plot_hetero_des_0_tenth
+#-> Plot_hetero_des_0_tenth
+#-> hetero_des_0_tenth
+load_file /w/ee.00/mjarrahi/snikhil/Research/Tolga_LAE_2/hetero_des_1_tenth.tdr
+create_plot -dataset hetero_des_1_tenth
+select_plots {Plot_hetero_des_1_tenth}
+#-> Plot_hetero_des_1_tenth
+#-> Plot_hetero_des_1_tenth
+#-> hetero_des_1_tenth
+select_plots {Plot_hetero_des_0_tenth}
+#-> Plot_hetero_des_0_tenth
+zoom_plot -plot Plot_hetero_des_0_tenth -reset
+set_field_prop Abs(ElectricField-V) -show_bands
+#-> 0
+select_plots {Plot_hetero_des_1_tenth}
+#-> Plot_hetero_des_1_tenth
+set_field_prop Abs(ElectricField-V) -show_bands
+#-> 0
+set_field_prop Abs(TotalCurrentDensity-V) -show_bands
+#-> 0
+select_plots {Plot_hetero_des_0_tenth}
+#-> Plot_hetero_des_0_tenth
+set_field_prop Abs(TotalCurrentDensity-V) -show_bands
+#-> 0
+set_field_prop eDensity -show_bands
+#-> 0
+select_plots {Plot_hetero_des_1_tenth}
+#-> Plot_hetero_des_1_tenth
+set_field_prop eDensity -show_bands
+#-> 0
+set_field_prop hDensity -show_bands
+#-> 0
+select_plots {Plot_hetero_des_0_tenth}
+#-> Plot_hetero_des_0_tenth
+set_field_prop hDensity -show_bands
+#-> 0
+zoom_plot -window {-0.0232379 -0.23252 10.0465 0.108345}
+select_plots {Plot_hetero_des_1_tenth}
+#-> Plot_hetero_des_1_tenth
+zoom_plot -window {-0.0800487 -0.23252 10.0465 0.0941418}
