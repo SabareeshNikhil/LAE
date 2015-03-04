@@ -1,0 +1,17 @@
+Evaluating file pp118_des.cmd
+---> Device
+
+
+SCHEME COMMAND 1 
+*** Error
+sde:eval: unbound variable: Device
+
+
+#f
+"************************************************************************"
+"Sentaurus Structure Editor "
+"Start Time:    Fri Feb 20 16:19:56 2015"
+"End   Time:    Fri Feb 20 16:19:56 2015"
+"Total Execution Time (sec):    0"
+"Total System calls Time (sec): 0"
+"************************************************************************"

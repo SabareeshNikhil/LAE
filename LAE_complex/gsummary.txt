@@ -3,22 +3,23 @@ Project Summary for /u1/ee/snikhil/Research/LAE_complex
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 Project Details :
 		current status		: running
-		was last modified	: 02/02/15 21:27:59
+		was last modified	: 03/02/15 16:51:15
 		was modified by		: snikhil
 		was run on host		: thzlabsv.ee.ucla.edu
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-Total Number of Nodes			: 74
+Total Number of Nodes			: 259
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
  
  
-		Active Nodes		: 36
-		Virtual Nodes		: 38
+		Active Nodes		: 168
+		Virtual Nodes		: 91
  
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
  
 Nodes by status				: 
-		failed			: 19
-		done			: 17
+		none			: 61
+		failed			: 4
+		done			: 103
 
 
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
@@ -30,13 +31,13 @@ Hosts and Execution Information
  
  
 Host "thzlabsv.ee.ucla.edu" 
-		Number of nodes		: 36
-		Host Time		: 75087 sec
+		Number of nodes		: 107
+		Host Time		: 469249 sec
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-		Total RunTime		: 75087 sec
+		Total RunTime		: 469249 sec
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-Project Summary generated on		: 02/02/15 21:37:48
+Project Summary generated on		: 03/03/15 13:44:46
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++

@@ -5,7 +5,7 @@
 
 
 (sdegeo:create-rectangle (position 0 @<0.001*n_width>@ 0)  (position 14 @<0.001*(n_width + p_width)>@ 0) "InGaAs" "p_region" )
-(sdedr:define-constant-profile-region "p_doping_placement" "p_doping_definition" "p_region" @<0.001*decay_length>@)
+(sdedr:define-constant-profile-region "p_doping_placement" "p_doping_definition" "p_region")
 
 (sdegeo:create-rectangle (position 0 0 0)  (position 10 @<0.001*n_width>@ 0) "InGaAs" "n_region" )
 (sdedr:define-constant-profile-region "n_doping_placement" "n_doping_definition" "n_region" @<0.001*decay_length>@)
@@ -25,7 +25,7 @@
 (sdedr:define-refinement-size "RefinementDefinition_sub" 0.5 0.05 0.5 0.5 0.05 0.1 )
 (sdedr:define-refinement-region "RefinementPlacement_sub" "RefinementDefinition_sub" "substrate" )
 
-(sdedr:define-refinement-size "RefinementDefinition_p" 0.05 0.02 0.5 0.05 0.01 0.1 )
+(sdedr:define-refinement-size "RefinementDefinition_p" 0.1 0.05 0.5 0.05 0.02 0.1 )
 
 (sdedr:define-refinement-size "RefinementDefinition_n" 0.05 0.01 0.5 0.05 0.005 0.1 )
 (sdedr:define-refinement-region "RefinementPlacement_n" "RefinementDefinition_n" "n_region" )

@@ -1,0 +1,153 @@
+****************************************************************************
+***                      Sentaurus Structure Editor                      ***
+***                          Version G-2012.06                           ***
+***                         (1.3, amd64, linux)                          ***
+***                                                                      ***
+***               Copyright (C) 1994-2012 Synopsys, Inc.                 ***
+***        Portions of this software are owned by Spatial Corp.          ***
+***            Copyright (C) 1986-2012. All Rights Reserved.             ***
+***                                                                      ***
+***  This software and the associated documentation are confidential     ***
+***  and proprietary to Synopsys, Inc.  Your use or disclosure of this   ***
+***  software is subject to the terms and conditions of a written        ***
+***  license agreement between you, or your company, and Synopsys, Inc.  ***
+****************************************************************************
+
+Compiled Thu Apr 19 23:14:21 PDT 2012 on tcadprod5
+
+Machine type information not available.
+
+Evaluating file n163_dvs.cmd
+
+---> (sdegeo:create-rectangle (position 0 0.999 0) (position 14 1 0) InP substrate)
+
+---> (sdedr:define-constant-profile p_doping_definition BoronActiveConcentration 1e+18)
+
+---> (sdedr:define-constant-profile n_doping_definition PhosphorusActiveConcentration 1e+17)
+
+---> (sdegeo:create-rectangle (position 0 0.2 0) (position 14 0.999 0) InGaAs p_region)
+
+---> (sdedr:define-constant-profile-region p_doping_placement p_doping_definition p_region)
+
+---> (sdegeo:create-rectangle (position 0 0 0) (position 10 0.2 0) InGaAs n_region)
+
+---> (sdedr:define-constant-profile-region n_doping_placement n_doping_definition n_region 0.0)
+
+---> (sdegeo:create-rectangle (position 1 0 0) (position 9 -0.001 0) Gold ntype_contact)
+
+---> (sdegeo:create-rectangle (position 11 0.199 0) (position 13 0.2 0) Gold ptype_contact)
+
+---> (sdegeo:define-contact-set ntype 4 (color:rgb 1 0 0) ##)
+
+---> (sdegeo:set-current-contact-set ntype)
+
+---> (sdegeo:set-contact-edges (find-edge-id (position 5 -0.001 0)) ntype)
+
+(sdegeo:set-contact-edges (list (car (find-edge-id (position 5 -0.001 0)))) "ntype")
+
+---> (sdegeo:define-contact-set ptype 4 (color:rgb 1 0 0) ##)
+
+---> (sdegeo:set-current-contact-set ptype)
+
+---> (sdegeo:set-contact-edges (find-edge-id (position 12 0.199 0)) ptype)
+
+(sdegeo:set-contact-edges (list (car (find-edge-id (position 12 0.199 0)))) "ptype")
+
+---> (sdedr:define-refinement-size RefinementDefinition_sub 0.5 0.05 0.5 0.5 0.05 0.1)
+
+
+---> (sdedr:define-refinement-size RefinementDefinition_p 0.1 0.05 0.5 0.05 0.02 0.1)
+
+---> (sdedr:define-refinement-size RefinementDefinition_n 0.05 0.01 0.5 0.05 0.005 0.1)
+
+---> (sdedr:define-refinement-region RefinementPlacement_n RefinementDefinition_n n_region)
+
+
+---> (sde:set-meshing-command snmesh -a -c boxmethod)
+
+---> (sdedr:append-cmd-file )
+
+****************************************************************************
+***                            Sentaurus Mesh                            ***
+***                          Version G-2012.06                           ***
+***                         (1.5, amd64, linux)                          ***
+***                                                                      ***
+***                       Copyright (C) 2005-2012                        ***
+***                            Synopsys, Inc.                          ***
+***                                                                      ***
+***  This software and the associated documentation are confidential     ***
+***  and proprietary to Synopsys, Inc.  Your use or disclosure of this   ***
+***  software is subject to the terms and conditions of a written        ***
+***  license agreement between you, or your company, and Synopsys, Inc.  ***
+****************************************************************************
+
+Compiled Fri Apr 13 01:01:31 PDT 2012 on: tcadprod5
+Running on: thzlabsv.ee.ucla.edu
+Process ID: 8451
+
+Flags used: -a -c boxmethod
+
+** Generating 2d grid **
+
+Creating binary tree...done.
+Imprinting binary tree on the boundary...done.
+Optimizing boundary nodes...done.
+
+Number of vertices after binary tree generation : 
+  63137 (tree) + 2535 (boundary)
+
+
+=================================  brep2d quality  =====================================
+minAngle: 90  [near (-0 -0)] at region=n_region
+nVerts = 2535  nTris = 2539  nRegs = 7
+bmin: -0 -0.001
+bmax: 14 1
+min area: 0.001  max area: 0.0273438  total area  : 64.004 interface area: 34
+total volume: 13.21
+Conformal? true
+Are all boundaries on bbox? false
+==================================================================================
+** Delaunizing the mesh **
+
+Creating delaunizer input...done.
+Solving edges...done 
+Optimizing elements...done. (64473 vertices)
+Fixing diagonals...done.
+
+The final mesh has: 
+   64224 points.
+  127149 elements.
+       7 regions.
+Max. connectivity = 7 located at (8.99609;0.00682031)
+
+
+==============================  tri-grid quality  ================================
+    0  10  20  30  40  50  60  70  80  90 100 110 120 130 140 150 160 170 180
+ %    1   1  32  .   .   .   .   32   1  34  .                             
+---------------------------------------------------------------------------------
+minAngle: 2.09446  maxAngle: 103.576
+nVerts = 64224  nTris = 127149  nMats = 5
+max connectivity (tris per node): 7
+bmin: -0 -0.001
+bmax: 14 1
+min edgeLength: 0.001  [near (1.03906 -0.0005)]
+min volume: 1.95313e-06  max volume: 0.000106918  Total volume: 13.21
+bbox  volume: 14.014
+Are all boundaries on bbox? false
+=================================================================================
+Interpolating data...done.
+done.
+Saving file sdemodel_ntype_200_1E17_ptype_799_1E18_decay_0_msh.tdr...done.
+---> (sde:build-mesh snmesh -a -c boxmethod sdemodel_ntype_200_1E17_ptype_799_1E18_decay_0)
+
+
+"Meshing successful"
+---> #[end-of-file]
+
+"************************************************************************"
+"Sentaurus Structure Editor "
+"Start Time:    Sun Feb 22 14:18:53 2015"
+"End   Time:    Sun Feb 22 14:19:05 2015"
+"Total Execution Time (sec):    0"
+"Total System calls Time (sec): 0"
+"************************************************************************"

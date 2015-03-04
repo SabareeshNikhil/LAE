@@ -1,0 +1,60 @@
+****************************************************************************
+***                            Sentaurus Mesh                            ***
+***                          Version G-2012.06                           ***
+***                         (1.5, amd64, linux)                          ***
+***                                                                      ***
+***                       Copyright (C) 2005-2012                        ***
+***                            Synopsys, Inc.                          ***
+***                                                                      ***
+***  This software and the associated documentation are confidential     ***
+***  and proprietary to Synopsys, Inc.  Your use or disclosure of this   ***
+***  software is subject to the terms and conditions of a written        ***
+***  license agreement between you, or your company, and Synopsys, Inc.  ***
+****************************************************************************
+
+Compiled Fri Apr 13 01:01:31 PDT 2012 on: tcadprod5
+Running on: thzlabsv.ee.ucla.edu
+Process ID: 21246
+
+Flags used: -a -c boxmethod
+
+** Generating 2d grid **
+
+Creating binary tree...done.
+Imprinting binary tree on the boundary...done.
+Optimizing boundary nodes...done.
+
+Number of vertices after binary tree generation : 
+  38943 (tree) + 2205 (boundary)
+
+** Delaunizing the mesh **
+
+Creating delaunizer input...done.
+Solving edges...done 
+Optimizing elements...done. (40292 vertices)
+Fixing diagonals...done.
+
+The final mesh has: 
+   40030 points.
+   79095 elements.
+       7 regions.
+Max. connectivity = 7 located at (0.0546875;0.655906)
+
+
+==============================  tri-grid quality  ================================
+    0  10  20  30  40  50  60  70  80  90 100 110 120 130 140 150 160 170 180
+ %    1   1  28   3  .   .    3  28   2  34  .   .   .                     
+---------------------------------------------------------------------------------
+minAngle: 2.09446  maxAngle: 119.696
+nVerts = 40030  nTris = 79095  nMats = 5
+max connectivity (tris per node): 7
+bmin: -0 -0.001
+bmax: 14 1
+min edgeLength: 0.001  [near (1.01172 -0.0005)]
+min volume: 1.95313e-06  max volume: 0.000855347  Total volume: 12.81
+bbox  volume: 14.014
+Are all boundaries on bbox? false
+=================================================================================
+Interpolating data...done.
+done.
+Saving file sdemodel_ntype_300_1E16_ptype_300_1E18_decay_50_msh.tdr...done.

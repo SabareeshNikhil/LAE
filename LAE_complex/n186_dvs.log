@@ -1,0 +1,57 @@
+Evaluating file n186_dvs.cmd
+---> (sdegeo:create-rectangle (position 0 0.999 0) (position 14 1 0) InP substrate)
+#[body 5 1]
+---> (sdedr:define-constant-profile p_doping_definition BoronActiveConcentration 1e+18)
+#t
+---> (sdedr:define-constant-profile n_doping_definition PhosphorusActiveConcentration 1e+17)
+#t
+---> (sdegeo:create-rectangle (position 0 0.2 0) (position 14 0.999 0) InGaAs p_region)
+#[body 6 1]
+---> (sdedr:define-constant-profile-region p_doping_placement p_doping_definition p_region)
+#t
+---> (sdegeo:create-rectangle (position 0 0 0) (position 10 0.2 0) InGaAs n_region)
+#[body 7 1]
+---> (sdedr:define-constant-profile-region n_doping_placement n_doping_definition n_region 0.025)
+#t
+---> (sdegeo:create-rectangle (position 1 0 0) (position 9 -0.001 0) Gold ntype_contact)
+#[body 8 1]
+---> (sdegeo:create-rectangle (position 11 0.199 0) (position 13 0.2 0) Gold ptype_contact)
+#[body 9 1]
+---> (sdegeo:define-contact-set ntype 4 (color:rgb 1 0 0) ##)
+()
+---> (sdegeo:set-current-contact-set ntype)
+""
+---> (sdegeo:set-contact-edges (find-edge-id (position 5 -0.001 0)) ntype)
+#t
+---> (sdegeo:define-contact-set ptype 4 (color:rgb 1 0 0) ##)
+()
+---> (sdegeo:set-current-contact-set ptype)
+"ntype"
+---> (sdegeo:set-contact-edges (find-edge-id (position 12 0.199 0)) ptype)
+#t
+---> (sdedr:define-refinement-size RefinementDefinition_sub 0.5 0.05 0.5 0.5 0.05 0.1)
+#t
+---> (sdedr:define-refinement-region RefinementPlacement_sub RefinementDefinition_sub substrate)
+#t
+---> (sdedr:define-refinement-size RefinementDefinition_p 0.1 0.05 0.5 0.05 0.02 0.1)
+#t
+---> (sdedr:define-refinement-size RefinementDefinition_n 0.05 0.01 0.5 0.05 0.005 0.1)
+#t
+---> (sdedr:define-refinement-region RefinementPlacement_n RefinementDefinition_n n_region)
+#t
+---> (sdedr:define-refinement-region RefinementPlacement_p RefinementDefinition_n p_region)
+#t
+---> (sde:set-meshing-command snmesh -a -c boxmethod)
+#t
+---> (sdedr:append-cmd-file )
+#t
+---> (sde:build-mesh snmesh -a -c boxmethod sdemodel_ntype_200_1E17_ptype_799_1E18_decay_25)
+#t
+---> #[end-of-file]
+"************************************************************************"
+"Sentaurus Structure Editor "
+"Start Time:    Sun Feb 22 14:19:09 2015"
+"End   Time:    Sun Feb 22 14:19:22 2015"
+"Total Execution Time (sec):    0"
+"Total System calls Time (sec): 0"
+"************************************************************************"

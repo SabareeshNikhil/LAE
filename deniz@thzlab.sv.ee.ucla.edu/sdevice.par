@@ -1,0 +1,6 @@
+Material = "InAlAs" { Insert = "InP.par" }
+Material = "InGaAs" { Insert = "InGaAs.par" }
+Material = "InP" { Insert = "InP.par" }
+Material = "AlGaAs" { Insert = "InAlGaAs.par" }
+
+

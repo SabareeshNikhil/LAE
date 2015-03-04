@@ -12,8 +12,8 @@ File{
 	OpticalGenerationInput = "../LAE_simple/optgen"
 	
 	* output files:
-	Plot=	"trans_sde_des_opt_@light@_bias_@max_bias@_ntype_@n_width@_@n_doping@_ptype_@p_width@_@p_doping@.tdr"
-	Current="trans_sde_des_opt_@light@_bias_@max_bias@_ntype_@n_width@_@n_doping@_ptype_@p_width@_@p_doping@.plt"
+	Plot=	"trans_sde_des_opt_@light@_bias_@max_bias@_ntype_@n_width@_@n_doping@_ptype_@p_width@_@p_doping@_decay_@decay_length@.tdr"
+	Current="trans_sde_des_opt_@light@_bias_@max_bias@_ntype_@n_width@_@n_doping@_ptype_@p_width@_@p_doping@_decay_@decay_length@.plt"
 	* Output=	"hetero_des.log"
 	}	
 
@@ -39,10 +39,10 @@ Physics{
 		*ReadFromFile ( DatasetName = OpticalGeneration )
 
    		SetConstant (
-   			TimeDependence (
-			WaveTime = (1.4e-10, 1.402e-10)
-			WaveTSigma = 1e-14
-			)
+   			*TimeDependence (
+			*WaveTime = (1.4e-10, 1.402e-10)
+			*WaveTSigma = 1e-14
+			*)
    			Value = @OptGen@
    			)
    		QuantumYield (Unity)  		
@@ -118,7 +118,7 @@ Math {
 
 System {
 
-      moscap trans (ntype=g ptype=b)
+      LAE trans (ntype=g ptype=b)
 
       Vsource_pset vg (g 0) {dc=0}
 
@@ -132,13 +132,13 @@ System {
 
 File {
 
-    Output = "moscap.log"
+    Output = "cv_opt_@light@_bias_@max_bias@_ntype_@n_width@_@n_doping@_ptype_@p_width@_@p_doping@_decay_@decay_length@.log"
 
-        Plot = "moscap.dat"
+        Plot = "cv_opt_@light@_bias_@max_bias@_ntype_@n_width@_@n_doping@_ptype_@p_width@_@p_doping@_decay_@decay_length@.dat"
 
-        Current = "moscap.plt"
+        Current = "cv_opt_@light@_bias_@max_bias@_ntype_@n_width@_@n_doping@_ptype_@p_width@_@p_doping@_decay_@decay_length@.plt"
 
-        ACExtract = "moscap_cv.plt"
+        ACExtract = "cv_opt_@light@_bias_@max_bias@_ntype_@n_width@_@n_doping@_ptype_@p_width@_@p_doping@_decay_@decay_length@.plt"
 
 
 }

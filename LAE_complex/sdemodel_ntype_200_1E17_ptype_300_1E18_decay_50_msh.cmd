@@ -31,7 +31,6 @@ Placements {
 		Reference = "p_doping_definition"
 		EvaluateWindow {
 			Element = region ["p_region"]
-			DecayLength = 0.05
 		}
 	}
 	Constant "n_doping_placement" {

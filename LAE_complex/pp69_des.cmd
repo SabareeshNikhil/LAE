@@ -7,7 +7,7 @@ Electrode {
 
 File{
 	* input files:
-	Grid=	"sdemodel_ntype_300_1E16_ptype_300_1E18_msh.tdr"
+	Grid=	"sdemodel_ntype_300_1E16_ptype_300_1E18_decay_50_msh.tdr"
 	Parameter= "sdevice.par"
 	OpticalGenerationInput = "../LAE_simple/optgen"
 	

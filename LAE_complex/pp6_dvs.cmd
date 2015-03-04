@@ -5,10 +5,10 @@
 
 
 (sdegeo:create-rectangle (position 0 0.2 0)  (position 14 0.5 0) "InGaAs" "p_region" )
-(sdedr:define-constant-profile-region "p_doping_placement" "p_doping_definition" "p_region" 0.05)
+(sdedr:define-constant-profile-region "p_doping_placement" "p_doping_definition" "p_region" 0.0)
 
 (sdegeo:create-rectangle (position 0 0 0)  (position 10 0.2 0) "InGaAs" "n_region" )
-(sdedr:define-constant-profile-region "n_doping_placement" "n_doping_definition" "n_region" 0.05)
+(sdedr:define-constant-profile-region "n_doping_placement" "n_doping_definition" "n_region" 0.0)
 
 (sdegeo:create-rectangle (position 1 0 0)  (position 9 -0.001 0) "Gold" "ntype_contact" )
 (sdegeo:create-rectangle (position 11 0.199 0)  (position 13 0.2 0) "Gold" "ptype_contact" )
@@ -34,5 +34,5 @@
 
 (sde:set-meshing-command "snmesh -a -c boxmethod")
 (sdedr:append-cmd-file "")
-(sde:build-mesh "snmesh" "-a -c boxmethod" "sdemodel_ntype_200_1E17_ptype_300_1E18_decay_50")
+(sde:build-mesh "snmesh" "-a -c boxmethod" "sdemodel_ntype_200_1E17_ptype_300_1E18_decay_0")
 

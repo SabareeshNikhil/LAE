@@ -7,7 +7,7 @@ Electrode {
 
 File{
 	* input files:
-	Grid=	"sdemodel_ntype_200_1E17_ptype_300_1E18_decay_50_msh.tdr"
+	Grid=	"sdemodel_ntype_200_1E17_ptype_300_1E18_decay_0_msh.tdr"
 	Parameter= "sdevice.par"
 	OpticalGenerationInput = "../LAE_simple/optgen"
 	
@@ -85,7 +85,8 @@ Physics(Region="substrate") {
 System{
 	LAE d1 (ntype=1 ptype=0)
 	Resistor_pset R1 (2 1) {resistance=70}	
-	Vsource_pset vdc (2 0) {dc=15}
+	Vsource_pset vdc (3 0) {dc=15}
+	Inductor_pset L1 (3 2) {inductance=1}
 }
 
 Plot {
@@ -117,14 +118,14 @@ Math {
 Solve {
 *- Creating initial guess:
    Coupled(Iterations=100 LineSearchDamping=1e-4){ Poisson } 
-   Coupled { Poisson electron hole }
+   *Coupled { Poisson electron hole }
   
 
 
    NewCurrentFile="trans_88" 
     Transient (
 	InitialTime=0 FinalTime=2e-10
-	InitialStep=1e-10 MaxStep=5e-10 MinStep=1e-11
+	InitialStep=5e-13 MaxStep=5e-13 MinStep=1e-15
 	Increment=1.3
 	)
    { Coupled { Poisson electron hole }    
